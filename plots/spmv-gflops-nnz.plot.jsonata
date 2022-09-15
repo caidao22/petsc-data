@@ -1,0 +1,48 @@
+(
+"Select the system name and executor to show the results for:";
+$system := "LEAPFROG";
+$executor := "cuda";
+$data := content[dataset.system=$system and dataset.executor=$executor];
+$formats := ["csr", "csrkokkos"];
+
+$getColor := function($num_colors, $id) {
+  "hsl(" & $floor(360 * $id / $num_colors) & ",40%,55%)"
+};
+
+$plot_data := $formats~>$map(function($v, $i) {{
+  "label": $v,
+  "data": $data[problem.nonzeros < 2000000].{
+    "x": problem.nonzeros,
+    "y": 2 * problem.nonzeros / (spmv~>$lookup($v)).time
+  },
+  "backgroundColor": $formats~>$count()~>$getColor($i)
+}});
+
+{
+  "type": "scatter",
+  "data": { "datasets": $plot_data },
+  "options": {
+    "title": {
+      "display": true,
+      "text": "Performance vs Nonzero Count"
+    },
+    "tooltips": {
+      "mode": "index",
+      "intersect": true
+    },
+    "scales": {
+      "xAxes": [{
+        "type": "logarithmic",
+        "scaleLabel": {
+          "display": true,
+          "labelString": "#nonzeros"
+        }
+      }],
+      "yAxes": [{ "scaleLabel": {
+          "display": true,
+          "labelString": "GFLOP/s"
+      }}]
+    }
+  }
+}
+)
