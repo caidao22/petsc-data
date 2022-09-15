@@ -1,0 +1,10 @@
+[
+    {
+        "name": "SpMV formats comparison",
+        "file": "spmv-csrcusparse-csrkokkos.plot.jsonata"
+    },
+    {
+        "name": "SpMV formats performance",
+        "file": "spmv-gflops-nnz.plot.jsonata"
+    }
+]
