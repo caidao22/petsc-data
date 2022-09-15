@@ -1,0 +1,24 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Embree/ifiss_mat/ifiss_mat.mtx",
+		"problem":	{
+			"id":	2830,
+			"group":	"Embree",
+			"name":	"ifiss_mat",
+			"rows":	96307,
+			"cols":	96307,
+			"nonzeros":	3599932,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.28451183528762353,
+			"kind":	"computational fluid dynamics"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	9.75232020020485e-05,
+				"repetitions":	10
+			}
+		}
+	}]

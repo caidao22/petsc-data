@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/VDOL/hangGlider_3/hangGlider_3.mtx",
+		"problem":	{
+			"id":	2693,
+			"group":	"VDOL",
+			"name":	"hangGlider_3",
+			"rows":	10260,
+			"cols":	10260,
+			"nonzeros":	92703,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"optimal control problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.183680012822151e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00083842560052871677,
+				"repetitions":	5
+			}
+		}
+	}]

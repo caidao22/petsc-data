@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/TKK/t520/t520.mtx",
+		"problem":	{
+			"id":	1908,
+			"group":	"TKK",
+			"name":	"t520",
+			"rows":	5563,
+			"cols":	5563,
+			"nonzeros":	286341,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.7775999531149862e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00021676159799098967,
+				"repetitions":	5
+			}
+		}
+	}]

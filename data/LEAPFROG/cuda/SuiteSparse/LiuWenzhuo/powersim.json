@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/LiuWenzhuo/powersim/powersim.mtx",
+		"problem":	{
+			"id":	1212,
+			"group":	"LiuWenzhuo",
+			"name":	"powersim",
+			"rows":	15838,
+			"cols":	15838,
+			"nonzeros":	64424,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.5913695769855386,
+			"nsym":	0.53373399744782446,
+			"kind":	"power network problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.1075199916958809e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	8.0223998427391037e-05,
+				"repetitions":	5
+			}
+		}
+	}]

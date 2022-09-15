@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Simon/raefsky1/raefsky1.mtx",
+		"problem":	{
+			"id":	814,
+			"group":	"Simon",
+			"name":	"raefsky1",
+			"rows":	3242,
+			"cols":	3242,
+			"nonzeros":	293409,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.090403112690278356,
+			"kind":	"computational fluid dynamics problem sequence"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.7251200377941135e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00021511040031909945,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Newman/celegansneural/celegansneural.mtx",
+		"problem":	{
+			"id":	2392,
+			"group":	"Newman",
+			"name":	"celegansneural",
+			"rows":	297,
+			"cols":	297,
+			"nonzeros":	2345,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.16801705756929641,
+			"nsym":	0.049466950959488283,
+			"kind":	"directed weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.8022400140762326e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	3.0880000814795486e-05,
+				"repetitions":	5
+			}
+		}
+	}]

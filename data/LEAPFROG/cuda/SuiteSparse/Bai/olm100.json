@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Bai/olm100/olm100.mtx",
+		"problem":	{
+			"id":	318,
+			"group":	"Bai",
+			"name":	"olm100",
+			"rows":	100,
+			"cols":	100,
+			"nonzeros":	396,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.668918918918919,
+			"nsym":	0.33108108108108109,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.6556799970567225e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	2.7647999115288259e-05,
+				"repetitions":	5
+			}
+		}
+	}]

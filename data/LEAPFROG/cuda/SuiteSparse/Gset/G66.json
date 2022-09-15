@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Gset/G66/G66.mtx",
+		"problem":	{
+			"id":	531,
+			"group":	"Gset",
+			"name":	"G66",
+			"rows":	9000,
+			"cols":	9000,
+			"nonzeros":	36000,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted random graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.0735999755561354e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	5.1443199813365935e-05,
+				"repetitions":	5
+			}
+		}
+	}]

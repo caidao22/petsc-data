@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Pajek/GD01_Acap/GD01_Acap.mtx",
+		"problem":	{
+			"id":	1478,
+			"group":	"Pajek",
+			"name":	"GD01_Acap",
+			"rows":	953,
+			"cols":	953,
+			"nonzeros":	645,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.01550387596899225,
+			"nsym":	0.01550387596899225,
+			"kind":	"directed multigraph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.3948800191283225e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	2.84608006477356e-05,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/GHS_indef/boyd2/boyd2.mtx",
+		"problem":	{
+			"id":	1297,
+			"group":	"GHS_indef",
+			"name":	"boyd2",
+			"rows":	466316,
+			"cols":	466316,
+			"nonzeros":	1500397,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"optimization problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	6.64576008915901e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0259190013885498,
+				"repetitions":	5
+			}
+		}
+	}]

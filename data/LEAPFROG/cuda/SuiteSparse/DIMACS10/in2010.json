@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/DIMACS10/in2010/in2010.mtx",
+		"problem":	{
+			"id":	2596,
+			"group":	"DIMACS10",
+			"name":	"in2010",
+			"rows":	267071,
+			"cols":	267071,
+			"nonzeros":	1281716,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	6.1081600189209e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.000842367994785309,
+				"repetitions":	5
+			}
+		}
+	}]

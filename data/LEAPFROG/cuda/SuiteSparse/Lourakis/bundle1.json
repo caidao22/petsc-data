@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Lourakis/bundle1/bundle1.mtx",
+		"problem":	{
+			"id":	1347,
+			"group":	"Lourakis",
+			"name":	"bundle1",
+			"rows":	10581,
+			"cols":	10581,
+			"nonzeros":	770811,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"computer graphics/vision problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	4.1625600308179856e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.000530783998966217,
+				"repetitions":	5
+			}
+		}
+	}]

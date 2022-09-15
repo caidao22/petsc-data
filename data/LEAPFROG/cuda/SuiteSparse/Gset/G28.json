@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Gset/G28/G28.mtx",
+		"problem":	{
+			"id":	489,
+			"group":	"Gset",
+			"name":	"G28",
+			"rows":	2000,
+			"cols":	2000,
+			"nonzeros":	39980,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted random graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.9987200386822224e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	5.5283199995756168e-05,
+				"repetitions":	5
+			}
+		}
+	}]

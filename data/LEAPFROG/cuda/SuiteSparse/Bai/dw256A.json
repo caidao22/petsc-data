@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Bai/dw256A/dw256A.mtx",
+		"problem":	{
+			"id":	310,
+			"group":	"Bai",
+			"name":	"dw256A",
+			"rows":	512,
+			"cols":	512,
+			"nonzeros":	2480,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.97967479674796742,
+			"nsym":	0.91463414634146345,
+			"kind":	"electromagnetics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.8400000222027305e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	2.8672000765800474e-05,
+				"repetitions":	5
+			}
+		}
+	}]

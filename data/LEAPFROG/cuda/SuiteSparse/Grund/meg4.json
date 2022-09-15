@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Grund/meg4/meg4.mtx",
+		"problem":	{
+			"id":	466,
+			"group":	"Grund",
+			"name":	"meg4",
+			"rows":	5860,
+			"cols":	5860,
+			"nonzeros":	25258,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"circuit simulation problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.0089599862694741e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00016670720279216768,
+				"repetitions":	5
+			}
+		}
+	}]

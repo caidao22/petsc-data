@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Simon/raefsky5/raefsky5.mtx",
+		"problem":	{
+			"id":	818,
+			"group":	"Simon",
+			"name":	"raefsky5",
+			"rows":	6316,
+			"cols":	6316,
+			"nonzeros":	167178,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0,
+			"nsym":	0,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.5548800081014634e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00014352639913558959,
+				"repetitions":	5
+			}
+		}
+	}]

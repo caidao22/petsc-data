@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/HB/gre_115/gre_115.mtx",
+		"problem":	{
+			"id":	161,
+			"group":	"HB",
+			"name":	"gre_115",
+			"rows":	115,
+			"cols":	115,
+			"nonzeros":	421,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.25490196078431371,
+			"nsym":	0,
+			"kind":	"directed weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.6787200234830378e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	2.8435199335217479e-05,
+				"repetitions":	5
+			}
+		}
+	}]

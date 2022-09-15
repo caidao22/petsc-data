@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Sandia/ASIC_100ks/ASIC_100ks.mtx",
+		"problem":	{
+			"id":	1416,
+			"group":	"Sandia",
+			"name":	"ASIC_100ks",
+			"rows":	99190,
+			"cols":	99190,
+			"nonzeros":	578890,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.00075463831561392537,
+			"kind":	"circuit simulation problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	4.1203199326992031e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00048554879426956172,
+				"repetitions":	5
+			}
+		}
+	}]

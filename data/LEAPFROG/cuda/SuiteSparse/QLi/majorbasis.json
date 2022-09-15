@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/QLi/majorbasis/majorbasis.mtx",
+		"problem":	{
+			"id":	1859,
+			"group":	"QLi",
+			"name":	"majorbasis",
+			"rows":	160000,
+			"cols":	160000,
+			"nonzeros":	1750416,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.550301304815847,
+			"nsym":	0.0002376736652548767,
+			"kind":	"optimization problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	7.4028800427913664e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0010872191905975342,
+				"repetitions":	5
+			}
+		}
+	}]

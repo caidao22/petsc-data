@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Szczerba/Ill_Stokes/Ill_Stokes.mtx",
+		"problem":	{
+			"id":	1862,
+			"group":	"Szczerba",
+			"name":	"Ill_Stokes",
+			"rows":	20896,
+			"cols":	20896,
+			"nonzeros":	191368,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.989743648119479,
+			"nsym":	0.32999043802932337,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.7904000133275988e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00015882239937782286,
+				"repetitions":	5
+			}
+		}
+	}]

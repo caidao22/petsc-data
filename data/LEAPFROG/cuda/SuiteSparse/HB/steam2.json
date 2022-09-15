@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/HB/steam2/steam2.mtx",
+		"problem":	{
+			"id":	252,
+			"group":	"HB",
+			"name":	"steam2",
+			"rows":	600,
+			"cols":	600,
+			"nonzeros":	5660,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.1877470355731225,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.8291199766099453e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	3.8284800201654424e-05,
+				"repetitions":	5
+			}
+		}
+	}]

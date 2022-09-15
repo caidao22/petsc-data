@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Schenk_IBMNA/c-61/c-61.mtx",
+		"problem":	{
+			"id":	1577,
+			"group":	"Schenk_IBMNA",
+			"name":	"c-61",
+			"rows":	43618,
+			"cols":	43618,
+			"nonzeros":	310016,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"optimization problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.9273600131273268e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00049821439981460576,
+				"repetitions":	5
+			}
+		}
+	}]

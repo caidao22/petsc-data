@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/HB/pores_3/pores_3.mtx",
+		"problem":	{
+			"id":	234,
+			"group":	"HB",
+			"name":	"pores_3",
+			"rows":	532,
+			"cols":	532,
+			"nonzeros":	3474,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.742352141400408,
+			"nsym":	0.3052345343303875,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.7817600071430207e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	3.1129599362611767e-05,
+				"repetitions":	5
+			}
+		}
+	}]

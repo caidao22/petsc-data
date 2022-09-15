@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Boeing/bcsstm36/bcsstm36.mtx",
+		"problem":	{
+			"id":	346,
+			"group":	"Boeing",
+			"name":	"bcsstm36",
+			"rows":	23052,
+			"cols":	23052,
+			"nonzeros":	320606,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.9574400186538694e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00023452160060405733,
+				"repetitions":	5
+			}
+		}
+	}]

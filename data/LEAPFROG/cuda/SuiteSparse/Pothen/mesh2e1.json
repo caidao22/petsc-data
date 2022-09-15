@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Pothen/mesh2e1/mesh2e1.mtx",
+		"problem":	{
+			"id":	875,
+			"group":	"Pothen",
+			"name":	"mesh2e1",
+			"rows":	306,
+			"cols":	306,
+			"nonzeros":	2018,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.8585600145161153e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	2.9695999622344972e-05,
+				"repetitions":	5
+			}
+		}
+	}]

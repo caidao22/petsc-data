@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Wang/wang3/wang3.mtx",
+		"problem":	{
+			"id":	832,
+			"group":	"Wang",
+			"name":	"wang3",
+			"rows":	26064,
+			"cols":	26064,
+			"nonzeros":	177168,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.97800190597204573,
+			"kind":	"semiconductor device problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.72000003606081e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00015453440248966216,
+				"repetitions":	5
+			}
+		}
+	}]

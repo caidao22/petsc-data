@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/VDOL/reorientation_3/reorientation_3.mtx",
+		"problem":	{
+			"id":	2724,
+			"group":	"VDOL",
+			"name":	"reorientation_3",
+			"rows":	2513,
+			"cols":	2513,
+			"nonzeros":	32166,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"optimal control problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.1132800355553625e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00023264000117778784,
+				"repetitions":	5
+			}
+		}
+	}]

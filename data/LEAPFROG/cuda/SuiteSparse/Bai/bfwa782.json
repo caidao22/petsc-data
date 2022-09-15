@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Bai/bfwa782/bfwa782.mtx",
+		"problem":	{
+			"id":	294,
+			"group":	"Bai",
+			"name":	"bfwa782",
+			"rows":	782,
+			"cols":	782,
+			"nonzeros":	7514,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.99168152109328578,
+			"nsym":	0.96048722519310759,
+			"kind":	"electromagnetics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.820800006389618e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	3.46367996186018e-05,
+				"repetitions":	5
+			}
+		}
+	}]

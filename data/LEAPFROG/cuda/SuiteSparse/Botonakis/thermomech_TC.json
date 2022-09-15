@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Botonakis/thermomech_TC/thermomech_TC.mtx",
+		"problem":	{
+			"id":	2257,
+			"group":	"Botonakis",
+			"name":	"thermomech_TC",
+			"rows":	102158,
+			"cols":	102158,
+			"nonzeros":	711558,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"thermal problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	4.8140799254179e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00050085759162902838,
+				"repetitions":	5
+			}
+		}
+	}]

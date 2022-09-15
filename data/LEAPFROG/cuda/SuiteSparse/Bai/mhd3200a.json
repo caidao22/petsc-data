@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Bai/mhd3200a/mhd3200a.mtx",
+		"problem":	{
+			"id":	1622,
+			"group":	"Bai",
+			"name":	"mhd3200a",
+			"rows":	3200,
+			"cols":	3200,
+			"nonzeros":	68026,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.76760299905718266,
+			"nsym":	0.267400966761946,
+			"kind":	"electromagnetics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.0710400119423871e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	6.9855999946594251e-05,
+				"repetitions":	5
+			}
+		}
+	}]

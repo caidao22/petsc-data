@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Hohn/fd15/fd15.mtx",
+		"problem":	{
+			"id":	918,
+			"group":	"Hohn",
+			"name":	"fd15",
+			"rows":	11532,
+			"cols":	11532,
+			"nonzeros":	44206,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0,
+			"nsym":	0,
+			"kind":	"materials problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.0563200488686565e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	5.6633600592613218e-05,
+				"repetitions":	5
+			}
+		}
+	}]

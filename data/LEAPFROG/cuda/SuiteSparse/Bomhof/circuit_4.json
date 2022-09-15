@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Bomhof/circuit_4/circuit_4.mtx",
+		"problem":	{
+			"id":	373,
+			"group":	"Bomhof",
+			"name":	"circuit_4",
+			"rows":	80209,
+			"cols":	80209,
+			"nonzeros":	307604,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.82920287051043018,
+			"nsym":	0.36354522109262322,
+			"kind":	"circuit simulation problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.1801600754261017e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0015943616151809694,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Bai/rdb5000/rdb5000.mtx",
+		"problem":	{
+			"id":	332,
+			"group":	"Bai",
+			"name":	"rdb5000",
+			"rows":	5000,
+			"cols":	5000,
+			"nonzeros":	29600,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.7967479674796748,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.9820800237357617e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	4.8288000375032412e-05,
+				"repetitions":	5
+			}
+		}
+	}]

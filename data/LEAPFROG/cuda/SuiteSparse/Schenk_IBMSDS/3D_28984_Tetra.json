@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Schenk_IBMSDS/3D_28984_Tetra/3D_28984_Tetra.mtx",
+		"problem":	{
+			"id":	956,
+			"group":	"Schenk_IBMSDS",
+			"name":	"3D_28984_Tetra",
+			"rows":	28984,
+			"cols":	28984,
+			"nonzeros":	285092,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.987404110237712,
+			"nsym":	0.36130070126665309,
+			"kind":	"semiconductor device problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.9775999635457985e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00076592639684677137,
+				"repetitions":	5
+			}
+		}
+	}]

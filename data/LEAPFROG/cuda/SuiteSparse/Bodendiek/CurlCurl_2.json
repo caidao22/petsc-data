@@ -1,0 +1,24 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Bodendiek/CurlCurl_2/CurlCurl_2.mtx",
+		"problem":	{
+			"id":	2571,
+			"group":	"Bodendiek",
+			"name":	"CurlCurl_2",
+			"rows":	806529,
+			"cols":	806529,
+			"nonzeros":	8921789,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"model reduction problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00022797119915485384,
+				"repetitions":	10
+			}
+		}
+	}]

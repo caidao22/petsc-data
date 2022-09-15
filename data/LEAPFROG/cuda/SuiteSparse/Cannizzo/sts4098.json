@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Cannizzo/sts4098/sts4098.mtx",
+		"problem":	{
+			"id":	1214,
+			"group":	"Cannizzo",
+			"name":	"sts4098",
+			"rows":	4098,
+			"cols":	4098,
+			"nonzeros":	72356,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.158080004155636e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00010514559745788575,
+				"repetitions":	5
+			}
+		}
+	}]

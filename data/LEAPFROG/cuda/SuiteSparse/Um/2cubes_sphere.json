@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Um/2cubes_sphere/2cubes_sphere.mtx",
+		"problem":	{
+			"id":	1919,
+			"group":	"Um",
+			"name":	"2cubes_sphere",
+			"rows":	101492,
+			"cols":	101492,
+			"nonzeros":	1647264,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"electromagnetics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	6.7007999867200866e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00099855359792709337,
+				"repetitions":	5
+			}
+		}
+	}]

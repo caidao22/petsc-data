@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Rommes/bips07_2476/bips07_2476.mtx",
+		"problem":	{
+			"id":	2355,
+			"group":	"Rommes",
+			"name":	"bips07_2476",
+			"rows":	16861,
+			"cols":	16861,
+			"nonzeros":	66498,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.75745732971765833,
+			"nsym":	0.6349098739830914,
+			"kind":	"eigenvalue/model reduction problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.2643199563026426e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	7.67168015241623e-05,
+				"repetitions":	5
+			}
+		}
+	}]

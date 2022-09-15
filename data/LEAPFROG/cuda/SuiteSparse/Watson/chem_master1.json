@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Watson/chem_master1/chem_master1.mtx",
+		"problem":	{
+			"id":	1854,
+			"group":	"Watson",
+			"name":	"chem_master1",
+			"rows":	40401,
+			"cols":	40401,
+			"nonzeros":	201201,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0,
+			"kind":	"2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.8576000034809106e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00016796800196170806,
+				"repetitions":	5
+			}
+		}
+	}]

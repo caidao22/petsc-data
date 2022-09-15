@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/ML_Graph/Glass_10NN/Glass_10NN.mtx",
+		"problem":	{
+			"id":	2869,
+			"group":	"ML_Graph",
+			"name":	"Glass_10NN",
+			"rows":	214,
+			"cols":	214,
+			"nonzeros":	2986,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.779200006276369e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	2.9491199553012853e-05,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Bai/ck656/ck656.mtx",
+		"problem":	{
+			"id":	308,
+			"group":	"Bai",
+			"name":	"ck656",
+			"rows":	656,
+			"cols":	656,
+			"nonzeros":	3884,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.99132589838909546,
+			"nsym":	0,
+			"kind":	"2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.8208000063896177e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	3.0534399673342717e-05,
+				"repetitions":	5
+			}
+		}
+	}]

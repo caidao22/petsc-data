@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/GHS_indef/c-59/c-59.mtx",
+		"problem":	{
+			"id":	1222,
+			"group":	"GHS_indef",
+			"name":	"c-59",
+			"rows":	41282,
+			"cols":	41282,
+			"nonzeros":	480536,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"optimization problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.5878399759531024e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00063938559293746943,
+				"repetitions":	5
+			}
+		}
+	}]

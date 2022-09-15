@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Rajat/rajat03/rajat03.mtx",
+		"problem":	{
+			"id":	1187,
+			"group":	"Rajat",
+			"name":	"rajat03",
+			"rows":	7602,
+			"cols":	7602,
+			"nonzeros":	32653,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.40243805274480121,
+			"kind":	"circuit simulation problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.0031999796628955e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	5.8694399893283849e-05,
+				"repetitions":	5
+			}
+		}
+	}]

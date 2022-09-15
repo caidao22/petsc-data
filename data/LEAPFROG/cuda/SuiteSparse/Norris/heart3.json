@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Norris/heart3/heart3.mtx",
+		"problem":	{
+			"id":	892,
+			"group":	"Norris",
+			"name":	"heart3",
+			"rows":	2339,
+			"cols":	2339,
+			"nonzeros":	680341,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0,
+			"kind":	"2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.7023999541997918e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00043770239949226381,
+				"repetitions":	5
+			}
+		}
+	}]

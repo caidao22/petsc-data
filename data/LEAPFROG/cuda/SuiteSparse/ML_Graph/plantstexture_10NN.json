@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/ML_Graph/plantstexture_10NN/plantstexture_10NN.mtx",
+		"problem":	{
+			"id":	2883,
+			"group":	"ML_Graph",
+			"name":	"plantstexture_10NN",
+			"rows":	1599,
+			"cols":	1599,
+			"nonzeros":	21204,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.9289599917829038e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	4.28095992654562e-05,
+				"repetitions":	5
+			}
+		}
+	}]

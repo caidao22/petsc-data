@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/LeGresley/LeGresley_4908/LeGresley_4908.mtx",
+		"problem":	{
+			"id":	2656,
+			"group":	"LeGresley",
+			"name":	"LeGresley_4908",
+			"rows":	4908,
+			"cols":	4908,
+			"nonzeros":	30482,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.97736070381231677,
+			"nsym":	0.02995112414467253,
+			"kind":	"power network problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.062079980969429e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	5.9967999905347828e-05,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Boeing/bcsstm39/bcsstm39.mtx",
+		"problem":	{
+			"id":	349,
+			"group":	"Boeing",
+			"name":	"bcsstm39",
+			"rows":	46772,
+			"cols":	46772,
+			"nonzeros":	46772,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.4102400615811345e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	6.5196800976991646e-05,
+				"repetitions":	5
+			}
+		}
+	}]

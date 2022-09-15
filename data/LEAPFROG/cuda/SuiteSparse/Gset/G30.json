@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Gset/G30/G30.mtx",
+		"problem":	{
+			"id":	492,
+			"group":	"Gset",
+			"name":	"G30",
+			"rows":	2000,
+			"cols":	2000,
+			"nonzeros":	39980,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted random graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.0089600048959258e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	5.4982399940490722e-05,
+				"repetitions":	5
+			}
+		}
+	}]

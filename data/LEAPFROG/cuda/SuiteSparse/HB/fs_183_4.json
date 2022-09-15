@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/HB/fs_183_4/fs_183_4.mtx",
+		"problem":	{
+			"id":	143,
+			"group":	"HB",
+			"name":	"fs_183_4",
+			"rows":	183,
+			"cols":	183,
+			"nonzeros":	1069,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.417607223476298,
+			"nsym":	0,
+			"kind":	"subsequent 2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.7273600213229652e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	3.5961599647998814e-05,
+				"repetitions":	5
+			}
+		}
+	}]

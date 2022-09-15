@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/FIDAP/ex27/ex27.mtx",
+		"problem":	{
+			"id":	424,
+			"group":	"FIDAP",
+			"name":	"ex27",
+			"rows":	974,
+			"cols":	974,
+			"nonzeros":	37652,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.530404122592894,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.9827200286090371e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	6.0870400071144119e-05,
+				"repetitions":	5
+			}
+		}
+	}]

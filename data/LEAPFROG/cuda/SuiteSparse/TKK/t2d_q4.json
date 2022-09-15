@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/TKK/t2d_q4/t2d_q4.mtx",
+		"problem":	{
+			"id":	1916,
+			"group":	"TKK",
+			"name":	"t2d_q4",
+			"rows":	9801,
+			"cols":	9801,
+			"nonzeros":	87025,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.6937221589143272,
+			"kind":	"structural problem sequence"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.1561599522829058e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	8.17088007926941e-05,
+				"repetitions":	5
+			}
+		}
+	}]

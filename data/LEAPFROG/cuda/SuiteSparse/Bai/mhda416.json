@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Bai/mhda416/mhda416.mtx",
+		"problem":	{
+			"id":	314,
+			"group":	"Bai",
+			"name":	"mhda416",
+			"rows":	416,
+			"cols":	416,
+			"nonzeros":	8562,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.76752767527675281,
+			"nsym":	0.26758719200095232,
+			"kind":	"electromagnetics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.87007999047637e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	3.4815999865531934e-05,
+				"repetitions":	5
+			}
+		}
+	}]

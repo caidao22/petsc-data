@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/SNAP/as-caida/as-caida.mtx",
+		"problem":	{
+			"id":	2322,
+			"group":	"SNAP",
+			"name":	"as-caida",
+			"rows":	31379,
+			"cols":	31379,
+			"nonzeros":	106762,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.078698413293119274,
+			"kind":	"directed weighted graph sequence"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.3366399854421613e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00060472320318222044,
+				"repetitions":	5
+			}
+		}
+	}]

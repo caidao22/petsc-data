@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Gaertner/nopoly/nopoly.mtx",
+		"problem":	{
+			"id":	442,
+			"group":	"Gaertner",
+			"name":	"nopoly",
+			"rows":	10774,
+			"cols":	10774,
+			"nonzeros":	70842,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.1107199415564536e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	7.324800118803978e-05,
+				"repetitions":	5
+			}
+		}
+	}]

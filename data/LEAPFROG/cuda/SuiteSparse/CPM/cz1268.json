@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/CPM/cz1268/cz1268.mtx",
+		"problem":	{
+			"id":	2562,
+			"group":	"CPM",
+			"name":	"cz1268",
+			"rows":	1268,
+			"cols":	1268,
+			"nonzeros":	12786,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.43861781559298491,
+			"nsym":	0.2340684146553221,
+			"kind":	"2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.9424000009894374e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	3.8086400181055076e-05,
+				"repetitions":	5
+			}
+		}
+	}]

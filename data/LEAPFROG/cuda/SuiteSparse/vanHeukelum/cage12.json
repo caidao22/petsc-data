@@ -1,0 +1,24 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/vanHeukelum/cage12/cage12.mtx",
+		"problem":	{
+			"id":	913,
+			"group":	"vanHeukelum",
+			"name":	"cage12",
+			"rows":	130228,
+			"cols":	130228,
+			"nonzeros":	2032536,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.19351230189853591,
+			"kind":	"directed weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	6.3724801316857326e-05,
+				"repetitions":	10
+			}
+		}
+	}]

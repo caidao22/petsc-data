@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Rommes/M20PI_n/M20PI_n.mtx",
+		"problem":	{
+			"id":	2362,
+			"group":	"Rommes",
+			"name":	"M20PI_n",
+			"rows":	1182,
+			"cols":	1182,
+			"nonzeros":	2881,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.041736227045075118,
+			"kind":	"eigenvalue/model reduction problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.8022400140762329e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	2.9055999219417564e-05,
+				"repetitions":	5
+			}
+		}
+	}]

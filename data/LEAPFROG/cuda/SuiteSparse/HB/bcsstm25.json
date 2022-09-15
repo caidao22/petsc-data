@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/HB/bcsstm25/bcsstm25.mtx",
+		"problem":	{
+			"id":	75,
+			"group":	"HB",
+			"name":	"bcsstm25",
+			"rows":	15439,
+			"cols":	15439,
+			"nonzeros":	15439,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.0838400349020956e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	4.0959998965263367e-05,
+				"repetitions":	5
+			}
+		}
+	}]

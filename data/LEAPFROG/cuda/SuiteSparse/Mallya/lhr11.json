@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Mallya/lhr11/lhr11.mtx",
+		"problem":	{
+			"id":	742,
+			"group":	"Mallya",
+			"name":	"lhr11",
+			"rows":	10964,
+			"cols":	10964,
+			"nonzeros":	231806,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.00820058037510379,
+			"nsym":	3.4525916015709288e-05,
+			"kind":	"chemical process simulation problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.6182400435209271e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0001853055983781814,
+				"repetitions":	5
+			}
+		}
+	}]

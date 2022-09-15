@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Oberwolfach/flowmeter5/flowmeter5.mtx",
+		"problem":	{
+			"id":	1433,
+			"group":	"Oberwolfach",
+			"name":	"flowmeter5",
+			"rows":	9669,
+			"cols":	9669,
+			"nonzeros":	67391,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.062229305983853643,
+			"kind":	"model reduction problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.0614399760961533e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	6.9638400524854669e-05,
+				"repetitions":	5
+			}
+		}
+	}]

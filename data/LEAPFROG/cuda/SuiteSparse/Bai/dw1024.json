@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Bai/dw1024/dw1024.mtx",
+		"problem":	{
+			"id":	309,
+			"group":	"Bai",
+			"name":	"dw1024",
+			"rows":	2048,
+			"cols":	2048,
+			"nonzeros":	10114,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.98487478303992071,
+			"nsym":	0.94817753533349869,
+			"kind":	"electromagnetics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.893759984523058e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	3.5808000341057782e-05,
+				"repetitions":	5
+			}
+		}
+	}]

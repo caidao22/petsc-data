@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Morandini/rotor1/rotor1.mtx",
+		"problem":	{
+			"id":	1326,
+			"group":	"Morandini",
+			"name":	"rotor1",
+			"rows":	100,
+			"cols":	100,
+			"nonzeros":	708,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.514018691588785,
+			"nsym":	0.071651090342679122,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.6614400036633014e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	2.9721599444746972e-05,
+				"repetitions":	5
+			}
+		}
+	}]

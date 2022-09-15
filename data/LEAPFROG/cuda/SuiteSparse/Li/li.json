@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Li/li/li.mtx",
+		"problem":	{
+			"id":	732,
+			"group":	"Li",
+			"name":	"li",
+			"rows":	22695,
+			"cols":	22695,
+			"nonzeros":	1215181,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.868567010430311,
+			"kind":	"electromagnetics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	5.89696004986763e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00082042239904403665,
+				"repetitions":	5
+			}
+		}
+	}]

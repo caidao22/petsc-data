@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Shen/e40r0100/e40r0100.mtx",
+		"problem":	{
+			"id":	899,
+			"group":	"Shen",
+			"name":	"e40r0100",
+			"rows":	17281,
+			"cols":	17281,
+			"nonzeros":	553562,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.30798778998323639,
+			"nsym":	0.001965387548691824,
+			"kind":	"2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.8233600556850436e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00036788480281829829,
+				"repetitions":	5
+			}
+		}
+	}]

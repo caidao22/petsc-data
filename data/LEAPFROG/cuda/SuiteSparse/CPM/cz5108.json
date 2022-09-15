@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/CPM/cz5108/cz5108.mtx",
+		"problem":	{
+			"id":	2564,
+			"group":	"CPM",
+			"name":	"cz5108",
+			"rows":	5108,
+			"cols":	5108,
+			"nonzeros":	51412,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.433914996544575,
+			"nsym":	0.23622149274360749,
+			"kind":	"2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.0979200303554539e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	6.18431992828846e-05,
+				"repetitions":	5
+			}
+		}
+	}]

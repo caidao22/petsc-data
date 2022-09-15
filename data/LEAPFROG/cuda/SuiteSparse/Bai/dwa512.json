@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Bai/dwa512/dwa512.mtx",
+		"problem":	{
+			"id":	1616,
+			"group":	"Bai",
+			"name":	"dwa512",
+			"rows":	512,
+			"cols":	512,
+			"nonzeros":	2480,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.97967479674796742,
+			"nsym":	0.91463414634146345,
+			"kind":	"electromagnetics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.8387199938297274e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	2.9491199553012853e-05,
+				"repetitions":	5
+			}
+		}
+	}]

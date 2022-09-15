@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/ML_Graph/umistfacesnorm_10NN/umistfacesnorm_10NN.mtx",
+		"problem":	{
+			"id":	2886,
+			"group":	"ML_Graph",
+			"name":	"umistfacesnorm_10NN",
+			"rows":	575,
+			"cols":	575,
+			"nonzeros":	6990,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.8636800162494185e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	3.3190399408340452e-05,
+				"repetitions":	5
+			}
+		}
+	}]

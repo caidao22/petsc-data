@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/UTEP/Dubcova2/Dubcova2.mtx",
+		"problem":	{
+			"id":	1848,
+			"group":	"UTEP",
+			"name":	"Dubcova2",
+			"rows":	65025,
+			"cols":	65025,
+			"nonzeros":	1030225,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	5.4771199822425846e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00065570559501647947,
+				"repetitions":	5
+			}
+		}
+	}]

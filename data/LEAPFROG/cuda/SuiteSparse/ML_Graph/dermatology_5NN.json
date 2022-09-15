@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/ML_Graph/dermatology_5NN/dermatology_5NN.mtx",
+		"problem":	{
+			"id":	2866,
+			"group":	"ML_Graph",
+			"name":	"dermatology_5NN",
+			"rows":	366,
+			"cols":	366,
+			"nonzeros":	2440,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.7817600071430207e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	3.05087998509407e-05,
+				"repetitions":	5
+			}
+		}
+	}]

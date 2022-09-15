@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/GHS_indef/linverse/linverse.mtx",
+		"problem":	{
+			"id":	1303,
+			"group":	"GHS_indef",
+			"name":	"linverse",
+			"rows":	11999,
+			"cols":	11999,
+			"nonzeros":	95977,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"statistical/mathematical problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.1702400594949722e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	8.52160021662712e-05,
+				"repetitions":	5
+			}
+		}
+	}]

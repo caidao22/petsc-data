@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Sandia/fpga_dcop_33/fpga_dcop_33.mtx",
+		"problem":	{
+			"id":	1087,
+			"group":	"Sandia",
+			"name":	"fpga_dcop_33",
+			"rows":	1220,
+			"cols":	1220,
+			"nonzeros":	5892,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.81833473507148868,
+			"nsym":	0.32800672834314548,
+			"kind":	"subsequent circuit simulation problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.8643200024962425e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	3.6659200116992e-05,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/HB/fs_680_3/fs_680_3.mtx",
+		"problem":	{
+			"id":	151,
+			"group":	"HB",
+			"name":	"fs_680_3",
+			"rows":	680,
+			"cols":	680,
+			"nonzeros":	2471,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.510681586978637,
+			"nsym":	0,
+			"kind":	"subsequent 2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.8182400055229666e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	2.9881599545478816e-05,
+				"repetitions":	5
+			}
+		}
+	}]

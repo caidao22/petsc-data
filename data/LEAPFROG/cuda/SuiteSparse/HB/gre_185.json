@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/HB/gre_185/gre_185.mtx",
+		"problem":	{
+			"id":	162,
+			"group":	"HB",
+			"name":	"gre_185",
+			"rows":	185,
+			"cols":	185,
+			"nonzeros":	975,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.41463414634146339,
+			"nsym":	0,
+			"kind":	"directed weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.6755199804902076e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	2.8243199363350858e-05,
+				"repetitions":	5
+			}
+		}
+	}]

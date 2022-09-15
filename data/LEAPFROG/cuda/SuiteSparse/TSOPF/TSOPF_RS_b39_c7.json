@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/TSOPF/TSOPF_RS_b39_c7/TSOPF_RS_b39_c7.mtx",
+		"problem":	{
+			"id":	2242,
+			"group":	"TSOPF",
+			"name":	"TSOPF_RS_b39_c7",
+			"rows":	14098,
+			"cols":	14098,
+			"nonzeros":	252446,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.059622847313993248,
+			"nsym":	0.00035240072997294071,
+			"kind":	"power network problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.68800001591444e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00019816319644451138,
+				"repetitions":	5
+			}
+		}
+	}]

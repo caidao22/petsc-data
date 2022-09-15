@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Bai/tols1090/tols1090.mtx",
+		"problem":	{
+			"id":	1637,
+			"group":	"Bai",
+			"name":	"tols1090",
+			"rows":	1090,
+			"cols":	1090,
+			"nonzeros":	3546,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.31787584143605091,
+			"nsym":	0,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.8406400084495542e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	4.2188800126314152e-05,
+				"repetitions":	5
+			}
+		}
+	}]

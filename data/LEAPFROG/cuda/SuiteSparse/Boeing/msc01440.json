@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Boeing/msc01440/msc01440.mtx",
+		"problem":	{
+			"id":	359,
+			"group":	"Boeing",
+			"name":	"msc01440",
+			"rows":	1440,
+			"cols":	1440,
+			"nonzeros":	44998,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.0307199656963346e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	5.8150399476289766e-05,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Nasa/nasa2910/nasa2910.mtx",
+		"problem":	{
+			"id":	759,
+			"group":	"Nasa",
+			"name":	"nasa2910",
+			"rows":	2910,
+			"cols":	2910,
+			"nonzeros":	174296,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.5574399903416631e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00014501760005950927,
+				"repetitions":	5
+			}
+		}
+	}]

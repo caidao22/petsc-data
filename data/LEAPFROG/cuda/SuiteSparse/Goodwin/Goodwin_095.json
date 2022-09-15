@@ -1,0 +1,24 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Goodwin/Goodwin_095/Goodwin_095.mtx",
+		"problem":	{
+			"id":	2825,
+			"group":	"Goodwin",
+			"name":	"Goodwin_095",
+			"rows":	100037,
+			"cols":	100037,
+			"nonzeros":	3226066,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.98809331632997721,
+			"nsym":	0.06443620776105316,
+			"kind":	"computational fluid dynamics"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	9.0044799447059639e-05,
+				"repetitions":	10
+			}
+		}
+	}]

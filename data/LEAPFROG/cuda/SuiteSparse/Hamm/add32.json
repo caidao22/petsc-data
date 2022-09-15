@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Hamm/add32/add32.mtx",
+		"problem":	{
+			"id":	540,
+			"group":	"Hamm",
+			"name":	"add32",
+			"rows":	4960,
+			"cols":	4960,
+			"nonzeros":	19848,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.30521225147770009,
+			"kind":	"circuit simulation problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.0339199900627142e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	4.9414400011301045e-05,
+				"repetitions":	5
+			}
+		}
+	}]

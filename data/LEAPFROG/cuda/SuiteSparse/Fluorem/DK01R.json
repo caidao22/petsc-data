@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Fluorem/DK01R/DK01R.mtx",
+		"problem":	{
+			"id":	2334,
+			"group":	"Fluorem",
+			"name":	"DK01R",
+			"rows":	903,
+			"cols":	903,
+			"nonzeros":	11766,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.96142870293657368,
+			"nsym":	0,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.8815999850630762e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	3.5430400073528286e-05,
+				"repetitions":	5
+			}
+		}
+	}]

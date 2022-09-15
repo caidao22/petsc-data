@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Nemeth/nemeth04/nemeth04.mtx",
+		"problem":	{
+			"id":	768,
+			"group":	"Nemeth",
+			"name":	"nemeth04",
+			"rows":	9506,
+			"cols":	9506,
+			"nonzeros":	394808,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"subsequent theoretical/quantum chemistry problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.0752000212669366e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00027859840393066411,
+				"repetitions":	5
+			}
+		}
+	}]

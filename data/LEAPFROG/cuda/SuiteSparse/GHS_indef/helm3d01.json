@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/GHS_indef/helm3d01/helm3d01.mtx",
+		"problem":	{
+			"id":	1237,
+			"group":	"GHS_indef",
+			"name":	"helm3d01",
+			"rows":	32226,
+			"cols":	32226,
+			"nonzeros":	428444,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.53920005261898e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00029905920028686523,
+				"repetitions":	5
+			}
+		}
+	}]

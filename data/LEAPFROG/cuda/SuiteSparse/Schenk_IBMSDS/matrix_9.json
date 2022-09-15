@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Schenk_IBMSDS/matrix_9/matrix_9.mtx",
+		"problem":	{
+			"id":	959,
+			"group":	"Schenk_IBMSDS",
+			"name":	"matrix_9",
+			"rows":	103430,
+			"cols":	103430,
+			"nonzeros":	1205518,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.9966503478484926,
+			"nsym":	0.17448334434273849,
+			"kind":	"semiconductor device problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	7.6857599616050727e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0017943615913391109,
+				"repetitions":	5
+			}
+		}
+	}]

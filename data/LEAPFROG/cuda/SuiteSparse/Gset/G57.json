@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Gset/G57/G57.mtx",
+		"problem":	{
+			"id":	521,
+			"group":	"Gset",
+			"name":	"G57",
+			"rows":	5000,
+			"cols":	5000,
+			"nonzeros":	20000,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted random graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.966719962656498e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	4.1100800782442082e-05,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/HB/saylr4/saylr4.mtx",
+		"problem":	{
+			"id":	241,
+			"group":	"HB",
+			"name":	"saylr4",
+			"rows":	3564,
+			"cols":	3564,
+			"nonzeros":	22316,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.9859200343489649e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	4.3078399822115882e-05,
+				"repetitions":	5
+			}
+		}
+	}]

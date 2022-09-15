@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/ML_Graph/plantsmargin_12NN/plantsmargin_12NN.mtx",
+		"problem":	{
+			"id":	2882,
+			"group":	"ML_Graph",
+			"name":	"plantsmargin_12NN",
+			"rows":	1600,
+			"cols":	1600,
+			"nonzeros":	25482,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.9609599933028221e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	4.49408009648323e-05,
+				"repetitions":	5
+			}
+		}
+	}]

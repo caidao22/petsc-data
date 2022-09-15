@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Pajek/Wordnet3/Wordnet3.mtx",
+		"problem":	{
+			"id":	1531,
+			"group":	"Pajek",
+			"name":	"Wordnet3",
+			"rows":	82670,
+			"cols":	82670,
+			"nonzeros":	132964,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.17654631368510329,
+			"nsym":	0.17412309929120981,
+			"kind":	"directed weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.6540800184011455e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00016771200001239775,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/HB/west0156/west0156.mtx",
+		"problem":	{
+			"id":	264,
+			"group":	"HB",
+			"name":	"west0156",
+			"rows":	156,
+			"cols":	156,
+			"nonzeros":	362,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0,
+			"nsym":	0,
+			"kind":	"chemical process simulation problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.6793600283563139e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	2.7846399135887614e-05,
+				"repetitions":	5
+			}
+		}
+	}]

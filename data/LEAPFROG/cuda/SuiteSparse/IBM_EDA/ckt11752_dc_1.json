@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/IBM_EDA/ckt11752_dc_1/ckt11752_dc_1.mtx",
+		"problem":	{
+			"id":	1413,
+			"group":	"IBM_EDA",
+			"name":	"ckt11752_dc_1",
+			"rows":	49702,
+			"cols":	49702,
+			"nonzeros":	333029,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.983810226346236,
+			"nsym":	0.73553879439658065,
+			"kind":	"circuit simulation problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.9849600419402119e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00063612159490585322,
+				"repetitions":	5
+			}
+		}
+	}]

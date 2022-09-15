@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/HB/494_bus/494_bus.mtx",
+		"problem":	{
+			"id":	2,
+			"group":	"HB",
+			"name":	"494_bus",
+			"rows":	494,
+			"cols":	494,
+			"nonzeros":	1666,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"power network problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.7843200080096718e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	2.8851199522614473e-05,
+				"repetitions":	5
+			}
+		}
+	}]

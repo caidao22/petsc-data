@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Puri/ABACUS_shell_ud/ABACUS_shell_ud.mtx",
+		"problem":	{
+			"id":	2269,
+			"group":	"Puri",
+			"name":	"ABACUS_shell_ud",
+			"rows":	23412,
+			"cols":	23412,
+			"nonzeros":	218484,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.97537319553805779,
+			"kind":	"model reduction problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.8032000735402108e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00017584640085697173,
+				"repetitions":	5
+			}
+		}
+	}]

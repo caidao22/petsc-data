@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Schenk_IBMNA/c-67b/c-67b.mtx",
+		"problem":	{
+			"id":	1589,
+			"group":	"Schenk_IBMNA",
+			"name":	"c-67b",
+			"rows":	57975,
+			"cols":	57975,
+			"nonzeros":	530583,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"subsequent optimization problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.8752000033855437e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.000817356812953949,
+				"repetitions":	5
+			}
+		}
+	}]

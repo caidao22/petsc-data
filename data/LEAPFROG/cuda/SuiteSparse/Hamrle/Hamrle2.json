@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Hamrle/Hamrle2/Hamrle2.mtx",
+		"problem":	{
+			"id":	1200,
+			"group":	"Hamrle",
+			"name":	"Hamrle2",
+			"rows":	5952,
+			"cols":	5952,
+			"nonzeros":	22162,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.00099304865938431,
+			"nsym":	0.00018055430170623821,
+			"kind":	"circuit simulation problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.98463998734951e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	4.2291200906038278e-05,
+				"repetitions":	5
+			}
+		}
+	}]

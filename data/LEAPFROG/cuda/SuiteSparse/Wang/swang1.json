@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Wang/swang1/swang1.mtx",
+		"problem":	{
+			"id":	828,
+			"group":	"Wang",
+			"name":	"swang1",
+			"rows":	3169,
+			"cols":	3169,
+			"nonzeros":	20841,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0,
+			"kind":	"semiconductor device problem sequence"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.9315200112760069e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	4.21440001577139e-05,
+				"repetitions":	5
+			}
+		}
+	}]

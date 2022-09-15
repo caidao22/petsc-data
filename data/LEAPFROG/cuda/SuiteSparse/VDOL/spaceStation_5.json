@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/VDOL/spaceStation_5/spaceStation_5.mtx",
+		"problem":	{
+			"id":	2738,
+			"group":	"VDOL",
+			"name":	"spaceStation_5",
+			"rows":	1019,
+			"cols":	1019,
+			"nonzeros":	15219,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"optimal control problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.8687999621033666e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	4.3411199748516069e-05,
+				"repetitions":	5
+			}
+		}
+	}]

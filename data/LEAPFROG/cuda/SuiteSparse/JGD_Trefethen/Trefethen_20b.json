@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/JGD_Trefethen/Trefethen_20b/Trefethen_20b.mtx",
+		"problem":	{
+			"id":	2203,
+			"group":	"JGD_Trefethen",
+			"name":	"Trefethen_20b",
+			"rows":	19,
+			"cols":	19,
+			"nonzeros":	147,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"combinatorial problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.601919997483492e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	2.7468800358474257e-05,
+				"repetitions":	5
+			}
+		}
+	}]

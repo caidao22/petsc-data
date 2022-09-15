@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Shyy/shyy41/shyy41.mtx",
+		"problem":	{
+			"id":	810,
+			"group":	"Shyy",
+			"name":	"shyy41",
+			"rows":	4720,
+			"cols":	4720,
+			"nonzeros":	20042,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.723436945987472,
+			"nsym":	0.18437536934168541,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.9852800294756889e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	4.1145599633455282e-05,
+				"repetitions":	5
+			}
+		}
+	}]

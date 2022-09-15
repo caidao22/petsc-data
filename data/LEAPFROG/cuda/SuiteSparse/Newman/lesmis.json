@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Newman/lesmis/lesmis.mtx",
+		"problem":	{
+			"id":	2400,
+			"group":	"Newman",
+			"name":	"lesmis",
+			"rows":	77,
+			"cols":	77,
+			"nonzeros":	508,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.6409599967300889e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	3.128319941461086e-05,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Ronis/xenon1/xenon1.mtx",
+		"problem":	{
+			"id":	801,
+			"group":	"Ronis",
+			"name":	"xenon1",
+			"rows":	48600,
+			"cols":	48600,
+			"nonzeros":	1181120,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.775813230671423,
+			"kind":	"materials problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	5.62368005514145e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00074226559400558461,
+				"repetitions":	5
+			}
+		}
+	}]

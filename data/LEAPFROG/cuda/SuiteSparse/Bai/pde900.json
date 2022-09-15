@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Bai/pde900/pde900.mtx",
+		"problem":	{
+			"id":	325,
+			"group":	"Bai",
+			"name":	"pde900",
+			"rows":	900,
+			"cols":	900,
+			"nonzeros":	4380,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.5,
+			"kind":	"2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.7990400083363055e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	3.1129600107669835e-05,
+				"repetitions":	5
+			}
+		}
+	}]

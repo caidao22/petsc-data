@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/FEMLAB/sme3Da/sme3Da.mtx",
+		"problem":	{
+			"id":	930,
+			"group":	"FEMLAB",
+			"name":	"sme3Da",
+			"rows":	12504,
+			"cols":	12504,
+			"nonzeros":	874887,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.999971010560273,
+			"nsym":	0.43708885727107333,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	4.8787199705839145e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00055427840948104852,
+				"repetitions":	5
+			}
+		}
+	}]

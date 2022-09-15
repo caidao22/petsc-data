@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Oberwolfach/t2dal_e/t2dal_e.mtx",
+		"problem":	{
+			"id":	1207,
+			"group":	"Oberwolfach",
+			"name":	"t2dal_e",
+			"rows":	4257,
+			"cols":	4257,
+			"nonzeros":	4257,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"duplicate model reduction problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.949439998716116e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	3.59935998916626e-05,
+				"repetitions":	5
+			}
+		}
+	}]

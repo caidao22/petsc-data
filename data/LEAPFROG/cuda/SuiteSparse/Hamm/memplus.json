@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Hamm/memplus/memplus.mtx",
+		"problem":	{
+			"id":	543,
+			"group":	"Hamm",
+			"name":	"memplus",
+			"rows":	17758,
+			"cols":	17758,
+			"nonzeros":	99147,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.49620956148865331,
+			"kind":	"circuit simulation problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.2988800331950188e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00019491199851036072,
+				"repetitions":	5
+			}
+		}
+	}]

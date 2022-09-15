@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/HB/lnsp_511/lnsp_511.mtx",
+		"problem":	{
+			"id":	193,
+			"group":	"HB",
+			"name":	"lnsp_511",
+			"rows":	511,
+			"cols":	511,
+			"nonzeros":	2796,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.79949452401010956,
+			"nsym":	0.020219039595619211,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.8387200124561784e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	3.0259199440479271e-05,
+				"repetitions":	5
+			}
+		}
+	}]

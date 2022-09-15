@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Gset/G13/G13.mtx",
+		"problem":	{
+			"id":	473,
+			"group":	"Gset",
+			"name":	"G13",
+			"rows":	800,
+			"cols":	800,
+			"nonzeros":	3200,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted random graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.7817600071430207e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	2.9459199681878092e-05,
+				"repetitions":	5
+			}
+		}
+	}]

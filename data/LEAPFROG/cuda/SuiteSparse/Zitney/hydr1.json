@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Zitney/hydr1/hydr1.mtx",
+		"problem":	{
+			"id":	837,
+			"group":	"Zitney",
+			"name":	"hydr1",
+			"rows":	5308,
+			"cols":	5308,
+			"nonzeros":	22680,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.0041263157894736854,
+			"nsym":	0.000617338389628715,
+			"kind":	"chemical process simulation problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.9923200458288192e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	4.4249600172042851e-05,
+				"repetitions":	5
+			}
+		}
+	}]

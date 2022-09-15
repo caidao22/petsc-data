@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Hollinger/mark3jac060/mark3jac060.mtx",
+		"problem":	{
+			"id":	584,
+			"group":	"Hollinger",
+			"name":	"mark3jac060",
+			"rows":	27449,
+			"cols":	27449,
+			"nonzeros":	160723,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.073886879912877151,
+			"nsym":	0.01402730528871371,
+			"kind":	"economic problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.7078399434685706e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00015703680217266084,
+				"repetitions":	5
+			}
+		}
+	}]

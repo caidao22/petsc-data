@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Vavasis/av41092/av41092.mtx",
+		"problem":	{
+			"id":	827,
+			"group":	"Vavasis",
+			"name":	"av41092",
+			"rows":	41092,
+			"cols":	41092,
+			"nonzeros":	1683902,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.00093595702199380224,
+			"nsym":	0,
+			"kind":	"2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	6.3859198987483974e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0011128960132598877,
+				"repetitions":	5
+			}
+		}
+	}]

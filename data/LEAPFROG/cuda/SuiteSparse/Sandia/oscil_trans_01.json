@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Sandia/oscil_trans_01/oscil_trans_01.mtx",
+		"problem":	{
+			"id":	1169,
+			"group":	"Sandia",
+			"name":	"oscil_trans_01",
+			"rows":	430,
+			"cols":	430,
+			"nonzeros":	1614,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.973727422003284,
+			"nsym":	0.71756978653530379,
+			"kind":	"circuit simulation problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.8169599957764148e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	2.9081599414348606e-05,
+				"repetitions":	5
+			}
+		}
+	}]

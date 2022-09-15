@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Pajek/foldoc/foldoc.mtx",
+		"problem":	{
+			"id":	1473,
+			"group":	"Pajek",
+			"name":	"foldoc",
+			"rows":	13356,
+			"cols":	13356,
+			"nonzeros":	120238,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.47850097307007772,
+			"nsym":	0.459472047106572,
+			"kind":	"directed weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.2118400409817689e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00013349120020866395,
+				"repetitions":	5
+			}
+		}
+	}]

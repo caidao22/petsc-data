@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/VDOL/orbitRaising_2/orbitRaising_2.mtx",
+		"problem":	{
+			"id":	2719,
+			"group":	"VDOL",
+			"name":	"orbitRaising_2",
+			"rows":	739,
+			"cols":	739,
+			"nonzeros":	6526,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"optimal control problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.86752000823617e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	3.2524799183011051e-05,
+				"repetitions":	5
+			}
+		}
+	}]

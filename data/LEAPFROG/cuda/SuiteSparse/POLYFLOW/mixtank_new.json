@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/POLYFLOW/mixtank_new/mixtank_new.mtx",
+		"problem":	{
+			"id":	1643,
+			"group":	"POLYFLOW",
+			"name":	"mixtank_new",
+			"rows":	29957,
+			"cols":	29957,
+			"nonzeros":	1990919,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.989090542694358,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	7.21984013915062e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0011876160144805908,
+				"repetitions":	5
+			}
+		}
+	}]

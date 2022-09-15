@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/VDOL/tumorAntiAngiogenesis_5/tumorAntiAngiogenesis_5.mtx",
+		"problem":	{
+			"id":	2752,
+			"group":	"VDOL",
+			"name":	"tumorAntiAngiogenesis_5",
+			"rows":	460,
+			"cols":	460,
+			"nonzeros":	4690,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"optimal control problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.84128001332283e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	6.2905599921941763e-05,
+				"repetitions":	5
+			}
+		}
+	}]

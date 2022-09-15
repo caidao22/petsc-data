@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Hollinger/g7jac040/g7jac040.mtx",
+		"problem":	{
+			"id":	549,
+			"group":	"Hollinger",
+			"name":	"g7jac040",
+			"rows":	11790,
+			"cols":	11790,
+			"nonzeros":	107383,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.048308239616644467,
+			"nsym":	0,
+			"kind":	"economic problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.2406400367617608e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00013121919929981232,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/HB/mcca/mcca.mtx",
+		"problem":	{
+			"id":	212,
+			"group":	"HB",
+			"name":	"mcca",
+			"rows":	180,
+			"cols":	180,
+			"nonzeros":	2659,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.644614764017749,
+			"nsym":	0,
+			"kind":	"2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.9046400301158425e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	3.0297600850462912e-05,
+				"repetitions":	5
+			}
+		}
+	}]

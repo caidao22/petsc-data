@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Bai/bwm200/bwm200.mtx",
+		"problem":	{
+			"id":	298,
+			"group":	"Bai",
+			"name":	"bwm200",
+			"rows":	200,
+			"cols":	200,
+			"nonzeros":	796,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.66442953020134232,
+			"kind":	"chemical process simulation problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.699839998036623e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	2.7180800400674335e-05,
+				"repetitions":	5
+			}
+		}
+	}]

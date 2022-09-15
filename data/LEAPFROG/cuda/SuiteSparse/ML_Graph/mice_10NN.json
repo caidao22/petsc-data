@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/ML_Graph/mice_10NN/mice_10NN.mtx",
+		"problem":	{
+			"id":	2876,
+			"group":	"ML_Graph",
+			"name":	"mice_10NN",
+			"rows":	1077,
+			"cols":	1077,
+			"nonzeros":	13484,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.9475199840962889e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	3.78559999167919e-05,
+				"repetitions":	5
+			}
+		}
+	}]

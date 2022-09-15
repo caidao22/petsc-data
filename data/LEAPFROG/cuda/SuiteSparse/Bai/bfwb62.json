@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Bai/bfwb62/bfwb62.mtx",
+		"problem":	{
+			"id":	296,
+			"group":	"Bai",
+			"name":	"bfwb62",
+			"rows":	62,
+			"cols":	62,
+			"nonzeros":	342,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"electromagnetics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.6588800214231017e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	2.8473599255084984e-05,
+				"repetitions":	5
+			}
+		}
+	}]

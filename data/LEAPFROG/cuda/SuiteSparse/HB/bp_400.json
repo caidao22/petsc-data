@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/HB/bp_400/bp_400.mtx",
+		"problem":	{
+			"id":	88,
+			"group":	"HB",
+			"name":	"bp_400",
+			"rows":	822,
+			"cols":	822,
+			"nonzeros":	4028,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.00546448087431694,
+			"nsym":	0.00049677098857426726,
+			"kind":	"subsequent optimization problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.8624000251293181e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	6.71103999018669e-05,
+				"repetitions":	5
+			}
+		}
+	}]

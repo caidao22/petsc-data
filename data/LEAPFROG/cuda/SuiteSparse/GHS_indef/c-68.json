@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/GHS_indef/c-68/c-68.mtx",
+		"problem":	{
+			"id":	1225,
+			"group":	"GHS_indef",
+			"name":	"c-68",
+			"rows":	64810,
+			"cols":	64810,
+			"nonzeros":	565996,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"optimization problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	4.0607999265193946e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00067450239658355723,
+				"repetitions":	5
+			}
+		}
+	}]

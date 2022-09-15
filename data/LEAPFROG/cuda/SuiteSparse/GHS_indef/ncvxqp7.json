@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/GHS_indef/ncvxqp7/ncvxqp7.mtx",
+		"problem":	{
+			"id":	1307,
+			"group":	"GHS_indef",
+			"name":	"ncvxqp7",
+			"rows":	87500,
+			"cols":	87500,
+			"nonzeros":	574962,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"optimization problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	4.3206400424242022e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00041438080072402956,
+				"repetitions":	5
+			}
+		}
+	}]

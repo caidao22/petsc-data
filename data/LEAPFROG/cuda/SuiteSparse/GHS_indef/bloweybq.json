@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/GHS_indef/bloweybq/bloweybq.mtx",
+		"problem":	{
+			"id":	1425,
+			"group":	"GHS_indef",
+			"name":	"bloweybq",
+			"rows":	10001,
+			"cols":	10001,
+			"nonzeros":	49999,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"materials problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.1670399978756907e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0011895808219909668,
+				"repetitions":	5
+			}
+		}
+	}]

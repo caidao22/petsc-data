@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Bindel/ted_B/ted_B.mtx",
+		"problem":	{
+			"id":	1406,
+			"group":	"Bindel",
+			"name":	"ted_B",
+			"rows":	10605,
+			"cols":	10605,
+			"nonzeros":	144579,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"thermal problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.3264000192284586e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00013600639998912812,
+				"repetitions":	5
+			}
+		}
+	}]

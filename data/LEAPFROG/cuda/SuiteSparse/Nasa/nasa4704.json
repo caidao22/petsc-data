@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Nasa/nasa4704/nasa4704.mtx",
+		"problem":	{
+			"id":	760,
+			"group":	"Nasa",
+			"name":	"nasa4704",
+			"rows":	4704,
+			"cols":	4704,
+			"nonzeros":	104756,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.1548799797892571e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0001088128000497818,
+				"repetitions":	5
+			}
+		}
+	}]

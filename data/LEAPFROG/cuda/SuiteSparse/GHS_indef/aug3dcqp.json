@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/GHS_indef/aug3dcqp/aug3dcqp.mtx",
+		"problem":	{
+			"id":	1218,
+			"group":	"GHS_indef",
+			"name":	"aug3dcqp",
+			"rows":	35543,
+			"cols":	35543,
+			"nonzeros":	128115,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.43903998285532e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00013226239979267121,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Pajek/GD96_a/GD96_a.mtx",
+		"problem":	{
+			"id":	1488,
+			"group":	"Pajek",
+			"name":	"GD96_a",
+			"rows":	1096,
+			"cols":	1096,
+			"nonzeros":	1677,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0,
+			"nsym":	0,
+			"kind":	"directed multigraph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.8463999964296817e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	3.0892799794673918e-05,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/HB/sherman3/sherman3.mtx",
+		"problem":	{
+			"id":	244,
+			"group":	"HB",
+			"name":	"sherman3",
+			"rows":	5005,
+			"cols":	5005,
+			"nonzeros":	20033,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.45328719723183392,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.9692800380289556e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	4.2380800470709788e-05,
+				"repetitions":	5
+			}
+		}
+	}]

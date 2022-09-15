@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Rommes/descriptor_xingo6u/descriptor_xingo6u.mtx",
+		"problem":	{
+			"id":	2347,
+			"group":	"Rommes",
+			"name":	"descriptor_xingo6u",
+			"rows":	20738,
+			"cols":	20738,
+			"nonzeros":	73916,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.684820286577567,
+			"nsym":	0.57452685042727125,
+			"kind":	"eigenvalue/model reduction problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.1887999773025509e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	8.21055993437767e-05,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,24 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/FEMLAB/sme3Db/sme3Db.mtx",
+		"problem":	{
+			"id":	931,
+			"group":	"FEMLAB",
+			"name":	"sme3Db",
+			"rows":	29067,
+			"cols":	29067,
+			"nonzeros":	2081063,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.999978557463075,
+			"nsym":	0.44063731118384247,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	6.46111998707056e-05,
+				"repetitions":	10
+			}
+		}
+	}]

@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Gset/G6/G6.mtx",
+		"problem":	{
+			"id":	524,
+			"group":	"Gset",
+			"name":	"G6",
+			"rows":	800,
+			"cols":	800,
+			"nonzeros":	38352,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted random graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.9872000068426136e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	5.2934399992227544e-05,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/VDOL/kineticBatchReactor_8/kineticBatchReactor_8.mtx",
+		"problem":	{
+			"id":	2703,
+			"group":	"VDOL",
+			"name":	"kineticBatchReactor_8",
+			"rows":	8052,
+			"cols":	8052,
+			"nonzeros":	85194,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"optimal control problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.1715199574828145e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.000312640005350113,
+				"repetitions":	5
+			}
+		}
+	}]

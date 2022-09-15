@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Bai/pde225/pde225.mtx",
+		"problem":	{
+			"id":	323,
+			"group":	"Bai",
+			"name":	"pde225",
+			"rows":	225,
+			"cols":	225,
+			"nonzeros":	1065,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.5,
+			"kind":	"2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.7401600256562234e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	2.7680000476539133e-05,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/VDOL/dynamicSoaringProblem_6/dynamicSoaringProblem_6.mtx",
+		"problem":	{
+			"id":	2670,
+			"group":	"VDOL",
+			"name":	"dynamicSoaringProblem_6",
+			"rows":	3431,
+			"cols":	3431,
+			"nonzeros":	36741,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"optimal control problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.9865599833428858e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0001677888005971909,
+				"repetitions":	5
+			}
+		}
+	}]

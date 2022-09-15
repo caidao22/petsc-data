@@ -1,0 +1,24 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Norris/torso3/torso3.mtx",
+		"problem":	{
+			"id":	898,
+			"group":	"Norris",
+			"name":	"torso3",
+			"rows":	259156,
+			"cols":	259156,
+			"nonzeros":	4429042,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.95137229171253124,
+			"nsym":	0,
+			"kind":	"2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00011883840113878251,
+				"repetitions":	10
+			}
+		}
+	}]

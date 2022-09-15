@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/CPM/cz20468/cz20468.mtx",
+		"problem":	{
+			"id":	2566,
+			"group":	"CPM",
+			"name":	"cz20468",
+			"rows":	20468,
+			"cols":	20468,
+			"nonzeros":	206076,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.43547691909831471,
+			"nsym":	0.23770527132451191,
+			"kind":	"2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.8230399638414384e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00016868480145931238,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/VDOL/freeFlyingRobot_5/freeFlyingRobot_5.mtx",
+		"problem":	{
+			"id":	2677,
+			"group":	"VDOL",
+			"name":	"freeFlyingRobot_5",
+			"rows":	2878,
+			"cols":	2878,
+			"nonzeros":	24582,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"optimal control problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.9923199899494648e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	8.65344002842903e-05,
+				"repetitions":	5
+			}
+		}
+	}]

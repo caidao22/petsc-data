@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Gset/G42/G42.mtx",
+		"problem":	{
+			"id":	505,
+			"group":	"Gset",
+			"name":	"G42",
+			"rows":	2000,
+			"cols":	2000,
+			"nonzeros":	23558,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted random graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.9596800021827221e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	7.55072012543678e-05,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Gset/G9/G9.mtx",
+		"problem":	{
+			"id":	535,
+			"group":	"Gset",
+			"name":	"G9",
+			"rows":	800,
+			"cols":	800,
+			"nonzeros":	38352,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted random graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.95456001907587e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	5.4534400254488e-05,
+				"repetitions":	5
+			}
+		}
+	}]

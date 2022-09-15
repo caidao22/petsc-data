@@ -1,0 +1,24 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Oberwolfach/t3dh/t3dh.mtx",
+		"problem":	{
+			"id":	1450,
+			"group":	"Oberwolfach",
+			"name":	"t3dh",
+			"rows":	79171,
+			"cols":	79171,
+			"nonzeros":	4352105,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"model reduction problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00011312320083379745,
+				"repetitions":	10
+			}
+		}
+	}]

@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Rommes/mimo28x28_system/mimo28x28_system.mtx",
+		"problem":	{
+			"id":	2342,
+			"group":	"Rommes",
+			"name":	"mimo28x28_system",
+			"rows":	13251,
+			"cols":	13251,
+			"nonzeros":	48737,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.707540090603374,
+			"nsym":	0.5856980072816208,
+			"kind":	"eigenvalue/model reduction problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.1292800083756445e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	6.6323199868202225e-05,
+				"repetitions":	5
+			}
+		}
+	}]

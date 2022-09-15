@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Sandia/ASIC_680ks/ASIC_680ks.mtx",
+		"problem":	{
+			"id":	1420,
+			"group":	"Sandia",
+			"name":	"ASIC_680ks",
+			"rows":	682712,
+			"cols":	682712,
+			"nonzeros":	1693767,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.0058018604329141341,
+			"kind":	"circuit simulation problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	9.1942399740219124e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0015442431688308714,
+				"repetitions":	5
+			}
+		}
+	}]

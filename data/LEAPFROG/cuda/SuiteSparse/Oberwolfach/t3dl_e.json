@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Oberwolfach/t3dl_e/t3dl_e.mtx",
+		"problem":	{
+			"id":	1211,
+			"group":	"Oberwolfach",
+			"name":	"t3dl_e",
+			"rows":	20360,
+			"cols":	20360,
+			"nonzeros":	20360,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"duplicate model reduction problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.1145599335432054e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	4.3532799929380442e-05,
+				"repetitions":	5
+			}
+		}
+	}]

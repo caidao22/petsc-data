@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/JGD_CAG/CAG_mat72/CAG_mat72.mtx",
+		"problem":	{
+			"id":	1943,
+			"group":	"JGD_CAG",
+			"name":	"CAG_mat72",
+			"rows":	72,
+			"cols":	72,
+			"nonzeros":	1012,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.55744680851063833,
+			"nsym":	0.33404255319148929,
+			"kind":	"combinatorial problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.6998400166630744e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	2.8409600630402563e-05,
+				"repetitions":	5
+			}
+		}
+	}]

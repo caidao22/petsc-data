@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/DRIVCAV/cavity25/cavity25.mtx",
+		"problem":	{
+			"id":	404,
+			"group":	"DRIVCAV",
+			"name":	"cavity25",
+			"rows":	4562,
+			"cols":	4562,
+			"nonzeros":	131735,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.953198243636148,
+			"nsym":	0,
+			"kind":	"subsequent computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.15295996516943e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00014364160299301147,
+				"repetitions":	5
+			}
+		}
+	}]

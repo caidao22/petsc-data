@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/FIDAP/ex7/ex7.mtx",
+		"problem":	{
+			"id":	438,
+			"group":	"FIDAP",
+			"name":	"ex7",
+			"rows":	1633,
+			"cols":	1633,
+			"nonzeros":	46626,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.82403929500144468,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.0268799923360345e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	6.22207999229431e-05,
+				"repetitions":	5
+			}
+		}
+	}]

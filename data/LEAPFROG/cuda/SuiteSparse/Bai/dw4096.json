@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Bai/dw4096/dw4096.mtx",
+		"problem":	{
+			"id":	312,
+			"group":	"Bai",
+			"name":	"dw4096",
+			"rows":	8192,
+			"cols":	8192,
+			"nonzeros":	41746,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.96262740656851642,
+			"nsym":	0.91541992012874773,
+			"kind":	"electromagnetics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.07167997956276e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	5.5167999863624576e-05,
+				"repetitions":	5
+			}
+		}
+	}]

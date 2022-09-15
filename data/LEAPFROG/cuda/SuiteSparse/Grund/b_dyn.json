@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Grund/b_dyn/b_dyn.mtx",
+		"problem":	{
+			"id":	451,
+			"group":	"Grund",
+			"name":	"b_dyn",
+			"rows":	1089,
+			"cols":	1089,
+			"nonzeros":	4144,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.01454716095729704,
+			"nsym":	0.00048285852245292128,
+			"kind":	"chemical process simulation problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.8611200340092181e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	2.9913600906729693e-05,
+				"repetitions":	5
+			}
+		}
+	}]

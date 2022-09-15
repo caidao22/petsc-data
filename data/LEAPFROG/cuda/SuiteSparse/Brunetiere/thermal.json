@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Brunetiere/thermal/thermal.mtx",
+		"problem":	{
+			"id":	377,
+			"group":	"Brunetiere",
+			"name":	"thermal",
+			"rows":	3456,
+			"cols":	3456,
+			"nonzeros":	66528,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.0730593607305936,
+			"kind":	"thermal problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.0102400332689282e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	6.90047986805439e-05,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Gset/G31/G31.mtx",
+		"problem":	{
+			"id":	493,
+			"group":	"Gset",
+			"name":	"G31",
+			"rows":	2000,
+			"cols":	2000,
+			"nonzeros":	39980,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted random graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.9622399844229222e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	5.4035199433565155e-05,
+				"repetitions":	5
+			}
+		}
+	}]

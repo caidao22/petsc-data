@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/HB/nnc261/nnc261.mtx",
+		"problem":	{
+			"id":	215,
+			"group":	"HB",
+			"name":	"nnc261",
+			"rows":	261,
+			"cols":	261,
+			"nonzeros":	1500,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.82370370370370372,
+			"nsym":	0.61333333333333329,
+			"kind":	"2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.7612800002098082e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	2.969600073993206e-05,
+				"repetitions":	5
+			}
+		}
+	}]

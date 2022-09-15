@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/HB/watt_2/watt_2.mtx",
+		"problem":	{
+			"id":	259,
+			"group":	"HB",
+			"name":	"watt_2",
+			"rows":	1856,
+			"cols":	1856,
+			"nonzeros":	11550,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.98040024757582,
+			"nsym":	0.96719620383742522,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.9302400015294552e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	4.707840085029603e-05,
+				"repetitions":	5
+			}
+		}
+	}]

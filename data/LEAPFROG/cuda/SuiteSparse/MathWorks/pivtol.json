@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/MathWorks/pivtol/pivtol.mtx",
+		"problem":	{
+			"id":	861,
+			"group":	"MathWorks",
+			"name":	"pivtol",
+			"rows":	102,
+			"cols":	102,
+			"nonzeros":	306,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.99019607843137258,
+			"nsym":	0,
+			"kind":	"statistical/mathematical problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.6748799942433833e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	2.82111993059516e-05,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/HB/fs_541_3/fs_541_3.mtx",
+		"problem":	{
+			"id":	147,
+			"group":	"HB",
+			"name":	"fs_541_3",
+			"rows":	541,
+			"cols":	541,
+			"nonzeros":	4282,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.68269230769230771,
+			"nsym":	0,
+			"kind":	"subsequent 2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.8201600201427937e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	3.1334399804472923e-05,
+				"repetitions":	5
+			}
+		}
+	}]

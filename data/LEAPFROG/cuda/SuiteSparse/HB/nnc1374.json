@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/HB/nnc1374/nnc1374.mtx",
+		"problem":	{
+			"id":	214,
+			"group":	"HB",
+			"name":	"nnc1374",
+			"rows":	1374,
+			"cols":	1374,
+			"nonzeros":	8588,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.81695966907962769,
+			"nsym":	0.59186317698885726,
+			"kind":	"2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.9468799978494646e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	3.6044800281524659e-05,
+				"repetitions":	5
+			}
+		}
+	}]

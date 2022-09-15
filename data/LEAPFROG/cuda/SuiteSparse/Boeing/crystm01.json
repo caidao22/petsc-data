@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Boeing/crystm01/crystm01.mtx",
+		"problem":	{
+			"id":	353,
+			"group":	"Boeing",
+			"name":	"crystm01",
+			"rows":	4875,
+			"cols":	4875,
+			"nonzeros":	105339,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"materials problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.190719991922379e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00010897919833660124,
+				"repetitions":	5
+			}
+		}
+	}]

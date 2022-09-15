@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/VLSI/power9/power9.mtx",
+		"problem":	{
+			"id":	2838,
+			"group":	"VLSI",
+			"name":	"power9",
+			"rows":	155376,
+			"cols":	155376,
+			"nonzeros":	1887730,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.3018551635520223,
+			"kind":	"semiconductor device problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	8.6969599127769478e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0018315007925033572,
+				"repetitions":	5
+			}
+		}
+	}]

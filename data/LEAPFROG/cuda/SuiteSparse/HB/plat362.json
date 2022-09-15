@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/HB/plat362/plat362.mtx",
+		"problem":	{
+			"id":	229,
+			"group":	"HB",
+			"name":	"plat362",
+			"rows":	362,
+			"cols":	362,
+			"nonzeros":	5786,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.8406400084495542e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	3.19423995912075e-05,
+				"repetitions":	5
+			}
+		}
+	}]

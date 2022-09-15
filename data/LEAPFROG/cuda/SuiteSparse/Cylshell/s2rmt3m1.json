@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Cylshell/s2rmt3m1/s2rmt3m1.mtx",
+		"problem":	{
+			"id":	1609,
+			"group":	"Cylshell",
+			"name":	"s2rmt3m1",
+			"rows":	5489,
+			"cols":	5489,
+			"nonzeros":	217681,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.6048000156879425e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0001704448014497757,
+				"repetitions":	5
+			}
+		}
+	}]

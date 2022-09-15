@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/GHS_indef/aug2dc/aug2dc.mtx",
+		"problem":	{
+			"id":	1216,
+			"group":	"GHS_indef",
+			"name":	"aug2dc",
+			"rows":	30200,
+			"cols":	30200,
+			"nonzeros":	80000,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.1849600598216058e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	8.12032014131546e-05,
+				"repetitions":	5
+			}
+		}
+	}]

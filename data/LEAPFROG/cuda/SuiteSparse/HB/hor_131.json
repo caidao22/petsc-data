@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/HB/hor_131/hor_131.mtx",
+		"problem":	{
+			"id":	167,
+			"group":	"HB",
+			"name":	"hor_131",
+			"rows":	434,
+			"cols":	434,
+			"nonzeros":	4182,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.37406616862326569,
+			"kind":	"directed weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.8419200181961063e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	3.399679958820344e-05,
+				"repetitions":	5
+			}
+		}
+	}]

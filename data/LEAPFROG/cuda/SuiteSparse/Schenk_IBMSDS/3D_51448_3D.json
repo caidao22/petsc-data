@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Schenk_IBMSDS/3D_51448_3D/3D_51448_3D.mtx",
+		"problem":	{
+			"id":	957,
+			"group":	"Schenk_IBMSDS",
+			"name":	"3D_51448_3D",
+			"rows":	51448,
+			"cols":	51448,
+			"nonzeros":	537038,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.99209082715025043,
+			"nsym":	0.18703432937251591,
+			"kind":	"semiconductor device problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	5.4399999976158131e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.001262950420379639,
+				"repetitions":	5
+			}
+		}
+	}]

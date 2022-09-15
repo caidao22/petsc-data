@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/vanHeukelum/cage4/cage4.mtx",
+		"problem":	{
+			"id":	905,
+			"group":	"vanHeukelum",
+			"name":	"cage4",
+			"rows":	9,
+			"cols":	9,
+			"nonzeros":	49,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0,
+			"kind":	"directed weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.5769600123167039e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	2.8038399294018746e-05,
+				"repetitions":	5
+			}
+		}
+	}]

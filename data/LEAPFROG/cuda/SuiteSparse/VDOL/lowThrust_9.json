@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/VDOL/lowThrust_9/lowThrust_9.mtx",
+		"problem":	{
+			"id":	2713,
+			"group":	"VDOL",
+			"name":	"lowThrust_9",
+			"rows":	18044,
+			"cols":	18044,
+			"nonzeros":	219589,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"optimal control problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.7571200579404842e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00075542401075363147,
+				"repetitions":	5
+			}
+		}
+	}]

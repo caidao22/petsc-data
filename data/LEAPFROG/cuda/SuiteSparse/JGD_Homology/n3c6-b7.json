@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/JGD_Homology/n3c6-b7/n3c6-b7.mtx",
+		"problem":	{
+			"id":	2104,
+			"group":	"JGD_Homology",
+			"name":	"n3c6-b7",
+			"rows":	6435,
+			"cols":	6435,
+			"nonzeros":	51480,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.53333333333333333,
+			"kind":	"combinatorial problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.05568004399538e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	5.9782400727272035e-05,
+				"repetitions":	5
+			}
+		}
+	}]

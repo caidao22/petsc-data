@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/HB/nos1/nos1.mtx",
+		"problem":	{
+			"id":	217,
+			"group":	"HB",
+			"name":	"nos1",
+			"rows":	237,
+			"cols":	237,
+			"nonzeros":	1017,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.7164799943566324e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	2.8671999275684352e-05,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Lin/Lin/Lin.mtx",
+		"problem":	{
+			"id":	1213,
+			"group":	"Lin",
+			"name":	"Lin",
+			"rows":	256000,
+			"cols":	256000,
+			"nonzeros":	1766400,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	7.13919997215271e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0011589824199676516,
+				"repetitions":	5
+			}
+		}
+	}]

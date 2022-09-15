@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Bai/tols4000/tols4000.mtx",
+		"problem":	{
+			"id":	1640,
+			"group":	"Bai",
+			"name":	"tols4000",
+			"rows":	4000,
+			"cols":	4000,
+			"nonzeros":	8784,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.36067335243553011,
+			"nsym":	0,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	1.9488000124692917e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	4.8127999901771552e-05,
+				"repetitions":	5
+			}
+		}
+	}]

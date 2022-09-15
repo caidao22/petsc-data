@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/Newman/astro-ph/astro-ph.mtx",
+		"problem":	{
+			"id":	2391,
+			"group":	"Newman",
+			"name":	"astro-ph",
+			"rows":	16706,
+			"cols":	16706,
+			"nonzeros":	242502,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.8588799387216569e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00021321599781513211,
+				"repetitions":	5
+			}
+		}
+	}]

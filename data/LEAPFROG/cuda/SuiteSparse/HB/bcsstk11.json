@@ -1,0 +1,28 @@
+[{
+		"filename":	"/scratch/hongzhang/ssget_archive/MM/HB/bcsstk11/bcsstk11.mtx",
+		"problem":	{
+			"id":	33,
+			"group":	"HB",
+			"name":	"bcsstk11",
+			"rows":	1473,
+			"cols":	1473,
+			"nonzeros":	34241,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.00383996590972e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	4.9644799530506134e-05,
+				"repetitions":	5
+			}
+		}
+	}]
