@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Gset/G62/G62.mtx",
+		"problem":	{
+			"id":	527,
+			"group":	"Gset",
+			"name":	"G62",
+			"rows":	7000,
+			"cols":	7000,
+			"nonzeros":	28000,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted random graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.7929599955677989e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00011216000020503997,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	9.4208002090454034e-06,
+				"repetitions":	5
+			}
+		}
+	}]

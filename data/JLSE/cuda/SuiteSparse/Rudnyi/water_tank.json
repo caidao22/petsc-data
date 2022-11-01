@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Rudnyi/water_tank/water_tank.mtx",
+		"problem":	{
+			"id":	1880,
+			"group":	"Rudnyi",
+			"name":	"water_tank",
+			"rows":	60740,
+			"cols":	60740,
+			"nonzeros":	2035281,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.96912041836558471,
+			"nsym":	0.91800676714233842,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	8.4659200906753545e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0032057215690612789,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	7.5776003301143e-05,
+				"repetitions":	5
+			}
+		}
+	}]

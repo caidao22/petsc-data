@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Morandini/robot/robot.mtx",
+		"problem":	{
+			"id":	1325,
+			"group":	"Morandini",
+			"name":	"robot",
+			"rows":	120,
+			"cols":	120,
+			"nonzeros":	870,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.21772151898734179,
+			"nsym":	0.053164556962025322,
+			"kind":	"robotics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.109440043568611e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	4.0140799805521954e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	7.7824002131819775e-06,
+				"repetitions":	5
+			}
+		}
+	}]

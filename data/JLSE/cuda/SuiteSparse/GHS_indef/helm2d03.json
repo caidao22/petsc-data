@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/GHS_indef/helm2d03/helm2d03.mtx",
+		"problem":	{
+			"id":	1236,
+			"group":	"GHS_indef",
+			"name":	"helm2d03",
+			"rows":	392257,
+			"cols":	392257,
+			"nonzeros":	2741935,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00011625600010156632,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0047154240608215329,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	9.4566400349140045e-05,
+				"repetitions":	5
+			}
+		}
+	}]

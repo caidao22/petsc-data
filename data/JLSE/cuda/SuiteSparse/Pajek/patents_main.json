@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Pajek/patents_main/patents_main.mtx",
+		"problem":	{
+			"id":	1513,
+			"group":	"Pajek",
+			"name":	"patents_main",
+			"rows":	240547,
+			"cols":	240547,
+			"nonzeros":	560943,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0,
+			"nsym":	0,
+			"kind":	"directed weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	6.5753600001335148e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0006742720007896424,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	9.1340799629688246e-05,
+				"repetitions":	5
+			}
+		}
+	}]

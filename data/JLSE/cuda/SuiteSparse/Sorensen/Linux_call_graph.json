@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Sorensen/Linux_call_graph/Linux_call_graph.mtx",
+		"problem":	{
+			"id":	2654,
+			"group":	"Sorensen",
+			"name":	"Linux_call_graph",
+			"rows":	324085,
+			"cols":	324085,
+			"nonzeros":	1208908,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.00063240844977153826,
+			"nsym":	0.00061254221574730153,
+			"kind":	"directed weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	7.5750400125980361e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.002229983997344971,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.00014977280199527724,
+				"repetitions":	5
+			}
+		}
+	}]

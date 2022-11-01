@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/ML_Graph/dataset22mfeatzernike_10NN/dataset22mfeatzernike_10NN.mtx",
+		"problem":	{
+			"id":	2865,
+			"group":	"ML_Graph",
+			"name":	"dataset22mfeatzernike_10NN",
+			"rows":	2000,
+			"cols":	2000,
+			"nonzeros":	27414,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.4940799921751022e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00010772480219602583,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.1059199832379836e-05,
+				"repetitions":	5
+			}
+		}
+	}]

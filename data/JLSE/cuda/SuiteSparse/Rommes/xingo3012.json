@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Rommes/xingo3012/xingo3012.mtx",
+		"problem":	{
+			"id":	2349,
+			"group":	"Rommes",
+			"name":	"xingo3012",
+			"rows":	20944,
+			"cols":	20944,
+			"nonzeros":	74386,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.681002526603102,
+			"nsym":	0.57123360935396417,
+			"kind":	"eigenvalue/model reduction problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.90303997695446e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00022383999824523922,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.2492800131440155e-05,
+				"repetitions":	5
+			}
+		}
+	}]

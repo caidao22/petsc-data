@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Oberwolfach/t2dal_bci/t2dal_bci.mtx",
+		"problem":	{
+			"id":	1448,
+			"group":	"Oberwolfach",
+			"name":	"t2dal_bci",
+			"rows":	4257,
+			"cols":	4257,
+			"nonzeros":	37465,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"model reduction problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.7910399809479715e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0001291712000966072,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.0240000113844881e-05,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/HB/gemat12/gemat12.mtx",
+		"problem":	{
+			"id":	157,
+			"group":	"HB",
+			"name":	"gemat12",
+			"rows":	4929,
+			"cols":	4929,
+			"nonzeros":	33044,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.0014500634402755119,
+			"nsym":	0,
+			"kind":	"subsequent power network problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.3631999790668485e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00014339839965105057,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.26976002007723e-05,
+				"repetitions":	5
+			}
+		}
+	}]

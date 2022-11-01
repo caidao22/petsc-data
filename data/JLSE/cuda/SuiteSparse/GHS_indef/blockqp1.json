@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/GHS_indef/blockqp1/blockqp1.mtx",
+		"problem":	{
+			"id":	1294,
+			"group":	"GHS_indef",
+			"name":	"blockqp1",
+			"rows":	60012,
+			"cols":	60012,
+			"nonzeros":	640033,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"optimization problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	4.4812799245119086e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0092243776321411126,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	4.5875200629234834e-05,
+				"repetitions":	5
+			}
+		}
+	}]

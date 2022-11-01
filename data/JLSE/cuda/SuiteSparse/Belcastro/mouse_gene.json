@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Belcastro/mouse_gene/mouse_gene.mtx",
+		"problem":	{
+			"id":	2282,
+			"group":	"Belcastro",
+			"name":	"mouse_gene",
+			"rows":	45101,
+			"cols":	45101,
+			"nonzeros":	28967291,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.000577081596851349,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.048092972564697266,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.0019517119884490896,
+				"repetitions":	5
+			}
+		}
+	}]

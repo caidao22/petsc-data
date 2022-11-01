@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Boeing/nasa1824/nasa1824.mtx",
+		"problem":	{
+			"id":	363,
+			"group":	"Boeing",
+			"name":	"nasa1824",
+			"rows":	1824,
+			"cols":	1824,
+			"nonzeros":	39208,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"duplicate structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.5996800512075427e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00013244799822568893,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.0035200230777262e-05,
+				"repetitions":	5
+			}
+		}
+	}]

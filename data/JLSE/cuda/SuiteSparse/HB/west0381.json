@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/HB/west0381/west0381.mtx",
+		"problem":	{
+			"id":	266,
+			"group":	"HB",
+			"name":	"west0381",
+			"rows":	381,
+			"cols":	381,
+			"nonzeros":	2134,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.00556586270871985,
+			"nsym":	0.00093764650726676048,
+			"kind":	"chemical process simulation problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.641920037567615e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	5.7753599435091e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.1059200018644316e-05,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/GHS_psdef/bmw7st_1/bmw7st_1.mtx",
+		"problem":	{
+			"id":	1253,
+			"group":	"GHS_psdef",
+			"name":	"bmw7st_1",
+			"rows":	141347,
+			"cols":	141347,
+			"nonzeros":	7318399,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00017084800004959106,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.012288838195800782,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.00016179199814796429,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/HB/bp_400/bp_400.mtx",
+		"problem":	{
+			"id":	88,
+			"group":	"HB",
+			"name":	"bp_400",
+			"rows":	822,
+			"cols":	822,
+			"nonzeros":	4028,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.00546448087431694,
+			"nsym":	0.00049677098857426726,
+			"kind":	"subsequent optimization problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.3961600288748742e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	9.4207997620105734e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.2083199992775937e-05,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Gset/G39/G39.mtx",
+		"problem":	{
+			"id":	501,
+			"group":	"Gset",
+			"name":	"G39",
+			"rows":	2000,
+			"cols":	2000,
+			"nonzeros":	23556,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted random graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.4646400287747387e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00013180800080299376,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.474560014903543e-05,
+				"repetitions":	5
+			}
+		}
+	}]

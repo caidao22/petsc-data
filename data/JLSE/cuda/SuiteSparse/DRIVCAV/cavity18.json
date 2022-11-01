@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/DRIVCAV/cavity18/cavity18.mtx",
+		"problem":	{
+			"id":	397,
+			"group":	"DRIVCAV",
+			"name":	"cavity18",
+			"rows":	4562,
+			"cols":	4562,
+			"nonzeros":	138040,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.953198243636148,
+			"nsym":	0,
+			"kind":	"subsequent computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.8864000365138052e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00035120640397071838,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.2083199992775957e-05,
+				"repetitions":	5
+			}
+		}
+	}]

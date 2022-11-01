@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/ML_Graph/dataset12mfeatfactors_10NN/dataset12mfeatfactors_10NN.mtx",
+		"problem":	{
+			"id":	2861,
+			"group":	"ML_Graph",
+			"name":	"dataset12mfeatfactors_10NN",
+			"rows":	2000,
+			"cols":	2000,
+			"nonzeros":	27442,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.6073599979281429e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00010687360167503357,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.2697600200772276e-05,
+				"repetitions":	5
+			}
+		}
+	}]

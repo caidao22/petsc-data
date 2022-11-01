@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/GHS_indef/exdata_1/exdata_1.mtx",
+		"problem":	{
+			"id":	1235,
+			"group":	"GHS_indef",
+			"name":	"exdata_1",
+			"rows":	6001,
+			"cols":	6001,
+			"nonzeros":	2269500,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"optimization problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	8.6495998501777657e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0036905471801757816,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	6.4307199418544428e-05,
+				"repetitions":	5
+			}
+		}
+	}]

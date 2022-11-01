@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/HVDC/hvdc2/hvdc2.mtx",
+		"problem":	{
+			"id":	1875,
+			"group":	"HVDC",
+			"name":	"hvdc2",
+			"rows":	189860,
+			"cols":	189860,
+			"nonzeros":	1339638,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.988595534107569,
+			"nsym":	0.063233654580335225,
+			"kind":	"power network problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	7.8790400922298435e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0022471552371978757,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	7.2057601809501556e-05,
+				"repetitions":	5
+			}
+		}
+	}]

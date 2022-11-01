@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Nasa/nasa4704/nasa4704.mtx",
+		"problem":	{
+			"id":	760,
+			"group":	"Nasa",
+			"name":	"nasa4704",
+			"rows":	4704,
+			"cols":	4704,
+			"nonzeros":	104756,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.7980800345540045e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00027687040567398071,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.2697600014507752e-05,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/VLSI/radiation/radiation.mtx",
+		"problem":	{
+			"id":	2839,
+			"group":	"VLSI",
+			"name":	"radiation",
+			"rows":	223104,
+			"cols":	223104,
+			"nonzeros":	5526637,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.18901098569576169,
+			"kind":	"semiconductor device problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00019879679679870606,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.013057772636413575,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.00024237440228462305,
+				"repetitions":	5
+			}
+		}
+	}]

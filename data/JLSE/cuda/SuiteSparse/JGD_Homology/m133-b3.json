@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/JGD_Homology/m133-b3/m133-b3.mtx",
+		"problem":	{
+			"id":	2056,
+			"group":	"JGD_Homology",
+			"name":	"m133-b3",
+			"rows":	200200,
+			"cols":	200200,
+			"nonzeros":	800800,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	4.4955044955044962e-05,
+			"nsym":	2.7472527472527469e-05,
+			"kind":	"combinatorial problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	6.58176004886627e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00079031040668487546,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	4.2598399519920213e-05,
+				"repetitions":	5
+			}
+		}
+	}]

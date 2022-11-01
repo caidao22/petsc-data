@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/SNAP/sx-askubuntu/sx-askubuntu.mtx",
+		"problem":	{
+			"id":	2792,
+			"group":	"SNAP",
+			"name":	"sx-askubuntu",
+			"rows":	159316,
+			"cols":	159316,
+			"nonzeros":	596933,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.32657572880957592,
+			"nsym":	0.1849102403322678,
+			"kind":	"directed temporal multigraph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	5.73183998465538e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0022163072109222413,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.00017653760015964512,
+				"repetitions":	5
+			}
+		}
+	}]

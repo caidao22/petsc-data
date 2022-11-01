@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/GHS_psdef/gridgena/gridgena.mtx",
+		"problem":	{
+			"id":	1311,
+			"group":	"GHS_psdef",
+			"name":	"gridgena",
+			"rows":	48962,
+			"cols":	48962,
+			"nonzeros":	512084,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"optimization problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	4.0908800065517419e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00093183360099792479,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	2.7033599838614635e-05,
+				"repetitions":	5
+			}
+		}
+	}]

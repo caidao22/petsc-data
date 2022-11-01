@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/VDOL/reorientation_5/reorientation_5.mtx",
+		"problem":	{
+			"id":	2726,
+			"group":	"VDOL",
+			"name":	"reorientation_5",
+			"rows":	2904,
+			"cols":	2904,
+			"nonzeros":	35590,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"optimal control problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.6860800758004189e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00036255360245704649,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.2902400083839938e-05,
+				"repetitions":	5
+			}
+		}
+	}]

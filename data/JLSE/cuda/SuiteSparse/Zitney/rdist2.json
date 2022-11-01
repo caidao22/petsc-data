@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Zitney/rdist2/rdist2.mtx",
+		"problem":	{
+			"id":	840,
+			"group":	"Zitney",
+			"name":	"rdist2",
+			"rows":	3198,
+			"cols":	3198,
+			"nonzeros":	56834,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.045626035753323232,
+			"nsym":	0,
+			"kind":	"chemical process simulation problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.8358399868011473e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00017745919823646547,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.3926400057971471e-05,
+				"repetitions":	5
+			}
+		}
+	}]

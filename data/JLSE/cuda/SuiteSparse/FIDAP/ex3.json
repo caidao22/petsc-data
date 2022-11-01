@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/FIDAP/ex3/ex3.mtx",
+		"problem":	{
+			"id":	427,
+			"group":	"FIDAP",
+			"name":	"ex3",
+			"rows":	1821,
+			"cols":	1821,
+			"nonzeros":	52685,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.7840000018477439e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00011660160124301912,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.1878399923443795e-05,
+				"repetitions":	5
+			}
+		}
+	}]

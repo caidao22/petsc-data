@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/ML_Graph/k49_norm_10NN/k49_norm_10NN.mtx",
+		"problem":	{
+			"id":	2874,
+			"group":	"ML_Graph",
+			"name":	"k49_norm_10NN",
+			"rows":	38547,
+			"cols":	38547,
+			"nonzeros":	618158,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	5.2870400249958035e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00112402560710907,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	5.5091200023889635e-05,
+				"repetitions":	5
+			}
+		}
+	}]

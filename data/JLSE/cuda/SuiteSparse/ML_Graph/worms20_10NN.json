@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/ML_Graph/worms20_10NN/worms20_10NN.mtx",
+		"problem":	{
+			"id":	2889,
+			"group":	"ML_Graph",
+			"name":	"worms20_10NN",
+			"rows":	20055,
+			"cols":	20055,
+			"nonzeros":	240826,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.1801600754261024e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00049217920303344718,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.5148800052702457e-05,
+				"repetitions":	5
+			}
+		}
+	}]

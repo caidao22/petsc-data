@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/GHS_indef/mario001/mario001.mtx",
+		"problem":	{
+			"id":	1240,
+			"group":	"GHS_indef",
+			"name":	"mario001",
+			"rows":	38434,
+			"cols":	38434,
+			"nonzeros":	204912,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.2627199962735177e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.000432691204547882,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.5974400006234668e-05,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/DIMACS10/oh2010/oh2010.mtx",
+		"problem":	{
+			"id":	2616,
+			"group":	"DIMACS10",
+			"name":	"oh2010",
+			"rows":	365344,
+			"cols":	365344,
+			"nonzeros":	1768240,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	9.4175998866558068e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00299527678489685,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.00012746880054473954,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Bai/tols1090/tols1090.mtx",
+		"problem":	{
+			"id":	1637,
+			"group":	"Bai",
+			"name":	"tols1090",
+			"rows":	1090,
+			"cols":	1090,
+			"nonzeros":	3546,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.31787584143605091,
+			"nsym":	0,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.3756800591945651e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	6.32832013070583e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.3312000036239612e-05,
+				"repetitions":	5
+			}
+		}
+	}]

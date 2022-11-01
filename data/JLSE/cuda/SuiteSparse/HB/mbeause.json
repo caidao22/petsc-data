@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/HB/mbeause/mbeause.mtx",
+		"problem":	{
+			"id":	211,
+			"group":	"HB",
+			"name":	"mbeause",
+			"rows":	496,
+			"cols":	496,
+			"nonzeros":	41063,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.21906893244472861,
+			"nsym":	0.00777119248456828,
+			"kind":	"economic problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.5715200230479238e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00014126720130443575,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.5359999984502745e-05,
+				"repetitions":	5
+			}
+		}
+	}]

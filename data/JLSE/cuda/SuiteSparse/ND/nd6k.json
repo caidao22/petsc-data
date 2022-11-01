@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/ND/nd6k/nd6k.mtx",
+		"problem":	{
+			"id":	937,
+			"group":	"ND",
+			"name":	"nd6k",
+			"rows":	18000,
+			"cols":	18000,
+			"nonzeros":	6897316,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.000153260800242424,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.01151679344177246,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.00014458880126476254,
+				"repetitions":	5
+			}
+		}
+	}]

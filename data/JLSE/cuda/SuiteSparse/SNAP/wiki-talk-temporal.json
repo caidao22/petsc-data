@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/SNAP/wiki-talk-temporal/wiki-talk-temporal.mtx",
+		"problem":	{
+			"id":	2798,
+			"group":	"SNAP",
+			"name":	"wiki-talk-temporal",
+			"rows":	1140149,
+			"cols":	1140149,
+			"nonzeros":	3309592,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.21897364905827441,
+			"nsym":	0.078179549768074147,
+			"kind":	"directed temporal multigraph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00018588159978389743,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.035004877471923823,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.000687174403667451,
+				"repetitions":	5
+			}
+		}
+	}]

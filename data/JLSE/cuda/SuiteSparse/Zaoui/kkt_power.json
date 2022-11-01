@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Zaoui/kkt_power/kkt_power.mtx",
+		"problem":	{
+			"id":	1876,
+			"group":	"Zaoui",
+			"name":	"kkt_power",
+			"rows":	2063494,
+			"cols":	2063494,
+			"nonzeros":	12771361,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"optimization problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00046938240528106691,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.02503016929626465,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.00069584640264511166,
+				"repetitions":	5
+			}
+		}
+	}]

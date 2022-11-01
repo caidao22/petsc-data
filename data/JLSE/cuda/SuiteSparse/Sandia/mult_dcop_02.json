@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Sandia/mult_dcop_02/mult_dcop_02.mtx",
+		"problem":	{
+			"id":	1110,
+			"group":	"Sandia",
+			"name":	"mult_dcop_02",
+			"rows":	25187,
+			"cols":	25187,
+			"nonzeros":	193276,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.61447592589294719,
+			"nsym":	0.0033836126297793531,
+			"kind":	"subsequent circuit simulation problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.3497600629925727e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.002486367988586426,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	3.9116800576448338e-05,
+				"repetitions":	5
+			}
+		}
+	}]

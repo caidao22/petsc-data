@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Rommes/juba40k/juba40k.mtx",
+		"problem":	{
+			"id":	2344,
+			"group":	"Rommes",
+			"name":	"juba40k",
+			"rows":	40337,
+			"cols":	40337,
+			"nonzeros":	144945,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.693446208378898,
+			"nsym":	0.583053659640258,
+			"kind":	"eigenvalue/model reduction problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.0534400418400764e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00037964800596237183,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.5974399819970209e-05,
+				"repetitions":	5
+			}
+		}
+	}]

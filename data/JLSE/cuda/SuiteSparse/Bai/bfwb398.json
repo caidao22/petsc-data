@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Bai/bfwb398/bfwb398.mtx",
+		"problem":	{
+			"id":	295,
+			"group":	"Bai",
+			"name":	"bfwb398",
+			"rows":	398,
+			"cols":	398,
+			"nonzeros":	2910,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"electromagnetics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.2732800245285034e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	4.7103999555110922e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	8.8064000941812826e-06,
+				"repetitions":	5
+			}
+		}
+	}]

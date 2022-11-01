@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Bai/bfwa398/bfwa398.mtx",
+		"problem":	{
+			"id":	292,
+			"group":	"Bai",
+			"name":	"bfwa398",
+			"rows":	398,
+			"cols":	398,
+			"nonzeros":	3678,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.98902439024390243,
+			"nsym":	0.94329268292682922,
+			"kind":	"electromagnetics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.2972800731658932e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	5.2019199728965766e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.0444799996912467e-05,
+				"repetitions":	5
+			}
+		}
+	}]

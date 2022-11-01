@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Freescale/nxp1/nxp1.mtx",
+		"problem":	{
+			"id":	2848,
+			"group":	"Freescale",
+			"name":	"nxp1",
+			"rows":	414604,
+			"cols":	414604,
+			"nonzeros":	2655880,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.99983987846820344,
+			"nsym":	0.82205799966457682,
+			"kind":	"circuit simulation problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.0001214271992444992,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.013206009864807128,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.00017130880057811826,
+				"repetitions":	5
+			}
+		}
+	}]

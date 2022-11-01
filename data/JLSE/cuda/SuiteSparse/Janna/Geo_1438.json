@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Janna/Geo_1438/Geo_1438.mtx",
+		"problem":	{
+			"id":	2545,
+			"group":	"Janna",
+			"name":	"Geo_1438",
+			"rows":	1437960,
+			"cols":	1437960,
+			"nonzeros":	60236322,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.0011330943822860716,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.1057104766845703,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.0011680320024490376,
+				"repetitions":	5
+			}
+		}
+	}]

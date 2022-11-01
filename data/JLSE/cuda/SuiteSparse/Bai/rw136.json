@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Bai/rw136/rw136.mtx",
+		"problem":	{
+			"id":	334,
+			"group":	"Bai",
+			"name":	"rw136",
+			"rows":	136,
+			"cols":	136,
+			"nonzeros":	479,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.44258872651357,
+			"nsym":	0.029227557411273489,
+			"kind":	"statistical/mathematical problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.2118400037288665e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	4.15743999183178e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.0854400228708981e-05,
+				"repetitions":	5
+			}
+		}
+	}]

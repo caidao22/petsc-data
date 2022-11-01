@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/ND/nd12k/nd12k.mtx",
+		"problem":	{
+			"id":	938,
+			"group":	"ND",
+			"name":	"nd12k",
+			"rows":	36000,
+			"cols":	36000,
+			"nonzeros":	14220946,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.0002750848054885864,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.023306816101074219,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.0002539520025253289,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/VDOL/hangGlider_5/hangGlider_5.mtx",
+		"problem":	{
+			"id":	2695,
+			"group":	"VDOL",
+			"name":	"hangGlider_5",
+			"rows":	16011,
+			"cols":	16011,
+			"nonzeros":	155246,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"optimal control problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.2409599795937541e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0017971904277801515,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.8432000279427e-05,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Schenk_ISEI/nmos3/nmos3.mtx",
+		"problem":	{
+			"id":	970,
+			"group":	"Schenk_ISEI",
+			"name":	"nmos3",
+			"rows":	18588,
+			"cols":	18588,
+			"nonzeros":	237130,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.1670891636390259,
+			"kind":	"semiconductor device problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.7971200793981559e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00072810879945755,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.9456000253558186e-05,
+				"repetitions":	5
+			}
+		}
+	}]

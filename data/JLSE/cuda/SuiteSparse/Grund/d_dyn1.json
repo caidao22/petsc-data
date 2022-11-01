@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Grund/d_dyn1/d_dyn1.mtx",
+		"problem":	{
+			"id":	463,
+			"group":	"Grund",
+			"name":	"d_dyn1",
+			"rows":	87,
+			"cols":	87,
+			"nonzeros":	232,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.076923076923076927,
+			"nsym":	0.01754385964912281,
+			"kind":	"chemical process simulation problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.1100800111889837e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	3.8297600671648979e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	7.16800019145013e-06,
+				"repetitions":	5
+			}
+		}
+	}]

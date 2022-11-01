@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Schenk_AFE/af_shell10/af_shell10.mtx",
+		"problem":	{
+			"id":	1586,
+			"group":	"Schenk_AFE",
+			"name":	"af_shell10",
+			"rows":	1508065,
+			"cols":	1508065,
+			"nonzeros":	52259885,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.000983302402496338,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0889323196411133,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.00097389439344407473,
+				"repetitions":	5
+			}
+		}
+	}]

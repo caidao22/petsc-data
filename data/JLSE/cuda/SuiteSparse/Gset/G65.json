@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Gset/G65/G65.mtx",
+		"problem":	{
+			"id":	530,
+			"group":	"Gset",
+			"name":	"G65",
+			"rows":	8000,
+			"cols":	8000,
+			"nonzeros":	32000,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted random graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.93759997934103e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00011845760047435761,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	9.625600092113e-06,
+				"repetitions":	5
+			}
+		}
+	}]

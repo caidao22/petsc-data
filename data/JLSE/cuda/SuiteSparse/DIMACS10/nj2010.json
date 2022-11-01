@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/DIMACS10/nj2010/nj2010.mtx",
+		"problem":	{
+			"id":	2612,
+			"group":	"DIMACS10",
+			"name":	"nj2010",
+			"rows":	169588,
+			"cols":	169588,
+			"nonzeros":	829912,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	6.40447996556759e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0014625792026519775,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	7.4137602746486564e-05,
+				"repetitions":	5
+			}
+		}
+	}]

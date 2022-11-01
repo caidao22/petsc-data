@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Boeing/ct20stif/ct20stif.mtx",
+		"problem":	{
+			"id":	356,
+			"group":	"Boeing",
+			"name":	"ct20stif",
+			"rows":	52329,
+			"cols":	52329,
+			"nonzeros":	2600295,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	9.6710400283336642e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0045863039970397944,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	8.1715197861194361e-05,
+				"repetitions":	5
+			}
+		}
+	}]

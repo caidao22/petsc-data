@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Andrews/Andrews/Andrews.mtx",
+		"problem":	{
+			"id":	924,
+			"group":	"Andrews",
+			"name":	"Andrews",
+			"rows":	60000,
+			"cols":	60000,
+			"nonzeros":	760154,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"computer graphics/vision problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	6.06335997581482e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.000724902403354645,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	5.8368001133203389e-05,
+				"repetitions":	5
+			}
+		}
+	}]

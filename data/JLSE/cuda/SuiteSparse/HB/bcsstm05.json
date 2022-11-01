@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/HB/bcsstm05/bcsstm05.mtx",
+		"problem":	{
+			"id":	60,
+			"group":	"HB",
+			"name":	"bcsstm05",
+			"rows":	153,
+			"cols":	153,
+			"nonzeros":	153,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.33472004532814e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	4.1164799407124523e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	8.192000165581706e-06,
+				"repetitions":	5
+			}
+		}
+	}]

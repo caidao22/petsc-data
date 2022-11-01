@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/GHS_psdef/oilpan/oilpan.mtx",
+		"problem":	{
+			"id":	1270,
+			"group":	"GHS_psdef",
+			"name":	"oilpan",
+			"rows":	73752,
+			"cols":	73752,
+			"nonzeros":	2148558,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00011140480041503906,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0061949568748474121,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.00010485119819641092,
+				"repetitions":	5
+			}
+		}
+	}]

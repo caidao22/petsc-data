@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Pothen/bodyy5/bodyy5.mtx",
+		"problem":	{
+			"id":	869,
+			"group":	"Pothen",
+			"name":	"bodyy5",
+			"rows":	18589,
+			"cols":	18589,
+			"nonzeros":	128853,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.4060799703001976e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00034830079674720761,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.3721600361168463e-05,
+				"repetitions":	5
+			}
+		}
+	}]

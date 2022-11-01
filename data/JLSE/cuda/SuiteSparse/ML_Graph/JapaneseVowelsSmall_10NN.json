@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/ML_Graph/JapaneseVowelsSmall_10NN/JapaneseVowelsSmall_10NN.mtx",
+		"problem":	{
+			"id":	2873,
+			"group":	"ML_Graph",
+			"name":	"JapaneseVowelsSmall_10NN",
+			"rows":	9961,
+			"cols":	9961,
+			"nonzeros":	131144,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.8153599798679355e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00033615999817848208,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.3107200339436452e-05,
+				"repetitions":	5
+			}
+		}
+	}]

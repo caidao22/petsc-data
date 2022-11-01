@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Hamm/bcircuit/bcircuit.mtx",
+		"problem":	{
+			"id":	541,
+			"group":	"Hamm",
+			"name":	"bcircuit",
+			"rows":	68902,
+			"cols":	68902,
+			"nonzeros":	375558,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.908431597620787,
+			"kind":	"circuit simulation problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	4.25599992275238e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00043768320083618169,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	3.5635200515389456e-05,
+				"repetitions":	5
+			}
+		}
+	}]

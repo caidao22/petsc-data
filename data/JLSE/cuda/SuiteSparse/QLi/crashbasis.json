@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/QLi/crashbasis/crashbasis.mtx",
+		"problem":	{
+			"id":	1858,
+			"group":	"QLi",
+			"name":	"crashbasis",
+			"rows":	160000,
+			"cols":	160000,
+			"nonzeros":	1750416,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.550301304815847,
+			"nsym":	0.0002439613283568576,
+			"kind":	"optimization problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	8.6092798411846174e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0015482239961624148,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	7.2704000771046245e-05,
+				"repetitions":	5
+			}
+		}
+	}]

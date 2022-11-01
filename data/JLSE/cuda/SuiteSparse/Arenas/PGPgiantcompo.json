@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Arenas/PGPgiantcompo/PGPgiantcompo.mtx",
+		"problem":	{
+			"id":	2405,
+			"group":	"Arenas",
+			"name":	"PGPgiantcompo",
+			"rows":	10680,
+			"cols":	10680,
+			"nonzeros":	48632,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected multigraph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.6879999786615372e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.000188019198179245,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.5564800053834843e-05,
+				"repetitions":	5
+			}
+		}
+	}]

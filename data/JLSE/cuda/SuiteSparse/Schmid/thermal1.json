@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Schmid/thermal1/thermal1.mtx",
+		"problem":	{
+			"id":	1402,
+			"group":	"Schmid",
+			"name":	"thermal1",
+			"rows":	82654,
+			"cols":	82654,
+			"nonzeros":	574458,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"thermal problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	4.9555198848247522e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0010432192087173463,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	3.5635200887918286e-05,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Freescale/Freescale2/Freescale2.mtx",
+		"problem":	{
+			"id":	2662,
+			"group":	"Freescale",
+			"name":	"Freescale2",
+			"rows":	2999349,
+			"cols":	2999349,
+			"nonzeros":	14313235,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.985308395376549,
+			"nsym":	0.560083803292065,
+			"kind":	"circuit simulation matrix"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00063561600446701062,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.045806784057617178,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.0027590720176696839,
+				"repetitions":	5
+			}
+		}
+	}]

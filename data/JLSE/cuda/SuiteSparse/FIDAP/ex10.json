@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/FIDAP/ex10/ex10.mtx",
+		"problem":	{
+			"id":	407,
+			"group":	"FIDAP",
+			"name":	"ex10",
+			"rows":	2410,
+			"cols":	2410,
+			"nonzeros":	54840,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.522879987955093e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00016464000046253205,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.0649599879980053e-05,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Schenk_ISEI/igbt3/igbt3.mtx",
+		"problem":	{
+			"id":	969,
+			"group":	"Schenk_ISEI",
+			"name":	"igbt3",
+			"rows":	10938,
+			"cols":	10938,
+			"nonzeros":	130500,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.17202790184172231,
+			"kind":	"semiconductor device problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.6019199341535569e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0004791999936103821,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.5974400006234756e-05,
+				"repetitions":	5
+			}
+		}
+	}]

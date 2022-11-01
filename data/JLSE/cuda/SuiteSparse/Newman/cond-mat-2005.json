@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Newman/cond-mat-2005/cond-mat-2005.mtx",
+		"problem":	{
+			"id":	2395,
+			"group":	"Newman",
+			"name":	"cond-mat-2005",
+			"rows":	40421,
+			"cols":	40421,
+			"nonzeros":	351382,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	4.1740801185369489e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00042549119591712948,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	4.25983995199203e-05,
+				"repetitions":	5
+			}
+		}
+	}]

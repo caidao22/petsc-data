@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/GHS_indef/a2nnsnsl/a2nnsnsl.mtx",
+		"problem":	{
+			"id":	1292,
+			"group":	"GHS_indef",
+			"name":	"a2nnsnsl",
+			"rows":	80016,
+			"cols":	80016,
+			"nonzeros":	347222,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"optimization problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	4.2796799540519717e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0015802687883377075,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	3.4815999865531534e-05,
+				"repetitions":	5
+			}
+		}
+	}]

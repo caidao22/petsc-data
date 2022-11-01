@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Oberwolfach/rail_1357/rail_1357.mtx",
+		"problem":	{
+			"id":	1442,
+			"group":	"Oberwolfach",
+			"name":	"rail_1357",
+			"rows":	1357,
+			"cols":	1357,
+			"nonzeros":	8985,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"model reduction problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.3859200254082681e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	6.57408021390438e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	8.6016001179814345e-06,
+				"repetitions":	5
+			}
+		}
+	}]

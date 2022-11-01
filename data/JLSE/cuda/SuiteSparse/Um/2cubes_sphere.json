@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Um/2cubes_sphere/2cubes_sphere.mtx",
+		"problem":	{
+			"id":	1919,
+			"group":	"Um",
+			"name":	"2cubes_sphere",
+			"rows":	101492,
+			"cols":	101492,
+			"nonzeros":	1647264,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"electromagnetics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	8.1606400012969977e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0014209215879440308,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	7.680000215768787e-05,
+				"repetitions":	5
+			}
+		}
+	}]

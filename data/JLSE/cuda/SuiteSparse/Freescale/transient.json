@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Freescale/transient/transient.mtx",
+		"problem":	{
+			"id":	2275,
+			"group":	"Freescale",
+			"name":	"transient",
+			"rows":	178866,
+			"cols":	178866,
+			"nonzeros":	961368,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.99967429830443533,
+			"nsym":	0.243597788123496,
+			"kind":	"circuit simulation problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	7.09632009267807e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.013274918365478516,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	8.480640053749045e-05,
+				"repetitions":	5
+			}
+		}
+	}]

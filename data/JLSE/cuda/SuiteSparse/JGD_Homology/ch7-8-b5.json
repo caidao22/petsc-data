@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/JGD_Homology/ch7-8-b5/ch7-8-b5.mtx",
+		"problem":	{
+			"id":	2034,
+			"group":	"JGD_Homology",
+			"name":	"ch7-8-b5",
+			"rows":	141120,
+			"cols":	141120,
+			"nonzeros":	846720,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.00037320571902333478,
+			"nsym":	0.00020549935161411469,
+			"kind":	"combinatorial problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	6.4652800559997556e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0014870143651962279,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	4.3417599052190775e-05,
+				"repetitions":	5
+			}
+		}
+	}]

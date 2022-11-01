@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Janna/ML_Geer/ML_Geer.mtx",
+		"problem":	{
+			"id":	2650,
+			"group":	"Janna",
+			"name":	"ML_Geer",
+			"rows":	1504002,
+			"cols":	1504002,
+			"nonzeros":	110686677,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	2.3813301881456929e-07,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.0018593471765518186,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.18448138732910155,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.0016909951925277555,
+				"repetitions":	5
+			}
+		}
+	}]

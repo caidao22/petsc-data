@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Sandia/ASIC_320ks/ASIC_320ks.mtx",
+		"problem":	{
+			"id":	1418,
+			"group":	"Sandia",
+			"name":	"ASIC_320ks",
+			"rows":	321671,
+			"cols":	321671,
+			"nonzeros":	1316085,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.28910896266544922,
+			"kind":	"circuit simulation problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	9.4566398859024045e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00333690242767334,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.00013008639812469441,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Averous/epb2/epb2.mtx",
+		"problem":	{
+			"id":	289,
+			"group":	"Averous",
+			"name":	"epb2",
+			"rows":	25228,
+			"cols":	25228,
+			"nonzeros":	175027,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.67053852161896943,
+			"nsym":	0,
+			"kind":	"thermal problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.3606400340795518e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00039897599816322328,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.6383999958634408e-05,
+				"repetitions":	5
+			}
+		}
+	}]

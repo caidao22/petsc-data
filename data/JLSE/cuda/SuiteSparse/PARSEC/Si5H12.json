@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/PARSEC/Si5H12/Si5H12.mtx",
+		"problem":	{
+			"id":	1363,
+			"group":	"PARSEC",
+			"name":	"Si5H12",
+			"rows":	19896,
+			"cols":	19896,
+			"nonzeros":	738598,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"theoretical/quantum chemistry problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	5.31520001590252e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.000697542405128479,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	3.8297600299119857e-05,
+				"repetitions":	5
+			}
+		}
+	}]

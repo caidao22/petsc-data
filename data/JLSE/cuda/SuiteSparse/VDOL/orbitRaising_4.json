@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/VDOL/orbitRaising_4/orbitRaising_4.mtx",
+		"problem":	{
+			"id":	2721,
+			"group":	"VDOL",
+			"name":	"orbitRaising_4",
+			"rows":	915,
+			"cols":	915,
+			"nonzeros":	7790,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"optimal control problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.33472004532814e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	5.9596800804138187e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	8.8064000941812928e-06,
+				"repetitions":	5
+			}
+		}
+	}]

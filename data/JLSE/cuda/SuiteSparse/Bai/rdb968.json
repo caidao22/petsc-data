@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Bai/rdb968/rdb968.mtx",
+		"problem":	{
+			"id":	333,
+			"group":	"Bai",
+			"name":	"rdb968",
+			"rows":	968,
+			"cols":	968,
+			"nonzeros":	5632,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.79245283018867929,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.4985600262880328e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	5.4272001236677168e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	9.62560009211301e-06,
+				"repetitions":	5
+			}
+		}
+	}]

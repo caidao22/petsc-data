@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/McRae/ecology1/ecology1.mtx",
+		"problem":	{
+			"id":	1882,
+			"group":	"McRae",
+			"name":	"ecology1",
+			"rows":	1000000,
+			"cols":	1000000,
+			"nonzeros":	4996000,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.000191033598780632,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0087715648651123038,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.00014394880235195224,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/VDOL/spaceStation_4/spaceStation_4.mtx",
+		"problem":	{
+			"id":	2737,
+			"group":	"VDOL",
+			"name":	"spaceStation_4",
+			"rows":	950,
+			"cols":	950,
+			"nonzeros":	13626,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"optimal control problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.3609599471092226e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	7.78239995241165e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.1878400109708319e-05,
+				"repetitions":	5
+			}
+		}
+	}]

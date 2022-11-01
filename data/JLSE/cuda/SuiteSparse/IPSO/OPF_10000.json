@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/IPSO/OPF_10000/OPF_10000.mtx",
+		"problem":	{
+			"id":	2536,
+			"group":	"IPSO",
+			"name":	"OPF_10000",
+			"rows":	43887,
+			"cols":	43887,
+			"nonzeros":	426898,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"power network problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	4.0960000455379482e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00083802241086959833,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	2.6828799769282492e-05,
+				"repetitions":	5
+			}
+		}
+	}]

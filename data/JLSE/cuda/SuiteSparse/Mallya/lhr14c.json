@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Mallya/lhr14c/lhr14c.mtx",
+		"problem":	{
+			"id":	745,
+			"group":	"Mallya",
+			"name":	"lhr14c",
+			"rows":	14270,
+			"cols":	14270,
+			"nonzeros":	307858,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.0066229469839268421,
+			"nsym":	0,
+			"kind":	"chemical process simulation problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.452800065279007e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.000571897602081299,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	2.6419200003147127e-05,
+				"repetitions":	5
+			}
+		}
+	}]

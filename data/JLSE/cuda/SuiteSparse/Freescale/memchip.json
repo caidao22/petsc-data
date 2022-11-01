@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Freescale/memchip/memchip.mtx",
+		"problem":	{
+			"id":	2274,
+			"group":	"Freescale",
+			"name":	"memchip",
+			"rows":	2707524,
+			"cols":	2707524,
+			"nonzeros":	13343948,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.905801300422394,
+			"nsym":	0.40158609623587022,
+			"kind":	"circuit simulation problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00047550719380378727,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.027006131362915037,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.00045927679538727,
+				"repetitions":	5
+			}
+		}
+	}]

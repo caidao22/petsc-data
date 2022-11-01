@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Newman/hep-th/hep-th.mtx",
+		"problem":	{
+			"id":	2398,
+			"group":	"Newman",
+			"name":	"hep-th",
+			"rows":	8361,
+			"cols":	8361,
+			"nonzeros":	31502,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.4217599630355835e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00012244480103254318,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.0649599879980118e-05,
+				"repetitions":	5
+			}
+		}
+	}]

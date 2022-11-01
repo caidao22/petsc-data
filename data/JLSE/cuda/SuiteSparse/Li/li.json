@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Li/li/li.mtx",
+		"problem":	{
+			"id":	732,
+			"group":	"Li",
+			"name":	"li",
+			"rows":	22695,
+			"cols":	22695,
+			"nonzeros":	1215181,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.868567010430311,
+			"kind":	"electromagnetics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	7.68895998597145e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0023291072368621822,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	5.9801600873471068e-05,
+				"repetitions":	5
+			}
+		}
+	}]

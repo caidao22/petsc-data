@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Bai/rw5151/rw5151.mtx",
+		"problem":	{
+			"id":	336,
+			"group":	"Bai",
+			"name":	"rw5151",
+			"rows":	5151,
+			"cols":	5151,
+			"nonzeros":	20199,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.49022228823209069,
+			"nsym":	0,
+			"kind":	"statistical/mathematical problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.58624006062746e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	9.21983987092972e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	9.011200070381163e-06,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/GHS_indef/boyd1/boyd1.mtx",
+		"problem":	{
+			"id":	1296,
+			"group":	"GHS_indef",
+			"name":	"boyd1",
+			"rows":	93279,
+			"cols":	93279,
+			"nonzeros":	1211231,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"optimization problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	7.06751987338066e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.020940102767944332,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	9.9123202264306262e-05,
+				"repetitions":	5
+			}
+		}
+	}]

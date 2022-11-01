@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/SNAP/soc-sign-bitcoin-alpha/soc-sign-bitcoin-alpha.mtx",
+		"problem":	{
+			"id":	2790,
+			"group":	"SNAP",
+			"name":	"soc-sign-bitcoin-alpha",
+			"rows":	3783,
+			"cols":	3783,
+			"nonzeros":	24186,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.832051600099231,
+			"nsym":	0.59571653022409654,
+			"kind":	"directed weighted temporal graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.4768000096082692e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00022775040268898007,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.3312000222504092e-05,
+				"repetitions":	5
+			}
+		}
+	}]

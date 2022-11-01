@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Fluorem/PR02R/PR02R.mtx",
+		"problem":	{
+			"id":	2336,
+			"group":	"Fluorem",
+			"name":	"PR02R",
+			"rows":	161070,
+			"cols":	161070,
+			"nonzeros":	8185136,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.947649234191244,
+			"nsym":	0.0001697393815055858,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00018386559784412383,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.013675276947021484,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.00019292160272598168,
+				"repetitions":	5
+			}
+		}
+	}]

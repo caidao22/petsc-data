@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/PARSEC/SiO2/SiO2.mtx",
+		"problem":	{
+			"id":	1367,
+			"group":	"PARSEC",
+			"name":	"SiO2",
+			"rows":	155331,
+			"cols":	155331,
+			"nonzeros":	11283503,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"theoretical/quantum chemistry problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.000235206401348114,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.018816217422485352,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.0003759679973125457,
+				"repetitions":	5
+			}
+		}
+	}]

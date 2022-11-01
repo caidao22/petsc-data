@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Newman/lesmis/lesmis.mtx",
+		"problem":	{
+			"id":	2400,
+			"group":	"Newman",
+			"name":	"lesmis",
+			"rows":	77,
+			"cols":	77,
+			"nonzeros":	508,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.0480000041425228e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	4.1369599103927617e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	8.192000165581706e-06,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Simon/raefsky2/raefsky2.mtx",
+		"problem":	{
+			"id":	815,
+			"group":	"Simon",
+			"name":	"raefsky2",
+			"rows":	3242,
+			"cols":	3242,
+			"nonzeros":	293551,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.09753745147411895,
+			"kind":	"subsequent computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.73055998235941e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00056204800605773927,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.5155199915170819e-05,
+				"repetitions":	5
+			}
+		}
+	}]

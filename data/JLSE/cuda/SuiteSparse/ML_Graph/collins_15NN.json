@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/ML_Graph/collins_15NN/collins_15NN.mtx",
+		"problem":	{
+			"id":	2860,
+			"group":	"ML_Graph",
+			"name":	"collins_15NN",
+			"rows":	1000,
+			"cols":	1000,
+			"nonzeros":	16492,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.3174399882555005e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	7.8931201249361042e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	8.80640000104904e-06,
+				"repetitions":	5
+			}
+		}
+	}]

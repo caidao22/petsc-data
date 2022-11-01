@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/TKK/smt/smt.mtx",
+		"problem":	{
+			"id":	1909,
+			"group":	"TKK",
+			"name":	"smt",
+			"rows":	25710,
+			"cols":	25710,
+			"nonzeros":	3749582,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00010920320004224777,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0062316735267639155,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.00010629120022058458,
+				"repetitions":	5
+			}
+		}
+	}]

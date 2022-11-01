@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Sandia/fpga_dcop_19/fpga_dcop_19.mtx",
+		"problem":	{
+			"id":	1073,
+			"group":	"Sandia",
+			"name":	"fpga_dcop_19",
+			"rows":	1220,
+			"cols":	1220,
+			"nonzeros":	5892,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.81833473507148868,
+			"nsym":	0.31959629941127,
+			"kind":	"subsequent circuit simulation problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.519040033221245e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	6.20544008910656e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.0240000300109384e-05,
+				"repetitions":	5
+			}
+		}
+	}]

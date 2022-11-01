@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Tromble/language/language.mtx",
+		"problem":	{
+			"id":	982,
+			"group":	"Tromble",
+			"name":	"language",
+			"rows":	399130,
+			"cols":	399130,
+			"nonzeros":	1216334,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.0579023108061145,
+			"nsym":	0,
+			"kind":	"directed weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	8.456320017576218e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0048530816078186031,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.00012298880070447937,
+				"repetitions":	5
+			}
+		}
+	}]

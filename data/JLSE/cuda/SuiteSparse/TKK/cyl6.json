@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/TKK/cyl6/cyl6.mtx",
+		"problem":	{
+			"id":	1913,
+			"group":	"TKK",
+			"name":	"cyl6",
+			"rows":	13681,
+			"cols":	13681,
+			"nonzeros":	714241,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	4.8166400194168087e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00067634558677673339,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	3.6659200489521e-05,
+				"repetitions":	5
+			}
+		}
+	}]

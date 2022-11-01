@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/ATandT/pre2/pre2.mtx",
+		"problem":	{
+			"id":	285,
+			"group":	"ATandT",
+			"name":	"pre2",
+			"rows":	659033,
+			"cols":	659033,
+			"nonzeros":	5834044,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.33177609105640621,
+			"nsym":	0.065361871967555843,
+			"kind":	"frequency-domain circuit simulation problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00019189119935035705,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.010440863990783689,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.00038865919709205472,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/GHS_indef/c-70/c-70.mtx",
+		"problem":	{
+			"id":	1227,
+			"group":	"GHS_indef",
+			"name":	"c-70",
+			"rows":	68924,
+			"cols":	68924,
+			"nonzeros":	658986,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"optimization problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	4.8588800430297851e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0017032320022583008,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	5.1814399659633888e-05,
+				"repetitions":	5
+			}
+		}
+	}]

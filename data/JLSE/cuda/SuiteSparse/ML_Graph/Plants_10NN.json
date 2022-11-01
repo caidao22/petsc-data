@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/ML_Graph/Plants_10NN/Plants_10NN.mtx",
+		"problem":	{
+			"id":	2881,
+			"group":	"ML_Graph",
+			"name":	"Plants_10NN",
+			"rows":	1600,
+			"cols":	1600,
+			"nonzeros":	21930,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.2841600328683856e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	9.1622400283813472e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.0649599879980097e-05,
+				"repetitions":	5
+			}
+		}
+	}]

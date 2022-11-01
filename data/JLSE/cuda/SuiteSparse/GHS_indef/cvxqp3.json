@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/GHS_indef/cvxqp3/cvxqp3.mtx",
+		"problem":	{
+			"id":	1426,
+			"group":	"GHS_indef",
+			"name":	"cvxqp3",
+			"rows":	17500,
+			"cols":	17500,
+			"nonzeros":	114962,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"optimization problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.7654400095343588e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00032054399847984309,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.2902399897575306e-05,
+				"repetitions":	5
+			}
+		}
+	}]

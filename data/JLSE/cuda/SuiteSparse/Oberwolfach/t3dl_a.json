@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Oberwolfach/t3dl_a/t3dl_a.mtx",
+		"problem":	{
+			"id":	1210,
+			"group":	"Oberwolfach",
+			"name":	"t3dl_a",
+			"rows":	20360,
+			"cols":	20360,
+			"nonzeros":	509866,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"duplicate model reduction problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	4.17920008301735e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00090369280576705951,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.9865600019693294e-05,
+				"repetitions":	5
+			}
+		}
+	}]

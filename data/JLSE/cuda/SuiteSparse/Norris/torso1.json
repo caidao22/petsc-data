@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Norris/torso1/torso1.mtx",
+		"problem":	{
+			"id":	896,
+			"group":	"Norris",
+			"name":	"torso1",
+			"rows":	116158,
+			"cols":	116158,
+			"nonzeros":	8516500,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.42438748327151438,
+			"nsym":	0,
+			"kind":	"2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00019399040043354033,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.014534950447082518,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.00021647359728813319,
+				"repetitions":	5
+			}
+		}
+	}]

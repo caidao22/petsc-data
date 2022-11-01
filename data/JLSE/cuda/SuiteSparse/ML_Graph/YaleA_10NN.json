@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/ML_Graph/YaleA_10NN/YaleA_10NN.mtx",
+		"problem":	{
+			"id":	2890,
+			"group":	"ML_Graph",
+			"name":	"YaleA_10NN",
+			"rows":	165,
+			"cols":	165,
+			"nonzeros":	2268,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.1299199759960174e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	4.6079999953508373e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	8.8064000941812826e-06,
+				"repetitions":	5
+			}
+		}
+	}]

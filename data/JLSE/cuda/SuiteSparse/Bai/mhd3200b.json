@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Bai/mhd3200b/mhd3200b.mtx",
+		"problem":	{
+			"id":	1623,
+			"group":	"Bai",
+			"name":	"mhd3200b",
+			"rows":	3200,
+			"cols":	3200,
+			"nonzeros":	18316,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"electromagnetics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.4857600405812263e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	8.8000001013278977e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.0649599879980097e-05,
+				"repetitions":	5
+			}
+		}
+	}]

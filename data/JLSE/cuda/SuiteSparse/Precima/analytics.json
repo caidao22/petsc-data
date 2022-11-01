@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Precima/analytics/analytics.mtx",
+		"problem":	{
+			"id":	2851,
+			"group":	"Precima",
+			"name":	"analytics",
+			"rows":	303813,
+			"cols":	303813,
+			"nonzeros":	2006126,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"data analytics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	9.9257600307464574e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0118442045211792,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.00014736000001430578,
+				"repetitions":	5
+			}
+		}
+	}]

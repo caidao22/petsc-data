@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/HB/lns_3937/lns_3937.mtx",
+		"problem":	{
+			"id":	189,
+			"group":	"HB",
+			"name":	"lns_3937",
+			"rows":	3937,
+			"cols":	3937,
+			"nonzeros":	25407,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.849666726715907,
+			"nsym":	0.0013511079084849581,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.6035200431942941e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00010379519909620287,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	9.83040016144512e-06,
+				"repetitions":	5
+			}
+		}
+	}]

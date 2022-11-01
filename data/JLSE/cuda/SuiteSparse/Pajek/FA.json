@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Pajek/FA/FA.mtx",
+		"problem":	{
+			"id":	1472,
+			"group":	"Pajek",
+			"name":	"FA",
+			"rows":	10617,
+			"cols":	10617,
+			"nonzeros":	72176,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.232333869090506,
+			"nsym":	0.0058471429363187938,
+			"kind":	"directed weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.5395200401544568e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00020754559934139249,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.2492800131440155e-05,
+				"repetitions":	5
+			}
+		}
+	}]

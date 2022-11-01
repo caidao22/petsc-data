@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/SNAP/email-Eu-core-temporal/email-Eu-core-temporal.mtx",
+		"problem":	{
+			"id":	2785,
+			"group":	"SNAP",
+			"name":	"email-Eu-core-temporal",
+			"rows":	1005,
+			"cols":	1005,
+			"nonzeros":	24929,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.71121986441493845,
+			"nsym":	0.14352761843635919,
+			"kind":	"directed temporal multigraph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.36991997808218e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00011259519755840303,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.2083199992775937e-05,
+				"repetitions":	5
+			}
+		}
+	}]

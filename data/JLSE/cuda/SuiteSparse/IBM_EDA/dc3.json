@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/IBM_EDA/dc3/dc3.mtx",
+		"problem":	{
+			"id":	1322,
+			"group":	"IBM_EDA",
+			"name":	"dc3",
+			"rows":	116835,
+			"cols":	116835,
+			"nonzeros":	766396,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.85424771499520447,
+			"nsym":	0.24264079893959151,
+			"kind":	"subsequent circuit simulation problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	5.50976000726223e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.019764767837524413,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	9.0521600842471964e-05,
+				"repetitions":	5
+			}
+		}
+	}]

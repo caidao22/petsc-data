@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/HB/pores_3/pores_3.mtx",
+		"problem":	{
+			"id":	234,
+			"group":	"HB",
+			"name":	"pores_3",
+			"rows":	532,
+			"cols":	532,
+			"nonzeros":	3474,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.742352141400408,
+			"nsym":	0.3052345343303875,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.5190399959683416e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	4.9971199408173553e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	8.1920001655816839e-06,
+				"repetitions":	5
+			}
+		}
+	}]

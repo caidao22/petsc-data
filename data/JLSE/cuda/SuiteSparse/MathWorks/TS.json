@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/MathWorks/TS/TS.mtx",
+		"problem":	{
+			"id":	2256,
+			"group":	"MathWorks",
+			"name":	"TS",
+			"rows":	2142,
+			"cols":	2142,
+			"nonzeros":	45262,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.95257320319432126,
+			"nsym":	0.041304347826086947,
+			"kind":	"counter-example problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.7609600499272343e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00014638720154762266,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.2288000062108035e-05,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Bai/dw2048/dw2048.mtx",
+		"problem":	{
+			"id":	1614,
+			"group":	"Bai",
+			"name":	"dw2048",
+			"rows":	2048,
+			"cols":	2048,
+			"nonzeros":	10114,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.98487478303992071,
+			"nsym":	0.94817753533349869,
+			"kind":	"electromagnetics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.5305600464344025e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	7.55712002515793e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.105920001864436e-05,
+				"repetitions":	5
+			}
+		}
+	}]

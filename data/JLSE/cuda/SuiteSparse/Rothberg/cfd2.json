@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Rothberg/cfd2/cfd2.mtx",
+		"problem":	{
+			"id":	805,
+			"group":	"Rothberg",
+			"name":	"cfd2",
+			"rows":	123440,
+			"cols":	123440,
+			"nonzeros":	3085406,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00011126400083303451,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0049642046928405764,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	8.27391982078547e-05,
+				"repetitions":	5
+			}
+		}
+	}]

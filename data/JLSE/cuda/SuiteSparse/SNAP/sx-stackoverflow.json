@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/SNAP/sx-stackoverflow/sx-stackoverflow.mtx",
+		"problem":	{
+			"id":	2794,
+			"group":	"SNAP",
+			"name":	"sx-stackoverflow",
+			"rows":	2601977,
+			"cols":	2601977,
+			"nonzeros":	36233450,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.38377260213735159,
+			"nsym":	0.21533931778943749,
+			"kind":	"directed temporal multigraph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.0026356479644775391,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.068769393920898439,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.00824880638122558,
+				"repetitions":	5
+			}
+		}
+	}]

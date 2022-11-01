@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Pajek/football/football.mtx",
+		"problem":	{
+			"id":	1474,
+			"group":	"Pajek",
+			"name":	"football",
+			"rows":	35,
+			"cols":	35,
+			"nonzeros":	118,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0,
+			"nsym":	0,
+			"kind":	"directed weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.0684800110757353e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	3.7478400766849526e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	9.4208002090454034e-06,
+				"repetitions":	5
+			}
+		}
+	}]

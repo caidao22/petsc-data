@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Janna/Cube_Coup_dt6/Cube_Coup_dt6.mtx",
+		"problem":	{
+			"id":	2549,
+			"group":	"Janna",
+			"name":	"Cube_Coup_dt6",
+			"rows":	2164760,
+			"cols":	2164760,
+			"nonzeros":	124406070,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.0021766079425811764,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.21074515686035156,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.0020534975528716968,
+				"repetitions":	5
+			}
+		}
+	}]

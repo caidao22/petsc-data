@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/TKK/cbuckle/cbuckle.mtx",
+		"problem":	{
+			"id":	1912,
+			"group":	"TKK",
+			"name":	"cbuckle",
+			"rows":	13681,
+			"cols":	13681,
+			"nonzeros":	676515,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	4.43840004503727e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00065018880367279043,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	3.7068800628185187e-05,
+				"repetitions":	5
+			}
+		}
+	}]

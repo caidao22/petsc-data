@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Simon/bbmat/bbmat.mtx",
+		"problem":	{
+			"id":	812,
+			"group":	"Simon",
+			"name":	"bbmat",
+			"rows":	38744,
+			"cols":	38744,
+			"nonzeros":	1771722,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.52953586254412921,
+			"nsym":	0.000585119949589666,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	8.535039871931077e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0027792960166931153,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	7.1270400285720559e-05,
+				"repetitions":	5
+			}
+		}
+	}]

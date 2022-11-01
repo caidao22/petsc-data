@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Gset/G8/G8.mtx",
+		"problem":	{
+			"id":	534,
+			"group":	"Gset",
+			"name":	"G8",
+			"rows":	800,
+			"cols":	800,
+			"nonzeros":	38352,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted random graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.27232003211975e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00012746880054473878,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.0240000300109384e-05,
+				"repetitions":	5
+			}
+		}
+	}]

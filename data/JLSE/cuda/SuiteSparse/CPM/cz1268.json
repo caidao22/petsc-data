@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/CPM/cz1268/cz1268.mtx",
+		"problem":	{
+			"id":	2562,
+			"group":	"CPM",
+			"name":	"cz1268",
+			"rows":	1268,
+			"cols":	1268,
+			"nonzeros":	12786,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.43861781559298491,
+			"nsym":	0.2340684146553221,
+			"kind":	"2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.191360015422106e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	6.9836799800395956e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	8.80640000104904e-06,
+				"repetitions":	5
+			}
+		}
+	}]

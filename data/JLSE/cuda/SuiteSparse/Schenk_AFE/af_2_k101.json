@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Schenk_AFE/af_2_k101/af_2_k101.mtx",
+		"problem":	{
+			"id":	1582,
+			"group":	"Schenk_AFE",
+			"name":	"af_2_k101",
+			"rows":	503625,
+			"cols":	503625,
+			"nonzeros":	17550675,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.0003652864038944244,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.029344063568115232,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.0003467455983161949,
+				"repetitions":	5
+			}
+		}
+	}]

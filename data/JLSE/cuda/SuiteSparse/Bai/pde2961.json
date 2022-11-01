@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Bai/pde2961/pde2961.mtx",
+		"problem":	{
+			"id":	324,
+			"group":	"Bai",
+			"name":	"pde2961",
+			"rows":	2961,
+			"cols":	2961,
+			"nonzeros":	14585,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.501376462491397,
+			"kind":	"2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.7123200148344036e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	6.3487999141216279e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	9.4208002090454136e-06,
+				"repetitions":	5
+			}
+		}
+	}]

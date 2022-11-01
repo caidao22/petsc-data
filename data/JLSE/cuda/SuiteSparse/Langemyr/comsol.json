@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Langemyr/comsol/comsol.mtx",
+		"problem":	{
+			"id":	864,
+			"group":	"Langemyr",
+			"name":	"comsol",
+			"rows":	1500,
+			"cols":	1500,
+			"nonzeros":	97645,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.99903271100941282,
+			"nsym":	0.000894482292370898,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.0175999924540519e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00027279359996318814,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.4540800265967812e-05,
+				"repetitions":	5
+			}
+		}
+	}]

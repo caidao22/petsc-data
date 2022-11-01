@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/HB/nos5/nos5.mtx",
+		"problem":	{
+			"id":	221,
+			"group":	"HB",
+			"name":	"nos5",
+			"rows":	468,
+			"cols":	468,
+			"nonzeros":	5172,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.4166400358080861e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	5.591039955615998e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	9.42079992964863e-06,
+				"repetitions":	5
+			}
+		}
+	}]

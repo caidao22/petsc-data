@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/FEMLAB/problem1/problem1.mtx",
+		"problem":	{
+			"id":	929,
+			"group":	"FEMLAB",
+			"name":	"problem1",
+			"rows":	415,
+			"cols":	415,
+			"nonzeros":	2779,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.65482233502538068,
+			"kind":	"2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.1299199759960174e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	4.6489599347114563e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	9.01120007038115e-06,
+				"repetitions":	5
+			}
+		}
+	}]

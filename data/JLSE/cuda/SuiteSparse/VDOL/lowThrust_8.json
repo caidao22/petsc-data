@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/VDOL/lowThrust_8/lowThrust_8.mtx",
+		"problem":	{
+			"id":	2712,
+			"group":	"VDOL",
+			"name":	"lowThrust_8",
+			"rows":	17702,
+			"cols":	17702,
+			"nonzeros":	216445,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"optimal control problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.4060799703001976e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0011282943725585937,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.9865600019693294e-05,
+				"repetitions":	5
+			}
+		}
+	}]

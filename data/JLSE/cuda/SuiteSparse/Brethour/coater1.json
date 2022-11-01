@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Brethour/coater1/coater1.mtx",
+		"problem":	{
+			"id":	375,
+			"group":	"Brethour",
+			"name":	"coater1",
+			"rows":	1348,
+			"cols":	1348,
+			"nonzeros":	19457,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.59229166666666666,
+			"nsym":	0.395,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.442239969968796e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	8.82880002260208e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	9.62560009211302e-06,
+				"repetitions":	5
+			}
+		}
+	}]

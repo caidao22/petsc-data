@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/GHS_indef/ncvxqp9/ncvxqp9.mtx",
+		"problem":	{
+			"id":	1243,
+			"group":	"GHS_indef",
+			"name":	"ncvxqp9",
+			"rows":	16554,
+			"cols":	16554,
+			"nonzeros":	54040,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"optimization problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.8044800460338591e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00016647680103778838,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.1878399923443729e-05,
+				"repetitions":	5
+			}
+		}
+	}]

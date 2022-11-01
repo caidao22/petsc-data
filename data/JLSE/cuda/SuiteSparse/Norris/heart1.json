@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Norris/heart1/heart1.mtx",
+		"problem":	{
+			"id":	890,
+			"group":	"Norris",
+			"name":	"heart1",
+			"rows":	3557,
+			"cols":	3557,
+			"nonzeros":	1385317,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0,
+			"kind":	"2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	6.644480004906655e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0023122751712799073,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	5.57056002318864e-05,
+				"repetitions":	5
+			}
+		}
+	}]

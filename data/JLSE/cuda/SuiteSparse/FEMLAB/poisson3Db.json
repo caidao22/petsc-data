@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/FEMLAB/poisson3Db/poisson3Db.mtx",
+		"problem":	{
+			"id":	928,
+			"group":	"FEMLAB",
+			"name":	"poisson3Db",
+			"rows":	85623,
+			"cols":	85623,
+			"nonzeros":	2374949,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00010714240074157714,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0046646656036376946,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.00010035199970006916,
+				"repetitions":	5
+			}
+		}
+	}]

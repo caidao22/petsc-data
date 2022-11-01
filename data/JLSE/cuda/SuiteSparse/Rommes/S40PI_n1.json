@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Rommes/S40PI_n1/S40PI_n1.mtx",
+		"problem":	{
+			"id":	2367,
+			"group":	"Rommes",
+			"name":	"S40PI_n1",
+			"rows":	2028,
+			"cols":	2028,
+			"nonzeros":	5007,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0,
+			"kind":	"eigenvalue/model reduction problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.3347200080752376e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	5.14048010110855e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	7.372800074517726e-06,
+				"repetitions":	5
+			}
+		}
+	}]

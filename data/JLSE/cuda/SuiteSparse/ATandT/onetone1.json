@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/ATandT/onetone1/onetone1.mtx",
+		"problem":	{
+			"id":	283,
+			"group":	"ATandT",
+			"name":	"onetone1",
+			"rows":	36057,
+			"cols":	36057,
+			"nonzeros":	335552,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.0742956282869174,
+			"nsym":	0.043312851112840077,
+			"kind":	"frequency-domain circuit simulation problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	4.6246400475502014e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0006434816002845765,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	4.4646400213241547e-05,
+				"repetitions":	5
+			}
+		}
+	}]

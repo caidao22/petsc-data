@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/TSOPF/TSOPF_RS_b9_c6/TSOPF_RS_b9_c6.mtx",
+		"problem":	{
+			"id":	2245,
+			"group":	"TSOPF",
+			"name":	"TSOPF_RS_b9_c6",
+			"rows":	7224,
+			"cols":	7224,
+			"nonzeros":	54082,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.15444361463778941,
+			"nsym":	0.00025605462498666379,
+			"kind":	"power network problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.584960013628006e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00016175360083580016,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.0444799996912479e-05,
+				"repetitions":	5
+			}
+		}
+	}]

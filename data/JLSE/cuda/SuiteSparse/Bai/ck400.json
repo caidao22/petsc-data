@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Bai/ck400/ck400.mtx",
+		"problem":	{
+			"id":	307,
+			"group":	"Bai",
+			"name":	"ck400",
+			"rows":	400,
+			"cols":	400,
+			"nonzeros":	2860,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.98861788617886182,
+			"nsym":	0.0016260162601626021,
+			"kind":	"2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.2732799872756007e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	4.7103999555110922e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	8.1920000724494542e-06,
+				"repetitions":	5
+			}
+		}
+	}]

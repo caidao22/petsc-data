@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/LeGresley/LeGresley_87936/LeGresley_87936.mtx",
+		"problem":	{
+			"id":	2657,
+			"group":	"LeGresley",
+			"name":	"LeGresley_87936",
+			"rows":	87936,
+			"cols":	87936,
+			"nonzeros":	593276,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.979202060829231,
+			"nsym":	0.034274719283134858,
+			"kind":	"power network problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	4.9254399538040157e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0010602880001068116,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	4.48511995375156e-05,
+				"repetitions":	5
+			}
+		}
+	}]

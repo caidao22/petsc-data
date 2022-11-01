@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/JGD_Homology/n3c6-b1/n3c6-b1.mtx",
+		"problem":	{
+			"id":	2097,
+			"group":	"JGD_Homology",
+			"name":	"n3c6-b1",
+			"rows":	105,
+			"cols":	105,
+			"nonzeros":	210,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.0857142857142857,
+			"nsym":	0.0761904761904762,
+			"kind":	"combinatorial problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.2118399478495121e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	3.93215999007225e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	6.7584000527858883e-06,
+				"repetitions":	5
+			}
+		}
+	}]

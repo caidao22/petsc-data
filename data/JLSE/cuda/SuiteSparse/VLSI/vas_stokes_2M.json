@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/VLSI/vas_stokes_2M/vas_stokes_2M.mtx",
+		"problem":	{
+			"id":	2843,
+			"group":	"VLSI",
+			"name":	"vas_stokes_2M",
+			"rows":	2146677,
+			"cols":	2146677,
+			"nonzeros":	65129037,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.464592974921867,
+			"nsym":	0.20729521726400851,
+			"kind":	"semiconductor process problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.0012417280197143555,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.10931663360595703,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.0019703488111495692,
+				"repetitions":	5
+			}
+		}
+	}]

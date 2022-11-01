@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Rommes/S10PI_n/S10PI_n.mtx",
+		"problem":	{
+			"id":	2369,
+			"group":	"Rommes",
+			"name":	"S10PI_n",
+			"rows":	682,
+			"cols":	682,
+			"nonzeros":	1633,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.1132075471698113,
+			"kind":	"eigenvalue/model reduction problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.2118400037288669e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	4.3417599424719823e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	7.372800074517715e-06,
+				"repetitions":	5
+			}
+		}
+	}]

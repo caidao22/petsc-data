@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/GHS_indef/bmw3_2/bmw3_2.mtx",
+		"problem":	{
+			"id":	1219,
+			"group":	"GHS_indef",
+			"name":	"bmw3_2",
+			"rows":	227362,
+			"cols":	227362,
+			"nonzeros":	11288630,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00023542400002479554,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.018975609588623051,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.0002322751969099035,
+				"repetitions":	5
+			}
+		}
+	}]

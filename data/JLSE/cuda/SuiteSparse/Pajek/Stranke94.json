@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Pajek/Stranke94/Stranke94.mtx",
+		"problem":	{
+			"id":	1524,
+			"group":	"Pajek",
+			"name":	"Stranke94",
+			"rows":	10,
+			"cols":	10,
+			"nonzeros":	90,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.25279999896884e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	4.1779199242591854e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	7.9872000962495959e-06,
+				"repetitions":	5
+			}
+		}
+	}]

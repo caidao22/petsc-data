@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/GHS_psdef/bmwcra_1/bmwcra_1.mtx",
+		"problem":	{
+			"id":	1254,
+			"group":	"GHS_psdef",
+			"name":	"bmwcra_1",
+			"rows":	148770,
+			"cols":	148770,
+			"nonzeros":	10641602,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00021972480118274688,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.01794496650695801,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.0002158592015504862,
+				"repetitions":	5
+			}
+		}
+	}]

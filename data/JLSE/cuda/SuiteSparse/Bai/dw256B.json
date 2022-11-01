@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Bai/dw256B/dw256B.mtx",
+		"problem":	{
+			"id":	311,
+			"group":	"Bai",
+			"name":	"dw256B",
+			"rows":	512,
+			"cols":	512,
+			"nonzeros":	2500,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.96981891348088534,
+			"nsym":	0.88329979879275655,
+			"kind":	"electromagnetics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.1094399690628052e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	4.56703994423151e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	8.1920000724494542e-06,
+				"repetitions":	5
+			}
+		}
+	}]

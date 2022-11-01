@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/GHS_psdef/jnlbrng1/jnlbrng1.mtx",
+		"problem":	{
+			"id":	1312,
+			"group":	"GHS_psdef",
+			"name":	"jnlbrng1",
+			"rows":	40000,
+			"cols":	40000,
+			"nonzeros":	199200,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"optimization problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.9638399556279182e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00042222719788551327,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.5359999984502874e-05,
+				"repetitions":	5
+			}
+		}
+	}]

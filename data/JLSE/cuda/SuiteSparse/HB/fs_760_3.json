@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/HB/fs_760_3/fs_760_3.mtx",
+		"problem":	{
+			"id":	154,
+			"group":	"HB",
+			"name":	"fs_760_3",
+			"rows":	760,
+			"cols":	760,
+			"nonzeros":	5816,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.6510736196319018,
+			"nsym":	0,
+			"kind":	"subsequent 2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.3961600288748742e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	5.2838400006294253e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	8.1920001655816958e-06,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Schenk_IBMSDS/matrix-new_3/matrix-new_3.mtx",
+		"problem":	{
+			"id":	960,
+			"group":	"Schenk_IBMSDS",
+			"name":	"matrix-new_3",
+			"rows":	125329,
+			"cols":	125329,
+			"nonzeros":	893984,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.98711180020842626,
+			"nsym":	0.28260793203712981,
+			"kind":	"semiconductor device problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00010247039943933488,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0055083327293396,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.00010301439762115463,
+				"repetitions":	5
+			}
+		}
+	}]

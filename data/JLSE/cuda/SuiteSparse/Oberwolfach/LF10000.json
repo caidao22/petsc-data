@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Oberwolfach/LF10000/LF10000.mtx",
+		"problem":	{
+			"id":	1437,
+			"group":	"Oberwolfach",
+			"name":	"LF10000",
+			"rows":	19998,
+			"cols":	19998,
+			"nonzeros":	99982,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"model reduction problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.7948799729347229e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.000270598402619362,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.1878400109708274e-05,
+				"repetitions":	5
+			}
+		}
+	}]

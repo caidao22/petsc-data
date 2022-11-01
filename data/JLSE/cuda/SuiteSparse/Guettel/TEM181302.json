@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Guettel/TEM181302/TEM181302.mtx",
+		"problem":	{
+			"id":	2813,
+			"group":	"Guettel",
+			"name":	"TEM181302",
+			"rows":	181302,
+			"cols":	181302,
+			"nonzeros":	7839010,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"electromagnetics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00017884159982204439,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.013265689659118651,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.0002201600015163424,
+				"repetitions":	5
+			}
+		}
+	}]

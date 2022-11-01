@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Rommes/xingo_afonso_itaipu/xingo_afonso_itaipu.mtx",
+		"problem":	{
+			"id":	2340,
+			"group":	"Rommes",
+			"name":	"xingo_afonso_itaipu",
+			"rows":	13250,
+			"cols":	13250,
+			"nonzeros":	48735,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.70755975541967764,
+			"nsym":	0.58571428571428574,
+			"kind":	"eigenvalue/model reduction problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.6771200448274612e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.000163359996676445,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.3926400057971471e-05,
+				"repetitions":	5
+			}
+		}
+	}]

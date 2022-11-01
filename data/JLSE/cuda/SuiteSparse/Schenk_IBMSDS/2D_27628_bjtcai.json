@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Schenk_IBMSDS/2D_27628_bjtcai/2D_27628_bjtcai.mtx",
+		"problem":	{
+			"id":	954,
+			"group":	"Schenk_IBMSDS",
+			"name":	"2D_27628_bjtcai",
+			"rows":	27628,
+			"cols":	27628,
+			"nonzeros":	206670,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.999576179353192,
+			"nsym":	0.21859675383429589,
+			"kind":	"semiconductor device problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.74208003282547e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00078393599987030031,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	2.1503999829292249e-05,
+				"repetitions":	5
+			}
+		}
+	}]

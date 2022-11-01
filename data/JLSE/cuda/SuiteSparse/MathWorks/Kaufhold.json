@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/MathWorks/Kaufhold/Kaufhold.mtx",
+		"problem":	{
+			"id":	1404,
+			"group":	"MathWorks",
+			"name":	"Kaufhold",
+			"rows":	8765,
+			"cols":	8765,
+			"nonzeros":	42471,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.778437073518068,
+			"kind":	"counter-example problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.6528000086545941e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00014394879937171937,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.3721600174903875e-05,
+				"repetitions":	5
+			}
+		}
+	}]

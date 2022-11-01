@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Gset/G34/G34.mtx",
+		"problem":	{
+			"id":	496,
+			"group":	"Gset",
+			"name":	"G34",
+			"rows":	2000,
+			"cols":	2000,
+			"nonzeros":	8000,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted random graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.3142400011420251e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	6.0620799660682681e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	7.7824001200497156e-06,
+				"repetitions":	5
+			}
+		}
+	}]

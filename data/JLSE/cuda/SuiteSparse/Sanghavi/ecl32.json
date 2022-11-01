@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Sanghavi/ecl32/ecl32.mtx",
+		"problem":	{
+			"id":	983,
+			"group":	"Sanghavi",
+			"name":	"ecl32",
+			"rows":	51993,
+			"cols":	51993,
+			"nonzeros":	380415,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.92191753293019352,
+			"nsym":	0.60302902972395267,
+			"kind":	"semiconductor device problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	4.1055999696254732e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0007206975936889647,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	2.31424000114203e-05,
+				"repetitions":	5
+			}
+		}
+	}]

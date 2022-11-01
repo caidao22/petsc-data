@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/POLYFLOW/invextr1_new/invextr1_new.mtx",
+		"problem":	{
+			"id":	1642,
+			"group":	"POLYFLOW",
+			"name":	"invextr1_new",
+			"rows":	30412,
+			"cols":	30412,
+			"nonzeros":	1793881,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.971442083756505,
+			"nsym":	0.72134865994242026,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	8.6860801279544823e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0029163968086242673,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	6.5740799903869776e-05,
+				"repetitions":	5
+			}
+		}
+	}]

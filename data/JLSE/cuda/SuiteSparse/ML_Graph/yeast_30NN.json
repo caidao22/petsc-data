@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/ML_Graph/yeast_30NN/yeast_30NN.mtx",
+		"problem":	{
+			"id":	2892,
+			"group":	"ML_Graph",
+			"name":	"yeast_30NN",
+			"rows":	1484,
+			"cols":	1484,
+			"nonzeros":	62350,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.6374400034546855e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00018389119803905487,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.1878399923443773e-05,
+				"repetitions":	5
+			}
+		}
+	}]

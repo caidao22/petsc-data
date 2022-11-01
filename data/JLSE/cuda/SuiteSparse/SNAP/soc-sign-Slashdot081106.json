@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/SNAP/soc-sign-Slashdot081106/soc-sign-Slashdot081106.mtx",
+		"problem":	{
+			"id":	2326,
+			"group":	"SNAP",
+			"name":	"soc-sign-Slashdot081106",
+			"rows":	77357,
+			"cols":	77357,
+			"nonzeros":	516575,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.18592072787107389,
+			"nsym":	0.17861104389488461,
+			"kind":	"directed weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	5.6582400202751169e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0010854591846466066,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	8.99072006344797e-05,
+				"repetitions":	5
+			}
+		}
+	}]

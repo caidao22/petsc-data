@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/PARSEC/Na5/Na5.mtx",
+		"problem":	{
+			"id":	1358,
+			"group":	"PARSEC",
+			"name":	"Na5",
+			"rows":	5832,
+			"cols":	5832,
+			"nonzeros":	305630,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"theoretical/quantum chemistry problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.50976001471281e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.000572268807888031,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	2.7852799743413851e-05,
+				"repetitions":	5
+			}
+		}
+	}]

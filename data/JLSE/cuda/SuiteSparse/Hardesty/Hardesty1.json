@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Hardesty/Hardesty1/Hardesty1.mtx",
+		"problem":	{
+			"id":	2831,
+			"group":	"Hardesty",
+			"name":	"Hardesty1",
+			"rows":	938905,
+			"cols":	938905,
+			"nonzeros":	12143314,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"computer graphics/vision problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00030780159831047063,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.021113523101806642,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.000250419202446936,
+				"repetitions":	5
+			}
+		}
+	}]

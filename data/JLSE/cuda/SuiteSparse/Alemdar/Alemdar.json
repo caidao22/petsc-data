@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Alemdar/Alemdar/Alemdar.mtx",
+		"problem":	{
+			"id":	923,
+			"group":	"Alemdar",
+			"name":	"Alemdar",
+			"rows":	6245,
+			"cols":	6245,
+			"nonzeros":	42581,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.6387200132012365e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00014452479779720307,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.1059199832379836e-05,
+				"repetitions":	5
+			}
+		}
+	}]

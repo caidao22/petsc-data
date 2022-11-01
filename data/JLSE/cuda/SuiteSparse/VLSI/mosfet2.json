@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/VLSI/mosfet2/mosfet2.mtx",
+		"problem":	{
+			"id":	2837,
+			"group":	"VLSI",
+			"name":	"mosfet2",
+			"rows":	46994,
+			"cols":	46994,
+			"nonzeros":	1013062,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.17973683011961891,
+			"kind":	"semiconductor device problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	7.1705599129199979e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00242041597366333,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	6.2463999539614029e-05,
+				"repetitions":	5
+			}
+		}
+	}]

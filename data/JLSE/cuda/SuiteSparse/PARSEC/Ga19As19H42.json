@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/PARSEC/Ga19As19H42/Ga19As19H42.mtx",
+		"problem":	{
+			"id":	1351,
+			"group":	"PARSEC",
+			"name":	"Ga19As19H42",
+			"rows":	133123,
+			"cols":	133123,
+			"nonzeros":	8884839,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"theoretical/quantum chemistry problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00019858559966087338,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.014948575973510745,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.00032014080882072362,
+				"repetitions":	5
+			}
+		}
+	}]

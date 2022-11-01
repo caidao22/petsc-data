@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/SNAP/CollegeMsg/CollegeMsg.mtx",
+		"problem":	{
+			"id":	2777,
+			"group":	"SNAP",
+			"name":	"CollegeMsg",
+			"rows":	1899,
+			"cols":	1899,
+			"nonzeros":	20296,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.63638155301537247,
+			"nsym":	0.263204572329523,
+			"kind":	"directed temporal multigraph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.4159999564290049e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00011325439959764482,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.2902400083839894e-05,
+				"repetitions":	5
+			}
+		}
+	}]

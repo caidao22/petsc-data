@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Goodwin/Goodwin_010/Goodwin_010.mtx",
+		"problem":	{
+			"id":	2817,
+			"group":	"Goodwin",
+			"name":	"Goodwin_010",
+			"rows":	1182,
+			"cols":	1182,
+			"nonzeros":	32282,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.901812159622918,
+			"nsym":	0.054969903500111467,
+			"kind":	"computational fluid dynamics"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.4595200270414352e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00011423999816179275,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.0035200230777262e-05,
+				"repetitions":	5
+			}
+		}
+	}]

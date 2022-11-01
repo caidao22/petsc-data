@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/ML_Graph/Ecoli_10NN/Ecoli_10NN.mtx",
+		"problem":	{
+			"id":	2867,
+			"group":	"ML_Graph",
+			"name":	"Ecoli_10NN",
+			"rows":	336,
+			"cols":	336,
+			"nonzeros":	4560,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.19200000166893e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	4.9766400456428534e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	8.6016000248491726e-06,
+				"repetitions":	5
+			}
+		}
+	}]

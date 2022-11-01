@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Rommes/bauru5727/bauru5727.mtx",
+		"problem":	{
+			"id":	2345,
+			"group":	"Rommes",
+			"name":	"bauru5727",
+			"rows":	40366,
+			"cols":	40366,
+			"nonzeros":	145019,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.69315215650059836,
+			"nsym":	0.58280641908764519,
+			"kind":	"eigenvalue/model reduction problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.0553599819540977e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0003736895978450775,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.5359999984502962e-05,
+				"repetitions":	5
+			}
+		}
+	}]

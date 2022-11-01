@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/PARSEC/Si34H36/Si34H36.mtx",
+		"problem":	{
+			"id":	1361,
+			"group":	"PARSEC",
+			"name":	"Si34H36",
+			"rows":	97569,
+			"cols":	97569,
+			"nonzeros":	5156379,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"theoretical/quantum chemistry problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00013558400273323059,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0050219072341918941,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.00019251199960708675,
+				"repetitions":	5
+			}
+		}
+	}]

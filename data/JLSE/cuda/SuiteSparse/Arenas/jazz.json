@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Arenas/jazz/jazz.mtx",
+		"problem":	{
+			"id":	2406,
+			"group":	"Arenas",
+			"name":	"jazz",
+			"rows":	198,
+			"cols":	198,
+			"nonzeros":	5484,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected multigraph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.29375995695591e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	5.0995200127363217e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	8.6016001179814345e-06,
+				"repetitions":	5
+			}
+		}
+	}]

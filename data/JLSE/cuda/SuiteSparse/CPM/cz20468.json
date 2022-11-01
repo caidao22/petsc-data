@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/CPM/cz20468/cz20468.mtx",
+		"problem":	{
+			"id":	2566,
+			"group":	"CPM",
+			"name":	"cz20468",
+			"rows":	20468,
+			"cols":	20468,
+			"nonzeros":	206076,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.43547691909831471,
+			"nsym":	0.23770527132451191,
+			"kind":	"2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.1468800082802776e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00041498880982398991,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.3926399871707056e-05,
+				"repetitions":	5
+			}
+		}
+	}]

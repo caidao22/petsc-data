@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/HB/plsk1919/plsk1919.mtx",
+		"problem":	{
+			"id":	230,
+			"group":	"HB",
+			"name":	"plsk1919",
+			"rows":	1919,
+			"cols":	1919,
+			"nonzeros":	9662,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0,
+			"kind":	"2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.4864000082015992e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	6.9631998986005773e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	8.1920000724494339e-06,
+				"repetitions":	5
+			}
+		}
+	}]

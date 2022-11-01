@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/HB/jpwh_991/jpwh_991.mtx",
+		"problem":	{
+			"id":	187,
+			"group":	"HB",
+			"name":	"jpwh_991",
+			"rows":	991,
+			"cols":	991,
+			"nonzeros":	6027,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.936457505957109,
+			"nsym":	0.936457505957109,
+			"kind":	"semiconductor device problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.2732799872756007e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	5.6524799764156359e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	8.80640000104904e-06,
+				"repetitions":	5
+			}
+		}
+	}]

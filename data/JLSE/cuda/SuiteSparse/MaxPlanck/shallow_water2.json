@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/MaxPlanck/shallow_water2/shallow_water2.mtx",
+		"problem":	{
+			"id":	2262,
+			"group":	"MaxPlanck",
+			"name":	"shallow_water2",
+			"rows":	81920,
+			"cols":	81920,
+			"nonzeros":	327680,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	4.1369599848985672e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.000388377594947815,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	2.0889599248766991e-05,
+				"repetitions":	5
+			}
+		}
+	}]

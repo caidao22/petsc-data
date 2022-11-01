@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/ML_Graph/indianpines_10NN/indianpines_10NN.mtx",
+		"problem":	{
+			"id":	2871,
+			"group":	"ML_Graph",
+			"name":	"indianpines_10NN",
+			"rows":	9144,
+			"cols":	9144,
+			"nonzeros":	124656,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.04639995098114e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00032168960571289071,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.4745600149035452e-05,
+				"repetitions":	5
+			}
+		}
+	}]

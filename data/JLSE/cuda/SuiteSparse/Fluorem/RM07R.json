@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Fluorem/RM07R/RM07R.mtx",
+		"problem":	{
+			"id":	2337,
+			"group":	"Fluorem",
+			"name":	"RM07R",
+			"rows":	381689,
+			"cols":	381689,
+			"nonzeros":	37464962,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.92616679223541032,
+			"nsym":	4.2606810892878854e-06,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00066166399717330936,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.061713818359375,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.000959839987754807,
+				"repetitions":	5
+			}
+		}
+	}]

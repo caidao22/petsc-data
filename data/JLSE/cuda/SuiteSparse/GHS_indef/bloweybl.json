@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/GHS_indef/bloweybl/bloweybl.mtx",
+		"problem":	{
+			"id":	1424,
+			"group":	"GHS_indef",
+			"name":	"bloweybl",
+			"rows":	30003,
+			"cols":	30003,
+			"nonzeros":	109999,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"materials problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.8927999362349509e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0013519167900085448,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.65887996554372e-05,
+				"repetitions":	5
+			}
+		}
+	}]

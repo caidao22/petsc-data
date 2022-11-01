@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Lourakis/bundle1/bundle1.mtx",
+		"problem":	{
+			"id":	1347,
+			"group":	"Lourakis",
+			"name":	"bundle1",
+			"rows":	10581,
+			"cols":	10581,
+			"nonzeros":	770811,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"computer graphics/vision problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	4.8326400667428974e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0013623680114746093,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	5.3043199330568382e-05,
+				"repetitions":	5
+			}
+		}
+	}]

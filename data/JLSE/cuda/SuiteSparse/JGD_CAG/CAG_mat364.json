@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/JGD_CAG/CAG_mat364/CAG_mat364.mtx",
+		"problem":	{
+			"id":	1942,
+			"group":	"JGD_CAG",
+			"name":	"CAG_mat364",
+			"rows":	364,
+			"cols":	364,
+			"nonzeros":	13585,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.41555101732092881,
+			"nsym":	0.28046289993192652,
+			"kind":	"combinatorial problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.64639999717474e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	6.328319907188415e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.0444799996912467e-05,
+				"repetitions":	5
+			}
+		}
+	}]

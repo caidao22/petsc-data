@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/GHS_psdef/ldoor/ldoor.mtx",
+		"problem":	{
+			"id":	1268,
+			"group":	"GHS_psdef",
+			"name":	"ldoor",
+			"rows":	952203,
+			"cols":	952203,
+			"nonzeros":	42493817,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00085669759511947628,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.077677702331542975,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.00094222720861434348,
+				"repetitions":	5
+			}
+		}
+	}]

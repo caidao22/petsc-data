@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/GAP/GAP-road/GAP-road.mtx",
+		"problem":	{
+			"id":	2854,
+			"group":	"GAP",
+			"name":	"GAP-road",
+			"rows":	23947347,
+			"cols":	23947347,
+			"nonzeros":	57708624,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"directed weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.0026213952064514162,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.10593393859863283,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.0028271039962768363,
+				"repetitions":	5
+			}
+		}
+	}]

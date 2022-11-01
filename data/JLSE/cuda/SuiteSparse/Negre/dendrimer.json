@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Negre/dendrimer/dendrimer.mtx",
+		"problem":	{
+			"id":	2850,
+			"group":	"Negre",
+			"name":	"dendrimer",
+			"rows":	730,
+			"cols":	730,
+			"nonzeros":	63024,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"computational chemistry problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.4774399772286415e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00018172160387039182,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.1263999901711934e-05,
+				"repetitions":	5
+			}
+		}
+	}]

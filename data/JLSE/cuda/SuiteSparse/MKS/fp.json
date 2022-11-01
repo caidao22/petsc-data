@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/MKS/fp/fp.mtx",
+		"problem":	{
+			"id":	1395,
+			"group":	"MKS",
+			"name":	"fp",
+			"rows":	7548,
+			"cols":	7548,
+			"nonzeros":	834222,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.75751749395069,
+			"nsym":	0.0029128773857651259,
+			"kind":	"electromagnetics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	5.2435199916362763e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.000754156804084778,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	4.73088003695013e-05,
+				"repetitions":	5
+			}
+		}
+	}]

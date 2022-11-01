@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/IPSO/TSC_OPF_300/TSC_OPF_300.mtx",
+		"problem":	{
+			"id":	2540,
+			"group":	"IPSO",
+			"name":	"TSC_OPF_300",
+			"rows":	9774,
+			"cols":	9774,
+			"nonzeros":	820783,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"power network problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	4.9721600860357279e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0015068863868713379,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	4.6694400906563058e-05,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Oberwolfach/inlet/inlet.mtx",
+		"problem":	{
+			"id":	1436,
+			"group":	"Oberwolfach",
+			"name":	"inlet",
+			"rows":	11730,
+			"cols":	11730,
+			"nonzeros":	328323,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.60833309643611833,
+			"nsym":	9.4758886014536e-05,
+			"kind":	"model reduction problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.4252800419926645e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00059910399913787836,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.6998399794101832e-05,
+				"repetitions":	5
+			}
+		}
+	}]

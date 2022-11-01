@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Pajek/ODLIS/ODLIS.mtx",
+		"problem":	{
+			"id":	1512,
+			"group":	"Pajek",
+			"name":	"ODLIS",
+			"rows":	2909,
+			"cols":	2909,
+			"nonzeros":	18246,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.2043747601556932,
+			"nsym":	0.19976974946548981,
+			"kind":	"directed multigraph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.69760001450777e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	9.2652797698974644e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.1673600040376197e-05,
+				"repetitions":	5
+			}
+		}
+	}]

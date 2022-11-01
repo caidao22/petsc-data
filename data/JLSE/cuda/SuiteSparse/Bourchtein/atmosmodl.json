@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Bourchtein/atmosmodl/atmosmodl.mtx",
+		"problem":	{
+			"id":	2267,
+			"group":	"Bourchtein",
+			"name":	"atmosmodl",
+			"rows":	1489752,
+			"cols":	1489752,
+			"nonzeros":	10319760,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.67145035429186473,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.0003000064015388489,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.018365312194824221,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.0002766784012317641,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/DIMACS10/or2010/or2010.mtx",
+		"problem":	{
+			"id":	2618,
+			"group":	"DIMACS10",
+			"name":	"or2010",
+			"rows":	196621,
+			"cols":	196621,
+			"nonzeros":	979512,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	7.0220798254013063e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0017076160192489626,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	9.0156801044941054e-05,
+				"repetitions":	5
+			}
+		}
+	}]

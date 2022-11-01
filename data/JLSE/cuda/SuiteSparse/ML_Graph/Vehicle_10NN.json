@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/ML_Graph/Vehicle_10NN/Vehicle_10NN.mtx",
+		"problem":	{
+			"id":	2888,
+			"group":	"ML_Graph",
+			"name":	"Vehicle_10NN",
+			"rows":	846,
+			"cols":	846,
+			"nonzeros":	10894,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.46592003852129e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	6.84032008051872e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	9.4208002090454034e-06,
+				"repetitions":	5
+			}
+		}
+	}]

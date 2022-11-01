@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/HB/lund_b/lund_b.mtx",
+		"problem":	{
+			"id":	207,
+			"group":	"HB",
+			"name":	"lund_b",
+			"rows":	147,
+			"cols":	147,
+			"nonzeros":	2441,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.4780799821019175e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	4.3827199935913087e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	8.3968000486493e-06,
+				"repetitions":	5
+			}
+		}
+	}]

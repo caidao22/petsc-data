@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Sandia/ASIC_100k/ASIC_100k.mtx",
+		"problem":	{
+			"id":	1415,
+			"group":	"Sandia",
+			"name":	"ASIC_100k",
+			"rows":	99340,
+			"cols":	99340,
+			"nonzeros":	940621,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.0026314663471824051,
+			"kind":	"circuit simulation problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	6.3039999455213541e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.015608262252807616,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	9.3593601882455141e-05,
+				"repetitions":	5
+			}
+		}
+	}]

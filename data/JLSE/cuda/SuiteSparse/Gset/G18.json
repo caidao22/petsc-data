@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Gset/G18/G18.mtx",
+		"problem":	{
+			"id":	478,
+			"group":	"Gset",
+			"name":	"G18",
+			"rows":	800,
+			"cols":	800,
+			"nonzeros":	9388,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted random graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.3263999819755556e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	8.1920000910758978e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.1468799971044076e-05,
+				"repetitions":	5
+			}
+		}
+	}]

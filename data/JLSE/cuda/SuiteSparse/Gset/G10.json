@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Gset/G10/G10.mtx",
+		"problem":	{
+			"id":	470,
+			"group":	"Gset",
+			"name":	"G10",
+			"rows":	800,
+			"cols":	800,
+			"nonzeros":	38352,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted random graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.551680020987988e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00012976640164852143,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.1059199832379836e-05,
+				"repetitions":	5
+			}
+		}
+	}]

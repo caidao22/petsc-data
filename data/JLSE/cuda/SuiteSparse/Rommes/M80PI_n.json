@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Rommes/M80PI_n/M80PI_n.mtx",
+		"problem":	{
+			"id":	2364,
+			"group":	"Rommes",
+			"name":	"M80PI_n",
+			"rows":	4182,
+			"cols":	4182,
+			"nonzeros":	10261,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.01191043353978085,
+			"kind":	"eigenvalue/model reduction problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.4665600433945658e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	6.65600009262562e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	8.1920000724494339e-06,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/GHS_indef/k1_san/k1_san.mtx",
+		"problem":	{
+			"id":	1238,
+			"group":	"GHS_indef",
+			"name":	"k1_san",
+			"rows":	67759,
+			"cols":	67759,
+			"nonzeros":	559774,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	4.6137601137161251e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.000994489586353302,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	3.1129600107670032e-05,
+				"repetitions":	5
+			}
+		}
+	}]

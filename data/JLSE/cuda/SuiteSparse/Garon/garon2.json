@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Garon/garon2/garon2.mtx",
+		"problem":	{
+			"id":	445,
+			"group":	"Garon",
+			"name":	"garon2",
+			"rows":	13535,
+			"cols":	13535,
+			"nonzeros":	373235,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.672681981732632,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.7484800070524211e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.000724838399887085,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.8022399768233363e-05,
+				"repetitions":	5
+			}
+		}
+	}]

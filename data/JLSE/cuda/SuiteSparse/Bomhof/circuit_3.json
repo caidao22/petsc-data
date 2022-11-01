@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Bomhof/circuit_3/circuit_3.mtx",
+		"problem":	{
+			"id":	372,
+			"group":	"Bomhof",
+			"name":	"circuit_3",
+			"rows":	12127,
+			"cols":	12127,
+			"nonzeros":	48137,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.77007178354500272,
+			"nsym":	0.30011043622308109,
+			"kind":	"circuit simulation problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.8358399868011473e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.000576537585258484,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.41311999410392e-05,
+				"repetitions":	5
+			}
+		}
+	}]

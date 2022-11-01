@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/SNAP/sx-superuser/sx-superuser.mtx",
+		"problem":	{
+			"id":	2795,
+			"group":	"SNAP",
+			"name":	"sx-superuser",
+			"rows":	194085,
+			"cols":	194085,
+			"nonzeros":	924886,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.327272386780075,
+			"nsym":	0.197851768013418,
+			"kind":	"directed temporal multigraph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	7.1654400229454032e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00442366714477539,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.00022869759798049976,
+				"repetitions":	5
+			}
+		}
+	}]

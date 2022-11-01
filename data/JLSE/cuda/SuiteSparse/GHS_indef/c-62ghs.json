@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/GHS_indef/c-62ghs/c-62ghs.mtx",
+		"problem":	{
+			"id":	1223,
+			"group":	"GHS_indef",
+			"name":	"c-62ghs",
+			"rows":	41731,
+			"cols":	41731,
+			"nonzeros":	559339,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"subsequent optimization problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	4.6732800453901288e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.001385708808898926,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	4.54656004905702e-05,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/ML_Graph/dataset16mfeatkarhunen_10NN/dataset16mfeatkarhunen_10NN.mtx",
+		"problem":	{
+			"id":	2862,
+			"group":	"ML_Graph",
+			"name":	"dataset16mfeatkarhunen_10NN",
+			"rows":	2000,
+			"cols":	2000,
+			"nonzeros":	27668,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.40896001458168e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00010396159887313843,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.0854399763047716e-05,
+				"repetitions":	5
+			}
+		}
+	}]

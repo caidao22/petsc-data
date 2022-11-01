@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/HB/orsreg_1/orsreg_1.mtx",
+		"problem":	{
+			"id":	227,
+			"group":	"HB",
+			"name":	"orsreg_1",
+			"rows":	2205,
+			"cols":	2205,
+			"nonzeros":	14133,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.4119718309859155,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.5619200244545934e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	7.5571200996637342e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.1059199832379836e-05,
+				"repetitions":	5
+			}
+		}
+	}]

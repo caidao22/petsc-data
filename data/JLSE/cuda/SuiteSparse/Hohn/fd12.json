@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Hohn/fd12/fd12.mtx",
+		"problem":	{
+			"id":	917,
+			"group":	"Hohn",
+			"name":	"fd12",
+			"rows":	7500,
+			"cols":	7500,
+			"nonzeros":	28462,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.00028107652308340938,
+			"nsym":	0,
+			"kind":	"materials problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.4422400444746018e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00010948479920625688,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	9.011200070381163e-06,
+				"repetitions":	5
+			}
+		}
+	}]

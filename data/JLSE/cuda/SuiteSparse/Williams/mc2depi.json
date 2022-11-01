@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Williams/mc2depi/mc2depi.mtx",
+		"problem":	{
+			"id":	2377,
+			"group":	"Williams",
+			"name":	"mc2depi",
+			"rows":	525825,
+			"cols":	525825,
+			"nonzeros":	2100225,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0,
+			"nsym":	0,
+			"kind":	"2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00010850559920072556,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0036000447750091555,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	7.5129601359366632e-05,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/HB/gemat11/gemat11.mtx",
+		"problem":	{
+			"id":	156,
+			"group":	"HB",
+			"name":	"gemat11",
+			"rows":	4929,
+			"cols":	4929,
+			"nonzeros":	33108,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.0013264198721813581,
+			"nsym":	0,
+			"kind":	"power network problem sequence"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.6924800127744678e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00012691840082407,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.1059200018644338e-05,
+				"repetitions":	5
+			}
+		}
+	}]

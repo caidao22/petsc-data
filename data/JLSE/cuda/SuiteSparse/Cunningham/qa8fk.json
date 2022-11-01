@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Cunningham/qa8fk/qa8fk.mtx",
+		"problem":	{
+			"id":	844,
+			"group":	"Cunningham",
+			"name":	"qa8fk",
+			"rows":	66127,
+			"cols":	66127,
+			"nonzeros":	1660579,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"acoustics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	9.370239973068237e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0014987200021743775,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	5.6729599833488935e-05,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Oberwolfach/t2dah/t2dah.mtx",
+		"problem":	{
+			"id":	1447,
+			"group":	"Oberwolfach",
+			"name":	"t2dah",
+			"rows":	11445,
+			"cols":	11445,
+			"nonzeros":	176117,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"model reduction problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.80608007311821e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0003715391993522644,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.4131200313568115e-05,
+				"repetitions":	5
+			}
+		}
+	}]

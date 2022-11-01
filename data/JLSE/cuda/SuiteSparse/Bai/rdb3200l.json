@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Bai/rdb3200l/rdb3200l.mtx",
+		"problem":	{
+			"id":	1633,
+			"group":	"Bai",
+			"name":	"rdb3200l",
+			"rows":	3200,
+			"cols":	3200,
+			"nonzeros":	18880,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.79591836734693877,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.4409599602222443e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	8.947200030088425e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	9.2160001397132832e-06,
+				"repetitions":	5
+			}
+		}
+	}]

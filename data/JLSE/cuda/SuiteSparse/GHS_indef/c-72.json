@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/GHS_indef/c-72/c-72.mtx",
+		"problem":	{
+			"id":	1229,
+			"group":	"GHS_indef",
+			"name":	"c-72",
+			"rows":	84064,
+			"cols":	84064,
+			"nonzeros":	707546,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"optimization problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	5.2320000529289246e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0018490815877914429,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	5.2838399261236416e-05,
+				"repetitions":	5
+			}
+		}
+	}]

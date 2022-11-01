@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/HB/gre_1107/gre_1107.mtx",
+		"problem":	{
+			"id":	160,
+			"group":	"HB",
+			"name":	"gre_1107",
+			"rows":	1107,
+			"cols":	1107,
+			"nonzeros":	5664,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0,
+			"nsym":	0,
+			"kind":	"directed weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.2527999803423882e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	5.4476799070835113e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	7.78240021318199e-06,
+				"repetitions":	5
+			}
+		}
+	}]

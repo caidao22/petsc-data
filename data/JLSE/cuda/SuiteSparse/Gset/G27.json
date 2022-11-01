@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Gset/G27/G27.mtx",
+		"problem":	{
+			"id":	488,
+			"group":	"Gset",
+			"name":	"G27",
+			"rows":	2000,
+			"cols":	2000,
+			"nonzeros":	39980,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted random graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.5075200200080871e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.000132089601457119,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.0854399763047716e-05,
+				"repetitions":	5
+			}
+		}
+	}]

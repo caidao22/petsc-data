@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/SNAP/sx-mathoverflow/sx-mathoverflow.mtx",
+		"problem":	{
+			"id":	2793,
+			"group":	"SNAP",
+			"name":	"sx-mathoverflow",
+			"rows":	24818,
+			"cols":	24818,
+			"nonzeros":	239978,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.35093490532521021,
+			"nsym":	0.16099758323793481,
+			"kind":	"directed temporal multigraph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.7401600182056428e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00073153280019760123,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	7.90527984499932e-05,
+				"repetitions":	5
+			}
+		}
+	}]

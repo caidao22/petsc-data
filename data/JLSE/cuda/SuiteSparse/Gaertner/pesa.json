@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Gaertner/pesa/pesa.mtx",
+		"problem":	{
+			"id":	443,
+			"group":	"Gaertner",
+			"name":	"pesa",
+			"rows":	11738,
+			"cols":	11738,
+			"nonzeros":	79566,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.999970513652179,
+			"kind":	"directed weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.7897600457072262e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00022236160337924955,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.1059199832379792e-05,
+				"repetitions":	5
+			}
+		}
+	}]

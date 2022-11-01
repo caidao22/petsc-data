@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/PARSEC/Ga3As3H12/Ga3As3H12.mtx",
+		"problem":	{
+			"id":	1352,
+			"group":	"PARSEC",
+			"name":	"Ga3As3H12",
+			"rows":	61349,
+			"cols":	61349,
+			"nonzeros":	5970947,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"theoretical/quantum chemistry problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00015307519733905793,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.010096543884277345,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.00023982080221176123,
+				"repetitions":	5
+			}
+		}
+	}]

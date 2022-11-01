@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Cunningham/qa8fm/qa8fm.mtx",
+		"problem":	{
+			"id":	845,
+			"group":	"Cunningham",
+			"name":	"qa8fm",
+			"rows":	66127,
+			"cols":	66127,
+			"nonzeros":	1660579,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"acoustics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	8.38784009218216e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0014742975711822509,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	6.51263996958737e-05,
+				"repetitions":	5
+			}
+		}
+	}]

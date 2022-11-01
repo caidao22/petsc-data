@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/ATandT/twotone/twotone.mtx",
+		"problem":	{
+			"id":	286,
+			"group":	"ATandT",
+			"name":	"twotone",
+			"rows":	120750,
+			"cols":	120750,
+			"nonzeros":	1206265,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.24456686240087169,
+			"nsym":	0.10585423720007971,
+			"kind":	"frequency-domain circuit simulation problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	7.4688000977039332e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00120187520980835,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	9.2364799976349038e-05,
+				"repetitions":	5
+			}
+		}
+	}]
