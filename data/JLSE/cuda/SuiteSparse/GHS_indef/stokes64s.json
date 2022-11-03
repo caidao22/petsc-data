@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/GHS_indef/stokes64s/stokes64s.mtx",
+        "problem": {
+            "id": 1248,
+            "group": "GHS_indef",
+            "name": "stokes64s",
+            "rows": 12546,
+            "cols": 12546,
+            "nonzeros": 140034,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "computational fluid dynamics problem",
+            "columns": 12546,
+            "row_distribution": {
+                "min": 5,
+                "q1": 8.0,
+                "median": 13.0,
+                "q3": 13.0,
+                "max": 13,
+                "mean": 11.161645145863224,
+                "variance": 5.827529383404523,
+                "skewness": -0.5548699530562637,
+                "kurtosis": 1.3186441307173669,
+                "hyperskewness": -1.319919168517139,
+                "hyperflatness": 2.1501799977627829
+            },
+            "col_distribution": {
+                "min": 5,
+                "q1": 8.0,
+                "median": 13.0,
+                "q3": 13.0,
+                "max": 13,
+                "mean": 11.161645145863224,
+                "variance": 5.827529383404523,
+                "skewness": -0.5548699530562637,
+                "kurtosis": 1.3186441307173669,
+                "hyperskewness": -1.319919168517139,
+                "hyperflatness": 2.1501799977627829
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 1735716,
+                "max_relative_norm2": 1.183967695669891e-16,
+                "time": 0.00000798720009624958,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 1735716,
+                "max_relative_norm2": 0.0,
+                "time": 0.00001372160017490387,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 1705048,
+                "max_relative_norm2": 1.7649242928505953e-16,
+                "time": 0.00000942079983651638,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

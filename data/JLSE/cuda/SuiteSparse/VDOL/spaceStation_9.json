@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/VDOL/spaceStation_9/spaceStation_9.mtx",
+        "problem": {
+            "id": 2742,
+            "group": "VDOL",
+            "name": "spaceStation_9",
+            "rows": 1180,
+            "cols": 1180,
+            "nonzeros": 19674,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "optimal control problem",
+            "columns": 1180,
+            "row_distribution": {
+                "min": 1,
+                "q1": 10.0,
+                "median": 18.0,
+                "q3": 23.0,
+                "max": 154,
+                "mean": 16.672881355932206,
+                "variance": 81.03706118931328,
+                "skewness": 2.841390012110487,
+                "kurtosis": 47.24393606529381,
+                "hyperskewness": 699.8466100896937,
+                "hyperflatness": 10683.74811356846
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 10.0,
+                "median": 18.0,
+                "q3": 23.0,
+                "max": 154,
+                "mean": 16.672881355932206,
+                "variance": 81.03706118931328,
+                "skewness": 2.841390012110487,
+                "kurtosis": 47.24393606529381,
+                "hyperskewness": 699.8466100896937,
+                "hyperflatness": 10683.74811356846
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 243272,
+                "max_relative_norm2": 6.075004845176378e-17,
+                "time": 0.000006963200028985738,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 243272,
+                "max_relative_norm2": 0.0,
+                "time": 0.000011264000087976457,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 453432,
+                "max_relative_norm2": 1.3749534346968205e-16,
+                "time": 0.00003502080067992211,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Rajat/rajat04/rajat04.mtx",
+        "problem": {
+            "id": 1188,
+            "group": "Rajat",
+            "name": "rajat04",
+            "rows": 1041,
+            "cols": 1041,
+            "nonzeros": 9642,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0.03991188285603214,
+            "kind": "circuit simulation problem",
+            "columns": 1041,
+            "row_distribution": {
+                "min": 1,
+                "q1": 5.0,
+                "median": 6.0,
+                "q3": 8.0,
+                "max": 661,
+                "mean": 9.262247838616716,
+                "variance": 747.8034643036098,
+                "skewness": 18.799393490632853,
+                "kurtosis": 394.3497025744531,
+                "hyperskewness": 8641.820864733098,
+                "hyperflatness": 194920.4700968231
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 5.0,
+                "median": 6.0,
+                "q3": 8.0,
+                "max": 661,
+                "mean": 9.262247838616716,
+                "variance": 747.8034643036098,
+                "skewness": 18.799393490632853,
+                "kurtosis": 394.3497025744531,
+                "hyperskewness": 8641.820864733098,
+                "hyperflatness": 194920.4700968231
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 121080,
+                "max_relative_norm2": 2.0723151013297163e-16,
+                "time": 0.000009420800022780897,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 121080,
+                "max_relative_norm2": 8.872692302179812e-17,
+                "time": 0.000010444800183176996,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 1206808,
+                "max_relative_norm2": 2.349294305501198e-16,
+                "time": 0.00012738560140132903,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

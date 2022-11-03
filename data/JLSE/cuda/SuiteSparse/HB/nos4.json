@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/HB/nos4/nos4.mtx",
+        "problem": {
+            "id": 220,
+            "group": "HB",
+            "name": "nos4",
+            "rows": 100,
+            "cols": 100,
+            "nonzeros": 594,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "structural problem",
+            "columns": 100,
+            "row_distribution": {
+                "min": 2,
+                "q1": 5.0,
+                "median": 7.0,
+                "q3": 7.0,
+                "max": 7,
+                "mean": 5.94,
+                "variance": 2.096400000000007,
+                "skewness": -1.5162686442915288,
+                "kurtosis": 4.530285788803342,
+                "hyperskewness": -11.396013029183392,
+                "hyperflatness": 30.618109843801365
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 5.0,
+                "median": 7.0,
+                "q3": 7.0,
+                "max": 7,
+                "mean": 5.94,
+                "variance": 2.096400000000007,
+                "skewness": -1.5162686442915288,
+                "kurtosis": 4.530285788803342,
+                "hyperskewness": -11.396013029183392,
+                "hyperflatness": 30.618109843801365
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 7608,
+                "max_relative_norm2": 1.2076500265474434e-16,
+                "time": 0.000006348800007253886,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 7608,
+                "max_relative_norm2": 0.0,
+                "time": 0.000009215999953448773,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 10792,
+                "max_relative_norm2": 1.3684564449743279e-16,
+                "time": 0.000006963200122117997,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

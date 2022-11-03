@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Chen/pkustk05/pkustk05.mtx",
+        "problem": {
+            "id": 851,
+            "group": "Chen",
+            "name": "pkustk05",
+            "rows": 37164,
+            "cols": 37164,
+            "nonzeros": 2205144,
+            "real": true,
+            "binary": true,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "structural problem",
+            "columns": 37164,
+            "row_distribution": {
+                "min": 24,
+                "q1": 36.0,
+                "median": 48.0,
+                "q3": 84.0,
+                "max": 126,
+                "mean": 59.33548595414918,
+                "variance": 606.315928348033,
+                "skewness": 0.30610892866971,
+                "kurtosis": 1.530944578786143,
+                "hyperskewness": 1.6296398244065665,
+                "hyperflatness": 4.534428788232285
+            },
+            "col_distribution": {
+                "min": 24,
+                "q1": 36.0,
+                "median": 48.0,
+                "q3": 84.0,
+                "max": 126,
+                "mean": 59.33548595414918,
+                "variance": 606.315928348033,
+                "skewness": 0.30610892866971,
+                "kurtosis": 1.530944578786143,
+                "hyperskewness": 1.6296398244065665,
+                "hyperflatness": 4.534428788232285
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 26692308,
+                "max_relative_norm2": 1.2863738024538304e-16,
+                "time": 0.00005263359919190407,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 26692308,
+                "max_relative_norm2": 1.2863227923101646e-16,
+                "time": 0.000052838399261236188,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 34486360,
+                "max_relative_norm2": 3.137553476176101e-16,
+                "time": 0.00009195520132780075,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

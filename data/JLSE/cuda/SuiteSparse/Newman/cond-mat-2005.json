@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Newman/cond-mat-2005/cond-mat-2005.mtx",
+        "problem": {
+            "id": 2395,
+            "group": "Newman",
+            "name": "cond-mat-2005",
+            "rows": 40421,
+            "cols": 40421,
+            "nonzeros": 351386,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected weighted graph",
+            "columns": 40421,
+            "row_distribution": {
+                "min": 0,
+                "q1": 3.0,
+                "median": 5.0,
+                "q3": 10.0,
+                "max": 278,
+                "mean": 8.693154548378319,
+                "variance": 162.1765220025183,
+                "skewness": 5.635961705391237,
+                "kurtosis": 58.44793597107786,
+                "hyperskewness": 772.7886363256574,
+                "hyperflatness": 11843.250714994016
+            },
+            "col_distribution": {
+                "min": 0,
+                "q1": 3.0,
+                "median": 5.0,
+                "q3": 10.0,
+                "max": 278,
+                "mean": 8.693154548378319,
+                "variance": 162.1765220025183,
+                "skewness": 5.635961705391237,
+                "kurtosis": 58.44793597107786,
+                "hyperskewness": 772.7886363256574,
+                "hyperflatness": 11843.250714994016
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 4398800,
+                "max_relative_norm2": 9.303136197391879e-17,
+                "time": 0.00002273280024528503,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 4398800,
+                "max_relative_norm2": 5.70103542451772e-17,
+                "time": 0.000020070400089025499,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 22964872,
+                "max_relative_norm2": 2.0940513361487543e-16,
+                "time": 0.0001277952015399933,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csri"
+        }
+    }
+]

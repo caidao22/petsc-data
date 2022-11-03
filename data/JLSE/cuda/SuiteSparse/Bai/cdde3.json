@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Bai/cdde3/cdde3.mtx",
+        "problem": {
+            "id": 302,
+            "group": "Bai",
+            "name": "cdde3",
+            "rows": 961,
+            "cols": 961,
+            "nonzeros": 4681,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0,
+            "kind": "subsequent computational fluid dynamics problem",
+            "columns": 961,
+            "row_distribution": {
+                "min": 3,
+                "q1": 5.0,
+                "median": 5.0,
+                "q3": 5.0,
+                "max": 5,
+                "mean": 4.870967741935484,
+                "variance": 0.1207075962538984,
+                "skewness": -2.506887065390268,
+                "kurtosis": 8.284482758621449,
+                "hyperskewness": -30.79581093259669,
+                "hyperflatness": 131.47748216410273
+            },
+            "col_distribution": {
+                "min": 3,
+                "q1": 5.0,
+                "median": 5.0,
+                "q3": 5.0,
+                "max": 5,
+                "mean": 4.870967741935484,
+                "variance": 0.1207075962538984,
+                "skewness": -2.506887065390268,
+                "kurtosis": 8.284482758621449,
+                "hyperskewness": -30.79581093259669,
+                "hyperflatness": 131.47748216410273
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 60608,
+                "max_relative_norm2": 9.051187894688838e-17,
+                "time": 0.00000614400003105402,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 60608,
+                "max_relative_norm2": 0.0,
+                "time": 0.000010240000113844874,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 60168,
+                "max_relative_norm2": 1.1305830426865238e-16,
+                "time": 0.000006348800007253886,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Nasa/nasa1824/nasa1824.mtx",
+        "problem": {
+            "id": 757,
+            "group": "Nasa",
+            "name": "nasa1824",
+            "rows": 1824,
+            "cols": 1824,
+            "nonzeros": 39208,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "structural problem",
+            "columns": 1824,
+            "row_distribution": {
+                "min": 6,
+                "q1": 18.0,
+                "median": 18.0,
+                "q3": 27.0,
+                "max": 42,
+                "mean": 21.49561403508772,
+                "variance": 49.58112111418948,
+                "skewness": 0.5174195340342678,
+                "kurtosis": 3.083742080525084,
+                "hyperskewness": 4.834103697063038,
+                "hyperflatness": 17.680921360366065
+            },
+            "col_distribution": {
+                "min": 6,
+                "q1": 18.0,
+                "median": 18.0,
+                "q3": 27.0,
+                "max": 42,
+                "mean": 21.49561403508772,
+                "variance": 49.58112111418948,
+                "skewness": 0.5174195340342678,
+                "kurtosis": 3.083742080525084,
+                "hyperskewness": 4.834103697063038,
+                "hyperflatness": 17.680921360366065
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 482700,
+                "max_relative_norm2": 9.118062750830009e-17,
+                "time": 0.000007168000098317862,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 482700,
+                "max_relative_norm2": 1.1564253046030823e-20,
+                "time": 0.000011673599854111672,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 891352,
+                "max_relative_norm2": 1.8222762385614754e-16,
+                "time": 0.00001515519991517067,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

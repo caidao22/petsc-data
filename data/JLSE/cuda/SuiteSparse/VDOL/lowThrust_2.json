@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/VDOL/lowThrust_2/lowThrust_2.mtx",
+        "problem": {
+            "id": 2706,
+            "group": "VDOL",
+            "name": "lowThrust_2",
+            "rows": 2312,
+            "cols": 2312,
+            "nonzeros": 26261,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "optimal control problem",
+            "columns": 2312,
+            "row_distribution": {
+                "min": 2,
+                "q1": 7.0,
+                "median": 10.0,
+                "q3": 14.0,
+                "max": 898,
+                "mean": 11.35856401384083,
+                "variance": 695.893490671507,
+                "skewness": 32.78621092846506,
+                "kurtosis": 1101.4636200539442,
+                "hyperskewness": 37000.00924990336,
+                "hyperflatness": 1242894.2686321545
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 7.0,
+                "median": 10.0,
+                "q3": 14.0,
+                "max": 898,
+                "mean": 11.35856401384083,
+                "variance": 695.893490671507,
+                "skewness": 32.78621092846506,
+                "kurtosis": 1101.4636200539442,
+                "hyperskewness": 37000.00924990336,
+                "hyperflatness": 1242894.2686321545
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 327668,
+                "max_relative_norm2": 8.936526910114244e-17,
+                "time": 0.000010444800183176996,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 327668,
+                "max_relative_norm2": 8.061579435396051e-17,
+                "time": 0.000009830399975180627,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 1704792,
+                "max_relative_norm2": 1.4879560348898326e-16,
+                "time": 0.00018145280182361605,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csri"
+        }
+    }
+]

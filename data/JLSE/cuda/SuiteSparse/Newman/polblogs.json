@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Newman/polblogs/polblogs.mtx",
+        "problem": {
+            "id": 2402,
+            "group": "Newman",
+            "name": "polblogs",
+            "rows": 1490,
+            "cols": 1490,
+            "nonzeros": 19025,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.242561244874356,
+            "nsym": 0.2414046893071181,
+            "kind": "directed multigraph",
+            "columns": 1490,
+            "row_distribution": {
+                "min": 0,
+                "q1": 0.0,
+                "median": 4.0,
+                "q3": 16.0,
+                "max": 256,
+                "mean": 12.768456375838929,
+                "variance": 429.5027633890365,
+                "skewness": 3.2435575978767909,
+                "kurtosis": 21.416051329143504,
+                "hyperskewness": 186.8707408945926,
+                "hyperflatness": 1931.4527009854749
+            },
+            "col_distribution": {
+                "min": 0,
+                "q1": 0.0,
+                "median": 2.0,
+                "q3": 9.0,
+                "max": 337,
+                "mean": 12.768456375838929,
+                "variance": 889.6839714427266,
+                "skewness": 4.684498609101351,
+                "kurtosis": 33.21234363146122,
+                "hyperskewness": 269.4373980135099,
+                "hyperflatness": 2370.752096601509
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 236644,
+                "max_relative_norm2": 1.3111824602959759e-16,
+                "time": 0.000007168000098317862,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 236644,
+                "max_relative_norm2": 4.7738044506719499e-17,
+                "time": 0.00001003520004451275,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 1834376,
+                "max_relative_norm2": 2.786264023388052e-16,
+                "time": 0.00005324799939990044,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

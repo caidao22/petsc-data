@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Simon/bbmat/bbmat.mtx",
+        "problem": {
+            "id": 812,
+            "group": "Simon",
+            "name": "bbmat",
+            "rows": 38744,
+            "cols": 38744,
+            "nonzeros": 1771722,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 0.5295358625441292,
+            "nsym": 0.0005851199495896658,
+            "kind": "computational fluid dynamics problem",
+            "columns": 38744,
+            "row_distribution": {
+                "min": 6,
+                "q1": 17.0,
+                "median": 21.0,
+                "q3": 88.0,
+                "max": 126,
+                "mean": 45.72893867437539,
+                "variance": 1474.2001165073805,
+                "skewness": 0.8225192190494233,
+                "kurtosis": 1.869282906140329,
+                "hyperskewness": 2.645062502482962,
+                "hyperflatness": 4.718074925225044
+            },
+            "col_distribution": {
+                "min": 8,
+                "q1": 19.0,
+                "median": 21.0,
+                "q3": 90.0,
+                "max": 132,
+                "mean": 45.72893867437539,
+                "variance": 1529.2876139263697,
+                "skewness": 0.8788785700918518,
+                "kurtosis": 1.9560791282708697,
+                "hyperskewness": 2.9463776093856568,
+                "hyperflatness": 5.371861870772597
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 21436124,
+                "max_relative_norm2": 4.577322450651219e-17,
+                "time": 0.0000456704005599022,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 21436124,
+                "max_relative_norm2": 4.577322450651219e-17,
+                "time": 0.00004587520062923431,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 35986664,
+                "max_relative_norm2": 2.2813746114409816e-16,
+                "time": 0.00008417280167341234,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Gset/G43/G43.mtx",
+        "problem": {
+            "id": 506,
+            "group": "Gset",
+            "name": "G43",
+            "rows": 1000,
+            "cols": 1000,
+            "nonzeros": 19980,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected random graph",
+            "columns": 1000,
+            "row_distribution": {
+                "min": 7,
+                "q1": 17.0,
+                "median": 20.0,
+                "q3": 23.0,
+                "max": 36,
+                "mean": 19.98,
+                "variance": 19.571600000000236,
+                "skewness": 0.15996309894575742,
+                "kurtosis": 2.901992508091164,
+                "hyperskewness": 1.60135421695846,
+                "hyperflatness": 14.041558841401637
+            },
+            "col_distribution": {
+                "min": 7,
+                "q1": 17.0,
+                "median": 20.0,
+                "q3": 23.0,
+                "max": 36,
+                "mean": 19.98,
+                "variance": 19.571600000000236,
+                "skewness": 0.15996309894575742,
+                "kurtosis": 2.901992508091164,
+                "hyperskewness": 1.60135421695846,
+                "hyperflatness": 14.041558841401637
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 246264,
+                "max_relative_norm2": 8.814376973440276e-17,
+                "time": 0.000006758400052785875,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 246264,
+                "max_relative_norm2": 0.0,
+                "time": 0.000009215999953448773,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 378888,
+                "max_relative_norm2": 1.9314123309085896e-16,
+                "time": 0.000013516800291836262,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

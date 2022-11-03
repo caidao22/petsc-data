@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/FIDAP/ex32/ex32.mtx",
+        "problem": {
+            "id": 429,
+            "group": "FIDAP",
+            "name": "ex32",
+            "rows": 1159,
+            "cols": 1159,
+            "nonzeros": 11343,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "computational fluid dynamics problem",
+            "columns": 1159,
+            "row_distribution": {
+                "min": 3,
+                "q1": 9.0,
+                "median": 9.0,
+                "q3": 13.0,
+                "max": 13,
+                "mean": 9.78688524590164,
+                "variance": 6.184953111076362,
+                "skewness": -0.21487884568148025,
+                "kurtosis": 2.4109459070159389,
+                "hyperskewness": -2.0398923708589837,
+                "hyperflatness": 7.656486732202937
+            },
+            "col_distribution": {
+                "min": 3,
+                "q1": 9.0,
+                "median": 9.0,
+                "q3": 13.0,
+                "max": 13,
+                "mean": 9.78688524590164,
+                "variance": 6.184953111076362,
+                "skewness": -0.21487884568148025,
+                "kurtosis": 2.4109459070159389,
+                "hyperskewness": -2.0398923708589837,
+                "hyperflatness": 7.656486732202937
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 142176,
+                "max_relative_norm2": 8.362936570539278e-17,
+                "time": 0.000006348800100386144,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 142176,
+                "max_relative_norm2": 0.0,
+                "time": 0.00000942079983651638,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 186168,
+                "max_relative_norm2": 1.1333117207479705e-16,
+                "time": 0.000008192000165581703,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

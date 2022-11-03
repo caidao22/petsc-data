@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/HB/685_bus/685_bus.mtx",
+        "problem": {
+            "id": 4,
+            "group": "HB",
+            "name": "685_bus",
+            "rows": 685,
+            "cols": 685,
+            "nonzeros": 3249,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "power network problem",
+            "columns": 685,
+            "row_distribution": {
+                "min": 2,
+                "q1": 3.0,
+                "median": 4.0,
+                "q3": 6.0,
+                "max": 13,
+                "mean": 4.7430656934306569,
+                "variance": 3.2098971708668699,
+                "skewness": 1.1926879714932648,
+                "kurtosis": 4.97245364037121,
+                "hyperskewness": 14.60036328490039,
+                "hyperflatness": 55.5319270879308
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 3.0,
+                "median": 4.0,
+                "q3": 6.0,
+                "max": 13,
+                "mean": 4.7430656934306569,
+                "variance": 3.2098971708668699,
+                "skewness": 1.1926879714932648,
+                "kurtosis": 4.97245364037121,
+                "hyperskewness": 14.60036328490039,
+                "hyperflatness": 55.5319270879308
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 42140,
+                "max_relative_norm2": 1.4744520278749638e-17,
+                "time": 0.000006758400145918131,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 42140,
+                "max_relative_norm2": 0.0,
+                "time": 0.000009625599905848504,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 84664,
+                "max_relative_norm2": 7.424076288133267e-17,
+                "time": 0.000007987199909985066,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

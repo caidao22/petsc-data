@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/HB/orani678/orani678.mtx",
+        "problem": {
+            "id": 224,
+            "group": "HB",
+            "name": "orani678",
+            "rows": 2529,
+            "cols": 2529,
+            "nonzeros": 90158,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.07068607068607069,
+            "nsym": 0.00002223531635296341,
+            "kind": "economic problem",
+            "columns": 2529,
+            "row_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 2.0,
+                "q3": 13.0,
+                "max": 1110,
+                "mean": 35.64966389877422,
+                "variance": 7397.902571061384,
+                "skewness": 6.815877143114284,
+                "kurtosis": 77.8618839794763,
+                "hyperskewness": 954.22168371245,
+                "hyperflatness": 11851.565997679252
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 3.0,
+                "median": 11.0,
+                "q3": 11.0,
+                "max": 1468,
+                "mean": 35.64966389877422,
+                "variance": 7737.4043504208389,
+                "skewness": 4.467326229751201,
+                "kurtosis": 38.38741825001616,
+                "hyperskewness": 495.5524522692153,
+                "hyperflatness": 7555.739872688929
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 1097136,
+                "max_relative_norm2": 6.710518356370496e-17,
+                "time": 0.000016383999958634376,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 1097136,
+                "max_relative_norm2": 7.032557761765049e-17,
+                "time": 0.000016179200261831284,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 3557256,
+                "max_relative_norm2": 1.5690388209437245e-16,
+                "time": 0.00021237759888172153,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csri"
+        }
+    }
+]

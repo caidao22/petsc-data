@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Oberwolfach/t2dah/t2dah.mtx",
+        "problem": {
+            "id": 1447,
+            "group": "Oberwolfach",
+            "name": "t2dah",
+            "rows": 11445,
+            "cols": 11445,
+            "nonzeros": 176117,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "model reduction problem",
+            "columns": 11445,
+            "row_distribution": {
+                "min": 8,
+                "q1": 13.0,
+                "median": 13.0,
+                "q3": 21.0,
+                "max": 21,
+                "mean": 15.388117081695065,
+                "variance": 14.96933018113503,
+                "skewness": 0.6332679106953614,
+                "kurtosis": 1.8047702549209029,
+                "hyperskewness": 1.3416106391441208,
+                "hyperflatness": 4.125955052005608
+            },
+            "col_distribution": {
+                "min": 8,
+                "q1": 13.0,
+                "median": 13.0,
+                "q3": 21.0,
+                "max": 21,
+                "mean": 15.388117081695065,
+                "variance": 14.96933018113503,
+                "skewness": 0.6332679106953614,
+                "kurtosis": 1.8047702549209029,
+                "hyperskewness": 1.3416106391441208,
+                "hyperflatness": 4.125955052005608
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 2164308,
+                "max_relative_norm2": 8.641074617419907e-17,
+                "time": 0.000009625599905848504,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 2164308,
+                "max_relative_norm2": 0.0,
+                "time": 0.000015359999984502793,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 2877496,
+                "max_relative_norm2": 1.7702607632697262e-16,
+                "time": 0.000011059200018644333,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

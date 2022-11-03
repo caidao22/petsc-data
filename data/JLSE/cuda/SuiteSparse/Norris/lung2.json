@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Norris/lung2/lung2.mtx",
+        "problem": {
+            "id": 894,
+            "group": "Norris",
+            "name": "lung2",
+            "rows": 109460,
+            "cols": 109460,
+            "nonzeros": 492564,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 0.5714270798529904,
+            "nsym": 0,
+            "kind": "computational fluid dynamics problem",
+            "columns": 109460,
+            "row_distribution": {
+                "min": 2,
+                "q1": 3.0,
+                "median": 4.0,
+                "q3": 6.0,
+                "max": 8,
+                "mean": 4.499945185455874,
+                "variance": 3.760085873116698,
+                "skewness": 0.5592338653360925,
+                "kurtosis": 2.163193230845154,
+                "hyperskewness": 2.354925793889256,
+                "hyperflatness": 6.000526065077144
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 3.0,
+                "median": 4.0,
+                "q3": 6.0,
+                "max": 8,
+                "mean": 4.499945185455874,
+                "variance": 3.760085873116698,
+                "skewness": 0.5592338653360925,
+                "kurtosis": 2.163193230845154,
+                "hyperskewness": 2.354925793889256,
+                "hyperflatness": 6.000526065077144
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 6369092,
+                "max_relative_norm2": 6.797015549300138e-18,
+                "time": 0.000022528000175952914,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 6369092,
+                "max_relative_norm2": 0.0,
+                "time": 0.000025804799422621728,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 9929976,
+                "max_relative_norm2": 7.475423135987179e-17,
+                "time": 0.000021503999829292297,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "sellp"
+        }
+    }
+]

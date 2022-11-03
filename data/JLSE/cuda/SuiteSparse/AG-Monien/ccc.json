@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/AG-Monien/ccc/ccc.mtx",
+        "problem": {
+            "id": 2438,
+            "group": "AG-Monien",
+            "name": "ccc",
+            "rows": 49152,
+            "cols": 49152,
+            "nonzeros": 147456,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected graph sequence",
+            "columns": 49152,
+            "row_distribution": {
+                "min": 3,
+                "q1": 3.0,
+                "median": 3.0,
+                "q3": 3.0,
+                "max": 3,
+                "mean": 3.0,
+                "variance": 0.0,
+                "skewness": 0.0,
+                "kurtosis": 0.0,
+                "hyperskewness": 0.0,
+                "hyperflatness": 0.0
+            },
+            "col_distribution": {
+                "min": 3,
+                "q1": 3.0,
+                "median": 3.0,
+                "q3": 3.0,
+                "max": 3,
+                "mean": 3.0,
+                "variance": 0.0,
+                "skewness": 0.0,
+                "kurtosis": 0.0,
+                "hyperskewness": 0.0,
+                "hyperflatness": 0.0
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 1971204,
+                "max_relative_norm2": 5.2131415014006906e-17,
+                "time": 0.00000798720009624958,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 1971204,
+                "max_relative_norm2": 0.0,
+                "time": 0.0000165888000279665,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 1781768,
+                "max_relative_norm2": 9.268860872611969e-18,
+                "time": 0.000007577599957585335,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "sellp"
+        }
+    }
+]

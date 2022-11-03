@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Gset/G28/G28.mtx",
+        "problem": {
+            "id": 489,
+            "group": "Gset",
+            "name": "G28",
+            "rows": 2000,
+            "cols": 2000,
+            "nonzeros": 39980,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected weighted random graph",
+            "columns": 2000,
+            "row_distribution": {
+                "min": 8,
+                "q1": 17.0,
+                "median": 20.0,
+                "q3": 23.0,
+                "max": 35,
+                "mean": 19.99,
+                "variance": 19.48890000000006,
+                "skewness": 0.22677289696444528,
+                "kurtosis": 2.864203271710256,
+                "hyperskewness": 2.0758397775988057,
+                "hyperflatness": 13.6336935481061
+            },
+            "col_distribution": {
+                "min": 8,
+                "q1": 17.0,
+                "median": 20.0,
+                "q3": 23.0,
+                "max": 35,
+                "mean": 19.99,
+                "variance": 19.48890000000006,
+                "skewness": 0.22677289696444528,
+                "kurtosis": 2.864203271710256,
+                "hyperskewness": 2.0758397775988057,
+                "hyperflatness": 13.6336935481061
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 492764,
+                "max_relative_norm2": 8.459958086217578e-17,
+                "time": 0.000006758400052785875,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 492764,
+                "max_relative_norm2": 0.0,
+                "time": 0.000010240000113844874,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 763912,
+                "max_relative_norm2": 1.9406387186430745e-16,
+                "time": 0.000013926399871706965,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

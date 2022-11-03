@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Bai/mhdb416/mhdb416.mtx",
+        "problem": {
+            "id": 315,
+            "group": "Bai",
+            "name": "mhdb416",
+            "rows": 416,
+            "cols": 416,
+            "nonzeros": 2312,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "electromagnetics problem",
+            "columns": 416,
+            "row_distribution": {
+                "min": 1,
+                "q1": 5.0,
+                "median": 6.0,
+                "q3": 6.0,
+                "max": 10,
+                "mean": 5.557692307692308,
+                "variance": 4.12647928994084,
+                "skewness": 0.6107714983516218,
+                "kurtosis": 3.575483889425929,
+                "hyperskewness": 4.177652384735606,
+                "hyperflatness": 15.565543178938338
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 5.0,
+                "median": 6.0,
+                "q3": 6.0,
+                "max": 10,
+                "mean": 5.557692307692308,
+                "variance": 4.12647928994084,
+                "skewness": 0.6107714983516218,
+                "kurtosis": 3.575483889425929,
+                "hyperskewness": 4.177652384735606,
+                "hyperflatness": 15.565543178938338
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 29704,
+                "max_relative_norm2": 9.963943664955402e-18,
+                "time": 0.000006553600076586008,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 29704,
+                "max_relative_norm2": 0.0,
+                "time": 0.000009830399975180627,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 53880,
+                "max_relative_norm2": 1.1931933465201249e-16,
+                "time": 0.000007577599957585335,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

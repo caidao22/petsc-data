@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Guettel/TEM181302/TEM181302.mtx",
+        "problem": {
+            "id": 2813,
+            "group": "Guettel",
+            "name": "TEM181302",
+            "rows": 181302,
+            "cols": 181302,
+            "nonzeros": 7839010,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "electromagnetics problem",
+            "columns": 181302,
+            "row_distribution": {
+                "min": 12,
+                "q1": 32.0,
+                "median": 32.0,
+                "q3": 62.0,
+                "max": 110,
+                "mean": 43.23730571091328,
+                "variance": 278.675349191247,
+                "skewness": 1.0439922025152025,
+                "kurtosis": 2.7806120071351105,
+                "hyperskewness": 5.654643262121438,
+                "hyperflatness": 14.119882199720074
+            },
+            "col_distribution": {
+                "min": 12,
+                "q1": 32.0,
+                "median": 32.0,
+                "q3": 62.0,
+                "max": 110,
+                "mean": 43.23730571091328,
+                "variance": 278.675349191247,
+                "skewness": 1.0439922025152025,
+                "kurtosis": 2.7806120071351105,
+                "hyperskewness": 5.654643262121438,
+                "hyperflatness": 14.119882199720074
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 94875252,
+                "max_relative_norm2": 7.215490170084631e-17,
+                "time": 0.00015871999859809875,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 94875252,
+                "max_relative_norm2": 7.215490170084631e-17,
+                "time": 0.0001583103984594345,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 175860504,
+                "max_relative_norm2": 2.5421241402198866e-16,
+                "time": 0.00028631040453910823,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csri"
+        }
+    }
+]

@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/VLSI/test1/test1.mtx",
+        "problem": {
+            "id": 2840,
+            "group": "VLSI",
+            "name": "test1",
+            "rows": 392908,
+            "cols": 392908,
+            "nonzeros": 12968200,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0.2651539373184561,
+            "kind": "semiconductor device problem",
+            "columns": 392908,
+            "row_distribution": {
+                "min": 5,
+                "q1": 27.0,
+                "median": 33.0,
+                "q3": 39.0,
+                "max": 93,
+                "mean": 33.00569089965081,
+                "variance": 103.03651052000964,
+                "skewness": 0.3198702407308498,
+                "kurtosis": 2.992831459511063,
+                "hyperskewness": 2.679542776249533,
+                "hyperflatness": 15.131104422199137
+            },
+            "col_distribution": {
+                "min": 5,
+                "q1": 27.0,
+                "median": 33.0,
+                "q3": 39.0,
+                "max": 93,
+                "mean": 33.00569089965081,
+                "variance": 103.03651052000964,
+                "skewness": 0.3198702407308498,
+                "kurtosis": 2.992831459511063,
+                "hyperskewness": 2.679542776249533,
+                "hyperflatness": 15.131104422199137
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 157271956,
+                "max_relative_norm2": 6.8810144624813678e-18,
+                "time": 0.000366182404756546,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 157271956,
+                "max_relative_norm2": 6.8810144624813678e-18,
+                "time": 0.0003667967915534973,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 219833800,
+                "max_relative_norm2": 1.6961009570989147e-16,
+                "time": 0.000372326397895813,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

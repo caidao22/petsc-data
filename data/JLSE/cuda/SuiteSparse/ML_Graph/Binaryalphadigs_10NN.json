@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/ML_Graph/Binaryalphadigs_10NN/Binaryalphadigs_10NN.mtx",
+        "problem": {
+            "id": 2857,
+            "group": "ML_Graph",
+            "name": "Binaryalphadigs_10NN",
+            "rows": 1404,
+            "cols": 1404,
+            "nonzeros": 19392,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected weighted graph",
+            "columns": 1404,
+            "row_distribution": {
+                "min": 10,
+                "q1": 11.0,
+                "median": 13.0,
+                "q3": 16.0,
+                "max": 31,
+                "mean": 13.811965811965813,
+                "variance": 14.34356052304747,
+                "skewness": 1.442529616972668,
+                "kurtosis": 5.321442014082288,
+                "hyperskewness": 16.744833481340526,
+                "hyperflatness": 61.42259687348088
+            },
+            "col_distribution": {
+                "min": 10,
+                "q1": 11.0,
+                "median": 13.0,
+                "q3": 16.0,
+                "max": 31,
+                "mean": 13.811965811965813,
+                "variance": 14.34356052304747,
+                "skewness": 1.442529616972668,
+                "kurtosis": 5.321442014082288,
+                "hyperskewness": 16.744833481340526,
+                "hyperflatness": 61.42259687348088
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 240748,
+                "max_relative_norm2": 8.529912662995538e-17,
+                "time": 0.00000614400003105402,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 240748,
+                "max_relative_norm2": 0.0,
+                "time": 0.000008806400001049041,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 425064,
+                "max_relative_norm2": 1.5388872306657424e-16,
+                "time": 0.000011059200018644333,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Grund/meg4/meg4.mtx",
+        "problem": {
+            "id": 466,
+            "group": "Grund",
+            "name": "meg4",
+            "rows": 5860,
+            "cols": 5860,
+            "nonzeros": 46842,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "circuit simulation problem",
+            "columns": 5860,
+            "row_distribution": {
+                "min": 1,
+                "q1": 4.0,
+                "median": 6.0,
+                "q3": 7.0,
+                "max": 1194,
+                "mean": 7.993515358361774,
+                "variance": 362.6030296217792,
+                "skewness": 42.88798399216998,
+                "kurtosis": 2578.5652237966976,
+                "hyperskewness": 160014.1556588393,
+                "hyperflatness": 9962158.21411547
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 4.0,
+                "median": 6.0,
+                "q3": 7.0,
+                "max": 1194,
+                "mean": 7.993515358361774,
+                "variance": 362.6030296217792,
+                "skewness": 42.88798399216998,
+                "kurtosis": 2578.5652237966976,
+                "hyperskewness": 160014.1556588393,
+                "hyperflatness": 9962158.21411547
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 590668,
+                "max_relative_norm2": 8.636706191010225e-17,
+                "time": 0.000015564800053834919,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 590668,
+                "max_relative_norm2": 5.845666925133527e-17,
+                "time": 0.00001515519991517067,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 2888392,
+                "max_relative_norm2": 6.871030125271302e-17,
+                "time": 0.00023060480058193205,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csri"
+        }
+    }
+]

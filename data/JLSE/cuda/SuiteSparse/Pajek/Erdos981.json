@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Pajek/Erdos981/Erdos981.mtx",
+        "problem": {
+            "id": 1467,
+            "group": "Pajek",
+            "name": "Erdos981",
+            "rows": 485,
+            "cols": 485,
+            "nonzeros": 2762,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected graph",
+            "columns": 485,
+            "row_distribution": {
+                "min": 0,
+                "q1": 1.0,
+                "median": 3.0,
+                "q3": 7.0,
+                "max": 42,
+                "mean": 5.694845360824743,
+                "variance": 46.525437347220627,
+                "skewness": 2.4950406459259177,
+                "kurtosis": 10.185381348463317,
+                "hyperskewness": 42.0931815034478,
+                "hyperflatness": 186.2387522179542
+            },
+            "col_distribution": {
+                "min": 0,
+                "q1": 1.0,
+                "median": 3.0,
+                "q3": 7.0,
+                "max": 42,
+                "mean": 5.694845360824743,
+                "variance": 46.525437347220627,
+                "skewness": 2.4950406459259177,
+                "kurtosis": 10.185381348463317,
+                "hyperskewness": 42.0931815034478,
+                "hyperflatness": 186.2387522179542
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 35436,
+                "max_relative_norm2": 8.931798066722136e-17,
+                "time": 0.000007782400026917459,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 35436,
+                "max_relative_norm2": 0.0,
+                "time": 0.000010649600252509118,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 206728,
+                "max_relative_norm2": 1.4748249090593409e-16,
+                "time": 0.000014950399845838547,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

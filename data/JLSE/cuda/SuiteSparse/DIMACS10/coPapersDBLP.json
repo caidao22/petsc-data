@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/DIMACS10/coPapersDBLP/coPapersDBLP.mtx",
+        "problem": {
+            "id": 2464,
+            "group": "DIMACS10",
+            "name": "coPapersDBLP",
+            "rows": 540486,
+            "cols": 540486,
+            "nonzeros": 30491458,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected graph",
+            "columns": 540486,
+            "row_distribution": {
+                "min": 1,
+                "q1": 13.0,
+                "median": 34.0,
+                "q3": 74.0,
+                "max": 3299,
+                "mean": 56.41488956235684,
+                "variance": 4387.227051829206,
+                "skewness": 3.094080789033801,
+                "kurtosis": 30.593087895483327,
+                "hyperskewness": 752.0132835369935,
+                "hyperflatness": 29640.925769798738
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 13.0,
+                "median": 34.0,
+                "q3": 74.0,
+                "max": 3299,
+                "mean": 56.41488956235684,
+                "variance": 4387.227051829206,
+                "skewness": 3.094080789033801,
+                "kurtosis": 30.593087895483327,
+                "hyperskewness": 752.0132835369935,
+                "hyperflatness": 29640.925769798738
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 368387124,
+                "max_relative_norm2": 1.5535843738155965e-16,
+                "time": 0.0006965248107910156,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 368387124,
+                "max_relative_norm2": 1.5536371208616658e-16,
+                "time": 0.0006977536082267762,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 1014680040,
+                "max_relative_norm2": 4.2607861367416166e-16,
+                "time": 0.0021612544536590576,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

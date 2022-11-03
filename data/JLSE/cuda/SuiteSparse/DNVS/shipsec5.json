@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/DNVS/shipsec5/shipsec5.mtx",
+        "problem": {
+            "id": 1280,
+            "group": "DNVS",
+            "name": "shipsec5",
+            "rows": 179860,
+            "cols": 179860,
+            "nonzeros": 10113096,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "structural problem",
+            "columns": 179860,
+            "row_distribution": {
+                "min": 12,
+                "q1": 54.0,
+                "median": 54.0,
+                "q3": 54.0,
+                "max": 126,
+                "mean": 56.22759924385633,
+                "variance": 145.9539363806314,
+                "skewness": 1.0300134334458294,
+                "kurtosis": 5.652466861727586,
+                "hyperskewness": 12.749357512573904,
+                "hyperflatness": 62.32245493258374
+            },
+            "col_distribution": {
+                "min": 12,
+                "q1": 54.0,
+                "median": 54.0,
+                "q3": 54.0,
+                "max": 126,
+                "mean": 56.22759924385633,
+                "variance": 145.9539363806314,
+                "skewness": 1.0300134334458294,
+                "kurtosis": 5.652466861727586,
+                "hyperskewness": 12.749357512573904,
+                "hyperflatness": 62.32245493258374
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 122158516,
+                "max_relative_norm2": 1.2197643205523065e-16,
+                "time": 0.00019906559586524964,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 122158516,
+                "max_relative_norm2": 1.2197643205523065e-16,
+                "time": 0.00019927040040493014,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 153509816,
+                "max_relative_norm2": 2.1678426080342283e-16,
+                "time": 0.00027586560249328614,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

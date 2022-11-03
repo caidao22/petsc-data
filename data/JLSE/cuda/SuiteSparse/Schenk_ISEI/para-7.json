@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Schenk_ISEI/para-7/para-7.mtx",
+        "problem": {
+            "id": 976,
+            "group": "Schenk_ISEI",
+            "name": "para-7",
+            "rows": 155924,
+            "cols": 155924,
+            "nonzeros": 5416358,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0.3692588097985042,
+            "kind": "subsequent semiconductor device problem",
+            "columns": 155924,
+            "row_distribution": {
+                "min": 8,
+                "q1": 24.0,
+                "median": 33.0,
+                "q3": 45.0,
+                "max": 6931,
+                "mean": 34.737166824863397,
+                "variance": 496.31623464518546,
+                "skewness": 193.169800036812,
+                "kurtosis": 59018.75595248785,
+                "hyperskewness": 18235066.62214807,
+                "hyperflatness": 5643092648.863251
+            },
+            "col_distribution": {
+                "min": 8,
+                "q1": 24.0,
+                "median": 33.0,
+                "q3": 45.0,
+                "max": 6931,
+                "mean": 34.737166824863397,
+                "variance": 496.31623464518546,
+                "skewness": 193.169800036812,
+                "kurtosis": 59018.75595248785,
+                "hyperskewness": 18235066.62214807,
+                "hyperflatness": 5643092648.863251
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 65701916,
+                "max_relative_norm2": 3.0906805997782949e-17,
+                "time": 0.00012861440181732175,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 65701916,
+                "max_relative_norm2": 3.090680598082248e-17,
+                "time": 0.0001277952015399933,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 127970904,
+                "max_relative_norm2": 1.8399982419071686e-16,
+                "time": 0.002672230386734009,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csri"
+        }
+    }
+]

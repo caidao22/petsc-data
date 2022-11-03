@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Pajek/Reuters911/Reuters911.mtx",
+        "problem": {
+            "id": 1517,
+            "group": "Pajek",
+            "name": "Reuters911",
+            "rows": 13332,
+            "cols": 13332,
+            "nonzeros": 296076,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected weighted graph sequence",
+            "columns": 13332,
+            "row_distribution": {
+                "min": 0,
+                "q1": 2.0,
+                "median": 5.0,
+                "q3": 13.0,
+                "max": 2265,
+                "mean": 22.207920792079208,
+                "variance": 4454.356708938233,
+                "skewness": 9.87309315757601,
+                "kurtosis": 177.4903076372053,
+                "hyperskewness": 4378.465221914315,
+                "hyperflatness": 126794.50267976517
+            },
+            "col_distribution": {
+                "min": 0,
+                "q1": 2.0,
+                "median": 5.0,
+                "q3": 13.0,
+                "max": 2265,
+                "mean": 22.207920792079208,
+                "variance": 4454.356708938233,
+                "skewness": 9.87309315757601,
+                "kurtosis": 177.4903076372053,
+                "hyperskewness": 4378.465221914315,
+                "hyperflatness": 126794.50267976517
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 3626724,
+                "max_relative_norm2": 2.306834678874745e-16,
+                "time": 0.000014745599776506427,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 3626724,
+                "max_relative_norm2": 2.124786708563013e-16,
+                "time": 0.0000145407997071743,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 56363800,
+                "max_relative_norm2": 1.1489737634954158e-15,
+                "time": 0.0007766016006469726,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csri"
+        }
+    }
+]

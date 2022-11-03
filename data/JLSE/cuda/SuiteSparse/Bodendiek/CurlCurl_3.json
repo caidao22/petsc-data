@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Bodendiek/CurlCurl_3/CurlCurl_3.mtx",
+        "problem": {
+            "id": 2572,
+            "group": "Bodendiek",
+            "name": "CurlCurl_3",
+            "rows": 1219574,
+            "cols": 1219574,
+            "nonzeros": 13544618,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "model reduction problem",
+            "columns": 1219574,
+            "row_distribution": {
+                "min": 4,
+                "q1": 11.0,
+                "median": 11.0,
+                "q3": 11.0,
+                "max": 13,
+                "mean": 11.106023906708409,
+                "variance": 0.7841842190319214,
+                "skewness": 0.22851647505649434,
+                "kurtosis": 5.361459468788103,
+                "hyperskewness": -2.3338538451886805,
+                "hyperflatness": 38.86834940331665
+            },
+            "col_distribution": {
+                "min": 4,
+                "q1": 11.0,
+                "median": 11.0,
+                "q3": 11.0,
+                "max": 13,
+                "mean": 11.106023906708409,
+                "variance": 0.7841842190319214,
+                "skewness": 0.22851647505649434,
+                "kurtosis": 5.361459468788103,
+                "hyperskewness": -2.3338538451886805,
+                "hyperflatness": 38.86834940331665
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 167495636,
+                "max_relative_norm2": 0.0,
+                "time": 0.0004339712023735046,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 167495636,
+                "max_relative_norm2": 0.0,
+                "time": 0.0004354048013687134,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 187916552,
+                "max_relative_norm2": 1.5958797407794999e-16,
+                "time": 0.0003309567928314209,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "sellp"
+        }
+    }
+]

@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/GHS_psdef/ford1/ford1.mtx",
+        "problem": {
+            "id": 1262,
+            "group": "GHS_psdef",
+            "name": "ford1",
+            "rows": 18728,
+            "cols": 18728,
+            "nonzeros": 101576,
+            "real": true,
+            "binary": true,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "structural problem",
+            "columns": 18728,
+            "row_distribution": {
+                "min": 3,
+                "q1": 5.0,
+                "median": 5.0,
+                "q3": 5.0,
+                "max": 20,
+                "mean": 5.423750533959846,
+                "variance": 2.7198374499407369,
+                "skewness": 2.825245041399814,
+                "kurtosis": 13.96674064213119,
+                "hyperskewness": 78.01152397190782,
+                "hyperflatness": 508.3438700520587
+            },
+            "col_distribution": {
+                "min": 3,
+                "q1": 5.0,
+                "median": 5.0,
+                "q3": 5.0,
+                "max": 20,
+                "mean": 5.423750533959846,
+                "variance": 2.7198374499407369,
+                "skewness": 2.825245041399814,
+                "kurtosis": 13.96674064213119,
+                "hyperskewness": 78.01152397190782,
+                "hyperflatness": 508.3438700520587
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 1298948,
+                "max_relative_norm2": 3.159427407506708e-17,
+                "time": 0.000008806400001049041,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 1298948,
+                "max_relative_norm2": 0.0,
+                "time": 0.000011673600040376187,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 1625944,
+                "max_relative_norm2": 8.226147440169748e-17,
+                "time": 0.00000798720009624958,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "sellp"
+        }
+    }
+]

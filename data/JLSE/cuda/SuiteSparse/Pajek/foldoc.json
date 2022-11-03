@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Pajek/foldoc/foldoc.mtx",
+        "problem": {
+            "id": 1473,
+            "group": "Pajek",
+            "name": "foldoc",
+            "rows": 13356,
+            "cols": 13356,
+            "nonzeros": 120238,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.4785009730700777,
+            "nsym": 0.459472047106572,
+            "kind": "directed weighted graph",
+            "columns": 13356,
+            "row_distribution": {
+                "min": 3,
+                "q1": 7.0,
+                "median": 8.0,
+                "q3": 10.0,
+                "max": 102,
+                "mean": 9.002545672356993,
+                "variance": 14.25261406462466,
+                "skewness": 3.8234486477749218,
+                "kurtosis": 46.17923464267773,
+                "hyperskewness": 839.4150071432015,
+                "hyperflatness": 18379.027198319567
+            },
+            "col_distribution": {
+                "min": 0,
+                "q1": 5.0,
+                "median": 7.0,
+                "q3": 9.0,
+                "max": 720,
+                "mean": 9.002545672356993,
+                "variance": 207.1021199046967,
+                "skewness": 20.359830294151057,
+                "kurtosis": 677.068160185772,
+                "hyperskewness": 27332.624985729337,
+                "hyperflatness": 1216763.2591074866
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 1501404,
+                "max_relative_norm2": 5.753489842737549e-17,
+                "time": 0.000011878399923443795,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 1501404,
+                "max_relative_norm2": 2.2853477960990688e-17,
+                "time": 0.000013721599988639355,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 3741208,
+                "max_relative_norm2": 1.360099598907527e-16,
+                "time": 0.00002744319997727871,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/DIMACS10/tn2010/tn2010.mtx",
+        "problem": {
+            "id": 2623,
+            "group": "DIMACS10",
+            "name": "tn2010",
+            "rows": 240116,
+            "cols": 240116,
+            "nonzeros": 1193966,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected weighted graph",
+            "columns": 240116,
+            "row_distribution": {
+                "min": 1,
+                "q1": 3.0,
+                "median": 4.0,
+                "q3": 6.0,
+                "max": 89,
+                "mean": 4.972454980092955,
+                "variance": 8.976685507171935,
+                "skewness": 3.32069384700722,
+                "kurtosis": 29.681448669215276,
+                "hyperskewness": 403.19471709796809,
+                "hyperflatness": 7609.740768850128
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 3.0,
+                "median": 4.0,
+                "q3": 6.0,
+                "max": 89,
+                "mean": 4.972454980092955,
+                "variance": 8.976685507171935,
+                "skewness": 3.32069384700722,
+                "kurtosis": 29.681448669215276,
+                "hyperskewness": 403.19471709796809,
+                "hyperflatness": 7609.740768850128
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 15308540,
+                "max_relative_norm2": 9.38519827271308e-18,
+                "time": 0.000055705599486827847,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 15308540,
+                "max_relative_norm2": 9.38519827271308e-18,
+                "time": 0.000055705600231885908,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 49936264,
+                "max_relative_norm2": 1.370911168359954e-16,
+                "time": 0.000092364801466465,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

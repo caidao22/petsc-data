@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Pajek/patents/patents.mtx",
+        "problem": {
+            "id": 1514,
+            "group": "Pajek",
+            "name": "patents",
+            "rows": 3774768,
+            "cols": 3774768,
+            "nonzeros": 14970767,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0,
+            "nsym": 0,
+            "kind": "directed graph",
+            "columns": 3774768,
+            "row_distribution": {
+                "min": 0,
+                "q1": 0.0,
+                "median": 2.0,
+                "q3": 6.0,
+                "max": 36,
+                "mean": 3.9660098315975977,
+                "variance": 28.255703632968065,
+                "skewness": 1.78299975090033,
+                "kurtosis": 6.61562072437934,
+                "hyperskewness": 23.63166682923161,
+                "hyperflatness": 93.52108329507068
+            },
+            "col_distribution": {
+                "min": 0,
+                "q1": 1.0,
+                "median": 2.0,
+                "q3": 5.0,
+                "max": 762,
+                "mean": 3.9660098315975977,
+                "variance": 31.50335170073029,
+                "skewness": 8.740064604867852,
+                "kurtosis": 506.54905257753827,
+                "hyperskewness": 52618.09515082859,
+                "hyperflatness": 6074188.309818687
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 194830200,
+                "max_relative_norm2": 1.2926276074851415e-18,
+                "time": 0.002202214431762695,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 194830200,
+                "max_relative_norm2": 1.2926276074851415e-18,
+                "time": 0.0022059008121490476,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 592219224,
+                "max_relative_norm2": 1.346476127971893e-16,
+                "time": 0.0018597887754440309,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "sellp"
+        }
+    }
+]

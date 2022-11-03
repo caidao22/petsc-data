@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/IPSO/TSC_OPF_1047/TSC_OPF_1047.mtx",
+        "problem": {
+            "id": 2539,
+            "group": "IPSO",
+            "name": "TSC_OPF_1047",
+            "rows": 8140,
+            "cols": 8140,
+            "nonzeros": 2016902,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "power network problem",
+            "columns": 8140,
+            "row_distribution": {
+                "min": 1,
+                "q1": 7.0,
+                "median": 15.0,
+                "q3": 608.0,
+                "max": 1526,
+                "mean": 247.77665847665848,
+                "variance": 104746.97861978416,
+                "skewness": 1.341630543508506,
+                "kurtosis": 5.185719425330389,
+                "hyperskewness": 18.337667005566549,
+                "hyperflatness": 71.53707631031407
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 7.0,
+                "median": 15.0,
+                "q3": 608.0,
+                "max": 1526,
+                "mean": 247.77665847665848,
+                "variance": 104746.97861978416,
+                "skewness": 1.341630543508506,
+                "kurtosis": 5.185719425330389,
+                "hyperskewness": 18.337667005566549,
+                "hyperflatness": 71.53707631031407
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 24317308,
+                "max_relative_norm2": 1.0852802027965526e-17,
+                "time": 0.000044032000005245218,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 24317308,
+                "max_relative_norm2": 1.0852808631116779e-17,
+                "time": 0.00004403200000524521,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 26590216,
+                "max_relative_norm2": 1.3143868305384689e-16,
+                "time": 0.0006889472007751465,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csri"
+        }
+    }
+]

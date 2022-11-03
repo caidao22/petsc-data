@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Mulvey/pfinan512/pfinan512.mtx",
+        "problem": {
+            "id": 753,
+            "group": "Mulvey",
+            "name": "pfinan512",
+            "rows": 74752,
+            "cols": 74752,
+            "nonzeros": 596992,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "duplicate economic problem",
+            "columns": 74752,
+            "row_distribution": {
+                "min": 3,
+                "q1": 5.0,
+                "median": 7.0,
+                "q3": 9.0,
+                "max": 55,
+                "mean": 7.986301369863014,
+                "variance": 39.41077125163138,
+                "skewness": 5.429735303860823,
+                "kurtosis": 38.647725285656338,
+                "hyperskewness": 278.4208990804147,
+                "hyperflatness": 2024.0861166079349
+            },
+            "col_distribution": {
+                "min": 3,
+                "q1": 5.0,
+                "median": 7.0,
+                "q3": 9.0,
+                "max": 55,
+                "mean": 7.986301369863014,
+                "variance": 39.41077125163138,
+                "skewness": 5.429735303860823,
+                "kurtosis": 38.647725285656338,
+                "hyperskewness": 278.4208990804147,
+                "hyperflatness": 2024.0861166079349
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 7483396,
+                "max_relative_norm2": 6.590625723546582e-17,
+                "time": 0.000040755198895931248,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 7483396,
+                "max_relative_norm2": 3.8549223065294637e-17,
+                "time": 0.000024985599890351298,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 27580680,
+                "max_relative_norm2": 1.3897304817270826e-16,
+                "time": 0.00004812800064682961,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csri"
+        }
+    }
+]

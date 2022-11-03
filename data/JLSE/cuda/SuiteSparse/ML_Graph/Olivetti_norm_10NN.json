@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/ML_Graph/Olivetti_norm_10NN/Olivetti_norm_10NN.mtx",
+        "problem": {
+            "id": 2879,
+            "group": "ML_Graph",
+            "name": "Olivetti_norm_10NN",
+            "rows": 400,
+            "cols": 400,
+            "nonzeros": 5656,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected weighted graph",
+            "columns": 400,
+            "row_distribution": {
+                "min": 10,
+                "q1": 10.0,
+                "median": 12.0,
+                "q3": 16.0,
+                "max": 60,
+                "mean": 14.14,
+                "variance": 36.30539999999999,
+                "skewness": 2.7141805180279419,
+                "kurtosis": 14.46409272502269,
+                "hyperskewness": 87.79872027484059,
+                "hyperflatness": 592.3525466272143
+            },
+            "col_distribution": {
+                "min": 10,
+                "q1": 10.0,
+                "median": 12.0,
+                "q3": 16.0,
+                "max": 60,
+                "mean": 14.14,
+                "variance": 36.30539999999999,
+                "skewness": 2.7141805180279419,
+                "kurtosis": 14.46409272502269,
+                "hyperskewness": 87.79872027484059,
+                "hyperflatness": 592.3525466272143
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 70184,
+                "max_relative_norm2": 6.399753095537539e-17,
+                "time": 0.000006553600076586008,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 70184,
+                "max_relative_norm2": 0.0,
+                "time": 0.000009625599905848504,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 193656,
+                "max_relative_norm2": 1.6249377802650319e-16,
+                "time": 0.000017408000305294989,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/GAP/GAP-road/GAP-road.mtx",
+        "problem": {
+            "id": 2854,
+            "group": "GAP",
+            "name": "GAP-road",
+            "rows": 23947347,
+            "cols": 23947347,
+            "nonzeros": 57708624,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "directed weighted graph",
+            "columns": 23947347,
+            "row_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 2.0,
+                "q3": 3.0,
+                "max": 9,
+                "mean": 2.4098128281182884,
+                "variance": 0.8630218450936043,
+                "skewness": -0.04952552324977845,
+                "kurtosis": 2.151088468860401,
+                "hyperskewness": 0.3233598858769288,
+                "hyperflatness": 6.168936249723665
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 2.0,
+                "q3": 3.0,
+                "max": 9,
+                "mean": 2.4098128281182884,
+                "variance": 0.8630218450936043,
+                "skewness": -0.04952552324977845,
+                "kurtosis": 2.151088468860401,
+                "hyperskewness": 0.3233598858769288,
+                "hyperflatness": 6.168936249723665
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 788620560,
+                "max_relative_norm2": 0.0,
+                "time": 0.005310668659210205,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 788620560,
+                "max_relative_norm2": 0.0,
+                "time": 0.005313536071777344,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 1151600936,
+                "max_relative_norm2": 7.87386831380995e-17,
+                "time": 0.0029042687892913818,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "sellp"
+        }
+    }
+]

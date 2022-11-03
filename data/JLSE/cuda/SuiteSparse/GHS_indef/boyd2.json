@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/GHS_indef/boyd2/boyd2.mtx",
+        "problem": {
+            "id": 1297,
+            "group": "GHS_indef",
+            "name": "boyd2",
+            "rows": 466316,
+            "cols": 466316,
+            "nonzeros": 1500397,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "optimization problem",
+            "columns": 466316,
+            "row_distribution": {
+                "min": 2,
+                "q1": 2.0,
+                "median": 3.0,
+                "q3": 3.0,
+                "max": 93262,
+                "mean": 3.217554190720456,
+                "variance": 37990.715365427954,
+                "skewness": 470.4692601548372,
+                "kurtosis": 224807.4712350578,
+                "hyperskewness": 107550018.61823978,
+                "hyperflatness": 51458407381.82264
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 2.0,
+                "median": 3.0,
+                "q3": 3.0,
+                "max": 93262,
+                "mean": 3.217554190720456,
+                "variance": 37990.715365427954,
+                "skewness": 470.4692601548372,
+                "kurtosis": 224807.4712350578,
+                "hyperskewness": 107550018.61823978,
+                "hyperflatness": 51458407381.82264
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 19890512,
+                "max_relative_norm2": 2.1621255489507322e-16,
+                "time": 0.00007741439938545227,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 19890512,
+                "max_relative_norm2": 3.124886238388077e-16,
+                "time": 0.00007843839824199676,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 95341688,
+                "max_relative_norm2": 1.049235007306506e-15,
+                "time": 0.03023093757629395,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

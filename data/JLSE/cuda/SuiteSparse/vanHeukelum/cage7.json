@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/vanHeukelum/cage7/cage7.mtx",
+        "problem": {
+            "id": 908,
+            "group": "vanHeukelum",
+            "name": "cage7",
+            "rows": 340,
+            "cols": 340,
+            "nonzeros": 3084,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0.1020408163265306,
+            "kind": "directed weighted graph",
+            "columns": 340,
+            "row_distribution": {
+                "min": 3,
+                "q1": 7.0,
+                "median": 9.0,
+                "q3": 11.0,
+                "max": 16,
+                "mean": 9.070588235294118,
+                "variance": 8.595017301038056,
+                "skewness": 0.273716546177363,
+                "kurtosis": 2.6683830706561304,
+                "hyperskewness": 1.8683809109715233,
+                "hyperflatness": 10.110399805294288
+            },
+            "col_distribution": {
+                "min": 3,
+                "q1": 7.0,
+                "median": 9.0,
+                "q3": 11.0,
+                "max": 16,
+                "mean": 9.070588235294118,
+                "variance": 8.595017301038056,
+                "skewness": 0.273716546177363,
+                "kurtosis": 2.6683830706561304,
+                "hyperskewness": 1.8683809109715233,
+                "hyperflatness": 10.110399805294288
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 38760,
+                "max_relative_norm2": 5.025631293621509e-17,
+                "time": 0.000006553600076586008,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 38760,
+                "max_relative_norm2": 0.0,
+                "time": 0.00000942079983651638,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 57704,
+                "max_relative_norm2": 1.2010608008387003e-16,
+                "time": 0.00000839040018618107,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

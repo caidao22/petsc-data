@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Zitney/radfr1/radfr1.mtx",
+        "problem": {
+            "id": 838,
+            "group": "Zitney",
+            "name": "radfr1",
+            "rows": 1048,
+            "cols": 1048,
+            "nonzeros": 13299,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.05374309287714783,
+            "nsym": 0,
+            "kind": "chemical process simulation problem",
+            "columns": 1048,
+            "row_distribution": {
+                "min": 1,
+                "q1": 6.0,
+                "median": 6.0,
+                "q3": 19.0,
+                "max": 41,
+                "mean": 12.689885496183209,
+                "variance": 86.38379082658311,
+                "skewness": 1.0740023146398006,
+                "kurtosis": 4.392839141670271,
+                "hyperskewness": 11.683259536334126,
+                "hyperflatness": 37.061654799960489
+            },
+            "col_distribution": {
+                "min": 10,
+                "q1": 13.0,
+                "median": 13.0,
+                "q3": 13.0,
+                "max": 14,
+                "mean": 12.689885496183209,
+                "variance": 0.5402793762018575,
+                "skewness": -2.078323736150833,
+                "kurtosis": 6.399288696709156,
+                "hyperskewness": -19.104696146861924,
+                "hyperflatness": 62.406002570203
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 165448,
+                "max_relative_norm2": 3.6830863816976127e-17,
+                "time": 0.000006758399959653616,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 165448,
+                "max_relative_norm2": 3.227894393124535e-18,
+                "time": 0.00001085439994931221,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 481048,
+                "max_relative_norm2": 5.818043080635314e-17,
+                "time": 0.000014745599776506423,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

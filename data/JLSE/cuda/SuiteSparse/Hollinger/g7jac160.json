@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Hollinger/g7jac160/g7jac160.mtx",
+        "problem": {
+            "id": 562,
+            "group": "Hollinger",
+            "name": "g7jac160",
+            "rows": 47430,
+            "cols": 47430,
+            "nonzeros": 656616,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.03297843351620031,
+            "nsym": 0,
+            "kind": "economic problem",
+            "columns": 47430,
+            "row_distribution": {
+                "min": 2,
+                "q1": 3.0,
+                "median": 6.0,
+                "q3": 12.0,
+                "max": 153,
+                "mean": 13.843896268184692,
+                "variance": 583.6147208089882,
+                "skewness": 3.431724675811371,
+                "kurtosis": 15.2776856642865,
+                "hyperskewness": 71.50346560412553,
+                "hyperflatness": 351.2812062065934
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 3.0,
+                "median": 4.0,
+                "q3": 9.0,
+                "max": 120,
+                "mean": 13.843896268184692,
+                "variance": 573.9220368537185,
+                "skewness": 2.772253556468249,
+                "kurtosis": 10.03830405080822,
+                "hyperskewness": 37.17129089655364,
+                "hyperflatness": 142.77076618706074
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 8089596,
+                "max_relative_norm2": 5.2481803486382699e-17,
+                "time": 0.0000317440003156662,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 8089596,
+                "max_relative_norm2": 2.6605620270079097e-17,
+                "time": 0.000027238399907946588,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 41982312,
+                "max_relative_norm2": 1.5110606514624897e-16,
+                "time": 0.00008949759900569916,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csri"
+        }
+    }
+]

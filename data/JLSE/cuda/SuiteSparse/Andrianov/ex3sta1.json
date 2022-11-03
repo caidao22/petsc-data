@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Andrianov/ex3sta1/ex3sta1.mtx",
+        "problem": {
+            "id": 1379,
+            "group": "Andrianov",
+            "name": "ex3sta1",
+            "rows": 16782,
+            "cols": 16782,
+            "nonzeros": 678998,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "optimization problem",
+            "columns": 16782,
+            "row_distribution": {
+                "min": 9,
+                "q1": 24.0,
+                "median": 45.0,
+                "q3": 49.0,
+                "max": 339,
+                "mean": 40.459897509236089,
+                "variance": 585.5945960567453,
+                "skewness": 7.019355990591352,
+                "kurtosis": 77.9302067409487,
+                "hyperskewness": 868.2576565348335,
+                "hyperflatness": 9909.122956887062
+            },
+            "col_distribution": {
+                "min": 9,
+                "q1": 24.0,
+                "median": 45.0,
+                "q3": 49.0,
+                "max": 339,
+                "mean": 40.459897509236089,
+                "variance": 585.5945960567453,
+                "skewness": 7.019355990591352,
+                "kurtosis": 77.9302067409487,
+                "hyperskewness": 868.2576565348335,
+                "hyperflatness": 9909.122956887062
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 8235588,
+                "max_relative_norm2": 1.477303379830291e-16,
+                "time": 0.000020275199413299559,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 8235588,
+                "max_relative_norm2": 1.0951510608977218e-16,
+                "time": 0.00002273280024528503,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 9620344,
+                "max_relative_norm2": 3.0083715597316915e-16,
+                "time": 0.0001398784011602402,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

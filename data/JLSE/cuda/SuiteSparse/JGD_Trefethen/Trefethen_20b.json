@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/JGD_Trefethen/Trefethen_20b/Trefethen_20b.mtx",
+        "problem": {
+            "id": 2203,
+            "group": "JGD_Trefethen",
+            "name": "Trefethen_20b",
+            "rows": 19,
+            "cols": 19,
+            "nonzeros": 147,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "combinatorial problem",
+            "columns": 19,
+            "row_distribution": {
+                "min": 6,
+                "q1": 7.0,
+                "median": 8.0,
+                "q3": 8.0,
+                "max": 9,
+                "mean": 7.736842105263158,
+                "variance": 0.7202216066481992,
+                "skewness": -0.5037718451007843,
+                "kurtosis": 2.746094674556213,
+                "hyperskewness": -2.728250407624051,
+                "hyperflatness": 9.542076695493862
+            },
+            "col_distribution": {
+                "min": 6,
+                "q1": 7.0,
+                "median": 8.0,
+                "q3": 8.0,
+                "max": 9,
+                "mean": 7.736842105263158,
+                "variance": 0.7202216066481992,
+                "skewness": -0.5037718451007843,
+                "kurtosis": 2.746094674556213,
+                "hyperskewness": -2.728250407624051,
+                "hyperflatness": 9.542076695493862
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 1864,
+                "max_relative_norm2": 6.815769994919849e-17,
+                "time": 0.000007168000005185604,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 1864,
+                "max_relative_norm2": 0.0,
+                "time": 0.000009830399975180627,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 6936,
+                "max_relative_norm2": 7.026180601881056e-17,
+                "time": 0.000007577599957585335,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

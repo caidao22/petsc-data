@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Pothen/onera_dual/onera_dual.mtx",
+        "problem": {
+            "id": 879,
+            "group": "Pothen",
+            "name": "onera_dual",
+            "rows": 85567,
+            "cols": 85567,
+            "nonzeros": 419201,
+            "real": true,
+            "binary": true,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "structural problem",
+            "columns": 85567,
+            "row_distribution": {
+                "min": 3,
+                "q1": 5.0,
+                "median": 5.0,
+                "q3": 5.0,
+                "max": 5,
+                "mean": 4.89909661434899,
+                "variance": 0.09294237461045996,
+                "skewness": -2.767014236012836,
+                "kurtosis": 9.147750901860868,
+                "hyperskewness": -32.42648499645405,
+                "hyperflatness": 129.80235706569358
+            },
+            "col_distribution": {
+                "min": 3,
+                "q1": 5.0,
+                "median": 5.0,
+                "q3": 5.0,
+                "max": 5,
+                "mean": 4.89909661434899,
+                "variance": 0.09294237461045996,
+                "skewness": -2.767014236012836,
+                "kurtosis": 9.147750901860868,
+                "hyperskewness": -32.42648499645405,
+                "hyperflatness": 129.80235706569358
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 5393164,
+                "max_relative_norm2": 7.905115094056862e-17,
+                "time": 0.000015564800053834919,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 5393164,
+                "max_relative_norm2": 0.0,
+                "time": 0.000022118400037288667,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 5155480,
+                "max_relative_norm2": 6.457654986955895e-17,
+                "time": 0.000011468799971044063,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "sellp"
+        }
+    }
+]

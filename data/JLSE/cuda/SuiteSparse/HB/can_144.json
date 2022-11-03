@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/HB/can_144/can_144.mtx",
+        "problem": {
+            "id": 93,
+            "group": "HB",
+            "name": "can_144",
+            "rows": 144,
+            "cols": 144,
+            "nonzeros": 1296,
+            "real": true,
+            "binary": true,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "structural problem",
+            "columns": 144,
+            "row_distribution": {
+                "min": 6,
+                "q1": 6.0,
+                "median": 9.0,
+                "q3": 9.0,
+                "max": 15,
+                "mean": 9.0,
+                "variance": 9.0,
+                "skewness": 1.0,
+                "kurtosis": 3.0,
+                "hyperskewness": 5.0,
+                "hyperflatness": 11.0
+            },
+            "col_distribution": {
+                "min": 6,
+                "q1": 6.0,
+                "median": 9.0,
+                "q3": 9.0,
+                "max": 15,
+                "mean": 9.0,
+                "variance": 9.0,
+                "skewness": 1.0,
+                "kurtosis": 3.0,
+                "hyperskewness": 5.0,
+                "hyperflatness": 11.0
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 16296,
+                "max_relative_norm2": 7.599578608528042e-17,
+                "time": 0.00000614400003105402,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 16296,
+                "max_relative_norm2": 0.0,
+                "time": 0.00000942079983651638,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 25400,
+                "max_relative_norm2": 8.967900002700366e-17,
+                "time": 0.000008396800234913827,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

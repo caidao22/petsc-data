@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Rommes/nopss_11k/nopss_11k.mtx",
+        "problem": {
+            "id": 2348,
+            "group": "Rommes",
+            "name": "nopss_11k",
+            "rows": 11685,
+            "cols": 11685,
+            "nonzeros": 44941,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 0.7502077151335311,
+            "nsym": 0.6233827893175075,
+            "kind": "eigenvalue/model reduction problem",
+            "columns": 11685,
+            "row_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 3.0,
+                "q3": 5.0,
+                "max": 30,
+                "mean": 3.846041934103552,
+                "variance": 8.506806113774172,
+                "skewness": 2.2587967645136794,
+                "kurtosis": 11.328468032929557,
+                "hyperskewness": 61.348886910726708,
+                "hyperflatness": 385.2662443510373
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 3.0,
+                "q3": 5.0,
+                "max": 30,
+                "mean": 3.846041934103552,
+                "variance": 8.487807397471104,
+                "skewness": 2.339994602647333,
+                "kurtosis": 11.500229118163344,
+                "hyperskewness": 62.61452248154951,
+                "hyperflatness": 393.5869199409911
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 591156,
+                "max_relative_norm2": 5.896582454415509e-32,
+                "time": 0.00000860159993171692,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 591156,
+                "max_relative_norm2": 0.0,
+                "time": 0.000012902400083839893,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 1044344,
+                "max_relative_norm2": 2.118683071621989e-31,
+                "time": 0.000012083200179040432,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/ML_Graph/yeast_30NN/yeast_30NN.mtx",
+        "problem": {
+            "id": 2892,
+            "group": "ML_Graph",
+            "name": "yeast_30NN",
+            "rows": 1484,
+            "cols": 1484,
+            "nonzeros": 62350,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected weighted graph",
+            "columns": 1484,
+            "row_distribution": {
+                "min": 30,
+                "q1": 35.0,
+                "median": 41.0,
+                "q3": 48.0,
+                "max": 75,
+                "mean": 42.01482479784367,
+                "variance": 77.58064275906158,
+                "skewness": 0.7557433756986437,
+                "kurtosis": 3.202429060801064,
+                "hyperskewness": 6.41593328582281,
+                "hyperflatness": 20.18521255210683
+            },
+            "col_distribution": {
+                "min": 30,
+                "q1": 35.0,
+                "median": 41.0,
+                "q3": 48.0,
+                "max": 75,
+                "mean": 42.01482479784367,
+                "variance": 77.58064275906158,
+                "skewness": 0.7557433756986437,
+                "kurtosis": 3.202429060801064,
+                "hyperskewness": 6.41593328582281,
+                "hyperflatness": 20.18521255210683
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 759260,
+                "max_relative_norm2": 1.568819584619307e-16,
+                "time": 0.000007782400026917459,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 759260,
+                "max_relative_norm2": 8.237262601272558e-17,
+                "time": 0.00001085439994931221,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 1196168,
+                "max_relative_norm2": 2.6619326831586427e-16,
+                "time": 0.000022528000175952914,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

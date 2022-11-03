@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/DIMACS10/italy_osm/italy_osm.mtx",
+        "problem": {
+            "id": 2514,
+            "group": "DIMACS10",
+            "name": "italy_osm",
+            "rows": 6686493,
+            "cols": 6686493,
+            "nonzeros": 14027956,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected graph",
+            "columns": 6686493,
+            "row_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 2.0,
+                "q3": 2.0,
+                "max": 9,
+                "mean": 2.0979541891392099,
+                "variance": 0.1666477396721491,
+                "skewness": 2.0591809762090169,
+                "kurtosis": 11.162816306367685,
+                "hyperskewness": 41.71491820912802,
+                "hyperflatness": 250.71531486484293
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 2.0,
+                "q3": 2.0,
+                "max": 9,
+                "mean": 2.0979541891392099,
+                "variance": 0.1666477396721491,
+                "skewness": 2.0591809762090169,
+                "kurtosis": 11.162816306367685,
+                "hyperskewness": 41.71491820912802,
+                "hyperflatness": 250.71531486484293
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 195163368,
+                "max_relative_norm2": 0.0,
+                "time": 0.0009252863883972168,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 195163368,
+                "max_relative_norm2": 0.0,
+                "time": 0.0009281535983085632,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 253283032,
+                "max_relative_norm2": 1.0489949667612404e-17,
+                "time": 0.0006021119832992554,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "sellp"
+        }
+    }
+]

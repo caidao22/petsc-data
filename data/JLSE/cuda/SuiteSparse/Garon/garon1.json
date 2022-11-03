@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Garon/garon1/garon1.mtx",
+        "problem": {
+            "id": 444,
+            "group": "Garon",
+            "name": "garon1",
+            "rows": 3175,
+            "cols": 3175,
+            "nonzeros": 88927,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0.6720847366622736,
+            "kind": "computational fluid dynamics problem",
+            "columns": 3175,
+            "row_distribution": {
+                "min": 5,
+                "q1": 22.0,
+                "median": 22.0,
+                "q3": 42.0,
+                "max": 45,
+                "mean": 28.008503937007874,
+                "variance": 115.75520327360633,
+                "skewness": 0.7743275169525186,
+                "kurtosis": 1.8435624285174264,
+                "hyperskewness": 2.218973722076101,
+                "hyperflatness": 4.2020717974449
+            },
+            "col_distribution": {
+                "min": 5,
+                "q1": 22.0,
+                "median": 22.0,
+                "q3": 42.0,
+                "max": 45,
+                "mean": 28.008503937007874,
+                "variance": 115.75520327360633,
+                "skewness": 0.7743275169525186,
+                "kurtosis": 1.8435624285174264,
+                "hyperskewness": 2.218973722076101,
+                "hyperflatness": 4.2020717974449
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 1084948,
+                "max_relative_norm2": 9.588375436541829e-17,
+                "time": 0.000007577599957585335,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 1084948,
+                "max_relative_norm2": 3.15490356023612e-17,
+                "time": 0.000011878399923443795,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 1165096,
+                "max_relative_norm2": 1.936332564871531e-16,
+                "time": 0.000015564800053834919,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

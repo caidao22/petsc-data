@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/AG-Monien/brack2/brack2.mtx",
+        "problem": {
+            "id": 2426,
+            "group": "AG-Monien",
+            "name": "brack2",
+            "rows": 62631,
+            "cols": 62631,
+            "nonzeros": 733118,
+            "real": true,
+            "binary": true,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "2D/3D problem",
+            "columns": 62631,
+            "row_distribution": {
+                "min": 3,
+                "q1": 7.0,
+                "median": 11.0,
+                "q3": 16.0,
+                "max": 32,
+                "mean": 11.70535357889863,
+                "variance": 23.750484503587378,
+                "skewness": 0.327693926996075,
+                "kurtosis": 2.0588170062607298,
+                "hyperskewness": 1.9601556081148957,
+                "hyperflatness": 6.570305118762772
+            },
+            "col_distribution": {
+                "min": 3,
+                "q1": 7.0,
+                "median": 11.0,
+                "q3": 16.0,
+                "max": 32,
+                "mean": 11.70535357889863,
+                "variance": 23.750484503587378,
+                "skewness": 0.327693926996075,
+                "kurtosis": 2.0588170062607298,
+                "hyperskewness": 1.9601556081148957,
+                "hyperflatness": 6.570305118762772
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 9068424,
+                "max_relative_norm2": 6.781872846663291e-17,
+                "time": 0.000037478400021791467,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 9068424,
+                "max_relative_norm2": 0.0,
+                "time": 0.000029900800436735156,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 14921016,
+                "max_relative_norm2": 1.547141113533983e-16,
+                "time": 0.000031129600107669838,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csri"
+        }
+    }
+]

@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/VDOL/tumorAntiAngiogenesis_7/tumorAntiAngiogenesis_7.mtx",
+        "problem": {
+            "id": 2754,
+            "group": "VDOL",
+            "name": "tumorAntiAngiogenesis_7",
+            "rows": 475,
+            "cols": 475,
+            "nonzeros": 4597,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "optimal control problem",
+            "columns": 475,
+            "row_distribution": {
+                "min": 2,
+                "q1": 6.0,
+                "median": 8.0,
+                "q3": 10.25,
+                "max": 471,
+                "mean": 9.677894736842106,
+                "variance": 474.68151135734066,
+                "skewness": 20.115617784963736,
+                "kurtosis": 423.6940129831505,
+                "hyperskewness": 8962.342750646398,
+                "hyperflatness": 189733.34990642165
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 6.0,
+                "median": 8.0,
+                "q3": 10.25,
+                "max": 471,
+                "mean": 9.677894736842106,
+                "variance": 474.68151135734066,
+                "skewness": 20.115617784963736,
+                "kurtosis": 423.6940129831505,
+                "hyperskewness": 8962.342750646398,
+                "hyperflatness": 189733.34990642165
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 57644,
+                "max_relative_norm2": 6.989411287208411e-23,
+                "time": 0.000007782400026917459,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 57644,
+                "max_relative_norm2": 3.845864531402707e-25,
+                "time": 0.00000901119988411665,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 507784,
+                "max_relative_norm2": 7.472120250578346e-18,
+                "time": 0.00009666560292243958,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

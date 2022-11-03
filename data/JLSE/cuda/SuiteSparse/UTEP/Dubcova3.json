@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/UTEP/Dubcova3/Dubcova3.mtx",
+        "problem": {
+            "id": 1849,
+            "group": "UTEP",
+            "name": "Dubcova3",
+            "rows": 146689,
+            "cols": 146689,
+            "nonzeros": 3636649,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "2D/3D problem",
+            "columns": 146689,
+            "row_distribution": {
+                "min": 9,
+                "q1": 16.0,
+                "median": 28.0,
+                "q3": 28.0,
+                "max": 49,
+                "mean": 24.7915590126049,
+                "variance": 103.70257284722553,
+                "skewness": 1.154321848824108,
+                "kurtosis": 3.709364509889329,
+                "hyperskewness": 7.883625097625709,
+                "hyperflatness": 19.53909404154193
+            },
+            "col_distribution": {
+                "min": 9,
+                "q1": 16.0,
+                "median": 28.0,
+                "q3": 28.0,
+                "max": 49,
+                "mean": 24.7915590126049,
+                "variance": 103.70257284722553,
+                "skewness": 1.154321848824108,
+                "kurtosis": 3.709364509889329,
+                "hyperskewness": 7.883625097625709,
+                "hyperflatness": 19.53909404154193
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 44308468,
+                "max_relative_norm2": 7.668720586005984e-17,
+                "time": 0.00008908800184726716,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 44308468,
+                "max_relative_norm2": 7.668720586005984e-17,
+                "time": 0.00008908800184726716,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 43970136,
+                "max_relative_norm2": 2.5288098497481416e-16,
+                "time": 0.0000815103992819786,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "sellp"
+        }
+    }
+]

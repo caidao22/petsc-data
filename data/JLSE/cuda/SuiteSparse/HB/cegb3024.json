@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/HB/cegb3024/cegb3024.mtx",
+        "problem": {
+            "id": 1175,
+            "group": "HB",
+            "name": "cegb3024",
+            "rows": 3024,
+            "cols": 3024,
+            "nonzeros": 79848,
+            "real": true,
+            "binary": true,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "structural problem",
+            "columns": 3024,
+            "row_distribution": {
+                "min": 0,
+                "q1": 18.0,
+                "median": 26.0,
+                "q3": 28.0,
+                "max": 68,
+                "mean": 26.404761904761906,
+                "variance": 88.35997732426213,
+                "skewness": 0.6065400728378938,
+                "kurtosis": 3.2374801339929868,
+                "hyperskewness": 3.4239079018258509,
+                "hyperflatness": 20.26780524918072
+            },
+            "col_distribution": {
+                "min": 0,
+                "q1": 18.0,
+                "median": 26.0,
+                "q3": 28.0,
+                "max": 68,
+                "mean": 26.404761904761906,
+                "variance": 88.35997732426213,
+                "skewness": 0.6065400728378938,
+                "kurtosis": 3.2374801339929868,
+                "hyperskewness": 3.4239079018258509,
+                "hyperflatness": 20.26780524918072
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 975396,
+                "max_relative_norm2": 1.123037450952211e-16,
+                "time": 0.000007782400026917459,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 975396,
+                "max_relative_norm2": 5.471189824179783e-17,
+                "time": 0.000010444800183176996,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 1675016,
+                "max_relative_norm2": 2.245696855479178e-16,
+                "time": 0.000019046399742364889,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

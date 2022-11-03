@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Mycielski/mycielskian9/mycielskian9.mtx",
+        "problem": {
+            "id": 2765,
+            "group": "Mycielski",
+            "name": "mycielskian9",
+            "rows": 383,
+            "cols": 383,
+            "nonzeros": 14542,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected graph",
+            "columns": 383,
+            "row_distribution": {
+                "min": 8,
+                "q1": 19.0,
+                "median": 28.0,
+                "q3": 48.0,
+                "max": 191,
+                "mean": 37.9686684073107,
+                "variance": 888.8293055375658,
+                "skewness": 2.399308480573211,
+                "kurtosis": 10.6323520678456,
+                "hyperskewness": 47.0957698730582,
+                "hyperflatness": 222.43639071578438
+            },
+            "col_distribution": {
+                "min": 8,
+                "q1": 19.0,
+                "median": 28.0,
+                "q3": 48.0,
+                "max": 191,
+                "mean": 37.9686684073107,
+                "variance": 888.8293055375658,
+                "skewness": 2.399308480573211,
+                "kurtosis": 10.6323520678456,
+                "hyperskewness": 47.0957698730582,
+                "hyperflatness": 222.43639071578438
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 177860,
+                "max_relative_norm2": 1.4199038810054208e-16,
+                "time": 0.000006963200028985738,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 177860,
+                "max_relative_norm2": 3.0600725475385049e-17,
+                "time": 0.000010239999927580357,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 722792,
+                "max_relative_norm2": 2.7497519537353735e-16,
+                "time": 0.00004382719993591308,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

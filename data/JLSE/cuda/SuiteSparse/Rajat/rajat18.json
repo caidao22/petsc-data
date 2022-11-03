@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Rajat/rajat18/rajat18.mtx",
+        "problem": {
+            "id": 1345,
+            "group": "Rajat",
+            "name": "rajat18",
+            "rows": 94294,
+            "cols": 94294,
+            "nonzeros": 485143,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.626033640830624,
+            "nsym": 0.2849580148146621,
+            "kind": "circuit simulation problem",
+            "columns": 94294,
+            "row_distribution": {
+                "min": 1,
+                "q1": 3.0,
+                "median": 4.0,
+                "q3": 6.0,
+                "max": 28747,
+                "mean": 5.145003923897597,
+                "variance": 9396.10153733375,
+                "skewness": 280.2627467560058,
+                "kurtosis": 82230.07161290126,
+                "hyperskewness": 24324062.30595092,
+                "hyperflatness": 7208347304.564902
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 3.0,
+                "median": 3.0,
+                "q3": 5.0,
+                "max": 28711,
+                "mean": 5.145003923897597,
+                "variance": 9377.829070368716,
+                "skewness": 279.2120908035029,
+                "kurtosis": 82065.66549803807,
+                "hyperskewness": 24284053.69575659,
+                "hyperflatness": 7195767105.594209
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 6219376,
+                "max_relative_norm2": 7.218289100242217e-17,
+                "time": 0.00002396159991621971,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 6219376,
+                "max_relative_norm2": 7.197345809752202e-17,
+                "time": 0.00002396160028874874,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 53543208,
+                "max_relative_norm2": 6.295329321509834e-16,
+                "time": 0.009329254531860352,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

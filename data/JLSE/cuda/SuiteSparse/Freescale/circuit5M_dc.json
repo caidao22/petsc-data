@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Freescale/circuit5M_dc/circuit5M_dc.mtx",
+        "problem": {
+            "id": 2277,
+            "group": "Freescale",
+            "name": "circuit5M_dc",
+            "rows": 3523317,
+            "cols": 3523317,
+            "nonzeros": 19194193,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.9072118240231114,
+            "nsym": 0.7150571517141635,
+            "kind": "circuit simulation problem",
+            "columns": 3523317,
+            "row_distribution": {
+                "min": 1,
+                "q1": 4.0,
+                "median": 5.0,
+                "q3": 7.0,
+                "max": 27,
+                "mean": 5.447762151404486,
+                "variance": 4.371701679833205,
+                "skewness": 1.7487292482968269,
+                "kurtosis": 7.613590126887424,
+                "hyperskewness": 37.50063635350931,
+                "hyperflatness": 251.4471112274898
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 5.0,
+                "median": 5.0,
+                "q3": 6.0,
+                "max": 25,
+                "mean": 5.447762151404486,
+                "variance": 1.6368975167363005,
+                "skewness": 1.3756100923243245,
+                "kurtosis": 12.705938133899592,
+                "hyperskewness": 100.63489871395145,
+                "hyperflatness": 1089.5827299402693
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 244505508,
+                "max_relative_norm2": 0.0,
+                "time": 0.0009629695892333983,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 244505508,
+                "max_relative_norm2": 0.0,
+                "time": 0.0009582591891288758,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 277012936,
+                "max_relative_norm2": 4.264953569077103e-20,
+                "time": 0.000579583990573883,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "sellp"
+        }
+    }
+]

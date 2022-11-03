@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/DIMACS10/caidaRouterLevel/caidaRouterLevel.mtx",
+        "problem": {
+            "id": 2456,
+            "group": "DIMACS10",
+            "name": "caidaRouterLevel",
+            "rows": 192244,
+            "cols": 192244,
+            "nonzeros": 1218132,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected graph",
+            "columns": 192244,
+            "row_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 3.0,
+                "q3": 6.0,
+                "max": 1071,
+                "mean": 6.336385010715549,
+                "variance": 199.9387895285195,
+                "skewness": 18.9155231408671,
+                "kurtosis": 762.2925309470254,
+                "hyperskewness": 38699.88358269765,
+                "hyperflatness": 2191222.893937415
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 3.0,
+                "q3": 6.0,
+                "max": 1071,
+                "mean": 6.336385010715549,
+                "variance": 199.9387895285195,
+                "skewness": 18.9155231408671,
+                "kurtosis": 762.2925309470254,
+                "hyperskewness": 38699.88358269765,
+                "hyperflatness": 2191222.893937415
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 15407044,
+                "max_relative_norm2": 7.561694579566898e-17,
+                "time": 0.00006123520061373711,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 15407044,
+                "max_relative_norm2": 7.551461375751898e-17,
+                "time": 0.00006103040128946305,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 99099336,
+                "max_relative_norm2": 2.294557003007055e-16,
+                "time": 0.0004395008027553558,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csri"
+        }
+    }
+]

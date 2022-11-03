@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Hamm/add32/add32.mtx",
+        "problem": {
+            "id": 540,
+            "group": "Hamm",
+            "name": "add32",
+            "rows": 4960,
+            "cols": 4960,
+            "nonzeros": 23884,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0.3052122514777001,
+            "kind": "circuit simulation problem",
+            "columns": 4960,
+            "row_distribution": {
+                "min": 2,
+                "q1": 3.0,
+                "median": 4.0,
+                "q3": 5.0,
+                "max": 32,
+                "mean": 4.815322580645161,
+                "variance": 13.567507154006157,
+                "skewness": 3.387952034020828,
+                "kurtosis": 17.8938264306548,
+                "hyperskewness": 102.78931865729077,
+                "hyperflatness": 623.6700537083533
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 3.0,
+                "median": 4.0,
+                "q3": 5.0,
+                "max": 32,
+                "mean": 4.815322580645161,
+                "variance": 13.567507154006157,
+                "skewness": 3.387952034020828,
+                "kurtosis": 17.8938264306548,
+                "hyperskewness": 102.78931865729077,
+                "hyperflatness": 623.6700537083533
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 309440,
+                "max_relative_norm2": 3.353481597701017e-17,
+                "time": 0.000007577600143849849,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 309440,
+                "max_relative_norm2": 0.0,
+                "time": 0.000009625599905848504,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 705512,
+                "max_relative_norm2": 1.0881019818078396e-16,
+                "time": 0.000011673600040376187,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

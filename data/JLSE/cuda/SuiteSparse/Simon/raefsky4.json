@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Simon/raefsky4/raefsky4.mtx",
+        "problem": {
+            "id": 817,
+            "group": "Simon",
+            "name": "raefsky4",
+            "rows": 19779,
+            "cols": 19779,
+            "nonzeros": 1328611,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "structural problem",
+            "columns": 19779,
+            "row_distribution": {
+                "min": 18,
+                "q1": 54.0,
+                "median": 72.0,
+                "q3": 81.0,
+                "max": 177,
+                "mean": 67.17280954547752,
+                "variance": 254.6031314512373,
+                "skewness": -0.1068418747772464,
+                "kurtosis": 3.775295342484353,
+                "hyperskewness": 9.183963457012208,
+                "hyperflatness": 75.83419815422153
+            },
+            "col_distribution": {
+                "min": 18,
+                "q1": 54.0,
+                "median": 72.0,
+                "q3": 81.0,
+                "max": 177,
+                "mean": 67.17280954547752,
+                "variance": 254.6031314512373,
+                "skewness": -0.1068418747772464,
+                "kurtosis": 3.775295342484353,
+                "hyperskewness": 9.183963457012208,
+                "hyperflatness": 75.83419815422153
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 16042932,
+                "max_relative_norm2": 1.6550930728823383e-16,
+                "time": 0.000035020800679922106,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 16042932,
+                "max_relative_norm2": 1.6550930728823383e-16,
+                "time": 0.00003420160040259361,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 19630440,
+                "max_relative_norm2": 3.736420914862057e-16,
+                "time": 0.00008663039952516556,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csri"
+        }
+    }
+]

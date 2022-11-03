@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Schenk_ISEI/igbt3/igbt3.mtx",
+        "problem": {
+            "id": 969,
+            "group": "Schenk_ISEI",
+            "name": "igbt3",
+            "rows": 10938,
+            "cols": 10938,
+            "nonzeros": 234006,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0.1720279018417223,
+            "kind": "semiconductor device problem",
+            "columns": 10938,
+            "row_distribution": {
+                "min": 2,
+                "q1": 18.0,
+                "median": 21.0,
+                "q3": 24.0,
+                "max": 42,
+                "mean": 21.393856280855738,
+                "variance": 13.890955123613982,
+                "skewness": -0.3429448338741562,
+                "kurtosis": 3.609081479316489,
+                "hyperskewness": -5.846745436421111,
+                "hyperflatness": 35.030920067721378
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 18.0,
+                "median": 21.0,
+                "q3": 24.0,
+                "max": 42,
+                "mean": 21.393856280855738,
+                "variance": 13.890955123613982,
+                "skewness": -0.3429448338741562,
+                "kurtosis": 3.609081479316489,
+                "hyperskewness": -5.846745436421111,
+                "hyperflatness": 35.030920067721378
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 2872308,
+                "max_relative_norm2": 5.793407269156313e-17,
+                "time": 0.000010444800183176996,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 2872308,
+                "max_relative_norm2": 0.0,
+                "time": 0.0000145407997071743,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 3447224,
+                "max_relative_norm2": 1.6334514041815414e-16,
+                "time": 0.000014335999824106693,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

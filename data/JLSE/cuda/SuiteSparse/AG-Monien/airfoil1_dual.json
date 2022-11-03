@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/AG-Monien/airfoil1_dual/airfoil1_dual.mtx",
+        "problem": {
+            "id": 2412,
+            "group": "AG-Monien",
+            "name": "airfoil1_dual",
+            "rows": 8034,
+            "cols": 8034,
+            "nonzeros": 23626,
+            "real": true,
+            "binary": true,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "2D/3D problem",
+            "columns": 8034,
+            "row_distribution": {
+                "min": 2,
+                "q1": 3.0,
+                "median": 3.0,
+                "q3": 3.0,
+                "max": 3,
+                "mean": 2.9407518048294749,
+                "variance": 0.05573784653957673,
+                "skewness": -3.733782383153111,
+                "kurtosis": 14.941130884728702,
+                "hyperskewness": -59.52071366496486,
+                "hyperflatness": 237.1785229994756
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 3.0,
+                "median": 3.0,
+                "q3": 3.0,
+                "max": 3,
+                "mean": 2.9407518048294749,
+                "variance": 0.05573784653957673,
+                "skewness": -3.733782383153111,
+                "kurtosis": 14.941130884728702,
+                "hyperskewness": -59.52071366496486,
+                "hyperflatness": 237.1785229994756
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 318608,
+                "max_relative_norm2": 5.307413009634239e-17,
+                "time": 0.000006758400052785875,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 318608,
+                "max_relative_norm2": 0.0,
+                "time": 0.000010649600252509118,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 292328,
+                "max_relative_norm2": 1.0854559838530844e-17,
+                "time": 0.000007168000098317862,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

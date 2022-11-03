@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Lourakis/bundle1/bundle1.mtx",
+        "problem": {
+            "id": 1347,
+            "group": "Lourakis",
+            "name": "bundle1",
+            "rows": 10581,
+            "cols": 10581,
+            "nonzeros": 770901,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "computer graphics/vision problem",
+            "columns": 10581,
+            "row_distribution": {
+                "min": 17,
+                "q1": 24.0,
+                "median": 31.0,
+                "q3": 45.0,
+                "max": 1711,
+                "mean": 72.85710235327474,
+                "variance": 39520.296563534605,
+                "skewness": 5.730913707447717,
+                "kurtosis": 35.5228994075172,
+                "hyperskewness": 226.6169677433412,
+                "hyperflatness": 1486.8718543077048
+            },
+            "col_distribution": {
+                "min": 17,
+                "q1": 24.0,
+                "median": 31.0,
+                "q3": 45.0,
+                "max": 1711,
+                "mean": 72.85710235327474,
+                "variance": 39520.296563534605,
+                "skewness": 5.730913707447717,
+                "kurtosis": 35.5228994075172,
+                "hyperskewness": 226.6169677433412,
+                "hyperflatness": 1486.8718543077048
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 9313620,
+                "max_relative_norm2": 1.2920767365752493e-16,
+                "time": 0.000022118400037288667,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 9313620,
+                "max_relative_norm2": 1.4196513605663642e-16,
+                "time": 0.000022528000175952914,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 15967848,
+                "max_relative_norm2": 1.6777042782515903e-15,
+                "time": 0.0006864895820617676,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

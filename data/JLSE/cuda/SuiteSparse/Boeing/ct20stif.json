@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Boeing/ct20stif/ct20stif.mtx",
+        "problem": {
+            "id": 356,
+            "group": "Boeing",
+            "name": "ct20stif",
+            "rows": 52329,
+            "cols": 52329,
+            "nonzeros": 2698463,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "structural problem",
+            "columns": 52329,
+            "row_distribution": {
+                "min": 2,
+                "q1": 42.0,
+                "median": 54.0,
+                "q3": 59.0,
+                "max": 207,
+                "mean": 51.56725716142101,
+                "variance": 288.2722685016127,
+                "skewness": 0.5303565068513847,
+                "kurtosis": 5.274311146892977,
+                "hyperskewness": 16.70183023290563,
+                "hyperflatness": 124.89256989352477
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 42.0,
+                "median": 54.0,
+                "q3": 59.0,
+                "max": 207,
+                "mean": 51.56725716142101,
+                "variance": 288.2722685016127,
+                "skewness": 0.5303565068513847,
+                "kurtosis": 5.274311146892977,
+                "hyperskewness": 16.70183023290563,
+                "hyperflatness": 124.89256989352477
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 32672796,
+                "max_relative_norm2": 1.3476971118854865e-16,
+                "time": 0.00006471679955720902,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 32672796,
+                "max_relative_norm2": 1.3476971118854865e-16,
+                "time": 0.0000645119994878769,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 47120680,
+                "max_relative_norm2": 1.3546493077302407e-16,
+                "time": 0.00012922880053520201,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csri"
+        }
+    }
+]

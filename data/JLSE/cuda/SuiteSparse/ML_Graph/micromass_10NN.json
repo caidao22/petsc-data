@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/ML_Graph/micromass_10NN/micromass_10NN.mtx",
+        "problem": {
+            "id": 2877,
+            "group": "ML_Graph",
+            "name": "micromass_10NN",
+            "rows": 571,
+            "cols": 571,
+            "nonzeros": 9668,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected weighted graph",
+            "columns": 571,
+            "row_distribution": {
+                "min": 10,
+                "q1": 11.0,
+                "median": 14.0,
+                "q3": 18.0,
+                "max": 148,
+                "mean": 16.93169877408056,
+                "variance": 183.48220009139957,
+                "skewness": 6.876225534700262,
+                "kurtosis": 59.649686193419537,
+                "hyperskewness": 530.5154132754658,
+                "hyperflatness": 4780.368053660079
+            },
+            "col_distribution": {
+                "min": 10,
+                "q1": 11.0,
+                "median": 14.0,
+                "q3": 18.0,
+                "max": 148,
+                "mean": 16.93169877408056,
+                "variance": 183.48220009139957,
+                "skewness": 6.876225534700262,
+                "kurtosis": 59.649686193419537,
+                "hyperskewness": 530.5154132754658,
+                "hyperflatness": 4780.368053660079
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 119516,
+                "max_relative_norm2": 8.212502212411538e-17,
+                "time": 0.000006758400145918131,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 119516,
+                "max_relative_norm2": 5.1822613668556056e-17,
+                "time": 0.000009215999953448773,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 607640,
+                "max_relative_norm2": 1.8168401596012882e-16,
+                "time": 0.00003502080067992211,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

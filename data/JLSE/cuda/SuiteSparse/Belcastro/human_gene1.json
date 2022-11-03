@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Belcastro/human_gene1/human_gene1.mtx",
+        "problem": {
+            "id": 2280,
+            "group": "Belcastro",
+            "name": "human_gene1",
+            "rows": 22283,
+            "cols": 22283,
+            "nonzeros": 24669643,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected weighted graph",
+            "columns": 22283,
+            "row_distribution": {
+                "min": 1,
+                "q1": 131.0,
+                "median": 537.0,
+                "q3": 1505.25,
+                "max": 7939,
+                "mean": 1107.1060000897549,
+                "variance": 1985623.700831486,
+                "skewness": 1.8518132460679245,
+                "kurtosis": 6.0907179872557049,
+                "hyperskewness": 19.08315161525148,
+                "hyperflatness": 64.84986344820134
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 131.0,
+                "median": 537.0,
+                "q3": 1505.25,
+                "max": 7939,
+                "mean": 1107.1060000897549,
+                "variance": 1985623.700831486,
+                "skewness": 1.8518132460679245,
+                "kurtosis": 6.0907179872557049,
+                "hyperskewness": 19.08315161525148,
+                "hyperflatness": 64.84986344820134
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 296452532,
+                "max_relative_norm2": 2.3793033189488409e-16,
+                "time": 0.00048721920251846315,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 296452532,
+                "max_relative_norm2": 2.37758077320055e-16,
+                "time": 0.00048824319839477546,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 1357619928,
+                "max_relative_norm2": 1.4772002810346893e-15,
+                "time": 0.0037076992511749266,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

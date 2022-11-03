@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/GHS_psdef/vanbody/vanbody.mtx",
+        "problem": {
+            "id": 1287,
+            "group": "GHS_psdef",
+            "name": "vanbody",
+            "rows": 47072,
+            "cols": 47072,
+            "nonzeros": 2336898,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "structural problem",
+            "columns": 47072,
+            "row_distribution": {
+                "min": 6,
+                "q1": 38.0,
+                "median": 52.0,
+                "q3": 54.0,
+                "max": 232,
+                "mean": 49.645181849082259,
+                "variance": 311.33195588112945,
+                "skewness": 1.4443323135674716,
+                "kurtosis": 9.343099528595556,
+                "hyperskewness": 44.94885174075288,
+                "hyperflatness": 310.9872482428497
+            },
+            "col_distribution": {
+                "min": 6,
+                "q1": 38.0,
+                "median": 52.0,
+                "q3": 54.0,
+                "max": 232,
+                "mean": 49.645181849082259,
+                "variance": 311.33195588112945,
+                "skewness": 1.4443323135674716,
+                "kurtosis": 9.343099528595556,
+                "hyperskewness": 44.94885174075288,
+                "hyperflatness": 310.9872482428497
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 28312988,
+                "max_relative_norm2": 4.0454253278736578e-16,
+                "time": 0.00005304319933056832,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 28312988,
+                "max_relative_norm2": 4.0454253278721649e-16,
+                "time": 0.00005365759953856468,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 42505224,
+                "max_relative_norm2": 2.808792237097341e-16,
+                "time": 0.00011755519956350326,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/DIMACS10/NLR/NLR.mtx",
+        "problem": {
+            "id": 2581,
+            "group": "DIMACS10",
+            "name": "NLR",
+            "rows": 4163763,
+            "cols": 4163763,
+            "nonzeros": 24975952,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected graph",
+            "columns": 4163763,
+            "row_distribution": {
+                "min": 3,
+                "q1": 5.0,
+                "median": 6.0,
+                "q3": 6.0,
+                "max": 20,
+                "mean": 5.998408651020723,
+                "variance": 0.708847611148366,
+                "skewness": 0.4230894532399141,
+                "kurtosis": 3.761876810746962,
+                "hyperskewness": 10.141081102493488,
+                "hyperflatness": 96.95679445177578
+            },
+            "col_distribution": {
+                "min": 3,
+                "q1": 5.0,
+                "median": 6.0,
+                "q3": 6.0,
+                "max": 20,
+                "mean": 5.998408651020723,
+                "variance": 0.708847611148366,
+                "skewness": 0.4230894532399141,
+                "kurtosis": 3.761876810746962,
+                "hyperskewness": 10.141081102493488,
+                "hyperflatness": 96.95679445177578
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 316694160,
+                "max_relative_norm2": 0.0,
+                "time": 0.003071795225143433,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 316694160,
+                "max_relative_norm2": 0.0,
+                "time": 0.003070975923538208,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 399979320,
+                "max_relative_norm2": 8.891623724900529e-17,
+                "time": 0.0028391424655914304,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "sellp"
+        }
+    }
+]

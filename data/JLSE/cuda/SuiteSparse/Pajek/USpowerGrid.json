@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Pajek/USpowerGrid/USpowerGrid.mtx",
+        "problem": {
+            "id": 1530,
+            "group": "Pajek",
+            "name": "USpowerGrid",
+            "rows": 4941,
+            "cols": 4941,
+            "nonzeros": 13188,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected graph",
+            "columns": 4941,
+            "row_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 2.0,
+                "q3": 3.0,
+                "max": 19,
+                "mean": 2.66909532483303,
+                "variance": 3.208656315746092,
+                "skewness": 2.189759284398055,
+                "kurtosis": 10.69895223075899,
+                "hyperskewness": 56.65507224036263,
+                "hyperflatness": 361.4619764692579
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 2.0,
+                "q3": 3.0,
+                "max": 19,
+                "mean": 2.66909532483303,
+                "variance": 3.208656315746092,
+                "skewness": 2.189759284398055,
+                "kurtosis": 10.69895223075899,
+                "hyperskewness": 56.65507224036263,
+                "hyperflatness": 361.4619764692579
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 179676,
+                "max_relative_norm2": 2.5898705336967845e-17,
+                "time": 0.000007577600143849849,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 179676,
+                "max_relative_norm2": 0.0,
+                "time": 0.000011059200391173362,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 512744,
+                "max_relative_norm2": 6.262001602950595e-17,
+                "time": 0.00000942079983651638,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

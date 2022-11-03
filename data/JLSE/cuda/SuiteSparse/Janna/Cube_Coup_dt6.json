@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Janna/Cube_Coup_dt6/Cube_Coup_dt6.mtx",
+        "problem": {
+            "id": 2549,
+            "group": "Janna",
+            "name": "Cube_Coup_dt6",
+            "rows": 2164760,
+            "cols": 2164760,
+            "nonzeros": 127206144,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "structural problem",
+            "columns": 2164760,
+            "row_distribution": {
+                "min": 24,
+                "q1": 60.0,
+                "median": 60.0,
+                "q3": 60.0,
+                "max": 68,
+                "mean": 58.76223877011771,
+                "variance": 19.995381123536057,
+                "skewness": -3.011033350374426,
+                "kurtosis": 11.45261910874053,
+                "hyperskewness": -43.29955462582832,
+                "hyperflatness": 182.2941139203318
+            },
+            "col_distribution": {
+                "min": 24,
+                "q1": 60.0,
+                "median": 60.0,
+                "q3": 60.0,
+                "max": 68,
+                "mean": 58.76223877011771,
+                "variance": 19.995381123536057,
+                "skewness": -3.011033350374426,
+                "kurtosis": 11.45261910874053,
+                "hyperskewness": -43.29955462582832,
+                "hyperflatness": 182.2941139203318
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 1535460452,
+                "max_relative_norm2": 1.4716864857984439e-16,
+                "time": 0.003184844732284546,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 1535460452,
+                "max_relative_norm2": 1.4716864857984439e-16,
+                "time": 0.0032677887916564946,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 1571985944,
+                "max_relative_norm2": 2.8351683697553709e-16,
+                "time": 0.0024979455947875979,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "sellp"
+        }
+    }
+]

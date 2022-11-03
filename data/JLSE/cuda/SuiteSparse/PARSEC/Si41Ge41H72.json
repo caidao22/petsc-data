@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/PARSEC/Si41Ge41H72/Si41Ge41H72.mtx",
+        "problem": {
+            "id": 1362,
+            "group": "PARSEC",
+            "name": "Si41Ge41H72",
+            "rows": 185639,
+            "cols": 185639,
+            "nonzeros": 15011265,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "theoretical/quantum chemistry problem",
+            "columns": 185639,
+            "row_distribution": {
+                "min": 13,
+                "q1": 34.0,
+                "median": 37.0,
+                "q3": 37.0,
+                "max": 662,
+                "mean": 80.8626689434871,
+                "variance": 16121.852621929493,
+                "skewness": 2.574222510914875,
+                "kurtosis": 8.31797757367661,
+                "hyperskewness": 27.7896884169926,
+                "hyperflatness": 98.1006142947669
+            },
+            "col_distribution": {
+                "min": 13,
+                "q1": 34.0,
+                "median": 37.0,
+                "q3": 37.0,
+                "max": 662,
+                "mean": 80.8626689434871,
+                "variance": 16121.852621929493,
+                "skewness": 2.574222510914875,
+                "kurtosis": 8.31797757367661,
+                "hyperskewness": 27.7896884169926,
+                "hyperflatness": 98.1006142947669
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 180959660,
+                "max_relative_norm2": 1.0866833076552411e-16,
+                "time": 0.0003604479908943176,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 180959660,
+                "max_relative_norm2": 1.0866833076552411e-16,
+                "time": 0.0003602432012557984,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 515919704,
+                "max_relative_norm2": 3.192290412532764e-16,
+                "time": 0.0007254016160964966,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csri"
+        }
+    }
+]

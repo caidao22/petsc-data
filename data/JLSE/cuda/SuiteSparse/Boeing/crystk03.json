@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Boeing/crystk03/crystk03.mtx",
+        "problem": {
+            "id": 352,
+            "group": "Boeing",
+            "name": "crystk03",
+            "rows": 24696,
+            "cols": 24696,
+            "nonzeros": 1751178,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "materials problem",
+            "columns": 24696,
+            "row_distribution": {
+                "min": 24,
+                "q1": 54.0,
+                "median": 81.0,
+                "q3": 81.0,
+                "max": 81,
+                "mean": 70.90937803692906,
+                "variance": 200.5737442520934,
+                "skewness": -0.8578873972429876,
+                "kurtosis": 2.213758255881386,
+                "hyperskewness": -4.214975934451685,
+                "hyperflatness": 10.131250525149929
+            },
+            "col_distribution": {
+                "min": 24,
+                "q1": 54.0,
+                "median": 81.0,
+                "q3": 81.0,
+                "max": 81,
+                "mean": 70.90937803692906,
+                "variance": 200.5737442520934,
+                "skewness": -0.8578873972429876,
+                "kurtosis": 2.213758255881386,
+                "hyperskewness": -4.214975934451685,
+                "hyperflatness": 10.131250525149929
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 21133404,
+                "max_relative_norm2": 1.5526716455974514e-16,
+                "time": 0.00004280319958925248,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 21133404,
+                "max_relative_norm2": 1.5526716455974514e-16,
+                "time": 0.000043622399866580968,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 22566952,
+                "max_relative_norm2": 3.2149541550850458e-16,
+                "time": 0.00006348799914121628,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/TSOPF/TSOPF_FS_b300_c3/TSOPF_FS_b300_c3.mtx",
+        "problem": {
+            "id": 2226,
+            "group": "TSOPF",
+            "name": "TSOPF_FS_b300_c3",
+            "rows": 84414,
+            "cols": 84414,
+            "nonzeros": 13135930,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "power network problem",
+            "columns": 84414,
+            "row_distribution": {
+                "min": 1,
+                "q1": 4.0,
+                "median": 10.0,
+                "q3": 210.0,
+                "max": 41542,
+                "mean": 155.61316843177674,
+                "variance": 1395192.6263463516,
+                "skewness": 34.37913864231779,
+                "kurtosis": 1195.7275045731774,
+                "hyperskewness": 41588.95838632204,
+                "hyperflatness": 1446579.6667145126
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 4.0,
+                "median": 10.0,
+                "q3": 210.0,
+                "max": 41542,
+                "mean": 155.61316843177674,
+                "variance": 1395192.6263463516,
+                "skewness": 34.37913864231779,
+                "kurtosis": 1195.7275045731774,
+                "hyperskewness": 41588.95838632204,
+                "hyperflatness": 1446579.6667145126
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 158050740,
+                "max_relative_norm2": 2.6948166616982288e-17,
+                "time": 0.00027729920148849484,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 158050740,
+                "max_relative_norm2": 2.6948166617678245e-17,
+                "time": 0.00027811840176582335,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 188328568,
+                "max_relative_norm2": 1.760694369314934e-16,
+                "time": 0.014971494483947756,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/VDOL/lowThrust_8/lowThrust_8.mtx",
+        "problem": {
+            "id": 2712,
+            "group": "VDOL",
+            "name": "lowThrust_8",
+            "rows": 17702,
+            "cols": 17702,
+            "nonzeros": 216445,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "optimal control problem",
+            "columns": 17702,
+            "row_distribution": {
+                "min": 2,
+                "q1": 8.0,
+                "median": 12.0,
+                "q3": 15.0,
+                "max": 6883,
+                "mean": 12.227149474635637,
+                "variance": 5353.028450568443,
+                "skewness": 93.5468756663304,
+                "kurtosis": 8784.246465973418,
+                "hyperskewness": 824857.1238808156,
+                "hyperflatness": 77455622.82887733
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 8.0,
+                "median": 12.0,
+                "q3": 15.0,
+                "max": 6883,
+                "mean": 12.227149474635637,
+                "variance": 5353.028450568443,
+                "skewness": 93.5468756663304,
+                "kurtosis": 8784.246465973418,
+                "hyperskewness": 824857.1238808156,
+                "hyperflatness": 77455622.82887733
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 2688632,
+                "max_relative_norm2": 7.251600613752077e-17,
+                "time": 0.00001576960012316704,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 2688632,
+                "max_relative_norm2": 9.064496852831513e-17,
+                "time": 0.000015564800053834919,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 8261976,
+                "max_relative_norm2": 2.0558320508320296e-16,
+                "time": 0.0020244480609893798,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csri"
+        }
+    }
+]

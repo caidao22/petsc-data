@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Oberwolfach/gas_sensor/gas_sensor.mtx",
+        "problem": {
+            "id": 1434,
+            "group": "Oberwolfach",
+            "name": "gas_sensor",
+            "rows": 66917,
+            "cols": 66917,
+            "nonzeros": 1703365,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "model reduction problem",
+            "columns": 66917,
+            "row_distribution": {
+                "min": 8,
+                "q1": 27.0,
+                "median": 27.0,
+                "q3": 27.0,
+                "max": 33,
+                "mean": 25.454891880986897,
+                "variance": 12.34985267038558,
+                "skewness": -1.8980856376640876,
+                "kurtosis": 5.056295236046474,
+                "hyperskewness": -13.712422324016874,
+                "hyperflatness": 41.56697262861563
+            },
+            "col_distribution": {
+                "min": 8,
+                "q1": 27.0,
+                "median": 27.0,
+                "q3": 27.0,
+                "max": 33,
+                "mean": 25.454891880986897,
+                "variance": 12.34985267038558,
+                "skewness": -1.8980856376640876,
+                "kurtosis": 5.056295236046474,
+                "hyperskewness": -13.712422324016874,
+                "hyperflatness": 41.56697262861563
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 20728532,
+                "max_relative_norm2": 6.703873023150953e-19,
+                "time": 0.0000466944009065628,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 20728532,
+                "max_relative_norm2": 6.703873023150953e-19,
+                "time": 0.00004628480076789856,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 21560680,
+                "max_relative_norm2": 2.024429270911913e-16,
+                "time": 0.00004526080042123794,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "sellp"
+        }
+    }
+]

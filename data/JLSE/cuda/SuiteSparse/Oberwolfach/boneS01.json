@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Oberwolfach/boneS01/boneS01.mtx",
+        "problem": {
+            "id": 1454,
+            "group": "Oberwolfach",
+            "name": "boneS01",
+            "rows": 127224,
+            "cols": 127224,
+            "nonzeros": 6715152,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "model reduction problem",
+            "columns": 127224,
+            "row_distribution": {
+                "min": 12,
+                "q1": 36.0,
+                "median": 54.0,
+                "q3": 66.0,
+                "max": 81,
+                "mean": 52.782116581777028,
+                "variance": 311.1827192325739,
+                "skewness": -0.2036186498002348,
+                "kurtosis": 1.8756931590996449,
+                "hyperskewness": -0.8170587367905381,
+                "hyperflatness": 4.210701685882148
+            },
+            "col_distribution": {
+                "min": 12,
+                "q1": 36.0,
+                "median": 54.0,
+                "q3": 66.0,
+                "max": 81,
+                "mean": 52.782116581777028,
+                "variance": 311.1827192325739,
+                "skewness": -0.2036186498002348,
+                "kurtosis": 1.8756931590996449,
+                "hyperskewness": -0.8170587367905381,
+                "hyperflatness": 4.210701685882148
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 81172644,
+                "max_relative_norm2": 1.4208344904783307e-16,
+                "time": 0.00013721599578857423,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 81172644,
+                "max_relative_norm2": 1.4208344904783307e-16,
+                "time": 0.0001357887953519821,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 117100360,
+                "max_relative_norm2": 2.73301990204067e-16,
+                "time": 0.00017940479815006257,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csri"
+        }
+    }
+]

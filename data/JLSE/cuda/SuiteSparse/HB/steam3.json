@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/HB/steam3/steam3.mtx",
+        "problem": {
+            "id": 253,
+            "group": "HB",
+            "name": "steam3",
+            "rows": 80,
+            "cols": 80,
+            "nonzeros": 928,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0.3247863247863248,
+            "kind": "computational fluid dynamics problem",
+            "columns": 80,
+            "row_distribution": {
+                "min": 8,
+                "q1": 12.0,
+                "median": 12.0,
+                "q3": 12.0,
+                "max": 12,
+                "mean": 11.6,
+                "variance": 1.4399999999999965,
+                "skewness": -2.6666666666666658,
+                "kurtosis": 8.111111111111127,
+                "hyperskewness": -24.296296296296594,
+                "hyperflatness": 72.90123456790195
+            },
+            "col_distribution": {
+                "min": 8,
+                "q1": 12.0,
+                "median": 12.0,
+                "q3": 12.0,
+                "max": 12,
+                "mean": 11.6,
+                "variance": 1.4399999999999965,
+                "skewness": -2.6666666666666658,
+                "kurtosis": 8.111111111111127,
+                "hyperskewness": -24.296296296296594,
+                "hyperflatness": 72.90123456790195
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 11576,
+                "max_relative_norm2": 5.708615969382012e-17,
+                "time": 0.000006553600076586008,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 11576,
+                "max_relative_norm2": 0.0,
+                "time": 0.000009215999953448773,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 18472,
+                "max_relative_norm2": 1.2382344745075354e-16,
+                "time": 0.000007782400026917459,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

@@ -1,0 +1,73 @@
+[
+    {
+        "filename": "./ssget_archive/MM/PARSEC/benzene/benzene.mtx",
+        "problem": {
+            "id": 1348,
+            "group": "PARSEC",
+            "name": "benzene",
+            "rows": 8219,
+            "cols": 8219,
+            "nonzeros": 242669,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "theoretical/quantum chemistry problem",
+            "columns": 8219,
+            "row_distribution": {
+                "min": 12,
+                "q1": 26.0,
+                "median": 31.0,
+                "q3": 34.0,
+                "max": 37,
+                "mean": 29.52536804964108,
+                "variance": 29.200810410226297,
+                "skewness": -0.739212288013576,
+                "kurtosis": 2.992086515421706,
+                "hyperskewness": -5.193472768308891,
+                "hyperflatness": 15.177884093838856
+            },
+            "col_distribution": {
+                "min": 12,
+                "q1": 26.0,
+                "median": 31.0,
+                "q3": 34.0,
+                "max": 37,
+                "mean": 29.52536804964108,
+                "variance": 29.200810410226297,
+                "skewness": -0.739212288013576,
+                "kurtosis": 2.992086515421706,
+                "hyperskewness": -5.193472768308891,
+                "hyperflatness": 15.177884093838856
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 2965388,
+                "max_relative_norm2": 1.1705312518248104e-16,
+                "time": 0.000009215999953448773,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 2965388,
+                "max_relative_norm2": 3.59152511382075e-17,
+                "time": 0.000014745600149035452,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 3361304,
+                "max_relative_norm2": 2.182520027950213e-16,
+                "time": 0.000012697600014507769,
+                "repetitions": 5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]
