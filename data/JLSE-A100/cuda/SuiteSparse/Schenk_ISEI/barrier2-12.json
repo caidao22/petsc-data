@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Schenk_ISEI/barrier2-12/barrier2-12.mtx",
+        "problem": {
+            "id": 963,
+            "group": "Schenk_ISEI",
+            "name": "barrier2-12",
+            "rows": 115625,
+            "cols": 115625,
+            "nonzeros": 3897557,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0.1983617501551521,
+            "kind": "subsequent semiconductor device problem",
+            "columns": 115625,
+            "row_distribution": {
+                "min": 8,
+                "q1": 21.0,
+                "median": 30.0,
+                "q3": 43.0,
+                "max": 8437,
+                "mean": 33.70860108108108,
+                "variance": 810.016198021475,
+                "skewness": 224.2472871085524,
+                "kurtosis": 65794.22215167573,
+                "hyperskewness": 19409852.101131428,
+                "hyperflatness": 5730235734.122939
+            },
+            "col_distribution": {
+                "min": 8,
+                "q1": 21.0,
+                "median": 30.0,
+                "q3": 43.0,
+                "max": 8437,
+                "mean": 33.70860108108108,
+                "variance": 810.016198021475,
+                "skewness": 224.2472871085524,
+                "kurtosis": 65794.22215167573,
+                "hyperskewness": 19409852.101131428,
+                "hyperflatness": 5730235734.122939
+            }
+        },
+        "size": 115625,
+        "spmv": {
+            "csr": {
+                "storage": 47343780,
+                "max_relative_norm2": 23.686832991767332,
+                "time": 0.000011712000146508217,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 47343780,
+                "max_relative_norm2": 1.2604458207839042,
+                "time": 0.00001696000061929226,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 3897557,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

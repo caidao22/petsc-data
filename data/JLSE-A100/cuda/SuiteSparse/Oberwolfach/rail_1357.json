@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Oberwolfach/rail_1357/rail_1357.mtx",
+        "problem": {
+            "id": 1442,
+            "group": "Oberwolfach",
+            "name": "rail_1357",
+            "rows": 1357,
+            "cols": 1357,
+            "nonzeros": 8985,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "model reduction problem",
+            "columns": 1357,
+            "row_distribution": {
+                "min": 3,
+                "q1": 5.0,
+                "median": 6.0,
+                "q3": 9.0,
+                "max": 11,
+                "mean": 6.6212232866617535,
+                "variance": 3.5455480982639025,
+                "skewness": 0.29460515809170573,
+                "kurtosis": 1.4896852775918616,
+                "hyperskewness": 0.8200137843047597,
+                "hyperflatness": 2.7877373251863897
+            },
+            "col_distribution": {
+                "min": 3,
+                "q1": 5.0,
+                "median": 6.0,
+                "q3": 9.0,
+                "max": 11,
+                "mean": 6.6212232866617535,
+                "variance": 3.5455480982639025,
+                "skewness": 0.29460515809170573,
+                "kurtosis": 1.4896852775918616,
+                "hyperskewness": 0.8200137843047597,
+                "hyperflatness": 2.7877373251863897
+            }
+        },
+        "size": 1357,
+        "spmv": {
+            "csr": {
+                "storage": 114376,
+                "max_relative_norm2": 0.0188096419714024,
+                "time": 0.000007692799903452397,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 114376,
+                "max_relative_norm2": 2.2371604940508747,
+                "time": 0.000013945600017905234,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 8985,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

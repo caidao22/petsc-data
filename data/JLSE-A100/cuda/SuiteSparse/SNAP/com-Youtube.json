@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/SNAP/com-Youtube/com-Youtube.mtx",
+        "problem": {
+            "id": 2783,
+            "group": "SNAP",
+            "name": "com-Youtube",
+            "rows": 1134890,
+            "cols": 1134890,
+            "nonzeros": 5975248,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected graph with communities",
+            "columns": 1134890,
+            "row_distribution": {
+                "min": 1,
+                "q1": 1.0,
+                "median": 1.0,
+                "q3": 3.0,
+                "max": 28754,
+                "mean": 5.265045951590022,
+                "variance": 2576.003324293981,
+                "skewness": 231.98624306458237,
+                "kurtosis": 104290.58839529454,
+                "hyperskewness": 54488597.83892572,
+                "hyperflatness": 29871981488.98545
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 1.0,
+                "median": 1.0,
+                "q3": 3.0,
+                "max": 28754,
+                "mean": 5.265045951590022,
+                "variance": 2576.003324293981,
+                "skewness": 231.98624306458237,
+                "kurtosis": 104290.58839529454,
+                "hyperskewness": 54488597.83892572,
+                "hyperflatness": 29871981488.98545
+            }
+        },
+        "size": 1134890,
+        "spmv": {
+            "csr": {
+                "storage": 76353132,
+                "max_relative_norm2": 0.9998433909027816,
+                "time": 0.000008761600032448768,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 76353132,
+                "max_relative_norm2": 1.0005215615564558,
+                "time": 0.00001761919967830181,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 5975248,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

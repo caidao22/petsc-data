@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/VDOL/reorientation_8/reorientation_8.mtx",
+        "problem": {
+            "id": 2729,
+            "group": "VDOL",
+            "name": "reorientation_8",
+            "rows": 3108,
+            "cols": 3108,
+            "nonzeros": 37894,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "optimal control problem",
+            "columns": 3108,
+            "row_distribution": {
+                "min": 1,
+                "q1": 8.0,
+                "median": 12.0,
+                "q3": 15.0,
+                "max": 2920,
+                "mean": 12.192406692406692,
+                "variance": 2752.657316859054,
+                "skewness": 54.77506968550387,
+                "kurtosis": 3035.829682890493,
+                "hyperskewness": 168254.60125446934,
+                "hyperflatness": 9325165.359128296
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 8.0,
+                "median": 12.0,
+                "q3": 15.0,
+                "max": 2920,
+                "mean": 12.192406692406692,
+                "variance": 2752.657316859054,
+                "skewness": 54.77506968550387,
+                "kurtosis": 3035.829682890493,
+                "hyperskewness": 168254.60125446934,
+                "hyperflatness": 9325165.359128296
+            }
+        },
+        "size": 3108,
+        "spmv": {
+            "csr": {
+                "storage": 471904,
+                "max_relative_norm2": 0.9880713466272044,
+                "time": 0.000006867200043052434,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 471904,
+                "max_relative_norm2": 0.9789367938750814,
+                "time": 0.00001592320017516613,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 37894,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

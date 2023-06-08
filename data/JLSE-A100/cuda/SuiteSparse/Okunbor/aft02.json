@@ -1,0 +1,22 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Okunbor/aft02/aft02.mtx",
+        "problem": {
+            "id": 792,
+            "group": "Okunbor",
+            "name": "aft02",
+            "rows": 8184,
+            "cols": 8184,
+            "nonzeros": 127762,
+            "real": false,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0.99635384435264,
+            "kind": "acoustics problem"
+        },
+        "spmv": {},
+        "error": "/gpfs/jlse-fs0/users/hongzhang/Projects/ginkgo/core/base/mtx_io.cpp:236: read_entry_impl: trying to read a complex matrix into a real storage type"
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Newman/polblogs/polblogs.mtx",
+        "problem": {
+            "id": 2402,
+            "group": "Newman",
+            "name": "polblogs",
+            "rows": 1490,
+            "cols": 1490,
+            "nonzeros": 19025,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.242561244874356,
+            "nsym": 0.2414046893071181,
+            "kind": "directed multigraph",
+            "columns": 1490,
+            "row_distribution": {
+                "min": 0,
+                "q1": 0.0,
+                "median": 4.0,
+                "q3": 16.0,
+                "max": 256,
+                "mean": 12.768456375838928,
+                "variance": 429.5027633890365,
+                "skewness": 3.2435575978767908,
+                "kurtosis": 21.416051329143503,
+                "hyperskewness": 186.8707408945926,
+                "hyperflatness": 1931.4527009854744
+            },
+            "col_distribution": {
+                "min": 0,
+                "q1": 0.0,
+                "median": 2.0,
+                "q3": 9.0,
+                "max": 337,
+                "mean": 12.768456375838928,
+                "variance": 889.6839714427266,
+                "skewness": 4.684498609101351,
+                "kurtosis": 33.21234363146122,
+                "hyperskewness": 269.4373980135099,
+                "hyperflatness": 2370.752096601509
+            }
+        },
+        "size": 1490,
+        "spmv": {
+            "csr": {
+                "storage": 236644,
+                "max_relative_norm2": 1.0000000939552791,
+                "time": 0.000011263999715447427,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 236644,
+                "max_relative_norm2": 1.0000029126219978,
+                "time": 0.000014259200170636175,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 19025,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

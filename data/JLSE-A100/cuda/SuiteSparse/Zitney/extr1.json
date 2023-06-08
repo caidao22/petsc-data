@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Zitney/extr1/extr1.mtx",
+        "problem": {
+            "id": 836,
+            "group": "Zitney",
+            "name": "extr1",
+            "rows": 2837,
+            "cols": 2837,
+            "nonzeros": 11407,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.004209049456331112,
+            "nsym": 0.000364797081623347,
+            "kind": "chemical process simulation problem",
+            "columns": 2837,
+            "row_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 3.0,
+                "q3": 6.0,
+                "max": 10,
+                "mean": 4.020796616143814,
+                "variance": 5.057375043936597,
+                "skewness": 0.9481089034164428,
+                "kurtosis": 2.7899830350234045,
+                "hyperskewness": 5.1604611324236584,
+                "hyperflatness": 12.0158884409323
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 3.0,
+                "q3": 5.0,
+                "max": 11,
+                "mean": 4.020796616143814,
+                "variance": 8.65413218175814,
+                "skewness": 1.2228695731757218,
+                "kurtosis": 3.1019941150028045,
+                "hyperskewness": 6.013808264671379,
+                "hyperflatness": 13.20439182392825
+            }
+        },
+        "size": 2837,
+        "spmv": {
+            "csr": {
+                "storage": 149664,
+                "max_relative_norm2": 0.9213916037573265,
+                "time": 0.0000065343999303877344,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 149664,
+                "max_relative_norm2": 5.496554860786515,
+                "time": 0.00001288959998637438,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 11407,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

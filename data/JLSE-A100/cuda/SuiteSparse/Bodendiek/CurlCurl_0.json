@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Bodendiek/CurlCurl_0/CurlCurl_0.mtx",
+        "problem": {
+            "id": 2569,
+            "group": "Bodendiek",
+            "name": "CurlCurl_0",
+            "rows": 11083,
+            "cols": 11083,
+            "nonzeros": 113343,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "model reduction problem",
+            "columns": 11083,
+            "row_distribution": {
+                "min": 4,
+                "q1": 9.0,
+                "median": 11.0,
+                "q3": 11.0,
+                "max": 13,
+                "mean": 10.226743661463503,
+                "variance": 1.6684285102179832,
+                "skewness": -0.2655464801016515,
+                "kurtosis": 3.348199437749153,
+                "hyperskewness": -2.5033257333382086,
+                "hyperflatness": 20.662837544973662
+            },
+            "col_distribution": {
+                "min": 4,
+                "q1": 9.0,
+                "median": 11.0,
+                "q3": 11.0,
+                "max": 13,
+                "mean": 10.226743661463503,
+                "variance": 1.6684285102179832,
+                "skewness": -0.2655464801016515,
+                "kurtosis": 3.348199437749153,
+                "hyperskewness": -2.5033257333382086,
+                "hyperflatness": 20.662837544973662
+            }
+        },
+        "size": 11083,
+        "spmv": {
+            "csr": {
+                "storage": 1411364,
+                "max_relative_norm2": 0.9993844983801541,
+                "time": 0.000013183999992907047,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 1411364,
+                "max_relative_norm2": 0.9999964580436873,
+                "time": 0.00001974399983882904,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 113343,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

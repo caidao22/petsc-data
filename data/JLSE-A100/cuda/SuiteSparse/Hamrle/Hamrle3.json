@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Hamrle/Hamrle3/Hamrle3.mtx",
+        "problem": {
+            "id": 1201,
+            "group": "Hamrle",
+            "name": "Hamrle3",
+            "rows": 1447360,
+            "cols": 1447360,
+            "nonzeros": 5514242,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.000002538882993038383,
+            "nsym": 0,
+            "kind": "circuit simulation problem",
+            "columns": 1447360,
+            "row_distribution": {
+                "min": 2,
+                "q1": 2.0,
+                "median": 5.0,
+                "q3": 5.0,
+                "max": 6,
+                "mean": 3.809862093743091,
+                "variance": 2.4071346647735496,
+                "skewness": -0.24849393653530616,
+                "kurtosis": 1.20747217516261,
+                "hyperskewness": -0.40341757343534385,
+                "hyperflatness": 1.666888452710395
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 2.0,
+                "median": 2.0,
+                "q3": 5.0,
+                "max": 9,
+                "mean": 3.809862093743091,
+                "variance": 4.343093928566311,
+                "skewness": 0.914221542411175,
+                "kurtosis": 3.1491882719080557,
+                "hyperskewness": 6.621294138655865,
+                "hyperflatness": 16.926117447740832
+            }
+        },
+        "size": 1447360,
+        "spmv": {
+            "csr": {
+                "storage": 72070940,
+                "max_relative_norm2": 1.7449465209110482,
+                "time": 0.000005932800099253654,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 72070940,
+                "max_relative_norm2": 28.366197068193973,
+                "time": 0.000017779199779033662,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 5514242,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

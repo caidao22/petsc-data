@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/McRae/ecology2/ecology2.mtx",
+        "problem": {
+            "id": 1883,
+            "group": "McRae",
+            "name": "ecology2",
+            "rows": 999999,
+            "cols": 999999,
+            "nonzeros": 4995991,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "2D/3D problem",
+            "columns": 999999,
+            "row_distribution": {
+                "min": 3,
+                "q1": 5.0,
+                "median": 5.0,
+                "q3": 5.0,
+                "max": 5,
+                "mean": 4.995995995995996,
+                "variance": 0.003995971964154008,
+                "skewness": -15.755888357709608,
+                "kurtosis": 250.2460359636112,
+                "hyperskewness": -4005.778851836278,
+                "hyperflatness": 65101.166180396685
+            },
+            "col_distribution": {
+                "min": 3,
+                "q1": 5.0,
+                "median": 5.0,
+                "q3": 5.0,
+                "max": 5,
+                "mean": 4.995995995995996,
+                "variance": 0.003995971964154008,
+                "skewness": -15.755888357709608,
+                "kurtosis": 250.2460359636112,
+                "hyperskewness": -4005.778851836278,
+                "hyperflatness": 65101.166180396685
+            }
+        },
+        "size": 999999,
+        "spmv": {
+            "csr": {
+                "storage": 64062484,
+                "max_relative_norm2": 0.994196351053171,
+                "time": 0.000015283200517296793,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 64062484,
+                "max_relative_norm2": 1.0000044827704302,
+                "time": 0.000023897600173950196,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 4995991,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

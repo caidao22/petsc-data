@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Newman/cond-mat/cond-mat.mtx",
+        "problem": {
+            "id": 2393,
+            "group": "Newman",
+            "name": "cond-mat",
+            "rows": 16726,
+            "cols": 16726,
+            "nonzeros": 95188,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected weighted graph",
+            "columns": 16726,
+            "row_distribution": {
+                "min": 0,
+                "q1": 2.0,
+                "median": 4.0,
+                "q3": 7.0,
+                "max": 107,
+                "mean": 5.691019968910678,
+                "variance": 41.179313117264314,
+                "skewness": 4.0678612616978205,
+                "kurtosis": 33.0090491573396,
+                "hyperskewness": 336.93898239032444,
+                "hyperflatness": 4014.2803541068174
+            },
+            "col_distribution": {
+                "min": 0,
+                "q1": 2.0,
+                "median": 4.0,
+                "q3": 7.0,
+                "max": 107,
+                "mean": 5.691019968910678,
+                "variance": 41.179313117264314,
+                "skewness": 4.0678612616978205,
+                "kurtosis": 33.0090491573396,
+                "hyperskewness": 336.93898239032444,
+                "hyperflatness": 4014.2803541068174
+            }
+        },
+        "size": 16726,
+        "spmv": {
+            "csr": {
+                "storage": 1216076,
+                "max_relative_norm2": 0.16694838496821335,
+                "time": 0.000009632000140845777,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 1216076,
+                "max_relative_norm2": 0.1678437146572359,
+                "time": 0.000011596800014376642,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 95188,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

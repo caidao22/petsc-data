@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/ATandT/onetone2/onetone2.mtx",
+        "problem": {
+            "id": 284,
+            "group": "ATandT",
+            "name": "onetone2",
+            "rows": 36057,
+            "cols": 36057,
+            "nonzeros": 227628,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.1128682425939654,
+            "nsym": 0.06622764699821082,
+            "kind": "frequency-domain circuit simulation problem",
+            "columns": 36057,
+            "row_distribution": {
+                "min": 1,
+                "q1": 4.0,
+                "median": 5.0,
+                "q3": 8.0,
+                "max": 33,
+                "mean": 6.313004409684666,
+                "variance": 25.326217717290024,
+                "skewness": 3.2577148073636435,
+                "kurtosis": 15.94002908856773,
+                "hyperskewness": 77.05328007243708,
+                "hyperflatness": 384.6014801471228
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 3.0,
+                "median": 4.0,
+                "q3": 8.0,
+                "max": 65,
+                "mean": 6.313004409684666,
+                "variance": 44.547450764960395,
+                "skewness": 4.783408204027726,
+                "kurtosis": 34.606284670460965,
+                "hyperskewness": 272.465488624323,
+                "hyperflatness": 2267.30724653955
+            }
+        },
+        "size": 36057,
+        "spmv": {
+            "csr": {
+                "storage": 2903416,
+                "max_relative_norm2": 0.41620080387183095,
+                "time": 0.000008416000008583068,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 2903416,
+                "max_relative_norm2": 0.7904748991271557,
+                "time": 0.00001069439984858036,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 227628,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

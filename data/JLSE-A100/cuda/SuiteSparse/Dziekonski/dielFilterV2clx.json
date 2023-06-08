@@ -1,0 +1,22 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Dziekonski/dielFilterV2clx/dielFilterV2clx.mtx",
+        "problem": {
+            "id": 2385,
+            "group": "Dziekonski",
+            "name": "dielFilterV2clx",
+            "rows": 607232,
+            "cols": 607232,
+            "nonzeros": 25309272,
+            "real": false,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0.971289901562786,
+            "kind": "electromagnetics problem"
+        },
+        "spmv": {},
+        "error": "/gpfs/jlse-fs0/users/hongzhang/Projects/ginkgo/core/base/mtx_io.cpp:236: read_entry_impl: trying to read a complex matrix into a real storage type"
+    }
+]

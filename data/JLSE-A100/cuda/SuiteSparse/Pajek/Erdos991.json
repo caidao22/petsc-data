@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Pajek/Erdos991/Erdos991.mtx",
+        "problem": {
+            "id": 1469,
+            "group": "Pajek",
+            "name": "Erdos991",
+            "rows": 492,
+            "cols": 492,
+            "nonzeros": 2834,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected graph",
+            "columns": 492,
+            "row_distribution": {
+                "min": 0,
+                "q1": 1.5,
+                "median": 3.0,
+                "q3": 7.0,
+                "max": 42,
+                "mean": 5.760162601626016,
+                "variance": 47.17012029876397,
+                "skewness": 2.4846910056663987,
+                "kurtosis": 10.144872065964949,
+                "hyperskewness": 41.95678260742326,
+                "hyperflatness": 185.70129913525295
+            },
+            "col_distribution": {
+                "min": 0,
+                "q1": 1.5,
+                "median": 3.0,
+                "q3": 7.0,
+                "max": 42,
+                "mean": 5.760162601626016,
+                "variance": 47.17012029876397,
+                "skewness": 2.4846910056663987,
+                "kurtosis": 10.144872065964949,
+                "hyperskewness": 41.95678260742326,
+                "hyperflatness": 185.70129913525295
+            }
+        },
+        "size": 492,
+        "spmv": {
+            "csr": {
+                "storage": 36336,
+                "max_relative_norm2": 53.119443025510044,
+                "time": 0.000013990399800240994,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 36336,
+                "max_relative_norm2": 0.7959435316201566,
+                "time": 0.000022515200078487395,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 2834,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

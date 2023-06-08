@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Sandia/oscil_trans_01/oscil_trans_01.mtx",
+        "problem": {
+            "id": 1169,
+            "group": "Sandia",
+            "name": "oscil_trans_01",
+            "rows": 430,
+            "cols": 430,
+            "nonzeros": 1614,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.973727422003284,
+            "nsym": 0.7175697865353038,
+            "kind": "circuit simulation problem",
+            "columns": 430,
+            "row_distribution": {
+                "min": 1,
+                "q1": 3.0,
+                "median": 4.0,
+                "q3": 4.0,
+                "max": 13,
+                "mean": 3.753488372093023,
+                "variance": 2.0043482963764143,
+                "skewness": 2.0782170021727366,
+                "kurtosis": 12.302613973848336,
+                "hyperskewness": 65.69417875359463,
+                "hyperflatness": 400.627269760382
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 3.0,
+                "median": 4.0,
+                "q3": 4.0,
+                "max": 13,
+                "mean": 3.753488372093023,
+                "variance": 2.4694645754461755,
+                "skewness": 1.8240369481344112,
+                "kurtosis": 9.790259776523683,
+                "hyperskewness": 44.816367666286226,
+                "hyperflatness": 239.9593882885065
+            }
+        },
+        "size": 430,
+        "spmv": {
+            "csr": {
+                "storage": 21296,
+                "max_relative_norm2": 0.9999899657730373,
+                "time": 0.000005759999901056289,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 21296,
+                "max_relative_norm2": 0.391619826852298,
+                "time": 0.000011219200119376181,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 1614,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

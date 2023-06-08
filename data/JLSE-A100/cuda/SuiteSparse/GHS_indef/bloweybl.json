@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/GHS_indef/bloweybl/bloweybl.mtx",
+        "problem": {
+            "id": 1424,
+            "group": "GHS_indef",
+            "name": "bloweybl",
+            "rows": 30003,
+            "cols": 30003,
+            "nonzeros": 120000,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "materials problem",
+            "columns": 30003,
+            "row_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 4.0,
+                "q3": 5.0,
+                "max": 10001,
+                "mean": 3.999600039996,
+                "variance": 3332.667266446707,
+                "skewness": 173.08382424054446,
+                "kurtosis": 29973.002107737484,
+                "hyperskewness": 5190437.617973576,
+                "hyperflatness": 898830306.3435594
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 4.0,
+                "q3": 5.0,
+                "max": 10001,
+                "mean": 3.999600039996,
+                "variance": 3332.667266446707,
+                "skewness": 173.08382424054446,
+                "kurtosis": 29973.002107737484,
+                "hyperskewness": 5190437.617973576,
+                "hyperflatness": 898830306.3435594
+            }
+        },
+        "size": 30003,
+        "spmv": {
+            "csr": {
+                "storage": 1566928,
+                "max_relative_norm2": 0.8045028765847092,
+                "time": 0.000008857600204646587,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 1566928,
+                "max_relative_norm2": 0.024226667284710058,
+                "time": 0.000011968000046908855,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 120000,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

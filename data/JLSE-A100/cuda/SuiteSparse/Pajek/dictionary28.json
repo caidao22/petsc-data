@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Pajek/dictionary28/dictionary28.mtx",
+        "problem": {
+            "id": 1459,
+            "group": "Pajek",
+            "name": "dictionary28",
+            "rows": 52652,
+            "cols": 52652,
+            "nonzeros": 178076,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected graph",
+            "columns": 52652,
+            "row_distribution": {
+                "min": 0,
+                "q1": 0.0,
+                "median": 2.0,
+                "q3": 4.0,
+                "max": 38,
+                "mean": 3.3821317328876397,
+                "variance": 20.022136092345956,
+                "skewness": 2.26364864170665,
+                "kurtosis": 9.030988902223006,
+                "hyperskewness": 37.37368567392506,
+                "hyperflatness": 171.71772236667636
+            },
+            "col_distribution": {
+                "min": 0,
+                "q1": 0.0,
+                "median": 2.0,
+                "q3": 4.0,
+                "max": 38,
+                "mean": 3.3821317328876397,
+                "variance": 20.022136092345956,
+                "skewness": 2.26364864170665,
+                "kurtosis": 9.030988902223006,
+                "hyperskewness": 37.37368567392506,
+                "hyperflatness": 171.71772236667636
+            }
+        },
+        "size": 52652,
+        "spmv": {
+            "csr": {
+                "storage": 2354436,
+                "max_relative_norm2": 0.4525966616834311,
+                "time": 0.000005824000015854836,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 2354436,
+                "max_relative_norm2": 0.45259838590559104,
+                "time": 0.000010188799910247326,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 178076,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

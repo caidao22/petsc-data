@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/SNAP/roadNet-PA/roadNet-PA.mtx",
+        "problem": {
+            "id": 2318,
+            "group": "SNAP",
+            "name": "roadNet-PA",
+            "rows": 1090920,
+            "cols": 1090920,
+            "nonzeros": 3083796,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected graph",
+            "columns": 1090920,
+            "row_distribution": {
+                "min": 0,
+                "q1": 2.0,
+                "median": 3.0,
+                "q3": 4.0,
+                "max": 9,
+                "mean": 2.8267847321526784,
+                "variance": 1.052233481951932,
+                "skewness": -0.5954338907642356,
+                "kurtosis": 2.6202142265972683,
+                "hyperskewness": -2.2785275868148123,
+                "hyperflatness": 9.55258766385775
+            },
+            "col_distribution": {
+                "min": 0,
+                "q1": 2.0,
+                "median": 3.0,
+                "q3": 4.0,
+                "max": 9,
+                "mean": 2.8267847321526784,
+                "variance": 1.052233481951932,
+                "skewness": -0.5954338907642356,
+                "kurtosis": 2.6202142265972683,
+                "hyperskewness": -2.2785275868148123,
+                "hyperflatness": 9.55258766385775
+            }
+        },
+        "size": 1090920,
+        "spmv": {
+            "csr": {
+                "storage": 41479828,
+                "max_relative_norm2": 0.8011653032896522,
+                "time": 0.0000059519999660551546,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 41479828,
+                "max_relative_norm2": 1.009931534554563,
+                "time": 0.00001098879985511303,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 3083796,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

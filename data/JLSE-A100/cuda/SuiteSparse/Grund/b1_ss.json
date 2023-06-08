@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Grund/b1_ss/b1_ss.mtx",
+        "problem": {
+            "id": 449,
+            "group": "Grund",
+            "name": "b1_ss",
+            "rows": 7,
+            "cols": 7,
+            "nonzeros": 15,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0,
+            "nsym": 0,
+            "kind": "chemical process simulation problem",
+            "columns": 7,
+            "row_distribution": {
+                "min": 2,
+                "q1": 2.0,
+                "median": 2.0,
+                "q3": 2.0,
+                "max": 3,
+                "mean": 2.142857142857143,
+                "variance": 0.12244897959183676,
+                "skewness": 2.0412414523193156,
+                "kurtosis": 5.166666666666667,
+                "hyperskewness": 12.58765562263578,
+                "hyperflatness": 30.86111111111111
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 2.0,
+                "median": 2.0,
+                "q3": 2.0,
+                "max": 3,
+                "mean": 2.142857142857143,
+                "variance": 0.12244897959183676,
+                "skewness": 2.0412414523193156,
+                "kurtosis": 5.166666666666667,
+                "hyperskewness": 12.58765562263578,
+                "hyperflatness": 30.86111111111111
+            }
+        },
+        "size": 7,
+        "spmv": {
+            "csr": {
+                "storage": 216,
+                "max_relative_norm2": 1.9606317294317772,
+                "time": 0.00001154559999704361,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 216,
+                "max_relative_norm2": 0.5060984244850715,
+                "time": 0.000011359999887645245,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 15,
+        "optimal": {
+            "spmv": "csri"
+        }
+    }
+]

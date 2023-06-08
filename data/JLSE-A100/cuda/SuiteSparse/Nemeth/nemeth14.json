@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Nemeth/nemeth14/nemeth14.mtx",
+        "problem": {
+            "id": 778,
+            "group": "Nemeth",
+            "name": "nemeth14",
+            "rows": 9506,
+            "cols": 9506,
+            "nonzeros": 496144,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "subsequent theoretical/quantum chemistry problem",
+            "columns": 9506,
+            "row_distribution": {
+                "min": 24,
+                "q1": 51.0,
+                "median": 54.0,
+                "q3": 57.0,
+                "max": 60,
+                "mean": 52.19272038712392,
+                "variance": 42.626650142099805,
+                "skewness": -1.0920927133234255,
+                "kurtosis": 3.096030931145663,
+                "hyperskewness": -6.012527037146564,
+                "hyperflatness": 14.8999070166982
+            },
+            "col_distribution": {
+                "min": 24,
+                "q1": 51.0,
+                "median": 54.0,
+                "q3": 57.0,
+                "max": 60,
+                "mean": 52.19272038712392,
+                "variance": 42.626650142099805,
+                "skewness": -1.0920927133234255,
+                "kurtosis": 3.096030931145663,
+                "hyperskewness": -6.012527037146564,
+                "hyperflatness": 14.8999070166982
+            }
+        },
+        "size": 9506,
+        "spmv": {
+            "csr": {
+                "storage": 6019404,
+                "max_relative_norm2": 0.1788873395951079,
+                "time": 0.000010796799883246422,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 6019404,
+                "max_relative_norm2": 0.7989603247294738,
+                "time": 0.000014028799906373024,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 496144,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

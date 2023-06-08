@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/DIMACS10/coPapersCiteseer/coPapersCiteseer.mtx",
+        "problem": {
+            "id": 2463,
+            "group": "DIMACS10",
+            "name": "coPapersCiteseer",
+            "rows": 434102,
+            "cols": 434102,
+            "nonzeros": 32073440,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected graph",
+            "columns": 434102,
+            "row_distribution": {
+                "min": 1,
+                "q1": 15.0,
+                "median": 39.0,
+                "q3": 92.0,
+                "max": 1188,
+                "mean": 73.88457090729828,
+                "variance": 10257.304288113455,
+                "skewness": 3.4672621532291537,
+                "kurtosis": 20.067201169308575,
+                "hyperskewness": 128.54754325371934,
+                "hyperflatness": 892.9611555795217
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 15.0,
+                "median": 39.0,
+                "q3": 92.0,
+                "max": 1188,
+                "mean": 73.88457090729828,
+                "variance": 10257.304288113455,
+                "skewness": 3.4672621532291537,
+                "kurtosis": 20.067201169308575,
+                "hyperskewness": 128.54754325371934,
+                "hyperflatness": 892.9611555795217
+            }
+        },
+        "size": 434102,
+        "spmv": {
+            "csr": {
+                "storage": 387060060,
+                "max_relative_norm2": 0.2109575211653157,
+                "time": 0.000006905599869787693,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 387060060,
+                "max_relative_norm2": 0.8125568198442357,
+                "time": 0.00001179520022124052,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 32073440,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

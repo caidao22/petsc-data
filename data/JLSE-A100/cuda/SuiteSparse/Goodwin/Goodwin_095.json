@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Goodwin/Goodwin_095/Goodwin_095.mtx",
+        "problem": {
+            "id": 2825,
+            "group": "Goodwin",
+            "name": "Goodwin_095",
+            "rows": 100037,
+            "cols": 100037,
+            "nonzeros": 3226066,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 0.9880933163299772,
+            "nsym": 0.06443620776105316,
+            "kind": "computational fluid dynamics",
+            "columns": 100037,
+            "row_distribution": {
+                "min": 1,
+                "q1": 18.0,
+                "median": 35.0,
+                "q3": 36.0,
+                "max": 62,
+                "mean": 32.24872797065086,
+                "variance": 258.09063797006513,
+                "skewness": 0.7398284843067168,
+                "kurtosis": 2.5356748182437467,
+                "hyperskewness": 3.2131439502862302,
+                "hyperflatness": 8.13894628086498
+            },
+            "col_distribution": {
+                "min": 5,
+                "q1": 18.0,
+                "median": 35.0,
+                "q3": 36.0,
+                "max": 62,
+                "mean": 32.24872797065086,
+                "variance": 246.101094101224,
+                "skewness": 0.8415592149887167,
+                "kurtosis": 2.5220123558483847,
+                "hyperskewness": 3.868730272375021,
+                "hyperflatness": 8.211590106062234
+            }
+        },
+        "size": 100037,
+        "spmv": {
+            "csr": {
+                "storage": 39223536,
+                "max_relative_norm2": 1.0000061586132063,
+                "time": 0.00000731519991531968,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 39223536,
+                "max_relative_norm2": 1.000002772783205,
+                "time": 0.000009676799923181535,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 3226066,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

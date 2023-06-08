@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Wang/wang3/wang3.mtx",
+        "problem": {
+            "id": 832,
+            "group": "Wang",
+            "name": "wang3",
+            "rows": 26064,
+            "cols": 26064,
+            "nonzeros": 177168,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0.9780019059720456,
+            "kind": "semiconductor device problem",
+            "columns": 26064,
+            "row_distribution": {
+                "min": 4,
+                "q1": 7.0,
+                "median": 7.0,
+                "q3": 7.0,
+                "max": 7,
+                "mean": 6.797421731123388,
+                "variance": 0.18985523098278315,
+                "skewness": -2.00823372362817,
+                "kurtosis": 6.4237959991980365,
+                "hyperskewness": -23.305025868131416,
+                "hyperflatness": 97.55711254310974
+            },
+            "col_distribution": {
+                "min": 4,
+                "q1": 7.0,
+                "median": 7.0,
+                "q3": 7.0,
+                "max": 7,
+                "mean": 6.797421731123388,
+                "variance": 0.18985523098278315,
+                "skewness": -2.00823372362817,
+                "kurtosis": 6.4237959991980365,
+                "hyperskewness": -23.305025868131416,
+                "hyperflatness": 97.55711254310974
+            }
+        },
+        "size": 26064,
+        "spmv": {
+            "csr": {
+                "storage": 2237188,
+                "max_relative_norm2": 0.5712858839217282,
+                "time": 0.000015187199972569942,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 2237188,
+                "max_relative_norm2": 12.14139219988753,
+                "time": 0.000017958400398492814,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 177168,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

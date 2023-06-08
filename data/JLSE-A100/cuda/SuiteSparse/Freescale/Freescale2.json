@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Freescale/Freescale2/Freescale2.mtx",
+        "problem": {
+            "id": 2662,
+            "group": "Freescale",
+            "name": "Freescale2",
+            "rows": 2999349,
+            "cols": 2999349,
+            "nonzeros": 23042677,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.9853083953765488,
+            "nsym": 0.5600838032920651,
+            "kind": "circuit simulation matrix",
+            "columns": 2999349,
+            "row_distribution": {
+                "min": 1,
+                "q1": 4.0,
+                "median": 5.0,
+                "q3": 8.0,
+                "max": 30167,
+                "mean": 7.682559448733708,
+                "variance": 1405.8021000852898,
+                "skewness": 241.3765684665908,
+                "kurtosis": 147880.66657710762,
+                "hyperskewness": 113468375.18005472,
+                "hyperflatness": 90507123313.63773
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 4.0,
+                "median": 6.0,
+                "q3": 8.0,
+                "max": 30478,
+                "mean": 7.682559448733708,
+                "variance": 1411.8917995501254,
+                "skewness": 247.87263115277145,
+                "kurtosis": 152879.16340113743,
+                "hyperskewness": 118171463.62889346,
+                "hyperflatness": 95013451694.32764
+            }
+        },
+        "size": 2999349,
+        "spmv": {
+            "csr": {
+                "storage": 288951892,
+                "max_relative_norm2": 0.9914449457409171,
+                "time": 0.000011513600125908852,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 288951892,
+                "max_relative_norm2": 0.996784136433599,
+                "time": 0.00002284159958362579,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 23042677,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

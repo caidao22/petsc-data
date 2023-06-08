@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Norris/lung1/lung1.mtx",
+        "problem": {
+            "id": 893,
+            "group": "Norris",
+            "name": "lung1",
+            "rows": 1650,
+            "cols": 1650,
+            "nonzeros": 7419,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 0.5713295198474606,
+            "nsym": 0,
+            "kind": "computational fluid dynamics problem",
+            "columns": 1650,
+            "row_distribution": {
+                "min": 2,
+                "q1": 3.0,
+                "median": 4.0,
+                "q3": 6.0,
+                "max": 8,
+                "mean": 4.496363636363636,
+                "variance": 2.937259504132148,
+                "skewness": 0.3698930753298964,
+                "kurtosis": 1.9354917316572484,
+                "hyperskewness": 1.992552509126433,
+                "hyperflatness": 5.9899931359743315
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 3.0,
+                "median": 4.0,
+                "q3": 6.0,
+                "max": 8,
+                "mean": 4.496363636363636,
+                "variance": 2.937259504132148,
+                "skewness": 0.3698930753298964,
+                "kurtosis": 1.9354917316572484,
+                "hyperskewness": 1.992552509126433,
+                "hyperflatness": 5.9899931359743315
+            }
+        },
+        "size": 1650,
+        "spmv": {
+            "csr": {
+                "storage": 96560,
+                "max_relative_norm2": 1.8584197155373978,
+                "time": 0.000005715199932456016,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 96560,
+                "max_relative_norm2": 0.17510861142165726,
+                "time": 0.00001290879976004362,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 7419,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

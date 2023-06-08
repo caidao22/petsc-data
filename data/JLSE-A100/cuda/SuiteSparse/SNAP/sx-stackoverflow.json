@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/SNAP/sx-stackoverflow/sx-stackoverflow.mtx",
+        "problem": {
+            "id": 2794,
+            "group": "SNAP",
+            "name": "sx-stackoverflow",
+            "rows": 2601977,
+            "cols": 2601977,
+            "nonzeros": 36233450,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.3837726021373516,
+            "nsym": 0.2153393177894375,
+            "kind": "directed temporal multigraph",
+            "columns": 2601977,
+            "row_distribution": {
+                "min": 0,
+                "q1": 1.0,
+                "median": 2.0,
+                "q3": 5.0,
+                "max": 38148,
+                "mean": 13.925353682987977,
+                "variance": 19002.583436207064,
+                "skewness": 78.38418875653521,
+                "kurtosis": 11555.6930580903,
+                "hyperskewness": 2204773.072646632,
+                "hyperflatness": 479153191.72801137
+            },
+            "col_distribution": {
+                "min": 0,
+                "q1": 1.0,
+                "median": 4.0,
+                "q3": 9.0,
+                "max": 22258,
+                "mean": 13.925353682987977,
+                "variance": 4272.8515177480585,
+                "skewness": 56.80509794747235,
+                "kurtosis": 9658.223416208384,
+                "hyperskewness": 2425412.6529647554,
+                "hyperflatness": 712126353.7201692
+            }
+        },
+        "size": 2601977,
+        "spmv": {
+            "csr": {
+                "storage": 445651680,
+                "max_relative_norm2": 60.06337655721339,
+                "time": 0.000006291200127452612,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 445651680,
+                "max_relative_norm2": 1.009964913395748,
+                "time": 0.000018041600286960604,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 36233450,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

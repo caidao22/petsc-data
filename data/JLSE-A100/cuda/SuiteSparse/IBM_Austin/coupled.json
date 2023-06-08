@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/IBM_Austin/coupled/coupled.mtx",
+        "problem": {
+            "id": 1183,
+            "group": "IBM_Austin",
+            "name": "coupled",
+            "rows": 11341,
+            "cols": 11341,
+            "nonzeros": 98523,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0.7823373235828404,
+            "kind": "circuit simulation problem",
+            "columns": 11341,
+            "row_distribution": {
+                "min": 1,
+                "q1": 4.0,
+                "median": 5.0,
+                "q3": 10.0,
+                "max": 3090,
+                "mean": 8.687329159686096,
+                "variance": 905.5250215325168,
+                "skewness": 94.73471413515476,
+                "kurtosis": 9693.825595339831,
+                "hyperskewness": 992604.9339640372,
+                "hyperflatness": 101639355.82749918
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 4.0,
+                "median": 5.0,
+                "q3": 10.0,
+                "max": 3090,
+                "mean": 8.687329159686096,
+                "variance": 905.5250215325168,
+                "skewness": 94.73471413515476,
+                "kurtosis": 9693.825595339831,
+                "hyperskewness": 992604.9339640372,
+                "hyperflatness": 101639355.82749918
+            }
+        },
+        "size": 11341,
+        "spmv": {
+            "csr": {
+                "storage": 1234556,
+                "max_relative_norm2": 2.4535409948673625,
+                "time": 0.00001006079986691475,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 1234556,
+                "max_relative_norm2": 0.40757365441588833,
+                "time": 0.000021088000014424326,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 98523,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

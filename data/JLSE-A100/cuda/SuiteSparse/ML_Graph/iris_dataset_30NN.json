@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/ML_Graph/iris_dataset_30NN/iris_dataset_30NN.mtx",
+        "problem": {
+            "id": 2872,
+            "group": "ML_Graph",
+            "name": "iris_dataset_30NN",
+            "rows": 150,
+            "cols": 150,
+            "nonzeros": 5518,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected weighted graph",
+            "columns": 150,
+            "row_distribution": {
+                "min": 30,
+                "q1": 31.0,
+                "median": 35.0,
+                "q3": 41.0,
+                "max": 59,
+                "mean": 36.78666666666667,
+                "variance": 47.1144888888889,
+                "skewness": 0.9129105865498016,
+                "kurtosis": 2.7104646466291284,
+                "hyperskewness": 5.192816459470606,
+                "hyperflatness": 13.5701275767796
+            },
+            "col_distribution": {
+                "min": 30,
+                "q1": 31.0,
+                "median": 35.0,
+                "q3": 41.0,
+                "max": 59,
+                "mean": 36.78666666666667,
+                "variance": 47.1144888888889,
+                "skewness": 0.9129105865498016,
+                "kurtosis": 2.7104646466291284,
+                "hyperskewness": 5.192816459470606,
+                "hyperflatness": 13.5701275767796
+            }
+        },
+        "size": 150,
+        "spmv": {
+            "csr": {
+                "storage": 67512,
+                "max_relative_norm2": 0.9999935766697421,
+                "time": 0.000005235200002789498,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 67512,
+                "max_relative_norm2": 1.2653131246918754,
+                "time": 0.000017017599567770957,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 5518,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

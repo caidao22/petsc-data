@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/SNAP/amazon0505/amazon0505.mtx",
+        "problem": {
+            "id": 2306,
+            "group": "SNAP",
+            "name": "amazon0505",
+            "rows": 410236,
+            "cols": 410236,
+            "nonzeros": 3356824,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.5465803390347542,
+            "nsym": 0.5465803390347542,
+            "kind": "directed graph",
+            "columns": 410236,
+            "row_distribution": {
+                "min": 0,
+                "q1": 7.0,
+                "median": 10.0,
+                "q3": 10.0,
+                "max": 10,
+                "mean": 8.182665587612984,
+                "variance": 9.444382676110976,
+                "skewness": -1.4477777323717873,
+                "kurtosis": 3.619274180031657,
+                "hyperskewness": -8.168224294209619,
+                "hyperflatness": 19.69990270010169
+            },
+            "col_distribution": {
+                "min": 0,
+                "q1": 2.0,
+                "median": 5.0,
+                "q3": 10.0,
+                "max": 2760,
+                "mean": 8.182665587612984,
+                "variance": 234.50355837008695,
+                "skewness": 48.55822545231835,
+                "kurtosis": 6732.6524640764,
+                "hyperskewness": 1089147.795258918,
+                "hyperflatness": 182262906.97077367
+            }
+        },
+        "size": 410236,
+        "spmv": {
+            "csr": {
+                "storage": 42033428,
+                "max_relative_norm2": 1.253798798309094,
+                "time": 0.000012588799744844436,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 42033428,
+                "max_relative_norm2": 0.9987177127219165,
+                "time": 0.000017958400398492814,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 3356824,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Botonakis/FEM_3D_thermal2/FEM_3D_thermal2.mtx",
+        "problem": {
+            "id": 1852,
+            "group": "Botonakis",
+            "name": "FEM_3D_thermal2",
+            "rows": 147900,
+            "cols": 147900,
+            "nonzeros": 3489300,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0.9502082959238642,
+            "kind": "thermal problem",
+            "columns": 147900,
+            "row_distribution": {
+                "min": 12,
+                "q1": 18.0,
+                "median": 27.0,
+                "q3": 27.0,
+                "max": 27,
+                "mean": 23.592292089249497,
+                "variance": 20.079210365074303,
+                "skewness": -0.6289767785037997,
+                "kurtosis": 1.620780326071537,
+                "hyperskewness": -2.331594250357816,
+                "hyperflatness": 5.118308210723141
+            },
+            "col_distribution": {
+                "min": 12,
+                "q1": 18.0,
+                "median": 27.0,
+                "q3": 27.0,
+                "max": 27,
+                "mean": 23.592292089249497,
+                "variance": 20.079210365074303,
+                "skewness": -0.6289767785037997,
+                "kurtosis": 1.620780326071537,
+                "hyperskewness": -2.331594250357816,
+                "hyperflatness": 5.118308210723141
+            }
+        },
+        "size": 147900,
+        "spmv": {
+            "csr": {
+                "storage": 42573796,
+                "max_relative_norm2": 0.9999946420788214,
+                "time": 0.000014310400001704692,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 42573796,
+                "max_relative_norm2": 0.17782642574653687,
+                "time": 0.000018745600059628486,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 3489300,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

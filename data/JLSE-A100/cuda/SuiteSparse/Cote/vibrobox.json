@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Cote/vibrobox/vibrobox.mtx",
+        "problem": {
+            "id": 379,
+            "group": "Cote",
+            "name": "vibrobox",
+            "rows": 12328,
+            "cols": 12328,
+            "nonzeros": 342828,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "acoustics problem",
+            "columns": 12328,
+            "row_distribution": {
+                "min": 9,
+                "q1": 17.0,
+                "median": 24.0,
+                "q3": 34.0,
+                "max": 121,
+                "mean": 27.808890330953925,
+                "variance": 258.85672822999805,
+                "skewness": 1.9399632749052964,
+                "kurtosis": 9.02087710810156,
+                "hyperskewness": 40.685913073421425,
+                "hyperflatness": 205.5281482199757
+            },
+            "col_distribution": {
+                "min": 9,
+                "q1": 17.0,
+                "median": 24.0,
+                "q3": 34.0,
+                "max": 121,
+                "mean": 27.808890330953925,
+                "variance": 258.85672822999805,
+                "skewness": 1.9399632749052964,
+                "kurtosis": 9.02087710810156,
+                "hyperskewness": 40.685913073421425,
+                "hyperflatness": 205.5281482199757
+            }
+        },
+        "size": 12328,
+        "spmv": {
+            "csr": {
+                "storage": 4190900,
+                "max_relative_norm2": 0.8130278204956526,
+                "time": 0.000010707199946045876,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 4190900,
+                "max_relative_norm2": 0.17295322996396537,
+                "time": 0.000013100800290703773,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 342828,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

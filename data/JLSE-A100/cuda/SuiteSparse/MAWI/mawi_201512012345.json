@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/MAWI/mawi_201512012345/mawi_201512012345.mtx",
+        "problem": {
+            "id": 2800,
+            "group": "MAWI",
+            "name": "mawi_201512012345",
+            "rows": 18571154,
+            "cols": 18571154,
+            "nonzeros": 38040320,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected weighted graph",
+            "columns": 18571154,
+            "row_distribution": {
+                "min": 1,
+                "q1": 1.0,
+                "median": 1.0,
+                "q3": 1.0,
+                "max": 16399896,
+                "mean": 2.048355207220833,
+                "variance": 14484204.092962043,
+                "skewness": 4308.661627384591,
+                "kurtosis": 18566754.56379166,
+                "hyperskewness": 80007319059.58174,
+                "hyperflatness": 344765213856523.94
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 1.0,
+                "median": 1.0,
+                "q3": 1.0,
+                "max": 16399896,
+                "mean": 2.048355207220833,
+                "variance": 14484204.092962043,
+                "skewness": 4308.661627384591,
+                "kurtosis": 18566754.56379166,
+                "hyperskewness": 80007319059.58174,
+                "hyperflatness": 344765213856523.94
+            }
+        },
+        "size": 18571154,
+        "spmv": {
+            "csr": {
+                "storage": 531210828,
+                "max_relative_norm2": 0.22100016404705944,
+                "time": 0.000010982400178909301,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 531210828,
+                "max_relative_norm2": 0.22190838494263251,
+                "time": 0.000014995200000703334,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 38040320,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Nasa/nasa1824/nasa1824.mtx",
+        "problem": {
+            "id": 757,
+            "group": "Nasa",
+            "name": "nasa1824",
+            "rows": 1824,
+            "cols": 1824,
+            "nonzeros": 39208,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "structural problem",
+            "columns": 1824,
+            "row_distribution": {
+                "min": 6,
+                "q1": 18.0,
+                "median": 18.0,
+                "q3": 27.0,
+                "max": 42,
+                "mean": 21.49561403508772,
+                "variance": 49.58112111418948,
+                "skewness": 0.5174195340342678,
+                "kurtosis": 3.083742080525084,
+                "hyperskewness": 4.834103697063038,
+                "hyperflatness": 17.680921360366064
+            },
+            "col_distribution": {
+                "min": 6,
+                "q1": 18.0,
+                "median": 18.0,
+                "q3": 27.0,
+                "max": 42,
+                "mean": 21.49561403508772,
+                "variance": 49.58112111418948,
+                "skewness": 0.5174195340342678,
+                "kurtosis": 3.083742080525084,
+                "hyperskewness": 4.834103697063038,
+                "hyperflatness": 17.680921360366064
+            }
+        },
+        "size": 1824,
+        "spmv": {
+            "csr": {
+                "storage": 482700,
+                "max_relative_norm2": 5.946530175067055,
+                "time": 0.000013708799891173839,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 482700,
+                "max_relative_norm2": 1.256055655255186,
+                "time": 0.000023871999606490134,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 39208,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

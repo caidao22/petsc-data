@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Moqri/MISKnowledgeMap/MISKnowledgeMap.mtx",
+        "problem": {
+            "id": 2663,
+            "group": "Moqri",
+            "name": "MISKnowledgeMap",
+            "rows": 2427,
+            "cols": 2427,
+            "nonzeros": 57022,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected weighted graph",
+            "columns": 2427,
+            "row_distribution": {
+                "min": 1,
+                "q1": 13.0,
+                "median": 22.0,
+                "q3": 32.0,
+                "max": 80,
+                "mean": 23.494849608570252,
+                "variance": 175.70444401322837,
+                "skewness": 0.6888166277004448,
+                "kurtosis": 3.1971581400098734,
+                "hyperskewness": 5.994634763491838,
+                "hyperflatness": 20.33498556663619
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 13.0,
+                "median": 22.0,
+                "q3": 32.0,
+                "max": 80,
+                "mean": 23.494849608570252,
+                "variance": 175.70444401322837,
+                "skewness": 0.6888166277004448,
+                "kurtosis": 3.1971581400098734,
+                "hyperskewness": 5.994634763491838,
+                "hyperflatness": 20.33498556663619
+            }
+        },
+        "size": 2427,
+        "spmv": {
+            "csr": {
+                "storage": 700888,
+                "max_relative_norm2": 1.000007590842025,
+                "time": 0.000011916800029575825,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 700888,
+                "max_relative_norm2": 0.16802775079175725,
+                "time": 0.000022572800144553188,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 57022,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

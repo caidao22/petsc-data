@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Chen/pkustk06/pkustk06.mtx",
+        "problem": {
+            "id": 852,
+            "group": "Chen",
+            "name": "pkustk06",
+            "rows": 43164,
+            "cols": 43164,
+            "nonzeros": 2571768,
+            "real": true,
+            "binary": true,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "structural problem",
+            "columns": 43164,
+            "row_distribution": {
+                "min": 24,
+                "q1": 36.0,
+                "median": 48.0,
+                "q3": 84.0,
+                "max": 126,
+                "mean": 59.581317764804005,
+                "variance": 618.460234793708,
+                "skewness": 0.30473370360448426,
+                "kurtosis": 1.5462615808502702,
+                "hyperskewness": 1.6610495038642086,
+                "hyperflatness": 4.611806200434859
+            },
+            "col_distribution": {
+                "min": 24,
+                "q1": 36.0,
+                "median": 48.0,
+                "q3": 84.0,
+                "max": 126,
+                "mean": 59.581317764804005,
+                "variance": 618.460234793708,
+                "skewness": 0.30473370360448426,
+                "kurtosis": 1.5462615808502702,
+                "hyperskewness": 1.6610495038642086,
+                "hyperflatness": 4.611806200434859
+            }
+        },
+        "size": 43164,
+        "spmv": {
+            "csr": {
+                "storage": 31144468,
+                "max_relative_norm2": 0.7760138750054352,
+                "time": 0.000011916800029575827,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 31144468,
+                "max_relative_norm2": 0.9999976468853901,
+                "time": 0.000017088000103831294,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 2571768,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

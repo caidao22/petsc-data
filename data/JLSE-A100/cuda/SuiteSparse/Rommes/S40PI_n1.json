@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Rommes/S40PI_n1/S40PI_n1.mtx",
+        "problem": {
+            "id": 2367,
+            "group": "Rommes",
+            "name": "S40PI_n1",
+            "rows": 2028,
+            "cols": 2028,
+            "nonzeros": 5007,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0,
+            "kind": "eigenvalue/model reduction problem",
+            "columns": 2028,
+            "row_distribution": {
+                "min": 0,
+                "q1": 2.0,
+                "median": 2.0,
+                "q3": 3.0,
+                "max": 8,
+                "mean": 2.4689349112426036,
+                "variance": 0.2973584316608853,
+                "skewness": 0.935132353326688,
+                "kurtosis": 9.360187734891962,
+                "hyperskewness": 73.85125652420183,
+                "hyperflatness": 717.1665746717734
+            },
+            "col_distribution": {
+                "min": 0,
+                "q1": 2.0,
+                "median": 2.0,
+                "q3": 3.0,
+                "max": 8,
+                "mean": 2.4689349112426036,
+                "variance": 0.2973584316608853,
+                "skewness": 0.935132353326688,
+                "kurtosis": 9.360187734891962,
+                "hyperskewness": 73.85125652420183,
+                "hyperflatness": 717.1665746717734
+            }
+        },
+        "size": 2028,
+        "spmv": {
+            "csr": {
+                "storage": 68828,
+                "max_relative_norm2": 1.0005082755097308,
+                "time": 0.000008851199969649316,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 68828,
+                "max_relative_norm2": 0.8049234958667377,
+                "time": 0.000019929600507020952,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 5007,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

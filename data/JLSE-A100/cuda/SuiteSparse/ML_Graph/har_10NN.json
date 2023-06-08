@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/ML_Graph/har_10NN/har_10NN.mtx",
+        "problem": {
+            "id": 2870,
+            "group": "ML_Graph",
+            "name": "har_10NN",
+            "rows": 10299,
+            "cols": 10299,
+            "nonzeros": 151736,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected weighted graph",
+            "columns": 10299,
+            "row_distribution": {
+                "min": 10,
+                "q1": 11.0,
+                "median": 13.0,
+                "q3": 16.0,
+                "max": 92,
+                "mean": 14.733080881638994,
+                "variance": 40.22363718260288,
+                "skewness": 3.3480970190919503,
+                "kurtosis": 21.81418839031133,
+                "hyperskewness": 168.60609479488403,
+                "hyperflatness": 1483.990094523737
+            },
+            "col_distribution": {
+                "min": 10,
+                "q1": 11.0,
+                "median": 13.0,
+                "q3": 16.0,
+                "max": 92,
+                "mean": 14.733080881638994,
+                "variance": 40.22363718260288,
+                "skewness": 3.3480970190919503,
+                "kurtosis": 21.81418839031133,
+                "hyperskewness": 168.60609479488403,
+                "hyperflatness": 1483.990094523737
+            }
+        },
+        "size": 10299,
+        "spmv": {
+            "csr": {
+                "storage": 1868944,
+                "max_relative_norm2": 1.0080293401561153,
+                "time": 0.000005408000107854604,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 1868944,
+                "max_relative_norm2": 0.5238393636137647,
+                "time": 0.0000163903996348381,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 151736,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

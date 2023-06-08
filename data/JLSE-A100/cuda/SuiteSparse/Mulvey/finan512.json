@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Mulvey/finan512/finan512.mtx",
+        "problem": {
+            "id": 752,
+            "group": "Mulvey",
+            "name": "finan512",
+            "rows": 74752,
+            "cols": 74752,
+            "nonzeros": 596992,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "economic problem",
+            "columns": 74752,
+            "row_distribution": {
+                "min": 3,
+                "q1": 5.0,
+                "median": 7.0,
+                "q3": 9.0,
+                "max": 55,
+                "mean": 7.986301369863014,
+                "variance": 39.41077125163138,
+                "skewness": 5.429735303860823,
+                "kurtosis": 38.647725285656335,
+                "hyperskewness": 278.4208990804147,
+                "hyperflatness": 2024.0861166079349
+            },
+            "col_distribution": {
+                "min": 3,
+                "q1": 5.0,
+                "median": 7.0,
+                "q3": 9.0,
+                "max": 55,
+                "mean": 7.986301369863014,
+                "variance": 39.41077125163138,
+                "skewness": 5.429735303860823,
+                "kurtosis": 38.647725285656335,
+                "hyperskewness": 278.4208990804147,
+                "hyperflatness": 2024.0861166079349
+            }
+        },
+        "size": 74752,
+        "spmv": {
+            "csr": {
+                "storage": 7490564,
+                "max_relative_norm2": 5.755241871422063,
+                "time": 0.0000157504003494978,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 7490564,
+                "max_relative_norm2": 5.020619387963958,
+                "time": 0.000021728000044822693,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 596992,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

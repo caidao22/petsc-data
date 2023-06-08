@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Pajek/HEP-th-new/HEP-th-new.mtx",
+        "problem": {
+            "id": 1503,
+            "group": "Pajek",
+            "name": "HEP-th-new",
+            "rows": 27770,
+            "cols": 27770,
+            "nonzeros": 352807,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.002738343613933237,
+            "nsym": 0.002738343613933237,
+            "kind": "directed graph",
+            "columns": 27770,
+            "row_distribution": {
+                "min": 0,
+                "q1": 2.0,
+                "median": 8.0,
+                "q3": 18.0,
+                "max": 562,
+                "mean": 12.704609290601368,
+                "variance": 254.94778213938667,
+                "skewness": 5.328662586135466,
+                "kurtosis": 91.49814275625393,
+                "hyperskewness": 2312.0202908229953,
+                "hyperflatness": 69099.95507376596
+            },
+            "col_distribution": {
+                "min": 0,
+                "q1": 1.0,
+                "median": 4.0,
+                "q3": 12.0,
+                "max": 2414,
+                "mean": 12.704609290601368,
+                "variance": 1585.3121321573867,
+                "skewness": 22.917824235530514,
+                "kurtosis": 926.809787866088,
+                "hyperskewness": 44481.76736379455,
+                "hyperflatness": 2324303.6069236686
+            }
+        },
+        "size": 27770,
+        "spmv": {
+            "csr": {
+                "storage": 4372416,
+                "max_relative_norm2": 0.17428687554191352,
+                "time": 0.000006624000053852797,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 4372416,
+                "max_relative_norm2": 0.17205948152470774,
+                "time": 0.000013932800106704235,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 352807,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

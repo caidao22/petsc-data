@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Boeing/bcsstk36/bcsstk36.mtx",
+        "problem": {
+            "id": 341,
+            "group": "Boeing",
+            "name": "bcsstk36",
+            "rows": 23052,
+            "cols": 23052,
+            "nonzeros": 1143140,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "structural problem",
+            "columns": 23052,
+            "row_distribution": {
+                "min": 8,
+                "q1": 46.0,
+                "median": 53.0,
+                "q3": 54.0,
+                "max": 178,
+                "mean": 49.58962346000347,
+                "variance": 149.3608293393988,
+                "skewness": 1.2560776016090316,
+                "kurtosis": 12.20023693072856,
+                "hyperskewness": 61.751497432314,
+                "hyperflatness": 498.4388320433062
+            },
+            "col_distribution": {
+                "min": 8,
+                "q1": 46.0,
+                "median": 53.0,
+                "q3": 54.0,
+                "max": 178,
+                "mean": 49.58962346000347,
+                "variance": 149.3608293393988,
+                "skewness": 1.2560776016090316,
+                "kurtosis": 12.20023693072856,
+                "hyperskewness": 61.751497432314,
+                "hyperflatness": 498.4388320433062
+            }
+        },
+        "size": 23052,
+        "spmv": {
+            "csr": {
+                "storage": 13837540,
+                "max_relative_norm2": 0.8188235525707472,
+                "time": 0.00001061119996011257,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 13837540,
+                "max_relative_norm2": 0.8176617050246755,
+                "time": 0.00002000000029802322,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 1143140,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

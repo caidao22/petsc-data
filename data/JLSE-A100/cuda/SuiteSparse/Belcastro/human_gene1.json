@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Belcastro/human_gene1/human_gene1.mtx",
+        "problem": {
+            "id": 2280,
+            "group": "Belcastro",
+            "name": "human_gene1",
+            "rows": 22283,
+            "cols": 22283,
+            "nonzeros": 24669643,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected weighted graph",
+            "columns": 22283,
+            "row_distribution": {
+                "min": 1,
+                "q1": 131.0,
+                "median": 537.0,
+                "q3": 1505.25,
+                "max": 7939,
+                "mean": 1107.1060000897546,
+                "variance": 1985623.700831486,
+                "skewness": 1.851813246067924,
+                "kurtosis": 6.0907179872557045,
+                "hyperskewness": 19.08315161525148,
+                "hyperflatness": 64.84986344820133
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 131.0,
+                "median": 537.0,
+                "q3": 1505.25,
+                "max": 7939,
+                "mean": 1107.1060000897546,
+                "variance": 1985623.700831486,
+                "skewness": 1.851813246067924,
+                "kurtosis": 6.0907179872557045,
+                "hyperskewness": 19.08315161525148,
+                "hyperflatness": 64.84986344820133
+            }
+        },
+        "size": 22283,
+        "spmv": {
+            "csr": {
+                "storage": 296567220,
+                "max_relative_norm2": 0.16085392256637795,
+                "time": 0.000012531199865043163,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 296567220,
+                "max_relative_norm2": 1.0013926430617488,
+                "time": 0.000013753600232303143,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 24669643,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Bai/cryg2500/cryg2500.mtx",
+        "problem": {
+            "id": 1613,
+            "group": "Bai",
+            "name": "cryg2500",
+            "rows": 2500,
+            "cols": 2500,
+            "nonzeros": 12349,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 0.9948218093207432,
+            "nsym": 0,
+            "kind": "materials problem",
+            "columns": 2500,
+            "row_distribution": {
+                "min": 3,
+                "q1": 5.0,
+                "median": 5.0,
+                "q3": 5.0,
+                "max": 5,
+                "mean": 4.9396,
+                "variance": 0.0591518400000108,
+                "skewness": -3.938532521327413,
+                "kurtosis": 17.777537298696835,
+                "hyperskewness": -88.622961778443,
+                "hyperflatness": 501.54234531459775
+            },
+            "col_distribution": {
+                "min": 3,
+                "q1": 5.0,
+                "median": 5.0,
+                "q3": 5.0,
+                "max": 6,
+                "mean": 4.9396,
+                "variance": 0.09915184000001027,
+                "skewness": -1.7364207986553544,
+                "kurtosis": 11.343446926637778,
+                "hyperskewness": -27.304232296200457,
+                "hyperflatness": 190.61622564036537
+            }
+        },
+        "size": 2500,
+        "spmv": {
+            "csr": {
+                "storage": 159736,
+                "max_relative_norm2": 2.2848420747411398,
+                "time": 0.00000721919983625412,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 159736,
+                "max_relative_norm2": 0.8021376147227757,
+                "time": 0.000018355200067162516,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 12349,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

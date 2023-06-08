@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Pajek/Wordnet3/Wordnet3.mtx",
+        "problem": {
+            "id": 1531,
+            "group": "Pajek",
+            "name": "Wordnet3",
+            "rows": 82670,
+            "cols": 82670,
+            "nonzeros": 132964,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.1765463136851033,
+            "nsym": 0.1741230992912098,
+            "kind": "directed weighted graph",
+            "columns": 82670,
+            "row_distribution": {
+                "min": 0,
+                "q1": 1.0,
+                "median": 1.0,
+                "q3": 2.0,
+                "max": 64,
+                "mean": 1.6083706302165235,
+                "variance": 3.0535455125658935,
+                "skewness": 7.850344695970407,
+                "kurtosis": 117.4884768994642,
+                "hyperskewness": 2299.808216870867,
+                "hyperflatness": 54342.47117017404
+            },
+            "col_distribution": {
+                "min": 0,
+                "q1": 0.0,
+                "median": 0.0,
+                "q3": 1.0,
+                "max": 541,
+                "mean": 1.6083706302165235,
+                "variance": 54.22727237842247,
+                "skewness": 26.579408509286676,
+                "kurtosis": 1227.0913483119416,
+                "hyperskewness": 68318.03847444612,
+                "hyperflatness": 4170832.4340384784
+            }
+        },
+        "size": 82670,
+        "spmv": {
+            "csr": {
+                "storage": 1933164,
+                "max_relative_norm2": 0.2129292200263559,
+                "time": 0.00001061760000884533,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 1933164,
+                "max_relative_norm2": 0.9992613231365833,
+                "time": 0.000019436799734830857,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 132964,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/ML_Graph/dermatology_5NN/dermatology_5NN.mtx",
+        "problem": {
+            "id": 2866,
+            "group": "ML_Graph",
+            "name": "dermatology_5NN",
+            "rows": 366,
+            "cols": 366,
+            "nonzeros": 2440,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected weighted graph",
+            "columns": 366,
+            "row_distribution": {
+                "min": 5,
+                "q1": 5.0,
+                "median": 6.0,
+                "q3": 7.0,
+                "max": 15,
+                "mean": 6.666666666666667,
+                "variance": 3.3479052823315074,
+                "skewness": 1.5712964038365662,
+                "kurtosis": 6.065323878322602,
+                "hyperskewness": 20.639049345274778,
+                "hyperflatness": 79.44276374699676
+            },
+            "col_distribution": {
+                "min": 5,
+                "q1": 5.0,
+                "median": 6.0,
+                "q3": 7.0,
+                "max": 15,
+                "mean": 6.666666666666667,
+                "variance": 3.3479052823315074,
+                "skewness": 1.5712964038365662,
+                "kurtosis": 6.065323878322602,
+                "hyperskewness": 20.639049345274778,
+                "hyperflatness": 79.44276374699676
+            }
+        },
+        "size": 366,
+        "spmv": {
+            "csr": {
+                "storage": 31056,
+                "max_relative_norm2": 1.0001090760341385,
+                "time": 0.00001217919997870922,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 31056,
+                "max_relative_norm2": 0.8046846516984385,
+                "time": 0.000017977600172162054,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 2440,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

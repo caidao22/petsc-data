@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/DIMACS10/m14b/m14b.mtx",
+        "problem": {
+            "id": 2529,
+            "group": "DIMACS10",
+            "name": "m14b",
+            "rows": 214765,
+            "cols": 214765,
+            "nonzeros": 3358036,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected graph",
+            "columns": 214765,
+            "row_distribution": {
+                "min": 4,
+                "q1": 13.0,
+                "median": 16.0,
+                "q3": 18.0,
+                "max": 40,
+                "mean": 15.635862454310525,
+                "variance": 9.804302318233011,
+                "skewness": 0.21962297592331043,
+                "kurtosis": 3.2725965294284136,
+                "hyperskewness": 2.8472642894635456,
+                "hyperflatness": 23.58271713049551
+            },
+            "col_distribution": {
+                "min": 4,
+                "q1": 13.0,
+                "median": 16.0,
+                "q3": 18.0,
+                "max": 40,
+                "mean": 15.635862454310525,
+                "variance": 9.804302318233011,
+                "skewness": 0.21962297592331043,
+                "kurtosis": 3.2725965294284136,
+                "hyperskewness": 2.8472642894635456,
+                "hyperflatness": 23.58271713049551
+            }
+        },
+        "size": 214765,
+        "spmv": {
+            "csr": {
+                "storage": 41266088,
+                "max_relative_norm2": 1.0000092975376451,
+                "time": 0.000008569599967449903,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 41266088,
+                "max_relative_norm2": 5.754853066123758,
+                "time": 0.000010169599950313567,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 3358036,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

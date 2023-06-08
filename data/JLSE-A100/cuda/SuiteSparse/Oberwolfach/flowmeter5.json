@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Oberwolfach/flowmeter5/flowmeter5.mtx",
+        "problem": {
+            "id": 1433,
+            "group": "Oberwolfach",
+            "name": "flowmeter5",
+            "rows": 9669,
+            "cols": 9669,
+            "nonzeros": 67391,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0.06222930598385364,
+            "kind": "model reduction problem",
+            "columns": 9669,
+            "row_distribution": {
+                "min": 4,
+                "q1": 7.0,
+                "median": 7.0,
+                "q3": 7.0,
+                "max": 11,
+                "mean": 6.969800393008584,
+                "variance": 0.15380925791274885,
+                "skewness": -1.5344975452047804,
+                "kurtosis": 20.248722808943747,
+                "hyperskewness": -47.19735033444089,
+                "hyperflatness": 706.1691196164435
+            },
+            "col_distribution": {
+                "min": 4,
+                "q1": 7.0,
+                "median": 7.0,
+                "q3": 7.0,
+                "max": 11,
+                "mean": 6.969800393008584,
+                "variance": 0.15380925791274885,
+                "skewness": -1.5344975452047804,
+                "kurtosis": 20.248722808943747,
+                "hyperskewness": -47.19735033444089,
+                "hyperflatness": 706.1691196164435
+            }
+        },
+        "size": 9669,
+        "spmv": {
+            "csr": {
+                "storage": 854284,
+                "max_relative_norm2": 0.06411626251961022,
+                "time": 0.00000781440008431673,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 854284,
+                "max_relative_norm2": 0.7986247577908422,
+                "time": 0.000015795200318098064,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 67391,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

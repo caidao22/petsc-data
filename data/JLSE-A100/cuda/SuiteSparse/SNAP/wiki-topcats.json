@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/SNAP/wiki-topcats/wiki-topcats.mtx",
+        "problem": {
+            "id": 2799,
+            "group": "SNAP",
+            "name": "wiki-topcats",
+            "rows": 1791489,
+            "cols": 1791489,
+            "nonzeros": 28511807,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.2149515115699757,
+            "nsym": 0.2149515115699757,
+            "kind": "directed graph with communities",
+            "columns": 1791489,
+            "row_distribution": {
+                "min": 1,
+                "q1": 5.0,
+                "median": 9.0,
+                "q3": 17.0,
+                "max": 3907,
+                "mean": 15.915144887855856,
+                "variance": 925.8214655965122,
+                "skewness": 19.39264249291222,
+                "kurtosis": 981.5934920377988,
+                "hyperskewness": 73566.58060784613,
+                "hyperflatness": 6714143.136205602
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 3.0,
+                "q3": 8.0,
+                "max": 238040,
+                "mean": 15.915144887855856,
+                "variance": 80531.4776689013,
+                "skewness": 406.1684520978762,
+                "kurtosis": 291115.2280920184,
+                "hyperskewness": 235130724.07355016,
+                "hyperflatness": 195228313918.01364
+            }
+        },
+        "size": 1791489,
+        "spmv": {
+            "csr": {
+                "storage": 349750012,
+                "max_relative_norm2": 5.967157859459922,
+                "time": 0.000006284800078719854,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 349750012,
+                "max_relative_norm2": 0.2126502455591768,
+                "time": 0.000014067199639976027,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 28511807,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/TKK/plbuckle/plbuckle.mtx",
+        "problem": {
+            "id": 1911,
+            "group": "TKK",
+            "name": "plbuckle",
+            "rows": 1282,
+            "cols": 1282,
+            "nonzeros": 30644,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "structural problem",
+            "columns": 1282,
+            "row_distribution": {
+                "min": 8,
+                "q1": 22.0,
+                "median": 27.0,
+                "q3": 27.0,
+                "max": 44,
+                "mean": 23.90327613104524,
+                "variance": 21.017165554016135,
+                "skewness": -1.2818336623137985,
+                "kurtosis": 3.8192668320070378,
+                "hyperskewness": -6.965946267772681,
+                "hyperflatness": 27.051130143846045
+            },
+            "col_distribution": {
+                "min": 8,
+                "q1": 22.0,
+                "median": 27.0,
+                "q3": 27.0,
+                "max": 44,
+                "mean": 23.90327613104524,
+                "variance": 21.017165554016135,
+                "skewness": -1.2818336623137985,
+                "kurtosis": 3.8192668320070378,
+                "hyperskewness": -6.965946267772681,
+                "hyperflatness": 27.051130143846045
+            }
+        },
+        "size": 1282,
+        "spmv": {
+            "csr": {
+                "storage": 376692,
+                "max_relative_norm2": 1.0491298349907578,
+                "time": 0.00001263360008597374,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 376692,
+                "max_relative_norm2": 15.948091913781477,
+                "time": 0.00001738240011036396,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 30644,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

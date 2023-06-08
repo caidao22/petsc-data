@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Arenas/email/email.mtx",
+        "problem": {
+            "id": 2408,
+            "group": "Arenas",
+            "name": "email",
+            "rows": 1133,
+            "cols": 1133,
+            "nonzeros": 10902,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected graph",
+            "columns": 1133,
+            "row_distribution": {
+                "min": 1,
+                "q1": 3.0,
+                "median": 7.0,
+                "q3": 13.0,
+                "max": 71,
+                "mean": 9.62224183583407,
+                "variance": 87.22887864584038,
+                "skewness": 1.7712554433175811,
+                "kurtosis": 7.015351396264265,
+                "hyperskewness": 28.065813392996827,
+                "hyperflatness": 134.1556670374733
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 3.0,
+                "median": 7.0,
+                "q3": 13.0,
+                "max": 71,
+                "mean": 9.62224183583407,
+                "variance": 87.22887864584038,
+                "skewness": 1.7712554433175811,
+                "kurtosis": 7.015351396264265,
+                "hyperskewness": 28.065813392996827,
+                "hyperflatness": 134.1556670374733
+            }
+        },
+        "size": 1133,
+        "spmv": {
+            "csr": {
+                "storage": 136724,
+                "max_relative_norm2": 0.804241816075691,
+                "time": 0.00001586559973657131,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 136724,
+                "max_relative_norm2": 0.17424919288785265,
+                "time": 0.000020825599506497384,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 10902,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

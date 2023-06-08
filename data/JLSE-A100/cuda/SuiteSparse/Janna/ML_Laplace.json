@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Janna/ML_Laplace/ML_Laplace.mtx",
+        "problem": {
+            "id": 2648,
+            "group": "Janna",
+            "name": "ML_Laplace",
+            "rows": 377002,
+            "cols": 377002,
+            "nonzeros": 27689972,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 7.351401706466178e-8,
+            "kind": "structural problem",
+            "columns": 377002,
+            "row_distribution": {
+                "min": 26,
+                "q1": 74.0,
+                "median": 74.0,
+                "q3": 74.0,
+                "max": 74,
+                "mean": 73.44781194794723,
+                "variance": 12.42431525610829,
+                "skewness": -7.2143584039868065,
+                "kurtosis": 56.9764645219181,
+                "hyperskewness": -465.89498868170574,
+                "hyperflatness": 3896.100118875419
+            },
+            "col_distribution": {
+                "min": 26,
+                "q1": 74.0,
+                "median": 74.0,
+                "q3": 74.0,
+                "max": 74,
+                "mean": 73.44781194794723,
+                "variance": 12.42431525610829,
+                "skewness": -7.2143584039868065,
+                "kurtosis": 56.9764645219181,
+                "hyperskewness": -465.89498868170574,
+                "hyperflatness": 3896.100118875419
+            }
+        },
+        "size": 377002,
+        "spmv": {
+            "csr": {
+                "storage": 334230044,
+                "max_relative_norm2": 5.920973555133804,
+                "time": 0.000010201599821448325,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 334230044,
+                "max_relative_norm2": 0.9999992904304968,
+                "time": 0.0000202112004160881,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 27689972,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/SNAP/higgs-twitter/higgs-twitter.mtx",
+        "problem": {
+            "id": 2786,
+            "group": "SNAP",
+            "name": "higgs-twitter",
+            "rows": 456626,
+            "cols": 456626,
+            "nonzeros": 14855842,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.3160251211999823,
+            "nsym": 0.3160251211999823,
+            "kind": "directed temporal multigraph",
+            "columns": 456626,
+            "row_distribution": {
+                "min": 1,
+                "q1": 6.0,
+                "median": 16.0,
+                "q3": 38.0,
+                "max": 1259,
+                "mean": 32.53393805871764,
+                "variance": 2414.3773560023387,
+                "skewness": 4.167717883089199,
+                "kurtosis": 32.30454256140926,
+                "hyperskewness": 335.15625785193856,
+                "hyperflatness": 4435.878978873274
+            },
+            "col_distribution": {
+                "min": 0,
+                "q1": 1.0,
+                "median": 4.0,
+                "q3": 14.0,
+                "max": 51386,
+                "mean": 32.53393805871764,
+                "variance": 120753.32291757796,
+                "skewness": 70.3599759952202,
+                "kurtosis": 7046.857274903032,
+                "hyperskewness": 797859.4286863244,
+                "hyperflatness": 96134153.51586306
+            }
+        },
+        "size": 456626,
+        "spmv": {
+            "csr": {
+                "storage": 180207204,
+                "max_relative_norm2": 0.22821562682085697,
+                "time": 0.000012313600070774556,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 180207204,
+                "max_relative_norm2": 0.9907560299246101,
+                "time": 0.000015987199731171128,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 14855842,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

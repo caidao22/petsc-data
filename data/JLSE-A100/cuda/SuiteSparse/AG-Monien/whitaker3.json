@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/AG-Monien/whitaker3/whitaker3.mtx",
+        "problem": {
+            "id": 2424,
+            "group": "AG-Monien",
+            "name": "whitaker3",
+            "rows": 9800,
+            "cols": 9800,
+            "nonzeros": 57978,
+            "real": true,
+            "binary": true,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "2D/3D problem",
+            "columns": 9800,
+            "row_distribution": {
+                "min": 3,
+                "q1": 6.0,
+                "median": 6.0,
+                "q3": 6.0,
+                "max": 8,
+                "mean": 5.916122448979592,
+                "variance": 0.2686788421491124,
+                "skewness": -2.011729863289808,
+                "kurtosis": 10.26393009405485,
+                "hyperskewness": -31.98264864416386,
+                "hyperflatness": 144.98992880315186
+            },
+            "col_distribution": {
+                "min": 3,
+                "q1": 6.0,
+                "median": 6.0,
+                "q3": 6.0,
+                "max": 8,
+                "mean": 5.916122448979592,
+                "variance": 0.2686788421491124,
+                "skewness": -2.011729863289808,
+                "kurtosis": 10.26393009405485,
+                "hyperskewness": -31.98264864416386,
+                "hyperflatness": 144.98992880315186
+            }
+        },
+        "size": 9800,
+        "spmv": {
+            "csr": {
+                "storage": 741852,
+                "max_relative_norm2": 0.9999925476390293,
+                "time": 0.000011795200221240522,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 741852,
+                "max_relative_norm2": 0.9999958606190613,
+                "time": 0.00001776000037789345,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 57978,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

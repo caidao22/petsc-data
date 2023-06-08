@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/ACUSIM/Pres_Poisson/Pres_Poisson.mtx",
+        "problem": {
+            "id": 1184,
+            "group": "ACUSIM",
+            "name": "Pres_Poisson",
+            "rows": 14822,
+            "cols": 14822,
+            "nonzeros": 715804,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "computational fluid dynamics problem",
+            "columns": 14822,
+            "row_distribution": {
+                "min": 18,
+                "q1": 50.0,
+                "median": 50.0,
+                "q3": 50.0,
+                "max": 50,
+                "mean": 48.29334772635272,
+                "variance": 26.179228450012634,
+                "skewness": -2.997143879449404,
+                "kurtosis": 10.879391561663413,
+                "hyperskewness": -40.839524286574424,
+                "hyperflatness": 160.07912419963267
+            },
+            "col_distribution": {
+                "min": 18,
+                "q1": 50.0,
+                "median": 50.0,
+                "q3": 50.0,
+                "max": 50,
+                "mean": 48.29334772635272,
+                "variance": 26.179228450012634,
+                "skewness": -2.997143879449404,
+                "kurtosis": 10.879391561663413,
+                "hyperskewness": -40.839524286574424,
+                "hyperflatness": 160.07912419963267
+            }
+        },
+        "size": 14822,
+        "spmv": {
+            "csr": {
+                "storage": 8676588,
+                "max_relative_norm2": 0.3848727868710912,
+                "time": 0.000005286400113254786,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 8676588,
+                "max_relative_norm2": 0.17490242796425096,
+                "time": 0.000015967999771237374,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 715804,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

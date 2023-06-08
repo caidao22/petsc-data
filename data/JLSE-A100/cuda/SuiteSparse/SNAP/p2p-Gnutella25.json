@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/SNAP/p2p-Gnutella25/p2p-Gnutella25.mtx",
+        "problem": {
+            "id": 2314,
+            "group": "SNAP",
+            "name": "p2p-Gnutella25",
+            "rows": 22687,
+            "cols": 22687,
+            "nonzeros": 54705,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0,
+            "nsym": 0,
+            "kind": "directed graph",
+            "columns": 22687,
+            "row_distribution": {
+                "min": 0,
+                "q1": 0.0,
+                "median": 0.0,
+                "q3": 2.0,
+                "max": 64,
+                "mean": 2.4112928108608456,
+                "variance": 18.38018366385532,
+                "skewness": 1.6729588186797484,
+                "kurtosis": 8.177419844507536,
+                "hyperskewness": 72.06927280839179,
+                "hyperflatness": 846.2990946272814
+            },
+            "col_distribution": {
+                "min": 0,
+                "q1": 1.0,
+                "median": 2.0,
+                "q3": 3.0,
+                "max": 36,
+                "mean": 2.4112928108608456,
+                "variance": 5.232477929292814,
+                "skewness": 3.019700799922856,
+                "kurtosis": 19.10224812397265,
+                "hyperskewness": 155.5647325198299,
+                "hyperflatness": 1546.5470665278865
+            }
+        },
+        "size": 22687,
+        "spmv": {
+            "csr": {
+                "storage": 754052,
+                "max_relative_norm2": 0.420154711775715,
+                "time": 0.000014905599690973758,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 754052,
+                "max_relative_norm2": 0.7882005980626431,
+                "time": 0.000019097600132226944,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 54705,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

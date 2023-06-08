@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Gaertner/nopoly/nopoly.mtx",
+        "problem": {
+            "id": 442,
+            "group": "Gaertner",
+            "name": "nopoly",
+            "rows": 10774,
+            "cols": 10774,
+            "nonzeros": 70842,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected weighted graph",
+            "columns": 10774,
+            "row_distribution": {
+                "min": 3,
+                "q1": 6.0,
+                "median": 7.0,
+                "q3": 7.0,
+                "max": 11,
+                "mean": 6.575273807313904,
+                "variance": 1.2085068630288138,
+                "skewness": -0.6795008006895821,
+                "kurtosis": 3.3962394466674155,
+                "hyperskewness": -3.1290773373470047,
+                "hyperflatness": 16.14836295220769
+            },
+            "col_distribution": {
+                "min": 3,
+                "q1": 6.0,
+                "median": 7.0,
+                "q3": 7.0,
+                "max": 11,
+                "mean": 6.575273807313904,
+                "variance": 1.2085068630288138,
+                "skewness": -0.6795008006895821,
+                "kurtosis": 3.3962394466674155,
+                "hyperskewness": -3.1290773373470047,
+                "hyperflatness": 16.14836295220769
+            }
+        },
+        "size": 10774,
+        "spmv": {
+            "csr": {
+                "storage": 900116,
+                "max_relative_norm2": 0.4766457573053516,
+                "time": 0.000015468799695372583,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 900116,
+                "max_relative_norm2": 0.9999971901422661,
+                "time": 0.0000246655996888876,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 70842,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

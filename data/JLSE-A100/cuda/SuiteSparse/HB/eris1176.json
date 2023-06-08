@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/HB/eris1176/eris1176.mtx",
+        "problem": {
+            "id": 140,
+            "group": "HB",
+            "name": "eris1176",
+            "rows": 1176,
+            "cols": 1176,
+            "nonzeros": 18552,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "power network problem",
+            "columns": 1176,
+            "row_distribution": {
+                "min": 2,
+                "q1": 3.0,
+                "median": 4.0,
+                "q3": 14.0,
+                "max": 99,
+                "mean": 15.775510204081632,
+                "variance": 560.2778356240436,
+                "skewness": 1.893162076895534,
+                "kurtosis": 5.176041432926799,
+                "hyperskewness": 13.655737792492577,
+                "hyperflatness": 37.63491123183978
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 3.0,
+                "median": 4.0,
+                "q3": 14.0,
+                "max": 99,
+                "mean": 15.775510204081632,
+                "variance": 560.2778356240436,
+                "skewness": 1.893162076895534,
+                "kurtosis": 5.176041432926799,
+                "hyperskewness": 13.655737792492577,
+                "hyperflatness": 37.63491123183978
+            }
+        },
+        "size": 1176,
+        "spmv": {
+            "csr": {
+                "storage": 229652,
+                "max_relative_norm2": 5.186029871509443,
+                "time": 0.000010508800111711025,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 229652,
+                "max_relative_norm2": 0.1680471956699521,
+                "time": 0.00001338879968971014,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 18552,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

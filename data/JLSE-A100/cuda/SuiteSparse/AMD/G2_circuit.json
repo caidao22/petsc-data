@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/AMD/G2_circuit/G2_circuit.mtx",
+        "problem": {
+            "id": 1412,
+            "group": "AMD",
+            "name": "G2_circuit",
+            "rows": 150102,
+            "cols": 150102,
+            "nonzeros": 726674,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "circuit simulation problem",
+            "columns": 150102,
+            "row_distribution": {
+                "min": 2,
+                "q1": 5.0,
+                "median": 5.0,
+                "q3": 5.0,
+                "max": 6,
+                "mean": 4.8412013164381555,
+                "variance": 0.4091409480145228,
+                "skewness": -0.7358057768837539,
+                "kurtosis": 4.345007868982598,
+                "hyperskewness": -6.929999797361742,
+                "hyperflatness": 29.33557564531771
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 5.0,
+                "median": 5.0,
+                "q3": 5.0,
+                "max": 6,
+                "mean": 4.8412013164381555,
+                "variance": 0.4091409480145228,
+                "skewness": -0.7358057768837539,
+                "kurtosis": 4.345007868982598,
+                "hyperskewness": -6.929999797361742,
+                "hyperflatness": 29.33557564531771
+            }
+        },
+        "size": 150102,
+        "spmv": {
+            "csr": {
+                "storage": 9348148,
+                "max_relative_norm2": 0.1768584059213786,
+                "time": 0.000013587200082838536,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 9348148,
+                "max_relative_norm2": 9.474544385480177,
+                "time": 0.000019628800079226492,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 726674,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

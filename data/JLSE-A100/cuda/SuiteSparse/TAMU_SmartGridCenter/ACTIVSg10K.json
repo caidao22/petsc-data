@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/TAMU_SmartGridCenter/ACTIVSg10K/ACTIVSg10K.mtx",
+        "problem": {
+            "id": 2828,
+            "group": "TAMU_SmartGridCenter",
+            "name": "ACTIVSg10K",
+            "rows": 20000,
+            "cols": 20000,
+            "nonzeros": 137736,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0.02328109899213033,
+            "kind": "power network problem",
+            "columns": 20000,
+            "row_distribution": {
+                "min": 4,
+                "q1": 4.0,
+                "median": 6.0,
+                "q3": 8.0,
+                "max": 36,
+                "mean": 6.8868,
+                "variance": 8.703985760000473,
+                "skewness": 1.5680128859976588,
+                "kurtosis": 8.399808492894694,
+                "hyperskewness": 45.14446370849754,
+                "hyperflatness": 306.49685558574083
+            },
+            "col_distribution": {
+                "min": 4,
+                "q1": 4.0,
+                "median": 6.0,
+                "q3": 8.0,
+                "max": 36,
+                "mean": 6.8868,
+                "variance": 8.703985760000473,
+                "skewness": 1.5680128859976588,
+                "kurtosis": 8.399808492894694,
+                "hyperskewness": 45.14446370849754,
+                "hyperflatness": 306.49685558574083
+            }
+        },
+        "size": 20000,
+        "spmv": {
+            "csr": {
+                "storage": 1739748,
+                "max_relative_norm2": 0.1711217944012792,
+                "time": 0.0000067263999953866,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 1739748,
+                "max_relative_norm2": 0.9971976859799941,
+                "time": 0.000012051199935376645,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 137736,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

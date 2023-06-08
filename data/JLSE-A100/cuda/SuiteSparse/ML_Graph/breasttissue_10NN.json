@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/ML_Graph/breasttissue_10NN/breasttissue_10NN.mtx",
+        "problem": {
+            "id": 2858,
+            "group": "ML_Graph",
+            "name": "breasttissue_10NN",
+            "rows": 106,
+            "cols": 106,
+            "nonzeros": 1412,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected weighted graph",
+            "columns": 106,
+            "row_distribution": {
+                "min": 10,
+                "q1": 11.0,
+                "median": 12.0,
+                "q3": 15.0,
+                "max": 27,
+                "mean": 13.320754716981131,
+                "variance": 13.029191883232471,
+                "skewness": 1.6110755137013466,
+                "kurtosis": 5.634470856573969,
+                "hyperskewness": 17.11757249178907,
+                "hyperflatness": 57.44835399953764
+            },
+            "col_distribution": {
+                "min": 10,
+                "q1": 11.0,
+                "median": 12.0,
+                "q3": 15.0,
+                "max": 27,
+                "mean": 13.320754716981131,
+                "variance": 13.029191883232471,
+                "skewness": 1.6110755137013466,
+                "kurtosis": 5.634470856573969,
+                "hyperskewness": 17.11757249178907,
+                "hyperflatness": 57.44835399953764
+            }
+        },
+        "size": 106,
+        "spmv": {
+            "csr": {
+                "storage": 17552,
+                "max_relative_norm2": 0.9999992485924551,
+                "time": 0.000008531199768185616,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 17552,
+                "max_relative_norm2": 1.0000024655718698,
+                "time": 0.000011328000202775,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 1412,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

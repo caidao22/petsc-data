@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/ML_Graph/yeast_30NN/yeast_30NN.mtx",
+        "problem": {
+            "id": 2892,
+            "group": "ML_Graph",
+            "name": "yeast_30NN",
+            "rows": 1484,
+            "cols": 1484,
+            "nonzeros": 62350,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected weighted graph",
+            "columns": 1484,
+            "row_distribution": {
+                "min": 30,
+                "q1": 35.0,
+                "median": 41.0,
+                "q3": 48.0,
+                "max": 75,
+                "mean": 42.014824797843666,
+                "variance": 77.58064275906158,
+                "skewness": 0.7557433756986437,
+                "kurtosis": 3.202429060801064,
+                "hyperskewness": 6.41593328582281,
+                "hyperflatness": 20.185212552106822
+            },
+            "col_distribution": {
+                "min": 30,
+                "q1": 35.0,
+                "median": 41.0,
+                "q3": 48.0,
+                "max": 75,
+                "mean": 42.014824797843666,
+                "variance": 77.58064275906158,
+                "skewness": 0.7557433756986437,
+                "kurtosis": 3.202429060801064,
+                "hyperskewness": 6.41593328582281,
+                "hyperflatness": 20.185212552106822
+            }
+        },
+        "size": 1484,
+        "spmv": {
+            "csr": {
+                "storage": 761052,
+                "max_relative_norm2": 0.4162407971033117,
+                "time": 0.0000056575999595224866,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 761052,
+                "max_relative_norm2": 0.4370693505566996,
+                "time": 0.00001031039971858263,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 62350,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

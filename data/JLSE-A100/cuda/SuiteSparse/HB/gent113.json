@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/HB/gent113/gent113.mtx",
+        "problem": {
+            "id": 158,
+            "group": "HB",
+            "name": "gent113",
+            "rows": 113,
+            "cols": 113,
+            "nonzeros": 655,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.05663716814159292,
+            "nsym": 0.05663716814159292,
+            "kind": "statistical/mathematical problem",
+            "columns": 113,
+            "row_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 4.0,
+                "q3": 8.0,
+                "max": 20,
+                "mean": 5.79646017699115,
+                "variance": 21.20635915106899,
+                "skewness": 1.0478523970853186,
+                "kurtosis": 3.453308270206821,
+                "hyperskewness": 7.880827877491438,
+                "hyperflatness": 22.27309185646897
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 4.0,
+                "q3": 7.0,
+                "max": 27,
+                "mean": 5.79646017699115,
+                "variance": 30.816978620095544,
+                "skewness": 2.0372194595921997,
+                "kurtosis": 6.943557762059827,
+                "hyperskewness": 22.48117667105529,
+                "hyperflatness": 77.51794072351835
+            }
+        },
+        "size": 113,
+        "spmv": {
+            "csr": {
+                "storage": 8400,
+                "max_relative_norm2": 0.3653632877524943,
+                "time": 0.000011340799927711488,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 8400,
+                "max_relative_norm2": 0.8011985225664248,
+                "time": 0.00001568640023469925,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 655,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

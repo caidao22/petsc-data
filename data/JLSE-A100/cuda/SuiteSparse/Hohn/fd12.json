@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Hohn/fd12/fd12.mtx",
+        "problem": {
+            "id": 917,
+            "group": "Hohn",
+            "name": "fd12",
+            "rows": 7500,
+            "cols": 7500,
+            "nonzeros": 28462,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 0.0002810765230834094,
+            "nsym": 0,
+            "kind": "materials problem",
+            "columns": 7500,
+            "row_distribution": {
+                "min": 1,
+                "q1": 3.0,
+                "median": 3.0,
+                "q3": 6.0,
+                "max": 6,
+                "mean": 3.7949333333333337,
+                "variance": 2.036080995555434,
+                "skewness": 0.7066211310678229,
+                "kurtosis": 2.085331180839117,
+                "hyperskewness": 1.6653975911141896,
+                "hyperflatness": 5.372737117261705
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 3.0,
+                "median": 4.0,
+                "q3": 5.0,
+                "max": 8,
+                "mean": 3.7949333333333337,
+                "variance": 1.4248809955554087,
+                "skewness": -0.6047869595972967,
+                "kurtosis": 2.9313482910238933,
+                "hyperskewness": -3.9789281603776177,
+                "hyperflatness": 13.428939223039755
+            }
+        },
+        "size": 7500,
+        "spmv": {
+            "csr": {
+                "storage": 375108,
+                "max_relative_norm2": 0.3828524644640175,
+                "time": 0.000004774400033056736,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 375108,
+                "max_relative_norm2": 0.37784187481368353,
+                "time": 0.000010329600051045418,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 28462,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

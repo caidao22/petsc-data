@@ -1,0 +1,22 @@
+[
+    {
+        "filename": "./ssget_archive/MM/CEMW/vfem/vfem.mtx",
+        "problem": {
+            "id": 1900,
+            "group": "CEMW",
+            "name": "vfem",
+            "rows": 93476,
+            "cols": 93476,
+            "nonzeros": 1434636,
+            "real": false,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0.8209624504160578,
+            "kind": "electromagnetics problem"
+        },
+        "spmv": {},
+        "error": "/gpfs/jlse-fs0/users/hongzhang/Projects/ginkgo/core/base/mtx_io.cpp:236: read_entry_impl: trying to read a complex matrix into a real storage type"
+    }
+]

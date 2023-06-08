@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Muite/Chebyshev4/Chebyshev4.mtx",
+        "problem": {
+            "id": 1867,
+            "group": "Muite",
+            "name": "Chebyshev4",
+            "rows": 68121,
+            "cols": 68121,
+            "nonzeros": 5377761,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 0.3020408163265306,
+            "nsym": 0.0002369275506437348,
+            "kind": "structural problem",
+            "columns": 68121,
+            "row_distribution": {
+                "min": 9,
+                "q1": 25.0,
+                "median": 25.0,
+                "q3": 25.0,
+                "max": 68121,
+                "mean": 78.94424626767076,
+                "variance": 1126654.810003487,
+                "skewness": 61.208942712812856,
+                "kurtosis": 3905.908107883823,
+                "hyperskewness": 249427.08608777853,
+                "hyperflatness": 15928469.175616128
+            },
+            "col_distribution": {
+                "min": 9,
+                "q1": 81.0,
+                "median": 81.0,
+                "q3": 81.0,
+                "max": 81,
+                "mean": 78.94424626767076,
+                "variance": 54.898434364174186,
+                "skewness": -4.492856710201548,
+                "kurtosis": 25.82678158864639,
+                "hyperskewness": -162.38764859240536,
+                "hyperflatness": 1076.4743943660549
+            }
+        },
+        "size": 68121,
+        "spmv": {
+            "csr": {
+                "storage": 64916212,
+                "max_relative_norm2": 0.3899398367381732,
+                "time": 0.000013663999922573565,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 64916212,
+                "max_relative_norm2": 0.2131065366975783,
+                "time": 0.000017644799873232843,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 5377761,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Williams/webbase-1M/webbase-1M.mtx",
+        "problem": {
+            "id": 2379,
+            "group": "Williams",
+            "name": "webbase-1M",
+            "rows": 1000005,
+            "cols": 1000005,
+            "nonzeros": 3105536,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.09552554676231316,
+            "nsym": 0.01588957844838191,
+            "kind": "weighted directed graph",
+            "columns": 1000005,
+            "row_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 2.0,
+                "q3": 2.0,
+                "max": 4700,
+                "mean": 3.105520472397638,
+                "variance": 642.379656475956,
+                "skewness": 121.49431644952192,
+                "kurtosis": 17041.161841531648,
+                "hyperskewness": 2462617.3352011335,
+                "hyperflatness": 361428569.1229782
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 1.0,
+                "median": 1.0,
+                "q3": 1.0,
+                "max": 28685,
+                "mean": 3.105520472397638,
+                "variance": 1360.1289457294554,
+                "skewness": 514.5337078855023,
+                "kurtosis": 377322.789992755,
+                "hyperskewness": 288017510.1080282,
+                "hyperflatness": 222374488989.8883
+            }
+        },
+        "size": 1000005,
+        "spmv": {
+            "csr": {
+                "storage": 41377048,
+                "max_relative_norm2": 1.0000019181199118,
+                "time": 0.000007910400163382291,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 41377048,
+                "max_relative_norm2": 0.22860347351030558,
+                "time": 0.000016812800243496896,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 3105536,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

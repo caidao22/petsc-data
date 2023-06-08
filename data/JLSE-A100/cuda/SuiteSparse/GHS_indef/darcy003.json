@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/GHS_indef/darcy003/darcy003.mtx",
+        "problem": {
+            "id": 1232,
+            "group": "GHS_indef",
+            "name": "darcy003",
+            "rows": 389874,
+            "cols": 389874,
+            "nonzeros": 2101242,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "2D/3D problem",
+            "columns": 389874,
+            "row_distribution": {
+                "min": 2,
+                "q1": 3.0,
+                "median": 7.0,
+                "q3": 7.0,
+                "max": 7,
+                "mean": 5.389541236399452,
+                "variance": 3.859281699560486,
+                "skewness": -0.40170899295148166,
+                "kurtosis": 1.1654456485637774,
+                "hyperskewness": -0.8783696387402036,
+                "hyperflatness": 1.5374753140406334
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 3.0,
+                "median": 7.0,
+                "q3": 7.0,
+                "max": 7,
+                "mean": 5.389541236399452,
+                "variance": 3.859281699560486,
+                "skewness": -0.40170899295148166,
+                "kurtosis": 1.1654456485637774,
+                "hyperskewness": -0.8783696387402036,
+                "hyperflatness": 1.5374753140406334
+            }
+        },
+        "size": 389874,
+        "spmv": {
+            "csr": {
+                "storage": 26884996,
+                "max_relative_norm2": 2.548752293659142,
+                "time": 0.000005759999807924032,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 26884996,
+                "max_relative_norm2": 1.0000000844278243,
+                "time": 0.000014175999723374845,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 2101242,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

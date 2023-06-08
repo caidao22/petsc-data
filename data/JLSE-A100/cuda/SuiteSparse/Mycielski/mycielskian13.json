@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Mycielski/mycielskian13/mycielskian13.mtx",
+        "problem": {
+            "id": 2769,
+            "group": "Mycielski",
+            "name": "mycielskian13",
+            "rows": 6143,
+            "cols": 6143,
+            "nonzeros": 1227742,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected graph",
+            "columns": 6143,
+            "row_distribution": {
+                "min": 12,
+                "q1": 66.0,
+                "median": 122.0,
+                "q3": 229.25,
+                "max": 3071,
+                "mean": 199.8603288295621,
+                "variance": 61016.48089893145,
+                "skewness": 4.548123930900537,
+                "kurtosis": 37.0011628353739,
+                "hyperskewness": 353.8778546180671,
+                "hyperflatness": 3700.4889622022647
+            },
+            "col_distribution": {
+                "min": 12,
+                "q1": 66.0,
+                "median": 122.0,
+                "q3": 229.25,
+                "max": 3071,
+                "mean": 199.8603288295621,
+                "variance": 61016.48089893145,
+                "skewness": 4.548123930900537,
+                "kurtosis": 37.0011628353739,
+                "hyperskewness": 353.8778546180671,
+                "hyperflatness": 3700.4889622022647
+            }
+        },
+        "size": 6143,
+        "spmv": {
+            "csr": {
+                "storage": 14785128,
+                "max_relative_norm2": 0.020314246964624912,
+                "time": 0.00000648320009931922,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 14785128,
+                "max_relative_norm2": 0.2111036154334037,
+                "time": 0.00001085440032184124,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 1227742,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

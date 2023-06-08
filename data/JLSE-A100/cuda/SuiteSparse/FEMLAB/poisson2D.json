@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/FEMLAB/poisson2D/poisson2D.mtx",
+        "problem": {
+            "id": 926,
+            "group": "FEMLAB",
+            "name": "poisson2D",
+            "rows": 367,
+            "cols": 367,
+            "nonzeros": 2417,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0,
+            "kind": "computational fluid dynamics problem",
+            "columns": 367,
+            "row_distribution": {
+                "min": 3,
+                "q1": 6.0,
+                "median": 7.0,
+                "q3": 7.0,
+                "max": 9,
+                "mean": 6.5858310626703,
+                "variance": 1.3652488324956076,
+                "skewness": -0.668508846488866,
+                "kurtosis": 3.1768570366668563,
+                "hyperskewness": -4.6792256471512115,
+                "hyperflatness": 15.31147546841972
+            },
+            "col_distribution": {
+                "min": 3,
+                "q1": 6.0,
+                "median": 7.0,
+                "q3": 7.0,
+                "max": 9,
+                "mean": 6.5858310626703,
+                "variance": 1.3652488324956076,
+                "skewness": -0.668508846488866,
+                "kurtosis": 3.1768570366668563,
+                "hyperskewness": -4.6792256471512115,
+                "hyperflatness": 15.31147546841972
+            }
+        },
+        "size": 367,
+        "spmv": {
+            "csr": {
+                "storage": 30780,
+                "max_relative_norm2": 0.9988471730750577,
+                "time": 0.000011814399994909762,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 30780,
+                "max_relative_norm2": 2.1698360983533793,
+                "time": 0.00001416960023343563,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 2417,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

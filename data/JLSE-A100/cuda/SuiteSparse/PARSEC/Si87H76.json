@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/PARSEC/Si87H76/Si87H76.mtx",
+        "problem": {
+            "id": 1364,
+            "group": "PARSEC",
+            "name": "Si87H76",
+            "rows": 240369,
+            "cols": 240369,
+            "nonzeros": 10661631,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "theoretical/quantum chemistry problem",
+            "columns": 240369,
+            "row_distribution": {
+                "min": 17,
+                "q1": 34.0,
+                "median": 37.0,
+                "q3": 37.0,
+                "max": 361,
+                "mean": 44.355266278097425,
+                "variance": 1575.3927879054952,
+                "skewness": 3.7588364750968046,
+                "kurtosis": 16.482829737803073,
+                "hyperskewness": 79.01849402127014,
+                "hyperflatness": 429.8534267648464
+            },
+            "col_distribution": {
+                "min": 17,
+                "q1": 34.0,
+                "median": 37.0,
+                "q3": 37.0,
+                "max": 361,
+                "mean": 44.355266278097425,
+                "variance": 1575.3927879054952,
+                "skewness": 3.7588364750968046,
+                "kurtosis": 16.482829737803073,
+                "hyperskewness": 79.01849402127014,
+                "hyperflatness": 429.8534267648464
+            }
+        },
+        "size": 240369,
+        "spmv": {
+            "csr": {
+                "storage": 129011644,
+                "max_relative_norm2": 4.446603599463959,
+                "time": 0.000014700799807906151,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 129011644,
+                "max_relative_norm2": 1.0000208294025419,
+                "time": 0.000019232000410556793,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 10661631,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

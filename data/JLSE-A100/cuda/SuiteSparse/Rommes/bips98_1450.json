@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Rommes/bips98_1450/bips98_1450.mtx",
+        "problem": {
+            "id": 2352,
+            "group": "Rommes",
+            "name": "bips98_1450",
+            "rows": 11305,
+            "cols": 11305,
+            "nonzeros": 44678,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 0.7593684272891549,
+            "nsym": 0.6277809047012471,
+            "kind": "eigenvalue/model reduction problem",
+            "columns": 11305,
+            "row_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 3.0,
+                "q3": 5.0,
+                "max": 30,
+                "mean": 3.952056612118532,
+                "variance": 8.630695681890721,
+                "skewness": 2.221452432353659,
+                "kurtosis": 11.105916568244654,
+                "hyperskewness": 59.49447009330247,
+                "hyperflatness": 369.8182167058402
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 3.0,
+                "q3": 6.0,
+                "max": 125,
+                "mean": 3.952056612118532,
+                "variance": 10.1098641913997,
+                "skewness": 6.692976271161412,
+                "kurtosis": 194.02196293792912,
+                "hyperskewness": 7114.496426697304,
+                "hyperflatness": 269534.5547895684
+            }
+        },
+        "size": 11305,
+        "spmv": {
+            "csr": {
+                "storage": 586948,
+                "max_relative_norm2": 0.9998626829003838,
+                "time": 0.000011308800056576731,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 586948,
+                "max_relative_norm2": 36.67013004084396,
+                "time": 0.000022783999890089036,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 44678,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

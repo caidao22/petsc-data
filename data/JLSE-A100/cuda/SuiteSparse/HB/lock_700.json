@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/HB/lock_700/lock_700.mtx",
+        "problem": {
+            "id": 1181,
+            "group": "HB",
+            "name": "lock_700",
+            "rows": 700,
+            "cols": 700,
+            "nonzeros": 22175,
+            "real": true,
+            "binary": true,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "structural problem",
+            "columns": 700,
+            "row_distribution": {
+                "min": 0,
+                "q1": 23.0,
+                "median": 30.0,
+                "q3": 42.0,
+                "max": 60,
+                "mean": 31.678571428571427,
+                "variance": 153.91239795918386,
+                "skewness": 0.19563437536429404,
+                "kurtosis": 2.605023004789406,
+                "hyperskewness": 0.9054871010245068,
+                "hyperflatness": 10.67864657989982
+            },
+            "col_distribution": {
+                "min": 0,
+                "q1": 23.0,
+                "median": 30.0,
+                "q3": 42.0,
+                "max": 60,
+                "mean": 31.678571428571427,
+                "variance": 153.91239795918386,
+                "skewness": 0.19563437536429404,
+                "kurtosis": 2.605023004789406,
+                "hyperskewness": 0.9054871010245068,
+                "hyperflatness": 10.67864657989982
+            }
+        },
+        "size": 700,
+        "spmv": {
+            "csr": {
+                "storage": 271676,
+                "max_relative_norm2": 0.4939916968690319,
+                "time": 0.000015283199958503246,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 271676,
+                "max_relative_norm2": 0.1782285787332503,
+                "time": 0.0000191807996481657,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 22175,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

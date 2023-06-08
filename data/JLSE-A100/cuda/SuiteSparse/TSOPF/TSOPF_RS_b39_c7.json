@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/TSOPF/TSOPF_RS_b39_c7/TSOPF_RS_b39_c7.mtx",
+        "problem": {
+            "id": 2242,
+            "group": "TSOPF",
+            "name": "TSOPF_RS_b39_c7",
+            "rows": 14098,
+            "cols": 14098,
+            "nonzeros": 252446,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.05962284731399325,
+            "nsym": 0.0003524007299729407,
+            "kind": "power network problem",
+            "columns": 14098,
+            "row_distribution": {
+                "min": 2,
+                "q1": 4.0,
+                "median": 6.0,
+                "q3": 32.0,
+                "max": 32,
+                "mean": 17.906511561923676,
+                "variance": 195.6750448459474,
+                "skewness": 0.013090050727495528,
+                "kurtosis": 1.001231877319451,
+                "hyperskewness": 0.025584207212586876,
+                "hyperflatness": 1.003258161229451
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 4.0,
+                "median": 8.0,
+                "q3": 22.0,
+                "max": 7002,
+                "mean": 17.906511561923676,
+                "variance": 34707.03509591706,
+                "skewness": 37.37182242821308,
+                "kurtosis": 1401.0306873735458,
+                "hyperskewness": 52522.927814565475,
+                "hyperflatness": 1969020.3919348696
+            }
+        },
+        "size": 14098,
+        "spmv": {
+            "csr": {
+                "storage": 3113396,
+                "max_relative_norm2": 5.477032266629334,
+                "time": 0.000009075199998915196,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 3113396,
+                "max_relative_norm2": 0.2279348029855565,
+                "time": 0.000011231999844312668,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 252446,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

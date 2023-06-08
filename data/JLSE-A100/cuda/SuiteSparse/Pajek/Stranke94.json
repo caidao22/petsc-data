@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Pajek/Stranke94/Stranke94.mtx",
+        "problem": {
+            "id": 1524,
+            "group": "Pajek",
+            "name": "Stranke94",
+            "rows": 10,
+            "cols": 10,
+            "nonzeros": 90,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected weighted graph",
+            "columns": 10,
+            "row_distribution": {
+                "min": 9,
+                "q1": 9.0,
+                "median": 9.0,
+                "q3": 9.0,
+                "max": 9,
+                "mean": 9.0,
+                "variance": 0.0,
+                "skewness": 0.0,
+                "kurtosis": 0.0,
+                "hyperskewness": 0.0,
+                "hyperflatness": 0.0
+            },
+            "col_distribution": {
+                "min": 9,
+                "q1": 9.0,
+                "median": 9.0,
+                "q3": 9.0,
+                "max": 9,
+                "mean": 9.0,
+                "variance": 0.0,
+                "skewness": 0.0,
+                "kurtosis": 0.0,
+                "hyperskewness": 0.0,
+                "hyperflatness": 0.0
+            }
+        },
+        "size": 10,
+        "spmv": {
+            "csr": {
+                "storage": 1136,
+                "max_relative_norm2": 0.9999947376869595,
+                "time": 0.00001821439974009991,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 1136,
+                "max_relative_norm2": 0.42354708013048786,
+                "time": 0.00002044159956276417,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 90,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

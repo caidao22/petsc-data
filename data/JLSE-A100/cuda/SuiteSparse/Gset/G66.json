@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Gset/G66/G66.mtx",
+        "problem": {
+            "id": 531,
+            "group": "Gset",
+            "name": "G66",
+            "rows": 9000,
+            "cols": 9000,
+            "nonzeros": 36000,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected weighted random graph",
+            "columns": 9000,
+            "row_distribution": {
+                "min": 4,
+                "q1": 4.0,
+                "median": 4.0,
+                "q3": 4.0,
+                "max": 4,
+                "mean": 4.0,
+                "variance": 0.0,
+                "skewness": 0.0,
+                "kurtosis": 0.0,
+                "hyperskewness": 0.0,
+                "hyperflatness": 0.0
+            },
+            "col_distribution": {
+                "min": 4,
+                "q1": 4.0,
+                "median": 4.0,
+                "q3": 4.0,
+                "max": 4,
+                "mean": 4.0,
+                "variance": 0.0,
+                "skewness": 0.0,
+                "kurtosis": 0.0,
+                "hyperskewness": 0.0,
+                "hyperflatness": 0.0
+            }
+        },
+        "size": 9000,
+        "spmv": {
+            "csr": {
+                "storage": 472504,
+                "max_relative_norm2": 2.218124412765598,
+                "time": 0.000008102400042116642,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 472504,
+                "max_relative_norm2": 2.2184646339308074,
+                "time": 0.000011072000116109848,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 36000,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

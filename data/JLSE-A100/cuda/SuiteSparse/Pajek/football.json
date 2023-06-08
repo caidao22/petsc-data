@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Pajek/football/football.mtx",
+        "problem": {
+            "id": 1474,
+            "group": "Pajek",
+            "name": "football",
+            "rows": 35,
+            "cols": 35,
+            "nonzeros": 118,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0,
+            "nsym": 0,
+            "kind": "directed weighted graph",
+            "columns": 35,
+            "row_distribution": {
+                "min": 0,
+                "q1": 0.75,
+                "median": 3.0,
+                "q3": 5.25,
+                "max": 10,
+                "mean": 3.371428571428571,
+                "variance": 8.347755102040816,
+                "skewness": 0.5302861118266154,
+                "kurtosis": 2.3523877864659237,
+                "hyperskewness": 3.09363866408079,
+                "hyperflatness": 8.249438968964892
+            },
+            "col_distribution": {
+                "min": 0,
+                "q1": 0.0,
+                "median": 1.0,
+                "q3": 3.25,
+                "max": 18,
+                "mean": 3.371428571428571,
+                "variance": 26.233469387755104,
+                "skewness": 1.729223530169842,
+                "kurtosis": 4.694364972950098,
+                "hyperskewness": 11.646746121363275,
+                "hyperflatness": 30.301484050654125
+            }
+        },
+        "size": 35,
+        "spmv": {
+            "csr": {
+                "storage": 1576,
+                "max_relative_norm2": 1.0033476879014334,
+                "time": 0.000013068800047039984,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 1576,
+                "max_relative_norm2": 1.6449384016531468,
+                "time": 0.000012883199937641621,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 118,
+        "optimal": {
+            "spmv": "csri"
+        }
+    }
+]

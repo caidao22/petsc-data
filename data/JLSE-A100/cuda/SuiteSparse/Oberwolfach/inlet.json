@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Oberwolfach/inlet/inlet.mtx",
+        "problem": {
+            "id": 1436,
+            "group": "Oberwolfach",
+            "name": "inlet",
+            "rows": 11730,
+            "cols": 11730,
+            "nonzeros": 328323,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 0.6083330964361183,
+            "nsym": 0.000094758886014536,
+            "kind": "model reduction problem",
+            "columns": 11730,
+            "row_distribution": {
+                "min": 1,
+                "q1": 26.0,
+                "median": 26.0,
+                "q3": 30.0,
+                "max": 41,
+                "mean": 27.99002557544757,
+                "variance": 61.82419718605286,
+                "skewness": -0.7697408828165027,
+                "kurtosis": 5.8000185789751715,
+                "hyperskewness": -13.535616688916685,
+                "hyperflatness": 54.830112104254994
+            },
+            "col_distribution": {
+                "min": 9,
+                "q1": 26.0,
+                "median": 27.0,
+                "q3": 29.0,
+                "max": 39,
+                "mean": 27.99002557544757,
+                "variance": 36.036302897893606,
+                "skewness": 0.09793041794072892,
+                "kurtosis": 3.1017632655918512,
+                "hyperskewness": -0.14158719717625048,
+                "hyperflatness": 11.21012476127267
+            }
+        },
+        "size": 11730,
+        "spmv": {
+            "csr": {
+                "storage": 4014448,
+                "max_relative_norm2": 0.999996655741221,
+                "time": 0.00001441920008510351,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 4014448,
+                "max_relative_norm2": 0.8099714315897436,
+                "time": 0.000022150399908423423,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 328323,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

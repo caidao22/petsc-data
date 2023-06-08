@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Bomhof/circuit_4/circuit_4.mtx",
+        "problem": {
+            "id": 373,
+            "group": "Bomhof",
+            "name": "circuit_4",
+            "rows": 80209,
+            "cols": 80209,
+            "nonzeros": 307604,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.8292028705104302,
+            "nsym": 0.3635452210926232,
+            "kind": "circuit simulation problem",
+            "columns": 80209,
+            "row_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 3.0,
+                "q3": 4.0,
+                "max": 6750,
+                "mean": 3.835030981560673,
+                "variance": 901.8747413625396,
+                "skewness": 173.79447240985138,
+                "kurtosis": 35892.04127419145,
+                "hyperskewness": 7687043.8166399645,
+                "hyperflatness": 1676867985.7560744
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 1.0,
+                "median": 3.0,
+                "q3": 5.0,
+                "max": 8900,
+                "mean": 3.835030981560673,
+                "variance": 1624.6824312726476,
+                "skewness": 195.446103869126,
+                "kurtosis": 39975.500793276726,
+                "hyperskewness": 8294340.54829804,
+                "hyperflatness": 1740941052.663353
+            }
+        },
+        "size": 80209,
+        "spmv": {
+            "csr": {
+                "storage": 4039736,
+                "max_relative_norm2": 5.45157141653611,
+                "time": 0.000009228800050914289,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 4039736,
+                "max_relative_norm2": 1.0000051727116415,
+                "time": 0.000010796800069510937,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 307604,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

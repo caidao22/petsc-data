@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/JGD_CAG/CAG_mat1916/CAG_mat1916.mtx",
+        "problem": {
+            "id": 1941,
+            "group": "JGD_CAG",
+            "name": "CAG_mat1916",
+            "rows": 1916,
+            "cols": 1916,
+            "nonzeros": 195985,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.3002540333592691,
+            "nsym": 0.2119864584245809,
+            "kind": "combinatorial problem",
+            "columns": 1916,
+            "row_distribution": {
+                "min": 2,
+                "q1": 51.0,
+                "median": 101.0,
+                "q3": 141.0,
+                "max": 279,
+                "mean": 102.28862212943632,
+                "variance": 3513.6635657423926,
+                "skewness": 0.39973181925665374,
+                "kurtosis": 2.384280867750471,
+                "hyperskewness": 2.5990107035288723,
+                "hyperflatness": 8.591721439672142
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 12.0,
+                "median": 39.0,
+                "q3": 123.0,
+                "max": 1134,
+                "mean": 102.28862212943632,
+                "variance": 24159.6207682476,
+                "skewness": 2.766851612970118,
+                "kurtosis": 12.385197722113,
+                "hyperskewness": 58.957376940186144,
+                "hyperflatness": 299.900601167669
+            }
+        },
+        "size": 1916,
+        "spmv": {
+            "csr": {
+                "storage": 2366400,
+                "max_relative_norm2": 0.9982133218749327,
+                "time": 0.00001082880012691021,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 2366400,
+                "max_relative_norm2": 1.0019212471336054,
+                "time": 0.000015033599920570849,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 195985,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

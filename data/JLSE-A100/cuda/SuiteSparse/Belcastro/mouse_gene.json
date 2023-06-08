@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Belcastro/mouse_gene/mouse_gene.mtx",
+        "problem": {
+            "id": 2282,
+            "group": "Belcastro",
+            "name": "mouse_gene",
+            "rows": 45101,
+            "cols": 45101,
+            "nonzeros": 28967291,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected weighted graph",
+            "columns": 45101,
+            "row_distribution": {
+                "min": 1,
+                "q1": 29.0,
+                "median": 235.0,
+                "q3": 1013.0,
+                "max": 8032,
+                "mean": 642.2760249218421,
+                "variance": 733881.8338122304,
+                "skewness": 1.8665811068485896,
+                "kurtosis": 7.265905154094709,
+                "hyperskewness": 30.473919639133555,
+                "hyperflatness": 151.20288103396655
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 29.0,
+                "median": 235.0,
+                "q3": 1013.0,
+                "max": 8032,
+                "mean": 642.2760249218421,
+                "variance": 733881.8338122304,
+                "skewness": 1.8665811068485896,
+                "kurtosis": 7.265905154094709,
+                "hyperskewness": 30.473919639133555,
+                "hyperflatness": 151.20288103396655
+            }
+        },
+        "size": 45101,
+        "spmv": {
+            "csr": {
+                "storage": 348230268,
+                "max_relative_norm2": 0.4305770064981557,
+                "time": 0.000010598399676382541,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 348230268,
+                "max_relative_norm2": 0.9727575152087525,
+                "time": 0.000020031999796628952,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 28967291,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

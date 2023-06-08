@@ -1,0 +1,22 @@
+[
+    {
+        "filename": "./ssget_archive/MM/FreeFieldTechnologies/mono_500Hz/mono_500Hz.mtx",
+        "problem": {
+            "id": 2215,
+            "group": "FreeFieldTechnologies",
+            "name": "mono_500Hz",
+            "rows": 169410,
+            "cols": 169410,
+            "nonzeros": 5033796,
+            "real": false,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0.820796293715178,
+            "kind": "acoustics problem"
+        },
+        "spmv": {},
+        "error": "/gpfs/jlse-fs0/users/hongzhang/Projects/ginkgo/core/base/mtx_io.cpp:236: read_entry_impl: trying to read a complex matrix into a real storage type"
+    }
+]

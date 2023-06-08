@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/PARSEC/benzene/benzene.mtx",
+        "problem": {
+            "id": 1348,
+            "group": "PARSEC",
+            "name": "benzene",
+            "rows": 8219,
+            "cols": 8219,
+            "nonzeros": 242669,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "theoretical/quantum chemistry problem",
+            "columns": 8219,
+            "row_distribution": {
+                "min": 12,
+                "q1": 26.0,
+                "median": 31.0,
+                "q3": 34.0,
+                "max": 37,
+                "mean": 29.525368049641077,
+                "variance": 29.200810410226293,
+                "skewness": -0.739212288013576,
+                "kurtosis": 2.992086515421706,
+                "hyperskewness": -5.193472768308891,
+                "hyperflatness": 15.177884093838856
+            },
+            "col_distribution": {
+                "min": 12,
+                "q1": 26.0,
+                "median": 31.0,
+                "q3": 34.0,
+                "max": 37,
+                "mean": 29.525368049641077,
+                "variance": 29.200810410226293,
+                "skewness": -0.739212288013576,
+                "kurtosis": 2.992086515421706,
+                "hyperskewness": -5.193472768308891,
+                "hyperflatness": 15.177884093838856
+            }
+        },
+        "size": 8219,
+        "spmv": {
+            "csr": {
+                "storage": 2972556,
+                "max_relative_norm2": 0.43167144677143393,
+                "time": 0.00001127680018544197,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 2972556,
+                "max_relative_norm2": 0.9998359822931062,
+                "time": 0.000013612800091505052,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 242669,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

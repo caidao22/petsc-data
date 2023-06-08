@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Janna/Cube_Coup_dt6/Cube_Coup_dt6.mtx",
+        "problem": {
+            "id": 2549,
+            "group": "Janna",
+            "name": "Cube_Coup_dt6",
+            "rows": 2164760,
+            "cols": 2164760,
+            "nonzeros": 127206144,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "structural problem",
+            "columns": 2164760,
+            "row_distribution": {
+                "min": 24,
+                "q1": 60.0,
+                "median": 60.0,
+                "q3": 60.0,
+                "max": 68,
+                "mean": 58.762238770117705,
+                "variance": 19.995381123536056,
+                "skewness": -3.011033350374426,
+                "kurtosis": 11.45261910874053,
+                "hyperskewness": -43.29955462582832,
+                "hyperflatness": 182.2941139203318
+            },
+            "col_distribution": {
+                "min": 24,
+                "q1": 60.0,
+                "median": 60.0,
+                "q3": 60.0,
+                "max": 68,
+                "mean": 58.762238770117705,
+                "variance": 19.995381123536056,
+                "skewness": -3.011033350374426,
+                "kurtosis": 11.45261910874053,
+                "hyperskewness": -43.29955462582832,
+                "hyperflatness": 182.2941139203318
+            }
+        },
+        "size": 2164760,
+        "spmv": {
+            "csr": {
+                "storage": 1535575140,
+                "max_relative_norm2": 0.9999999813778038,
+                "time": 0.000011526399850845335,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 1535575140,
+                "max_relative_norm2": 2.2122338912001682,
+                "time": 0.000016633599996566775,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 127206144,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

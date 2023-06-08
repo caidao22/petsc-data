@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/VDOL/goddardRocketProblem_1/goddardRocketProblem_1.mtx",
+        "problem": {
+            "id": 2689,
+            "group": "VDOL",
+            "name": "goddardRocketProblem_1",
+            "rows": 831,
+            "cols": 831,
+            "nonzeros": 8498,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "optimal control problem",
+            "columns": 831,
+            "row_distribution": {
+                "min": 2,
+                "q1": 7.75,
+                "median": 9.0,
+                "q3": 10.0,
+                "max": 284,
+                "mean": 10.226233453670275,
+                "variance": 343.8549556085559,
+                "skewness": 12.754690543577746,
+                "kurtosis": 171.12892865801575,
+                "hyperskewness": 2335.894079870311,
+                "hyperflatness": 32367.881758766183
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 7.75,
+                "median": 9.0,
+                "q3": 10.0,
+                "max": 284,
+                "mean": 10.226233453670275,
+                "variance": 343.8549556085559,
+                "skewness": 12.754690543577746,
+                "kurtosis": 171.12892865801575,
+                "hyperskewness": 2335.894079870311,
+                "hyperflatness": 32367.881758766183
+            }
+        },
+        "size": 831,
+        "spmv": {
+            "csr": {
+                "storage": 106368,
+                "max_relative_norm2": 1.8562394896104155,
+                "time": 0.00001350400000810623,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 106368,
+                "max_relative_norm2": 0.8079282716942197,
+                "time": 0.000017651199921965597,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 8498,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

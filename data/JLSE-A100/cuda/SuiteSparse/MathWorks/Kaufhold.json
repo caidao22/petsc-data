@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/MathWorks/Kaufhold/Kaufhold.mtx",
+        "problem": {
+            "id": 1404,
+            "group": "MathWorks",
+            "name": "Kaufhold",
+            "rows": 8765,
+            "cols": 8765,
+            "nonzeros": 42471,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0.778437073518068,
+            "kind": "counter-example problem",
+            "columns": 8765,
+            "row_distribution": {
+                "min": 1,
+                "q1": 3.0,
+                "median": 5.0,
+                "q3": 6.0,
+                "max": 28,
+                "mean": 4.845521962350257,
+                "variance": 5.201008184486246,
+                "skewness": 1.5466191703328322,
+                "kurtosis": 8.533584642285586,
+                "hyperskewness": 43.88866407382057,
+                "hyperflatness": 301.4398783231713
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 3.0,
+                "median": 5.0,
+                "q3": 6.0,
+                "max": 28,
+                "mean": 4.845521962350257,
+                "variance": 5.201008184486246,
+                "skewness": 1.5466191703328322,
+                "kurtosis": 8.533584642285586,
+                "hyperskewness": 43.88866407382057,
+                "hyperflatness": 301.4398783231713
+            }
+        },
+        "size": 8765,
+        "spmv": {
+            "csr": {
+                "storage": 550028,
+                "max_relative_norm2": 1.0000039096104578,
+                "time": 0.000009465599991381168,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 550028,
+                "max_relative_norm2": 0.03488839980447936,
+                "time": 0.000011366399936378,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 42471,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

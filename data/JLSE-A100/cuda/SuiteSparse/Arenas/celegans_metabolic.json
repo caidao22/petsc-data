@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Arenas/celegans_metabolic/celegans_metabolic.mtx",
+        "problem": {
+            "id": 2407,
+            "group": "Arenas",
+            "name": "celegans_metabolic",
+            "rows": 453,
+            "cols": 453,
+            "nonzeros": 4065,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected multigraph",
+            "columns": 453,
+            "row_distribution": {
+                "min": 1,
+                "q1": 4.0,
+                "median": 5.0,
+                "q3": 8.0,
+                "max": 238,
+                "mean": 8.973509933774835,
+                "variance": 280.32159408213084,
+                "skewness": 8.040793630893013,
+                "kurtosis": 90.04087039045508,
+                "hyperskewness": 1130.5010270995149,
+                "hyperflatness": 14904.915616685908
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 4.0,
+                "median": 5.0,
+                "q3": 8.0,
+                "max": 238,
+                "mean": 8.973509933774835,
+                "variance": 280.32159408213084,
+                "skewness": 8.040793630893013,
+                "kurtosis": 90.04087039045508,
+                "hyperskewness": 1130.5010270995149,
+                "hyperflatness": 14904.915616685908
+            }
+        },
+        "size": 453,
+        "spmv": {
+            "csr": {
+                "storage": 51108,
+                "max_relative_norm2": 1.00000008525966,
+                "time": 0.000008966399915516378,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 51108,
+                "max_relative_norm2": 0.9979200848375761,
+                "time": 0.00001128959972411394,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 4065,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

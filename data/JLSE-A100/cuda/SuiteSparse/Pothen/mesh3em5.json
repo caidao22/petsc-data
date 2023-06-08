@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Pothen/mesh3em5/mesh3em5.mtx",
+        "problem": {
+            "id": 878,
+            "group": "Pothen",
+            "name": "mesh3em5",
+            "rows": 289,
+            "cols": 289,
+            "nonzeros": 1889,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "structural problem",
+            "columns": 289,
+            "row_distribution": {
+                "min": 4,
+                "q1": 7.0,
+                "median": 7.0,
+                "q3": 7.0,
+                "max": 9,
+                "mean": 6.536332179930795,
+                "variance": 0.8230744363692917,
+                "skewness": -1.3730873227561395,
+                "kurtosis": 3.525533309685797,
+                "hyperskewness": -6.8878822713035035,
+                "hyperflatness": 19.187464508226142
+            },
+            "col_distribution": {
+                "min": 4,
+                "q1": 7.0,
+                "median": 7.0,
+                "q3": 7.0,
+                "max": 9,
+                "mean": 6.536332179930795,
+                "variance": 0.8230744363692917,
+                "skewness": -1.3730873227561395,
+                "kurtosis": 3.525533309685797,
+                "hyperskewness": -6.8878822713035035,
+                "hyperflatness": 19.187464508226142
+            }
+        },
+        "size": 289,
+        "spmv": {
+            "csr": {
+                "storage": 24068,
+                "max_relative_norm2": 5.240500894775766,
+                "time": 0.000011910400167107583,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 24068,
+                "max_relative_norm2": 0.4283764180853068,
+                "time": 0.000014547200128436089,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 1889,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

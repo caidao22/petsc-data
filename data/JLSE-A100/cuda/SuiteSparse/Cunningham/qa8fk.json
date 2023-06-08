@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Cunningham/qa8fk/qa8fk.mtx",
+        "problem": {
+            "id": 844,
+            "group": "Cunningham",
+            "name": "qa8fk",
+            "rows": 66127,
+            "cols": 66127,
+            "nonzeros": 1660579,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "acoustics problem",
+            "columns": 66127,
+            "row_distribution": {
+                "min": 8,
+                "q1": 27.0,
+                "median": 27.0,
+                "q3": 27.0,
+                "max": 27,
+                "mean": 25.111966367746913,
+                "variance": 17.49350493765801,
+                "skewness": -2.1236455757880375,
+                "kurtosis": 6.309298231560972,
+                "hyperskewness": -19.061817996899812,
+                "hyperflatness": 60.60780575365731
+            },
+            "col_distribution": {
+                "min": 8,
+                "q1": 27.0,
+                "median": 27.0,
+                "q3": 27.0,
+                "max": 27,
+                "mean": 25.111966367746913,
+                "variance": 17.49350493765801,
+                "skewness": -2.1236455757880375,
+                "kurtosis": 6.309298231560972,
+                "hyperskewness": -19.061817996899812,
+                "hyperflatness": 60.60780575365731
+            }
+        },
+        "size": 66127,
+        "spmv": {
+            "csr": {
+                "storage": 20219108,
+                "max_relative_norm2": 0.8054193291469542,
+                "time": 0.000015059200115501883,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 20219108,
+                "max_relative_norm2": 0.8134123950030112,
+                "time": 0.00001884799972176552,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 1660579,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

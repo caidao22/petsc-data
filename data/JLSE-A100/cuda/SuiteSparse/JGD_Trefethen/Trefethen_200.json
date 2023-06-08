@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/JGD_Trefethen/Trefethen_200/Trefethen_200.mtx",
+        "problem": {
+            "id": 2207,
+            "group": "JGD_Trefethen",
+            "name": "Trefethen_200",
+            "rows": 200,
+            "cols": 200,
+            "nonzeros": 2890,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "combinatorial problem",
+            "columns": 200,
+            "row_distribution": {
+                "min": 9,
+                "q1": 14.0,
+                "median": 15.0,
+                "q3": 15.0,
+                "max": 16,
+                "mean": 14.45,
+                "variance": 1.5475000000000003,
+                "skewness": -1.958502643526301,
+                "kurtosis": 7.472673367070202,
+                "hyperskewness": -26.3870475738215,
+                "hyperflatness": 103.60447355403454
+            },
+            "col_distribution": {
+                "min": 9,
+                "q1": 14.0,
+                "median": 15.0,
+                "q3": 15.0,
+                "max": 16,
+                "mean": 14.45,
+                "variance": 1.5475000000000003,
+                "skewness": -1.958502643526301,
+                "kurtosis": 7.472673367070202,
+                "hyperskewness": -26.3870475738215,
+                "hyperflatness": 103.60447355403454
+            }
+        },
+        "size": 200,
+        "spmv": {
+            "csr": {
+                "storage": 35848,
+                "max_relative_norm2": 1.0061748375852964,
+                "time": 0.000014566400088369846,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 35848,
+                "max_relative_norm2": 1.0040305979000301,
+                "time": 0.000021299200505018236,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 2890,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

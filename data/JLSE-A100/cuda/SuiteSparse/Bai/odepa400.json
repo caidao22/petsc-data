@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Bai/odepa400/odepa400.mtx",
+        "problem": {
+            "id": 316,
+            "group": "Bai",
+            "name": "odepa400",
+            "rows": 400,
+            "cols": 400,
+            "nonzeros": 1201,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 0.99625468164794,
+            "nsym": 0.9937578027465668,
+            "kind": "2D/3D problem",
+            "columns": 400,
+            "row_distribution": {
+                "min": 2,
+                "q1": 3.0,
+                "median": 3.0,
+                "q3": 3.0,
+                "max": 5,
+                "mean": 3.0025,
+                "variance": 0.012493749999999986,
+                "skewness": 12.464268027751944,
+                "kurtosis": 271.15408554702645,
+                "hyperskewness": 4411.523177230312,
+                "hyperflatness": 82730.87147314713
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 3.0,
+                "median": 3.0,
+                "q3": 3.0,
+                "max": 4,
+                "mean": 3.0025,
+                "variance": 0.007493749999999986,
+                "skewness": 3.7671553297374074,
+                "kurtosis": 133.11565378710887,
+                "hyperskewness": 495.0177072645629,
+                "hyperflatness": 17734.8539115473
+            }
+        },
+        "size": 400,
+        "spmv": {
+            "csr": {
+                "storage": 16168,
+                "max_relative_norm2": 1.2331970932374874,
+                "time": 0.000006643200013786554,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 16168,
+                "max_relative_norm2": 0.8099012981146225,
+                "time": 0.000018112000077962876,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 1201,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

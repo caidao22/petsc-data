@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/HVDC/hvdc1/hvdc1.mtx",
+        "problem": {
+            "id": 1874,
+            "group": "HVDC",
+            "name": "hvdc1",
+            "rows": 24842,
+            "cols": 24842,
+            "nonzeros": 159981,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.9817003233707516,
+            "nsym": 0.0989927109993564,
+            "kind": "power network problem",
+            "columns": 24842,
+            "row_distribution": {
+                "min": 2,
+                "q1": 4.0,
+                "median": 6.0,
+                "q3": 8.0,
+                "max": 181,
+                "mean": 6.43994042347637,
+                "variance": 13.086099795178296,
+                "skewness": 13.020631756345956,
+                "kurtosis": 448.91609607672433,
+                "hyperskewness": 17886.647056101585,
+                "hyperflatness": 753895.0256162034
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 4.0,
+                "median": 6.0,
+                "q3": 8.0,
+                "max": 40,
+                "mean": 6.43994042347637,
+                "variance": 8.62003426100241,
+                "skewness": 2.3905612636319495,
+                "kurtosis": 13.852541843781603,
+                "hyperskewness": 88.15137841703915,
+                "hyperflatness": 677.2914948475326
+            }
+        },
+        "size": 24842,
+        "spmv": {
+            "csr": {
+                "storage": 2026056,
+                "max_relative_norm2": 0.9993869749962377,
+                "time": 0.000011008000187575817,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 2026056,
+                "max_relative_norm2": 1.0004596504816825,
+                "time": 0.000014131199941039085,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 159981,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/vanHeukelum/cage12/cage12.mtx",
+        "problem": {
+            "id": 913,
+            "group": "vanHeukelum",
+            "name": "cage12",
+            "rows": 130228,
+            "cols": 130228,
+            "nonzeros": 2032536,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0.1935123018985359,
+            "kind": "directed weighted graph",
+            "columns": 130228,
+            "row_distribution": {
+                "min": 5,
+                "q1": 12.0,
+                "median": 15.0,
+                "q3": 19.0,
+                "max": 33,
+                "mean": 15.607519120312068,
+                "variance": 22.176348537017887,
+                "skewness": 0.37149499124614466,
+                "kurtosis": 3.0010402763750466,
+                "hyperskewness": 3.322896779229279,
+                "hyperflatness": 15.225801956841668
+            },
+            "col_distribution": {
+                "min": 5,
+                "q1": 12.0,
+                "median": 15.0,
+                "q3": 19.0,
+                "max": 33,
+                "mean": 15.607519120312068,
+                "variance": 22.176348537017887,
+                "skewness": 0.37149499124614466,
+                "kurtosis": 3.0010402763750466,
+                "hyperskewness": 3.322896779229279,
+                "hyperflatness": 15.225801956841668
+            }
+        },
+        "size": 130228,
+        "spmv": {
+            "csr": {
+                "storage": 25021940,
+                "max_relative_norm2": 0.17882805291911577,
+                "time": 0.00000940799992531538,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 25021940,
+                "max_relative_norm2": 0.021543294997284246,
+                "time": 0.000018188799917697906,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 2032536,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

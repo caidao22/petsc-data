@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/VDOL/dynamicSoaringProblem_3/dynamicSoaringProblem_3.mtx",
+        "problem": {
+            "id": 2667,
+            "group": "VDOL",
+            "name": "dynamicSoaringProblem_3",
+            "rows": 2871,
+            "cols": 2871,
+            "nonzeros": 32022,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "optimal control problem",
+            "columns": 2871,
+            "row_distribution": {
+                "min": 2,
+                "q1": 5.0,
+                "median": 12.0,
+                "q3": 14.0,
+                "max": 1076,
+                "mean": 11.153605015673982,
+                "variance": 593.4326925071706,
+                "skewness": 37.52294189069833,
+                "kurtosis": 1515.7855496728591,
+                "hyperskewness": 62650.311418827965,
+                "hyperflatness": 2634191.5197131103
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 5.0,
+                "median": 12.0,
+                "q3": 14.0,
+                "max": 1076,
+                "mean": 11.153605015673982,
+                "variance": 593.4326925071706,
+                "skewness": 37.52294189069833,
+                "kurtosis": 1515.7855496728591,
+                "hyperskewness": 62650.311418827965,
+                "hyperflatness": 2634191.5197131103
+            }
+        },
+        "size": 2871,
+        "spmv": {
+            "csr": {
+                "storage": 399756,
+                "max_relative_norm2": 0.46127209252016754,
+                "time": 0.000005446400027722121,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 399756,
+                "max_relative_norm2": 0.38509272842953746,
+                "time": 0.000015545600093901157,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 32022,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

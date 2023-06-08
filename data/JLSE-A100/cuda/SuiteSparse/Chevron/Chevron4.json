@@ -1,0 +1,22 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Chevron/Chevron4/Chevron4.mtx",
+        "problem": {
+            "id": 2558,
+            "group": "Chevron",
+            "name": "Chevron4",
+            "rows": 711450,
+            "cols": 711450,
+            "nonzeros": 6376412,
+            "real": false,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.9986570077610406,
+            "nsym": 0.5561276492234193,
+            "kind": "other problem"
+        },
+        "spmv": {},
+        "error": "/gpfs/jlse-fs0/users/hongzhang/Projects/ginkgo/core/base/mtx_io.cpp:236: read_entry_impl: trying to read a complex matrix into a real storage type"
+    }
+]

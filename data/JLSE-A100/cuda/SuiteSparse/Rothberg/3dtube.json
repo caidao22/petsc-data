@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Rothberg/3dtube/3dtube.mtx",
+        "problem": {
+            "id": 803,
+            "group": "Rothberg",
+            "name": "3dtube",
+            "rows": 45330,
+            "cols": 45330,
+            "nonzeros": 3213618,
+            "real": true,
+            "binary": true,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "computational fluid dynamics problem",
+            "columns": 45330,
+            "row_distribution": {
+                "min": 10,
+                "q1": 54.0,
+                "median": 81.0,
+                "q3": 81.0,
+                "max": 2364,
+                "mean": 70.89384513567174,
+                "variance": 1578.5547580584405,
+                "skewness": 50.5879258947937,
+                "kurtosis": 2916.6832484323804,
+                "hyperskewness": 168038.85412544073,
+                "hyperflatness": 9681361.627122506
+            },
+            "col_distribution": {
+                "min": 10,
+                "q1": 54.0,
+                "median": 81.0,
+                "q3": 81.0,
+                "max": 2364,
+                "mean": 70.89384513567174,
+                "variance": 1578.5547580584405,
+                "skewness": 50.5879258947937,
+                "kurtosis": 2916.6832484323804,
+                "hyperskewness": 168038.85412544073,
+                "hyperflatness": 9681361.627122506
+            }
+        },
+        "size": 45330,
+        "spmv": {
+            "csr": {
+                "storage": 38855332,
+                "max_relative_norm2": 0.12421239370176924,
+                "time": 0.000013132799975574017,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 38855332,
+                "max_relative_norm2": 0.22290049908518808,
+                "time": 0.000017977600172162054,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 3213618,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/FEMLAB/problem1/problem1.mtx",
+        "problem": {
+            "id": 929,
+            "group": "FEMLAB",
+            "name": "problem1",
+            "rows": 415,
+            "cols": 415,
+            "nonzeros": 2779,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0.6548223350253807,
+            "kind": "2D/3D problem",
+            "columns": 415,
+            "row_distribution": {
+                "min": 4,
+                "q1": 6.0,
+                "median": 7.0,
+                "q3": 7.0,
+                "max": 9,
+                "mean": 6.696385542168675,
+                "variance": 1.0403483814777192,
+                "skewness": -0.11611504327738932,
+                "kurtosis": 2.5860896672387623,
+                "hyperskewness": -0.7063290216621941,
+                "hyperflatness": 9.866263587267698
+            },
+            "col_distribution": {
+                "min": 4,
+                "q1": 6.0,
+                "median": 7.0,
+                "q3": 7.0,
+                "max": 9,
+                "mean": 6.696385542168675,
+                "variance": 1.0403483814777192,
+                "skewness": -0.11611504327738932,
+                "kurtosis": 2.5860896672387623,
+                "hyperskewness": -0.7063290216621941,
+                "hyperflatness": 9.866263587267698
+            }
+        },
+        "size": 415,
+        "spmv": {
+            "csr": {
+                "storage": 35360,
+                "max_relative_norm2": 0.8057586586563152,
+                "time": 0.000013817599974572657,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 35360,
+                "max_relative_norm2": 0.7893520146825256,
+                "time": 0.000024767999723553654,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 2779,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

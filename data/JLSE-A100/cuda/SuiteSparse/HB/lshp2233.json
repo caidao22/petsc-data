@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/HB/lshp2233/lshp2233.mtx",
+        "problem": {
+            "id": 198,
+            "group": "HB",
+            "name": "lshp2233",
+            "rows": 2233,
+            "cols": 2233,
+            "nonzeros": 15337,
+            "real": true,
+            "binary": true,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "thermal problem",
+            "columns": 2233,
+            "row_distribution": {
+                "min": 4,
+                "q1": 7.0,
+                "median": 7.0,
+                "q3": 7.0,
+                "max": 7,
+                "mean": 6.868338557993731,
+                "variance": 0.2504664290416746,
+                "skewness": -3.608319702020565,
+                "kurtosis": 14.357481172020211,
+                "hyperskewness": -58.36844057778554,
+                "hyperflatness": 245.50363823725567
+            },
+            "col_distribution": {
+                "min": 4,
+                "q1": 7.0,
+                "median": 7.0,
+                "q3": 7.0,
+                "max": 7,
+                "mean": 6.868338557993731,
+                "variance": 0.2504664290416746,
+                "skewness": -3.608319702020565,
+                "kurtosis": 14.357481172020211,
+                "hyperskewness": -58.36844057778554,
+                "hyperflatness": 245.50363823725567
+            }
+        },
+        "size": 2233,
+        "spmv": {
+            "csr": {
+                "storage": 194900,
+                "max_relative_norm2": 1.0031333812743475,
+                "time": 0.000012787200137972833,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 194900,
+                "max_relative_norm2": 6.551655204378298,
+                "time": 0.00001682560034096241,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 15337,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

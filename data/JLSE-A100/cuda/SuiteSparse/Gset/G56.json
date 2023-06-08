@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Gset/G56/G56.mtx",
+        "problem": {
+            "id": 520,
+            "group": "Gset",
+            "name": "G56",
+            "rows": 5000,
+            "cols": 5000,
+            "nonzeros": 24996,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected weighted random graph",
+            "columns": 5000,
+            "row_distribution": {
+                "min": 0,
+                "q1": 3.0,
+                "median": 5.0,
+                "q3": 6.0,
+                "max": 15,
+                "mean": 4.9992,
+                "variance": 5.105599360000093,
+                "skewness": 0.4768780611271136,
+                "kurtosis": 3.229597472650774,
+                "hyperskewness": 4.854072988443772,
+                "hyperflatness": 20.38002697701413
+            },
+            "col_distribution": {
+                "min": 0,
+                "q1": 3.0,
+                "median": 5.0,
+                "q3": 6.0,
+                "max": 15,
+                "mean": 4.9992,
+                "variance": 5.105599360000093,
+                "skewness": 0.4768780611271136,
+                "kurtosis": 3.229597472650774,
+                "hyperskewness": 4.854072988443772,
+                "hyperflatness": 20.38002697701413
+            }
+        },
+        "size": 5000,
+        "spmv": {
+            "csr": {
+                "storage": 323084,
+                "max_relative_norm2": 1.00000547452428,
+                "time": 0.000014163200184702873,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 323084,
+                "max_relative_norm2": 0.9999800695990132,
+                "time": 0.000019014400243759157,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 24996,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

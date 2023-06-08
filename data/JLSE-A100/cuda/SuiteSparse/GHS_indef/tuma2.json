@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/GHS_indef/tuma2/tuma2.mtx",
+        "problem": {
+            "id": 1250,
+            "group": "GHS_indef",
+            "name": "tuma2",
+            "rows": 12992,
+            "cols": 12992,
+            "nonzeros": 49365,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "2D/3D problem",
+            "columns": 12992,
+            "row_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 4.0,
+                "q3": 5.0,
+                "max": 5,
+                "mean": 3.799645935960591,
+                "variance": 1.848789899268414,
+                "skewness": -0.6676593383189736,
+                "kurtosis": 1.8453822243629188,
+                "hyperskewness": -2.3938470584487233,
+                "hyperflatness": 4.857454126130902
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 4.0,
+                "q3": 5.0,
+                "max": 5,
+                "mean": 3.799645935960591,
+                "variance": 1.848789899268414,
+                "skewness": -0.6676593383189736,
+                "kurtosis": 1.8453822243629188,
+                "hyperskewness": -2.3938470584487233,
+                "hyperflatness": 4.857454126130902
+            }
+        },
+        "size": 12992,
+        "spmv": {
+            "csr": {
+                "storage": 650524,
+                "max_relative_norm2": 0.999998793015296,
+                "time": 0.000010572800040245056,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 650524,
+                "max_relative_norm2": 0.9808634498767383,
+                "time": 0.00002186240032315254,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 49365,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

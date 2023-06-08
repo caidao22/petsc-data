@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/VDOL/tumorAntiAngiogenesis_4/tumorAntiAngiogenesis_4.mtx",
+        "problem": {
+            "id": 2751,
+            "group": "VDOL",
+            "name": "tumorAntiAngiogenesis_4",
+            "rows": 455,
+            "cols": 455,
+            "nonzeros": 4593,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "optimal control problem",
+            "columns": 455,
+            "row_distribution": {
+                "min": 2,
+                "q1": 7.0,
+                "median": 8.0,
+                "q3": 11.0,
+                "max": 451,
+                "mean": 10.094505494505494,
+                "variance": 454.1339258543654,
+                "skewness": 19.58798392583987,
+                "kurtosis": 403.200989286794,
+                "hyperskewness": 8333.978301500165,
+                "hyperflatness": 172396.19526195567
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 7.0,
+                "median": 8.0,
+                "q3": 11.0,
+                "max": 451,
+                "mean": 10.094505494505494,
+                "variance": 454.1339258543654,
+                "skewness": 19.58798392583987,
+                "kurtosis": 403.200989286794,
+                "hyperskewness": 8333.978301500165,
+                "hyperflatness": 172396.19526195567
+            }
+        },
+        "size": 455,
+        "spmv": {
+            "csr": {
+                "storage": 57516,
+                "max_relative_norm2": 1.8227056344457864,
+                "time": 0.000006707200035452843,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 57516,
+                "max_relative_norm2": 0.41569530230744417,
+                "time": 0.000008575999923050403,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 4593,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

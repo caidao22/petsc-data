@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Janna/StocF-1465/StocF-1465.mtx",
+        "problem": {
+            "id": 2547,
+            "group": "Janna",
+            "name": "StocF-1465",
+            "rows": 1465137,
+            "cols": 1465137,
+            "nonzeros": 21005389,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "computational fluid dynamics problem",
+            "columns": 1465137,
+            "row_distribution": {
+                "min": 1,
+                "q1": 14.0,
+                "median": 15.0,
+                "q3": 15.0,
+                "max": 189,
+                "mean": 14.336808776244132,
+                "variance": 6.62432908072756,
+                "skewness": 1.2727800435568544,
+                "kurtosis": 207.3276220854056,
+                "hyperskewness": 10802.63771981054,
+                "hyperflatness": 656261.6801586933
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 14.0,
+                "median": 15.0,
+                "q3": 15.0,
+                "max": 189,
+                "mean": 14.336808776244132,
+                "variance": 6.62432908072756,
+                "skewness": 1.2727800435568544,
+                "kurtosis": 207.3276220854056,
+                "hyperskewness": 10802.63771981054,
+                "hyperflatness": 656261.6801586933
+            }
+        },
+        "size": 1465137,
+        "spmv": {
+            "csr": {
+                "storage": 258367588,
+                "max_relative_norm2": 0.02324443157366035,
+                "time": 0.00001073279995471239,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 258367588,
+                "max_relative_norm2": 0.22548641803894212,
+                "time": 0.00002037759982049465,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 21005389,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

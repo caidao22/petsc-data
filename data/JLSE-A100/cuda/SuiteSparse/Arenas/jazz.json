@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Arenas/jazz/jazz.mtx",
+        "problem": {
+            "id": 2406,
+            "group": "Arenas",
+            "name": "jazz",
+            "rows": 198,
+            "cols": 198,
+            "nonzeros": 5484,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected multigraph",
+            "columns": 198,
+            "row_distribution": {
+                "min": 1,
+                "q1": 16.0,
+                "median": 25.0,
+                "q3": 39.0,
+                "max": 100,
+                "mean": 27.696969696969695,
+                "variance": 303.12029384756676,
+                "skewness": 0.8910013728078677,
+                "kurtosis": 4.537363618093125,
+                "hyperskewness": 12.73334869291756,
+                "hyperflatness": 51.072670420910605
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 16.0,
+                "median": 25.0,
+                "q3": 39.0,
+                "max": 100,
+                "mean": 27.696969696969695,
+                "variance": 303.12029384756676,
+                "skewness": 0.8910013728078677,
+                "kurtosis": 4.537363618093125,
+                "hyperskewness": 12.73334869291756,
+                "hyperflatness": 51.072670420910605
+            }
+        },
+        "size": 198,
+        "spmv": {
+            "csr": {
+                "storage": 67292,
+                "max_relative_norm2": 0.4437243197870542,
+                "time": 0.000013107199780642987,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 67292,
+                "max_relative_norm2": 1.8096933887826312,
+                "time": 0.00001685120016336441,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 5484,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

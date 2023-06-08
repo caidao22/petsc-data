@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/GHS_psdef/ldoor/ldoor.mtx",
+        "problem": {
+            "id": 1268,
+            "group": "GHS_psdef",
+            "name": "ldoor",
+            "rows": 952203,
+            "cols": 952203,
+            "nonzeros": 46522475,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "structural problem",
+            "columns": 952203,
+            "row_distribution": {
+                "min": 28,
+                "q1": 35.0,
+                "median": 49.0,
+                "q3": 63.0,
+                "max": 77,
+                "mean": 48.857727816442505,
+                "variance": 142.72057124767554,
+                "skewness": 0.020269375216238793,
+                "kurtosis": 1.33254735378252,
+                "hyperskewness": 0.0712371357767475,
+                "hyperflatness": 1.89055046185972
+            },
+            "col_distribution": {
+                "min": 28,
+                "q1": 35.0,
+                "median": 49.0,
+                "q3": 63.0,
+                "max": 77,
+                "mean": 48.857727816442505,
+                "variance": 142.72057124767554,
+                "skewness": 0.020269375216238793,
+                "kurtosis": 1.33254735378252,
+                "hyperskewness": 0.0712371357767475,
+                "hyperflatness": 1.89055046185972
+            }
+        },
+        "size": 952203,
+        "spmv": {
+            "csr": {
+                "storage": 562520884,
+                "max_relative_norm2": 0.7929846112880876,
+                "time": 0.000011116799898445607,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 562520884,
+                "max_relative_norm2": 69.14147526164345,
+                "time": 0.000019840000197291375,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 46522475,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

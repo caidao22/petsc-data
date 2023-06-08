@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Rajat/rajat07/rajat07.mtx",
+        "problem": {
+            "id": 1191,
+            "group": "Rajat",
+            "name": "rajat07",
+            "rows": 14842,
+            "cols": 14842,
+            "nonzeros": 63913,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "circuit simulation problem",
+            "columns": 14842,
+            "row_distribution": {
+                "min": 1,
+                "q1": 3.0,
+                "median": 5.0,
+                "q3": 5.0,
+                "max": 72,
+                "mean": 4.306225576067916,
+                "variance": 1.2465439130015243,
+                "skewness": 14.51282634957697,
+                "kurtosis": 911.6077836567912,
+                "hyperskewness": 55203.72661971464,
+                "hyperflatness": 3347169.764034552
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 3.0,
+                "median": 5.0,
+                "q3": 5.0,
+                "max": 72,
+                "mean": 4.306225576067916,
+                "variance": 1.2465439130015243,
+                "skewness": 14.51282634957697,
+                "kurtosis": 911.6077836567912,
+                "hyperskewness": 55203.72661971464,
+                "hyperflatness": 3347169.764034552
+            }
+        },
+        "size": 14842,
+        "spmv": {
+            "csr": {
+                "storage": 833240,
+                "max_relative_norm2": 1.0000189165522075,
+                "time": 0.000008390399999916554,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 833240,
+                "max_relative_norm2": 0.9999931841648997,
+                "time": 0.000015711999684572216,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 63913,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

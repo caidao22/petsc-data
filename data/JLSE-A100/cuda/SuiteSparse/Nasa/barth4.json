@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Nasa/barth4/barth4.mtx",
+        "problem": {
+            "id": 755,
+            "group": "Nasa",
+            "name": "barth4",
+            "rows": 6019,
+            "cols": 6019,
+            "nonzeros": 23492,
+            "real": true,
+            "binary": true,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 0,
+            "nsym": 0,
+            "kind": "duplicate structural problem",
+            "columns": 6019,
+            "row_distribution": {
+                "min": 2,
+                "q1": 4.0,
+                "median": 4.0,
+                "q3": 4.0,
+                "max": 10,
+                "mean": 3.902973915932879,
+                "variance": 0.46043142829457406,
+                "skewness": 0.17557822681628782,
+                "kurtosis": 4.986691704060336,
+                "hyperskewness": 13.174750239893989,
+                "hyperflatness": 124.57986550397212
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 4.0,
+                "median": 4.0,
+                "q3": 4.0,
+                "max": 10,
+                "mean": 3.902973915932879,
+                "variance": 0.6767464307866472,
+                "skewness": -0.21273073707039708,
+                "kurtosis": 4.4223529712087055,
+                "hyperskewness": 4.513106876192024,
+                "hyperflatness": 60.05164398949231
+            }
+        },
+        "size": 6019,
+        "spmv": {
+            "csr": {
+                "storage": 308924,
+                "max_relative_norm2": 0.04000029115136713,
+                "time": 0.000005715200025588273,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 308924,
+                "max_relative_norm2": 4.754407024453942,
+                "time": 0.000013670399971306326,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 23492,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

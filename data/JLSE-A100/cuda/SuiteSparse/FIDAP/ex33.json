@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/FIDAP/ex33/ex33.mtx",
+        "problem": {
+            "id": 430,
+            "group": "FIDAP",
+            "name": "ex33",
+            "rows": 1733,
+            "cols": 1733,
+            "nonzeros": 22189,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "computational fluid dynamics problem",
+            "columns": 1733,
+            "row_distribution": {
+                "min": 4,
+                "q1": 9.0,
+                "median": 12.0,
+                "q3": 17.0,
+                "max": 18,
+                "mean": 12.803808424697056,
+                "variance": 17.85995087385819,
+                "skewness": -0.08918548964769098,
+                "kurtosis": 1.498208218054891,
+                "hyperskewness": -0.5788646709601759,
+                "hyperflatness": 2.8977708290455237
+            },
+            "col_distribution": {
+                "min": 4,
+                "q1": 9.0,
+                "median": 12.0,
+                "q3": 17.0,
+                "max": 18,
+                "mean": 12.803808424697056,
+                "variance": 17.85995087385819,
+                "skewness": -0.08918548964769098,
+                "kurtosis": 1.498208218054891,
+                "hyperskewness": -0.5788646709601759,
+                "hyperflatness": 2.8977708290455237
+            }
+        },
+        "size": 1733,
+        "spmv": {
+            "csr": {
+                "storage": 275980,
+                "max_relative_norm2": 1.0000103699725347,
+                "time": 0.000007385600078850985,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 275980,
+                "max_relative_norm2": 1.8808681712455266,
+                "time": 0.00001296639982610941,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 22189,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

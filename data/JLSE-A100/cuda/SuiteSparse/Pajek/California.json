@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Pajek/California/California.mtx",
+        "problem": {
+            "id": 1456,
+            "group": "Pajek",
+            "name": "California",
+            "rows": 9664,
+            "cols": 9664,
+            "nonzeros": 16150,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.02241486068111455,
+            "nsym": 0.02241486068111455,
+            "kind": "directed graph",
+            "columns": 9664,
+            "row_distribution": {
+                "min": 0,
+                "q1": 0.0,
+                "median": 1.0,
+                "q3": 2.0,
+                "max": 164,
+                "mean": 1.6711506622516556,
+                "variance": 13.656758775313971,
+                "skewness": 12.23893589884808,
+                "kurtosis": 410.3528656773884,
+                "hyperskewness": 17139.84834170297,
+                "hyperflatness": 745426.7382684844
+            },
+            "col_distribution": {
+                "min": 0,
+                "q1": 0.0,
+                "median": 0.0,
+                "q3": 0.0,
+                "max": 199,
+                "mean": 1.6711506622516556,
+                "variance": 55.60315778193664,
+                "skewness": 10.026946520498424,
+                "kurtosis": 158.3545585188924,
+                "hyperskewness": 3101.760013733991,
+                "hyperflatness": 67699.21083706037
+            }
+        },
+        "size": 9664,
+        "spmv": {
+            "csr": {
+                "storage": 234480,
+                "max_relative_norm2": 2.1889425354478314,
+                "time": 0.00001843840032815933,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 234480,
+                "max_relative_norm2": 0.02738069883886664,
+                "time": 0.000018188799545168875,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 16150,
+        "optimal": {
+            "spmv": "csri"
+        }
+    }
+]

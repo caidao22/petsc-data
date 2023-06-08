@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Bai/mhd3200a/mhd3200a.mtx",
+        "problem": {
+            "id": 1622,
+            "group": "Bai",
+            "name": "mhd3200a",
+            "rows": 3200,
+            "cols": 3200,
+            "nonzeros": 68026,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 0.7676029990571827,
+            "nsym": 0.2674009667619461,
+            "kind": "electromagnetics problem",
+            "columns": 3200,
+            "row_distribution": {
+                "min": 1,
+                "q1": 16.0,
+                "median": 22.0,
+                "q3": 23.0,
+                "max": 33,
+                "mean": 21.258125,
+                "variance": 33.946496484375395,
+                "skewness": -0.17747915940772244,
+                "kurtosis": 2.765918243230448,
+                "hyperskewness": -1.0347235050189838,
+                "hyperflatness": 12.002415474947338
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 10.0,
+                "median": 16.0,
+                "q3": 33.0,
+                "max": 38,
+                "mean": 21.258125,
+                "variance": 132.21899648437275,
+                "skewness": 0.38990661961083767,
+                "kurtosis": 1.6496404666210784,
+                "hyperskewness": 1.1127396181582312,
+                "hyperflatness": 3.0688421656042015
+            }
+        },
+        "size": 3200,
+        "spmv": {
+            "csr": {
+                "storage": 836028,
+                "max_relative_norm2": 2.063188590481668,
+                "time": 0.000009888000041246414,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 836028,
+                "max_relative_norm2": 0.17527827925133715,
+                "time": 0.000014035200141370294,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 68026,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

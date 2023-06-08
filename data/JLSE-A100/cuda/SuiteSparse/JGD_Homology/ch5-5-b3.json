@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/JGD_Homology/ch5-5-b3/ch5-5-b3.mtx",
+        "problem": {
+            "id": 2015,
+            "group": "JGD_Homology",
+            "name": "ch5-5-b3",
+            "rows": 600,
+            "cols": 600,
+            "nonzeros": 2400,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.02168473728106756,
+            "nsym": 0.01417848206839033,
+            "kind": "combinatorial problem",
+            "columns": 600,
+            "row_distribution": {
+                "min": 4,
+                "q1": 4.0,
+                "median": 4.0,
+                "q3": 4.0,
+                "max": 4,
+                "mean": 4.0,
+                "variance": 0.0,
+                "skewness": 0.0,
+                "kurtosis": 0.0,
+                "hyperskewness": 0.0,
+                "hyperflatness": 0.0
+            },
+            "col_distribution": {
+                "min": 4,
+                "q1": 4.0,
+                "median": 4.0,
+                "q3": 4.0,
+                "max": 4,
+                "mean": 4.0,
+                "variance": 0.0,
+                "skewness": 0.0,
+                "kurtosis": 0.0,
+                "hyperskewness": 0.0,
+                "hyperflatness": 0.0
+            }
+        },
+        "size": 600,
+        "spmv": {
+            "csr": {
+                "storage": 31504,
+                "max_relative_norm2": 1.000000055997346,
+                "time": 0.00000976639986038208,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 31504,
+                "max_relative_norm2": 0.4660285346225838,
+                "time": 0.000017337599769234657,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 2400,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Bourchtein/atmosmodl/atmosmodl.mtx",
+        "problem": {
+            "id": 2267,
+            "group": "Bourchtein",
+            "name": "atmosmodl",
+            "rows": 1489752,
+            "cols": 1489752,
+            "nonzeros": 10319760,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0.6714503542918647,
+            "kind": "computational fluid dynamics problem",
+            "columns": 1489752,
+            "row_distribution": {
+                "min": 4,
+                "q1": 7.0,
+                "median": 7.0,
+                "q3": 7.0,
+                "max": 7,
+                "mean": 6.927166400850611,
+                "variance": 0.0698594552324609,
+                "skewness": -3.477312792132219,
+                "kurtosis": 14.012070696937489,
+                "hyperskewness": -62.03235616919006,
+                "hyperflatness": 313.97795953462884
+            },
+            "col_distribution": {
+                "min": 4,
+                "q1": 7.0,
+                "median": 7.0,
+                "q3": 7.0,
+                "max": 7,
+                "mean": 6.927166400850611,
+                "variance": 0.0698594552324609,
+                "skewness": -3.477312792132219,
+                "kurtosis": 14.012070696937489,
+                "hyperskewness": -62.03235616919006,
+                "hyperflatness": 313.97795953462884
+            }
+        },
+        "size": 1489752,
+        "spmv": {
+            "csr": {
+                "storage": 129906724,
+                "max_relative_norm2": 1.2297335235674771,
+                "time": 0.000006419199984520675,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 129906724,
+                "max_relative_norm2": 24.408426330720697,
+                "time": 0.000014444799721240997,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 10319760,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

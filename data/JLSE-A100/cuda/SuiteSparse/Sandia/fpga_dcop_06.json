@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Sandia/fpga_dcop_06/fpga_dcop_06.mtx",
+        "problem": {
+            "id": 1060,
+            "group": "Sandia",
+            "name": "fpga_dcop_06",
+            "rows": 1220,
+            "cols": 1220,
+            "nonzeros": 5860,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.8204911092294666,
+            "nsym": 0.3539373412362405,
+            "kind": "subsequent circuit simulation problem",
+            "columns": 1220,
+            "row_distribution": {
+                "min": 1,
+                "q1": 4.0,
+                "median": 5.0,
+                "q3": 5.0,
+                "max": 36,
+                "mean": 4.80327868852459,
+                "variance": 16.15146466003764,
+                "skewness": 6.352643297022834,
+                "kurtosis": 48.47456770403708,
+                "hyperskewness": 371.7874127915254,
+                "hyperflatness": 2875.5013410736597
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 3.0,
+                "median": 4.0,
+                "q3": 4.0,
+                "max": 36,
+                "mean": 4.80327868852459,
+                "variance": 20.443267938726077,
+                "skewness": 4.898988729858303,
+                "kurtosis": 31.935400376510497,
+                "hyperskewness": 214.87720466511897,
+                "hyperflatness": 1468.07407057751
+            }
+        },
+        "size": 1220,
+        "spmv": {
+            "csr": {
+                "storage": 75940,
+                "max_relative_norm2": 0.8116193972455589,
+                "time": 0.000009190400131046774,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 75940,
+                "max_relative_norm2": 4.707083176610954,
+                "time": 0.0000201919998973608,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 5860,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

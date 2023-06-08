@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/HB/west0156/west0156.mtx",
+        "problem": {
+            "id": 264,
+            "group": "HB",
+            "name": "west0156",
+            "rows": 156,
+            "cols": 156,
+            "nonzeros": 371,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0,
+            "nsym": 0,
+            "kind": "chemical process simulation problem",
+            "columns": 156,
+            "row_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 2.0,
+                "q3": 3.0,
+                "max": 7,
+                "mean": 2.378205128205128,
+                "variance": 1.324909598948059,
+                "skewness": 2.1271147244546205,
+                "kurtosis": 8.380283127406448,
+                "hyperskewness": 28.973377384783383,
+                "hyperflatness": 108.67853826678964
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 2.0,
+                "q3": 3.0,
+                "max": 6,
+                "mean": 2.378205128205128,
+                "variance": 0.8761916502301101,
+                "skewness": 1.1526420614846462,
+                "kurtosis": 4.670863079345575,
+                "hyperskewness": 11.55234706261679,
+                "hyperflatness": 40.19606551939183
+            }
+        },
+        "size": 156,
+        "spmv": {
+            "csr": {
+                "storage": 5128,
+                "max_relative_norm2": 1.0000084487587866,
+                "time": 0.000015763200074434282,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 5128,
+                "max_relative_norm2": 0.9980883481512288,
+                "time": 0.000015264000184834002,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 371,
+        "optimal": {
+            "spmv": "csri"
+        }
+    }
+]

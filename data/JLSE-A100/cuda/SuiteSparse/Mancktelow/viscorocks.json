@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Mancktelow/viscorocks/viscorocks.mtx",
+        "problem": {
+            "id": 1879,
+            "group": "Mancktelow",
+            "name": "viscorocks",
+            "rows": 37762,
+            "cols": 37762,
+            "nonzeros": 1162244,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0.279507135368047,
+            "kind": "materials problem",
+            "columns": 37762,
+            "row_distribution": {
+                "min": 16,
+                "q1": 26.0,
+                "median": 26.0,
+                "q3": 42.0,
+                "max": 42,
+                "mean": 30.778136751231397,
+                "variance": 59.84384380333539,
+                "skewness": 0.6342755925331192,
+                "kurtosis": 1.803887871733108,
+                "hyperskewness": 1.3457846159293625,
+                "hyperflatness": 4.122444645529373
+            },
+            "col_distribution": {
+                "min": 16,
+                "q1": 26.0,
+                "median": 26.0,
+                "q3": 42.0,
+                "max": 42,
+                "mean": 30.778136751231397,
+                "variance": 59.84384380333539,
+                "skewness": 0.6342755925331192,
+                "kurtosis": 1.803887871733108,
+                "hyperskewness": 1.3457846159293625,
+                "hyperflatness": 4.122444645529373
+            }
+        },
+        "size": 37762,
+        "spmv": {
+            "csr": {
+                "storage": 14125628,
+                "max_relative_norm2": 0.5005707616148004,
+                "time": 0.000005907199904322624,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 14125628,
+                "max_relative_norm2": 1.243844929393808,
+                "time": 0.000014560000225901605,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 1162244,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

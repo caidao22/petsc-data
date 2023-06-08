@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Nasa/skirt/skirt.mtx",
+        "problem": {
+            "id": 764,
+            "group": "Nasa",
+            "name": "skirt",
+            "rows": 12598,
+            "cols": 12598,
+            "nonzeros": 196520,
+            "real": true,
+            "binary": true,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "duplicate structural problem",
+            "columns": 12598,
+            "row_distribution": {
+                "min": 1,
+                "q1": 10.0,
+                "median": 18.0,
+                "q3": 18.0,
+                "max": 33,
+                "mean": 15.599301476424827,
+                "variance": 39.81134099483661,
+                "skewness": 0.265604821598354,
+                "kurtosis": 2.2735177761449172,
+                "hyperskewness": 1.594613833518945,
+                "hyperflatness": 6.739684769927317
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 10.0,
+                "median": 18.0,
+                "q3": 18.0,
+                "max": 33,
+                "mean": 15.599301476424827,
+                "variance": 39.81134099483661,
+                "skewness": 0.265604821598354,
+                "kurtosis": 2.2735177761449172,
+                "hyperskewness": 1.594613833518945,
+                "hyperflatness": 6.739684769927317
+            }
+        },
+        "size": 12598,
+        "spmv": {
+            "csr": {
+                "storage": 2415548,
+                "max_relative_norm2": 0.42056709929345926,
+                "time": 0.000009587199985980987,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 2415548,
+                "max_relative_norm2": 0.9996491183620295,
+                "time": 0.000020665600150823592,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 196520,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

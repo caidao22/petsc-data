@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/AG-Monien/biplane-9/biplane-9.mtx",
+        "problem": {
+            "id": 2433,
+            "group": "AG-Monien",
+            "name": "biplane-9",
+            "rows": 21701,
+            "cols": 21701,
+            "nonzeros": 84076,
+            "real": true,
+            "binary": true,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "2D/3D problem",
+            "columns": 21701,
+            "row_distribution": {
+                "min": 2,
+                "q1": 4.0,
+                "median": 4.0,
+                "q3": 4.0,
+                "max": 4,
+                "mean": 3.874291507303811,
+                "variance": 0.1198593259263223,
+                "skewness": -2.6118170625517387,
+                "kurtosis": 8.998245088908542,
+                "hyperskewness": -35.0279719538178,
+                "hyperflatness": 155.32563650094943
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 4.0,
+                "median": 4.0,
+                "q3": 4.0,
+                "max": 4,
+                "mean": 3.874291507303811,
+                "variance": 0.1198593259263223,
+                "skewness": -2.6118170625517387,
+                "kurtosis": 8.998245088908542,
+                "hyperskewness": -35.0279719538178,
+                "hyperflatness": 155.32563650094943
+            }
+        },
+        "size": 21701,
+        "spmv": {
+            "csr": {
+                "storage": 1102632,
+                "max_relative_norm2": 0.021284989208238486,
+                "time": 0.000013139199838042257,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 1102632,
+                "max_relative_norm2": 0.811075633747847,
+                "time": 0.000018585599958896636,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 84076,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Hardesty/Hardesty1/Hardesty1.mtx",
+        "problem": {
+            "id": 2831,
+            "group": "Hardesty",
+            "name": "Hardesty1",
+            "rows": 938905,
+            "cols": 938905,
+            "nonzeros": 12143314,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "computer graphics/vision problem",
+            "columns": 938905,
+            "row_distribution": {
+                "min": 1,
+                "q1": 13.0,
+                "median": 13.0,
+                "q3": 13.0,
+                "max": 14,
+                "mean": 12.93348528338863,
+                "variance": 0.6361698887576659,
+                "skewness": -14.14437025915838,
+                "kurtosis": 209.19482346818953,
+                "hyperskewness": -3121.1090913746643,
+                "hyperflatness": 46664.55608743629
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 13.0,
+                "median": 13.0,
+                "q3": 13.0,
+                "max": 14,
+                "mean": 12.93348528338863,
+                "variance": 0.6361698887576659,
+                "skewness": -14.14437025915838,
+                "kurtosis": 209.19482346818953,
+                "hyperskewness": -3121.1090913746643,
+                "hyperflatness": 46664.55608743629
+            }
+        },
+        "size": 938905,
+        "spmv": {
+            "csr": {
+                "storage": 149585984,
+                "max_relative_norm2": 0.9972037456751871,
+                "time": 0.00001103999987244606,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 149585984,
+                "max_relative_norm2": 0.9950815452663861,
+                "time": 0.000013055999763309953,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 12143314,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

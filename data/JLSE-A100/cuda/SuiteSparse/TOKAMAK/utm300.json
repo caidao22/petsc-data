@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/TOKAMAK/utm300/utm300.mtx",
+        "problem": {
+            "id": 824,
+            "group": "TOKAMAK",
+            "name": "utm300",
+            "rows": 300,
+            "cols": 300,
+            "nonzeros": 3155,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 0.4651488616462347,
+            "nsym": 0,
+            "kind": "electromagnetics problem",
+            "columns": 300,
+            "row_distribution": {
+                "min": 1,
+                "q1": 4.0,
+                "median": 10.0,
+                "q3": 14.0,
+                "max": 33,
+                "mean": 10.516666666666667,
+                "variance": 58.78972222222225,
+                "skewness": 1.1088981191068008,
+                "kurtosis": 3.968817225994068,
+                "hyperskewness": 8.842232577159217,
+                "hyperflatness": 24.501767397867702
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 4.0,
+                "median": 9.0,
+                "q3": 17.0,
+                "max": 22,
+                "mean": 10.516666666666667,
+                "variance": 49.73638888888888,
+                "skewness": 0.23185966635495073,
+                "kurtosis": 1.540405684448617,
+                "hyperskewness": 0.7601208137966083,
+                "hyperflatness": 2.856951313545597
+            }
+        },
+        "size": 300,
+        "spmv": {
+            "csr": {
+                "storage": 39460,
+                "max_relative_norm2": 0.02104508955254034,
+                "time": 0.000009875199757516383,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 39460,
+                "max_relative_norm2": 47.45521611589206,
+                "time": 0.000014028799906373024,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 3155,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

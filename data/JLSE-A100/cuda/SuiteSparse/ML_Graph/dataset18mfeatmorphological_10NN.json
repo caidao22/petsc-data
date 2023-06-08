@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/ML_Graph/dataset18mfeatmorphological_10NN/dataset18mfeatmorphological_10NN.mtx",
+        "problem": {
+            "id": 2863,
+            "group": "ML_Graph",
+            "name": "dataset18mfeatmorphological_10NN",
+            "rows": 2000,
+            "cols": 2000,
+            "nonzeros": 22832,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected weighted graph",
+            "columns": 2000,
+            "row_distribution": {
+                "min": 10,
+                "q1": 10.0,
+                "median": 11.0,
+                "q3": 12.0,
+                "max": 18,
+                "mean": 11.416,
+                "variance": 2.3699440000000087,
+                "skewness": 1.0778084161999095,
+                "kurtosis": 3.7347765952712337,
+                "hyperskewness": 9.56334331629691,
+                "hyperflatness": 30.771555216407226
+            },
+            "col_distribution": {
+                "min": 10,
+                "q1": 10.0,
+                "median": 11.0,
+                "q3": 12.0,
+                "max": 18,
+                "mean": 11.416,
+                "variance": 2.3699440000000087,
+                "skewness": 1.0778084161999095,
+                "kurtosis": 3.7347765952712337,
+                "hyperskewness": 9.56334331629691,
+                "hyperflatness": 30.771555216407226
+            }
+        },
+        "size": 2000,
+        "spmv": {
+            "csr": {
+                "storage": 284844,
+                "max_relative_norm2": 0.17285061231373536,
+                "time": 0.000015238400176167491,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 284844,
+                "max_relative_norm2": 0.018697861406521864,
+                "time": 0.00001882879957556725,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 22832,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

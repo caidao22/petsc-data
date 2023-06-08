@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/HB/arc130/arc130.mtx",
+        "problem": {
+            "id": 6,
+            "group": "HB",
+            "name": "arc130",
+            "rows": 130,
+            "cols": 130,
+            "nonzeros": 1282,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 0.7586805555555556,
+            "nsym": 0,
+            "kind": "materials problem",
+            "columns": 130,
+            "row_distribution": {
+                "min": 1,
+                "q1": 5.0,
+                "median": 5.0,
+                "q3": 5.0,
+                "max": 124,
+                "mean": 9.861538461538462,
+                "variance": 219.27313609467456,
+                "skewness": 4.736230325117538,
+                "kurtosis": 30.901877033522226,
+                "hyperskewness": 220.97328148484135,
+                "hyperflatness": 1650.4254477231984
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 5.0,
+                "median": 5.0,
+                "q3": 6.0,
+                "max": 124,
+                "mean": 9.861538461538462,
+                "variance": 317.76544378698225,
+                "skewness": 4.823222371479601,
+                "kurtosis": 28.076009008295557,
+                "hyperskewness": 171.75881694073271,
+                "hyperflatness": 1077.6403527813438
+            }
+        },
+        "size": 130,
+        "spmv": {
+            "csr": {
+                "storage": 16072,
+                "max_relative_norm2": 0.462006679749134,
+                "time": 0.000005305599886924028,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 16072,
+                "max_relative_norm2": 0.17807883575157074,
+                "time": 0.000009676800109446049,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 1282,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

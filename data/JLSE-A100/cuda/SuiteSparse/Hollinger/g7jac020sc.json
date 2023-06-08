@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Hollinger/g7jac020sc/g7jac020sc.mtx",
+        "problem": {
+            "id": 548,
+            "group": "Hollinger",
+            "name": "g7jac020sc",
+            "rows": 5850,
+            "cols": 5850,
+            "nonzeros": 45465,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.06184526063359838,
+            "nsym": 0,
+            "kind": "economic problem",
+            "columns": 5850,
+            "row_distribution": {
+                "min": 2,
+                "q1": 3.0,
+                "median": 5.0,
+                "q3": 8.0,
+                "max": 60,
+                "mean": 7.771794871794872,
+                "variance": 72.00963182116968,
+                "skewness": 2.7884453857596503,
+                "kurtosis": 11.582367095342194,
+                "hyperskewness": 50.02343061053632,
+                "hyperflatness": 233.39117496876477
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 3.0,
+                "median": 4.0,
+                "q3": 9.0,
+                "max": 56,
+                "mean": 7.771794871794872,
+                "variance": 66.0674095989467,
+                "skewness": 1.9989860058404985,
+                "kurtosis": 6.608356126428991,
+                "hyperskewness": 22.51972373555187,
+                "hyperflatness": 86.51363500590202
+            }
+        },
+        "size": 5850,
+        "spmv": {
+            "csr": {
+                "storage": 574668,
+                "max_relative_norm2": 1.0000087252346939,
+                "time": 0.000004480000119656325,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 574668,
+                "max_relative_norm2": 0.4536727112295552,
+                "time": 0.000007289600092917681,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 45465,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

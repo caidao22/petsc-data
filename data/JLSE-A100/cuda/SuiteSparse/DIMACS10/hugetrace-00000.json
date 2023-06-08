@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/DIMACS10/hugetrace-00000/hugetrace-00000.mtx",
+        "problem": {
+            "id": 2483,
+            "group": "DIMACS10",
+            "name": "hugetrace-00000",
+            "rows": 4588484,
+            "cols": 4588484,
+            "nonzeros": 13758266,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected graph",
+            "columns": 4588484,
+            "row_distribution": {
+                "min": 2,
+                "q1": 3.0,
+                "median": 3.0,
+                "q3": 3.0,
+                "max": 3,
+                "mean": 2.998433905403179,
+                "variance": 0.0015636419448005626,
+                "skewness": -25.209771935228215,
+                "kurtosis": 636.5326010414442,
+                "hyperskewness": -16072.051469753616,
+                "hyperflatness": 405809.2846757498
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 3.0,
+                "median": 3.0,
+                "q3": 3.0,
+                "max": 3,
+                "mean": 2.998433905403179,
+                "variance": 0.0015636419448005626,
+                "skewness": -25.209771935228215,
+                "kurtosis": 636.5326010414442,
+                "hyperskewness": -16072.051469753616,
+                "hyperflatness": 405809.2846757498
+            }
+        },
+        "size": 4588484,
+        "spmv": {
+            "csr": {
+                "storage": 183563724,
+                "max_relative_norm2": 1.23916814383381,
+                "time": 0.000004844800010323525,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 183563724,
+                "max_relative_norm2": 5.662256042020247,
+                "time": 0.000011270400136709213,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 13758266,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

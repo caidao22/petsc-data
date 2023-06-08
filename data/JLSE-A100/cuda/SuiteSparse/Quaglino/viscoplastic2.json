@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Quaglino/viscoplastic2/viscoplastic2.mtx",
+        "problem": {
+            "id": 1869,
+            "group": "Quaglino",
+            "name": "viscoplastic2",
+            "rows": 32769,
+            "cols": 32769,
+            "nonzeros": 381326,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 0.5699899872904575,
+            "nsym": 0,
+            "kind": "materials problem",
+            "columns": 32769,
+            "row_distribution": {
+                "min": 5,
+                "q1": 5.0,
+                "median": 8.0,
+                "q3": 10.0,
+                "max": 73,
+                "mean": 11.636790869419269,
+                "variance": 194.80243782013503,
+                "skewness": 3.202859526247978,
+                "kurtosis": 13.166283001046164,
+                "hyperskewness": 55.69667844007663,
+                "hyperflatness": 241.14077235117264
+            },
+            "col_distribution": {
+                "min": 4,
+                "q1": 5.0,
+                "median": 9.0,
+                "q3": 9.0,
+                "max": 93,
+                "mean": 11.636790869419269,
+                "variance": 208.47926653018607,
+                "skewness": 3.39215548821907,
+                "kurtosis": 14.962174965804817,
+                "hyperskewness": 69.58285408761317,
+                "hyperflatness": 337.15226475923157
+            }
+        },
+        "size": 32769,
+        "spmv": {
+            "csr": {
+                "storage": 4734640,
+                "max_relative_norm2": 1.972064930984893,
+                "time": 0.000010348800010979175,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 4734640,
+                "max_relative_norm2": 0.9999982458822247,
+                "time": 0.000014111999981105327,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 381326,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

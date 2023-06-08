@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/IPSO/OPF_3754/OPF_3754.mtx",
+        "problem": {
+            "id": 2537,
+            "group": "IPSO",
+            "name": "OPF_3754",
+            "rows": 15435,
+            "cols": 15435,
+            "nonzeros": 158273,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "power network problem",
+            "columns": 15435,
+            "row_distribution": {
+                "min": 2,
+                "q1": 7.0,
+                "median": 9.0,
+                "q3": 12.0,
+                "max": 64,
+                "mean": 10.254162617427925,
+                "variance": 30.591248464643662,
+                "skewness": 1.9128824340262485,
+                "kurtosis": 9.409450262956682,
+                "hyperskewness": 47.820141144960374,
+                "hyperflatness": 298.3433416629843
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 7.0,
+                "median": 9.0,
+                "q3": 12.0,
+                "max": 64,
+                "mean": 10.254162617427925,
+                "variance": 30.591248464643662,
+                "skewness": 1.9128824340262485,
+                "kurtosis": 9.409450262956682,
+                "hyperskewness": 47.820141144960374,
+                "hyperflatness": 298.3433416629843
+            }
+        },
+        "size": 15435,
+        "spmv": {
+            "csr": {
+                "storage": 1967932,
+                "max_relative_norm2": 0.012817747899741194,
+                "time": 0.00000891520008444786,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 1967932,
+                "max_relative_norm2": 0.795432987497349,
+                "time": 0.000016704000160098075,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 158273,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

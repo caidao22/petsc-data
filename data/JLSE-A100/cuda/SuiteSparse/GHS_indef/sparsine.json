@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/GHS_indef/sparsine/sparsine.mtx",
+        "problem": {
+            "id": 1308,
+            "group": "GHS_indef",
+            "name": "sparsine",
+            "rows": 50000,
+            "cols": 50000,
+            "nonzeros": 1548988,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "structural problem",
+            "columns": 50000,
+            "row_distribution": {
+                "min": 6,
+                "q1": 21.0,
+                "median": 31.0,
+                "q3": 31.0,
+                "max": 56,
+                "mean": 30.97976,
+                "variance": 124.42347034239437,
+                "skewness": 1.0728551850294514,
+                "kurtosis": 3.0842289760758352,
+                "hyperskewness": 5.808864727173927,
+                "hyperflatness": 13.344884189746928
+            },
+            "col_distribution": {
+                "min": 6,
+                "q1": 21.0,
+                "median": 31.0,
+                "q3": 31.0,
+                "max": 56,
+                "mean": 30.97976,
+                "variance": 124.42347034239437,
+                "skewness": 1.0728551850294514,
+                "kurtosis": 3.0842289760758352,
+                "hyperskewness": 5.808864727173927,
+                "hyperflatness": 13.344884189746928
+            }
+        },
+        "size": 50000,
+        "spmv": {
+            "csr": {
+                "storage": 18815508,
+                "max_relative_norm2": 1.215593994965158,
+                "time": 0.000010758399963378907,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 18815508,
+                "max_relative_norm2": 1.0001838716455305,
+                "time": 0.000010508799925446508,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 1548988,
+        "optimal": {
+            "spmv": "csri"
+        }
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/VanVelzen/std1_Jac3/std1_Jac3.mtx",
+        "problem": {
+            "id": 1336,
+            "group": "VanVelzen",
+            "name": "std1_Jac3",
+            "rows": 21982,
+            "cols": 21982,
+            "nonzeros": 1455848,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.0000137377639453759,
+            "nsym": 0,
+            "kind": "chemical process simulation problem",
+            "columns": 21982,
+            "row_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 2.0,
+                "q3": 42.0,
+                "max": 1030,
+                "mean": 66.22909653352743,
+                "variance": 28661.21964652247,
+                "skewness": 3.1906739810949944,
+                "kurtosis": 12.487730708470004,
+                "hyperskewness": 50.51949743807193,
+                "hyperflatness": 213.5138115277896
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 3.0,
+                "median": 6.0,
+                "q3": 71.0,
+                "max": 1036,
+                "mean": 66.22909653352743,
+                "variance": 16835.57539213285,
+                "skewness": 3.529524691797959,
+                "kurtosis": 17.2373923575408,
+                "hyperskewness": 90.20105748941695,
+                "hyperflatness": 506.0974818147858
+            }
+        },
+        "size": 21982,
+        "spmv": {
+            "csr": {
+                "storage": 17585756,
+                "max_relative_norm2": 0.02260363982676918,
+                "time": 0.000013356799818575382,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 17585756,
+                "max_relative_norm2": 0.8048392648112034,
+                "time": 0.000021299200505018236,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 1455848,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

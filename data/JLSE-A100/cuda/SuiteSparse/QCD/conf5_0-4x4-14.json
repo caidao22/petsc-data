@@ -1,0 +1,22 @@
+[
+    {
+        "filename": "./ssget_archive/MM/QCD/conf5_0-4x4-14/conf5_0-4x4-14.mtx",
+        "problem": {
+            "id": 1592,
+            "group": "QCD",
+            "name": "conf5_0-4x4-14",
+            "rows": 3072,
+            "cols": 3072,
+            "nonzeros": 119808,
+            "real": false,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.9230769230769232,
+            "nsym": 0.4615384615384616,
+            "kind": "theoretical/quantum chemistry problem"
+        },
+        "spmv": {},
+        "error": "/gpfs/jlse-fs0/users/hongzhang/Projects/ginkgo/core/base/mtx_io.cpp:236: read_entry_impl: trying to read a complex matrix into a real storage type"
+    }
+]

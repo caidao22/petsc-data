@@ -1,0 +1,22 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Cote/mplate/mplate.mtx",
+        "problem": {
+            "id": 378,
+            "group": "Cote",
+            "name": "mplate",
+            "rows": 5962,
+            "cols": 5962,
+            "nonzeros": 142190,
+            "real": false,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0.05311683354376486,
+            "kind": "acoustics problem"
+        },
+        "spmv": {},
+        "error": "/gpfs/jlse-fs0/users/hongzhang/Projects/ginkgo/core/base/mtx_io.cpp:236: read_entry_impl: trying to read a complex matrix into a real storage type"
+    }
+]

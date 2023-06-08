@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Pajek/GD95_b/GD95_b.mtx",
+        "problem": {
+            "id": 1486,
+            "group": "Pajek",
+            "name": "GD95_b",
+            "rows": 73,
+            "cols": 73,
+            "nonzeros": 96,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0,
+            "nsym": 0,
+            "kind": "directed graph",
+            "columns": 73,
+            "row_distribution": {
+                "min": 0,
+                "q1": 0.0,
+                "median": 1.0,
+                "q3": 1.0,
+                "max": 20,
+                "mean": 1.3150684931506849,
+                "variance": 10.845937324075813,
+                "skewness": 4.737246603168574,
+                "kurtosis": 25.85762186418522,
+                "hyperskewness": 142.1969244009724,
+                "hyperflatness": 786.3654981393424
+            },
+            "col_distribution": {
+                "min": 0,
+                "q1": 1.0,
+                "median": 1.0,
+                "q3": 1.0,
+                "max": 7,
+                "mean": 1.3150684931506849,
+                "variance": 1.339088009007319,
+                "skewness": 3.450515606494253,
+                "kurtosis": 15.57021517562688,
+                "hyperskewness": 69.07966414927672,
+                "hyperflatness": 313.6013247861486
+            }
+        },
+        "size": 73,
+        "spmv": {
+            "csr": {
+                "storage": 1460,
+                "max_relative_norm2": 1.0000011626572014,
+                "time": 0.000014502399787306785,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 1460,
+                "max_relative_norm2": 1.0000052433360447,
+                "time": 0.00001467519998550415,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 96,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

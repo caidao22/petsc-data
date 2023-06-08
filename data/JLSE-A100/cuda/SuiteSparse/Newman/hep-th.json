@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Newman/hep-th/hep-th.mtx",
+        "problem": {
+            "id": 2398,
+            "group": "Newman",
+            "name": "hep-th",
+            "rows": 8361,
+            "cols": 8361,
+            "nonzeros": 31502,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected weighted graph",
+            "columns": 8361,
+            "row_distribution": {
+                "min": 0,
+                "q1": 1.0,
+                "median": 2.0,
+                "q3": 5.0,
+                "max": 50,
+                "mean": 3.767731132639637,
+                "variance": 18.535693560529523,
+                "skewness": 2.9812424601703085,
+                "kurtosis": 16.200992213058623,
+                "hyperskewness": 101.457471864239,
+                "hyperflatness": 737.569172476031
+            },
+            "col_distribution": {
+                "min": 0,
+                "q1": 1.0,
+                "median": 2.0,
+                "q3": 5.0,
+                "max": 50,
+                "mean": 3.767731132639637,
+                "variance": 18.535693560529523,
+                "skewness": 2.9812424601703085,
+                "kurtosis": 16.200992213058623,
+                "hyperskewness": 101.457471864239,
+                "hyperflatness": 737.569172476031
+            }
+        },
+        "size": 8361,
+        "spmv": {
+            "csr": {
+                "storage": 415412,
+                "max_relative_norm2": 0.502717652510148,
+                "time": 0.000016185600124299527,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 415412,
+                "max_relative_norm2": 0.8011574738243527,
+                "time": 0.00001719679981470108,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 31502,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/SNAP/ca-HepPh/ca-HepPh.mtx",
+        "problem": {
+            "id": 2298,
+            "group": "SNAP",
+            "name": "ca-HepPh",
+            "rows": 12008,
+            "cols": 12008,
+            "nonzeros": 237010,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected graph",
+            "columns": 12008,
+            "row_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 5.0,
+                "q3": 15.0,
+                "max": 491,
+                "mean": 19.73767488341106,
+                "variance": 2175.0003061195116,
+                "skewness": 5.020741326808106,
+                "kurtosis": 32.3283763772043,
+                "hyperskewness": 223.93939407850493,
+                "hyperflatness": 1644.4147941041626
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 5.0,
+                "q3": 15.0,
+                "max": 491,
+                "mean": 19.73767488341106,
+                "variance": 2175.0003061195116,
+                "skewness": 5.020741326808106,
+                "kurtosis": 32.3283763772043,
+                "hyperskewness": 223.93939407850493,
+                "hyperflatness": 1644.4147941041626
+            }
+        },
+        "size": 12008,
+        "spmv": {
+            "csr": {
+                "storage": 2919804,
+                "max_relative_norm2": 0.8044674015670469,
+                "time": 0.000009228799864649772,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 2919804,
+                "max_relative_norm2": 0.8122149365445563,
+                "time": 0.000012800000235438347,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 237010,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

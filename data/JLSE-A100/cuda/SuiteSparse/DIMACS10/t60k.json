@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/DIMACS10/t60k/t60k.mtx",
+        "problem": {
+            "id": 2530,
+            "group": "DIMACS10",
+            "name": "t60k",
+            "rows": 60005,
+            "cols": 60005,
+            "nonzeros": 178880,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected graph",
+            "columns": 60005,
+            "row_distribution": {
+                "min": 2,
+                "q1": 3.0,
+                "median": 3.0,
+                "q3": 3.0,
+                "max": 3,
+                "mean": 2.9810849095908676,
+                "variance": 0.018557309763879853,
+                "skewness": -7.0630815639783435,
+                "kurtosis": 50.88712117923911,
+                "hyperskewness": -366.4829690048006,
+                "hyperflatness": 2639.3862230630025
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 3.0,
+                "median": 3.0,
+                "q3": 3.0,
+                "max": 3,
+                "mean": 2.9810849095908676,
+                "variance": 0.018557309763879853,
+                "skewness": -7.0630815639783435,
+                "kurtosis": 50.88712117923911,
+                "hyperskewness": -366.4829690048006,
+                "hyperflatness": 2639.3862230630025
+            }
+        },
+        "size": 60005,
+        "spmv": {
+            "csr": {
+                "storage": 2393496,
+                "max_relative_norm2": 5.17339763999043,
+                "time": 0.00001111680008471012,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 2393496,
+                "max_relative_norm2": 4.007535039789898,
+                "time": 0.000010950399935245515,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 178880,
+        "optimal": {
+            "spmv": "csri"
+        }
+    }
+]

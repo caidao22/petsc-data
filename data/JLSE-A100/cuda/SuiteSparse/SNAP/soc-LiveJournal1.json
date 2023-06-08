@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/SNAP/soc-LiveJournal1/soc-LiveJournal1.mtx",
+        "problem": {
+            "id": 2285,
+            "group": "SNAP",
+            "name": "soc-LiveJournal1",
+            "rows": 4847571,
+            "cols": 4847571,
+            "nonzeros": 68993773,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.7484193555024753,
+            "nsym": 0.7484193555024753,
+            "kind": "directed graph",
+            "columns": 4847571,
+            "row_distribution": {
+                "min": 0,
+                "q1": 1.0,
+                "median": 4.0,
+                "q3": 14.0,
+                "max": 20293,
+                "mean": 14.232648268586471,
+                "variance": 1301.7866364785366,
+                "skewness": 76.00028998787425,
+                "kurtosis": 32110.779709496554,
+                "hyperskewness": 15844489.907374348,
+                "hyperflatness": 8159069559.797432
+            },
+            "col_distribution": {
+                "min": 0,
+                "q1": 1.0,
+                "median": 4.0,
+                "q3": 13.0,
+                "max": 13906,
+                "mean": 14.232648268586471,
+                "variance": 1888.9495558043204,
+                "skewness": 55.021392293820746,
+                "kurtosis": 10167.615015136422,
+                "hyperskewness": 2544363.6813220624,
+                "hyperflatness": 704435016.2134199
+            }
+        },
+        "size": 4847571,
+        "spmv": {
+            "csr": {
+                "storage": 847757932,
+                "max_relative_norm2": 5.545326477449921,
+                "time": 0.000005318399984389543,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 847757932,
+                "max_relative_norm2": 0.031479959874176774,
+                "time": 0.000013196799904108048,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 68993773,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

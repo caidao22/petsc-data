@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Bindel/ted_B_unscaled/ted_B_unscaled.mtx",
+        "problem": {
+            "id": 1409,
+            "group": "Bindel",
+            "name": "ted_B_unscaled",
+            "rows": 10605,
+            "cols": 10605,
+            "nonzeros": 144579,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "thermal problem",
+            "columns": 10605,
+            "row_distribution": {
+                "min": 1,
+                "q1": 1.0,
+                "median": 16.0,
+                "q3": 28.0,
+                "max": 49,
+                "mean": 13.633097595473831,
+                "variance": 147.64897527054114,
+                "skewness": 0.6200463186708473,
+                "kurtosis": 2.926620190835746,
+                "hyperskewness": 5.904283079055021,
+                "hyperflatness": 18.193012087263785
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 1.0,
+                "median": 16.0,
+                "q3": 28.0,
+                "max": 49,
+                "mean": 13.633097595473831,
+                "variance": 147.64897527054114,
+                "skewness": 0.6200463186708473,
+                "kurtosis": 2.926620190835746,
+                "hyperskewness": 5.904283079055021,
+                "hyperflatness": 18.193012087263785
+            }
+        },
+        "size": 10605,
+        "spmv": {
+            "csr": {
+                "storage": 1784284,
+                "max_relative_norm2": 0.9953412076203039,
+                "time": 0.000007404800131917,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 1784284,
+                "max_relative_norm2": 0.9999939616990292,
+                "time": 0.000014047999866306781,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 144579,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

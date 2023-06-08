@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Li/li/li.mtx",
+        "problem": {
+            "id": 732,
+            "group": "Li",
+            "name": "li",
+            "rows": 22695,
+            "cols": 22695,
+            "nonzeros": 1350309,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0.8685670104303111,
+            "kind": "electromagnetics problem",
+            "columns": 22695,
+            "row_distribution": {
+                "min": 11,
+                "q1": 31.0,
+                "median": 53.0,
+                "q3": 81.0,
+                "max": 108,
+                "mean": 59.49808327825512,
+                "variance": 852.9536755508364,
+                "skewness": 0.2785907192415404,
+                "kurtosis": 1.7178492542875914,
+                "hyperskewness": 1.0222732690653846,
+                "hyperflatness": 3.627383707270329
+            },
+            "col_distribution": {
+                "min": 11,
+                "q1": 31.0,
+                "median": 53.0,
+                "q3": 81.0,
+                "max": 108,
+                "mean": 59.49808327825512,
+                "variance": 852.9536755508364,
+                "skewness": 0.2785907192415404,
+                "kurtosis": 1.7178492542875914,
+                "hyperskewness": 1.0222732690653846,
+                "hyperflatness": 3.627383707270329
+            }
+        },
+        "size": 22695,
+        "spmv": {
+            "csr": {
+                "storage": 16322140,
+                "max_relative_norm2": 0.1757571248741275,
+                "time": 0.000008607999980449676,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 16322140,
+                "max_relative_norm2": 0.9998313615000131,
+                "time": 0.000011718400008976458,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 1350309,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

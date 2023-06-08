@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Mallya/lhr71c/lhr71c.mtx",
+        "problem": {
+            "id": 751,
+            "group": "Mallya",
+            "name": "lhr71c",
+            "rows": 70304,
+            "cols": 70304,
+            "nonzeros": 1528092,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.001513199920413014,
+            "nsym": 0.000005235985883782057,
+            "kind": "chemical process simulation problem",
+            "columns": 70304,
+            "row_distribution": {
+                "min": 1,
+                "q1": 4.0,
+                "median": 5.0,
+                "q3": 63.0,
+                "max": 63,
+                "mean": 21.73549157942649,
+                "variance": 692.6764508622648,
+                "skewness": 0.8752764231923236,
+                "kurtosis": 1.832095468548026,
+                "hyperskewness": 2.5577332984747825,
+                "hyperflatness": 4.223191931115676
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 35.0,
+                "q3": 35.0,
+                "max": 36,
+                "mean": 21.73549157942649,
+                "variance": 254.7753357046767,
+                "skewness": -0.3973211805204477,
+                "kurtosis": 1.1643176446048746,
+                "hyperskewness": -0.8637332084424831,
+                "hyperflatness": 1.521451501103549
+            }
+        },
+        "size": 70304,
+        "spmv": {
+            "csr": {
+                "storage": 18645972,
+                "max_relative_norm2": 1.0000049496036605,
+                "time": 0.00001496959999203682,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 18645972,
+                "max_relative_norm2": 0.999997150242835,
+                "time": 0.000018041600286960604,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 1528092,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

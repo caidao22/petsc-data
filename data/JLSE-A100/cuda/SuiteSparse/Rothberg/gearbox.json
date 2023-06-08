@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Rothberg/gearbox/gearbox.mtx",
+        "problem": {
+            "id": 806,
+            "group": "Rothberg",
+            "name": "gearbox",
+            "rows": 153746,
+            "cols": 153746,
+            "nonzeros": 9080404,
+            "real": true,
+            "binary": true,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "structural problem",
+            "columns": 153746,
+            "row_distribution": {
+                "min": 6,
+                "q1": 54.0,
+                "median": 54.0,
+                "q3": 72.0,
+                "max": 99,
+                "mean": 59.06107475966854,
+                "variance": 237.45267199196743,
+                "skewness": 0.22847866737042496,
+                "kurtosis": 2.0721790279152756,
+                "hyperskewness": 0.5410071106441068,
+                "hyperflatness": 5.104586524060558
+            },
+            "col_distribution": {
+                "min": 6,
+                "q1": 54.0,
+                "median": 54.0,
+                "q3": 72.0,
+                "max": 99,
+                "mean": 59.06107475966854,
+                "variance": 237.45267199196743,
+                "skewness": 0.22847866737042496,
+                "kurtosis": 2.0721790279152756,
+                "hyperskewness": 0.5410071106441068,
+                "hyperflatness": 5.104586524060558
+            }
+        },
+        "size": 153746,
+        "spmv": {
+            "csr": {
+                "storage": 109690428,
+                "max_relative_norm2": 0.9923110880867045,
+                "time": 0.00001321600005030632,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 109690428,
+                "max_relative_norm2": 5.6248473909995145,
+                "time": 0.000016819199919700623,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 9080404,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

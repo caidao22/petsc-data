@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Gleich/wb-cs-stanford/wb-cs-stanford.mtx",
+        "problem": {
+            "id": 1841,
+            "group": "Gleich",
+            "name": "wb-cs-stanford",
+            "rows": 9914,
+            "cols": 9914,
+            "nonzeros": 36854,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.4572071438616228,
+            "nsym": 0.4572071438616228,
+            "kind": "directed graph",
+            "columns": 9914,
+            "row_distribution": {
+                "min": 0,
+                "q1": 0.0,
+                "median": 2.0,
+                "q3": 4.0,
+                "max": 277,
+                "mean": 3.717369376639096,
+                "variance": 112.16785041288502,
+                "skewness": 15.724372250828957,
+                "kurtosis": 330.90825062094797,
+                "hyperskewness": 7536.194670153355,
+                "hyperflatness": 179012.68687733062
+            },
+            "col_distribution": {
+                "min": 0,
+                "q1": 1.0,
+                "median": 2.0,
+                "q3": 4.0,
+                "max": 340,
+                "mean": 3.717369376639096,
+                "variance": 104.79484254522396,
+                "skewness": 17.777195796341886,
+                "kurtosis": 421.79691481706715,
+                "hyperskewness": 10999.646415926514,
+                "hyperflatness": 302341.43792720156
+            }
+        },
+        "size": 9914,
+        "spmv": {
+            "csr": {
+                "storage": 486516,
+                "max_relative_norm2": 0.9993796727854464,
+                "time": 0.000011488000117242336,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 486516,
+                "max_relative_norm2": 0.20852926796255677,
+                "time": 0.0000162687998265028,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 36854,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

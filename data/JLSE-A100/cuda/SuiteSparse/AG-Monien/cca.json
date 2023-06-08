@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/AG-Monien/cca/cca.mtx",
+        "problem": {
+            "id": 2437,
+            "group": "AG-Monien",
+            "name": "cca",
+            "rows": 49152,
+            "cols": 49152,
+            "nonzeros": 139264,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected graph sequence",
+            "columns": 49152,
+            "row_distribution": {
+                "min": 2,
+                "q1": 3.0,
+                "median": 3.0,
+                "q3": 3.0,
+                "max": 3,
+                "mean": 2.8333333333333335,
+                "variance": 0.13888888888853856,
+                "skewness": -1.7888543820078753,
+                "kurtosis": 4.200000000014824,
+                "hyperskewness": -9.302042786434864,
+                "hyperflatness": 20.840000000141565
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 3.0,
+                "median": 3.0,
+                "q3": 3.0,
+                "max": 3,
+                "mean": 2.8333333333333335,
+                "variance": 0.13888888888853856,
+                "skewness": -1.7888543820078753,
+                "kurtosis": 4.200000000014824,
+                "hyperskewness": -9.302042786434864,
+                "hyperflatness": 20.840000000141565
+            }
+        },
+        "size": 49152,
+        "spmv": {
+            "csr": {
+                "storage": 1874692,
+                "max_relative_norm2": 0.17096560617251358,
+                "time": 0.000006380800157785416,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 1874692,
+                "max_relative_norm2": 0.5129564412188773,
+                "time": 0.000016761600226163864,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 139264,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

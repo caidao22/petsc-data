@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Gleich/wikipedia-20070206/wikipedia-20070206.mtx",
+        "problem": {
+            "id": 1846,
+            "group": "Gleich",
+            "name": "wikipedia-20070206",
+            "rows": 3566907,
+            "cols": 3566907,
+            "nonzeros": 45030389,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.1171832378930545,
+            "nsym": 0.1171832378930545,
+            "kind": "directed graph",
+            "columns": 3566907,
+            "row_distribution": {
+                "min": 0,
+                "q1": 1.0,
+                "median": 2.0,
+                "q3": 14.0,
+                "max": 7061,
+                "mean": 12.624492031892055,
+                "variance": 1087.3748112495866,
+                "skewness": 20.66509386311412,
+                "kurtosis": 1528.4978949571012,
+                "hyperskewness": 206671.89868526853,
+                "hyperflatness": 35850159.611380704
+            },
+            "col_distribution": {
+                "min": 0,
+                "q1": 0.0,
+                "median": 2.0,
+                "q3": 6.0,
+                "max": 187342,
+                "mean": 12.624492031892055,
+                "variance": 62559.541075187015,
+                "skewness": 301.2051286236517,
+                "kurtosis": 160925.88856235505,
+                "hyperskewness": 103504401.48652989,
+                "hyperflatness": 71173025181.99657
+            }
+        },
+        "size": 3566907,
+        "spmv": {
+            "csr": {
+                "storage": 555074668,
+                "max_relative_norm2": 0.2174281189698942,
+                "time": 0.0000045312000438570976,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 555074668,
+                "max_relative_norm2": 0.9946280255505989,
+                "time": 0.000012083200179040434,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 45030389,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

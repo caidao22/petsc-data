@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Grund/meg4/meg4.mtx",
+        "problem": {
+            "id": 466,
+            "group": "Grund",
+            "name": "meg4",
+            "rows": 5860,
+            "cols": 5860,
+            "nonzeros": 46842,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "circuit simulation problem",
+            "columns": 5860,
+            "row_distribution": {
+                "min": 1,
+                "q1": 4.0,
+                "median": 6.0,
+                "q3": 7.0,
+                "max": 1194,
+                "mean": 7.993515358361774,
+                "variance": 362.6030296217792,
+                "skewness": 42.88798399216998,
+                "kurtosis": 2578.5652237966974,
+                "hyperskewness": 160014.1556588393,
+                "hyperflatness": 9962158.21411547
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 4.0,
+                "median": 6.0,
+                "q3": 7.0,
+                "max": 1194,
+                "mean": 7.993515358361774,
+                "variance": 362.6030296217792,
+                "skewness": 42.88798399216998,
+                "kurtosis": 2578.5652237966974,
+                "hyperskewness": 160014.1556588393,
+                "hyperflatness": 9962158.21411547
+            }
+        },
+        "size": 5860,
+        "spmv": {
+            "csr": {
+                "storage": 591404,
+                "max_relative_norm2": 1.0000043436715191,
+                "time": 0.00001216640006750822,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 591404,
+                "max_relative_norm2": 2.0442069634368956,
+                "time": 0.000013664000108838082,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 46842,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

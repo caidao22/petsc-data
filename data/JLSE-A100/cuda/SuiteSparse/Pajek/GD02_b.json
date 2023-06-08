@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Pajek/GD02_b/GD02_b.mtx",
+        "problem": {
+            "id": 1482,
+            "group": "Pajek",
+            "name": "GD02_b",
+            "rows": 80,
+            "cols": 80,
+            "nonzeros": 232,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0,
+            "nsym": 0,
+            "kind": "directed graph",
+            "columns": 80,
+            "row_distribution": {
+                "min": 0,
+                "q1": 1.0,
+                "median": 3.0,
+                "q3": 4.0,
+                "max": 6,
+                "mean": 2.9,
+                "variance": 2.59,
+                "skewness": 0.1446663972581933,
+                "kurtosis": 1.8091113728179344,
+                "hyperskewness": 0.653823532524682,
+                "hyperflatness": 4.303728869477742
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 3.0,
+                "q3": 4.0,
+                "max": 5,
+                "mean": 2.9,
+                "variance": 1.614999999999999,
+                "skewness": 0.26091598393669563,
+                "kurtosis": 2.048212865071077,
+                "hyperskewness": 0.9906801902250002,
+                "hyperflatness": 4.938457517711526
+            }
+        },
+        "size": 80,
+        "spmv": {
+            "csr": {
+                "storage": 3140,
+                "max_relative_norm2": 0.35504220317202195,
+                "time": 0.000010003200173377991,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 3140,
+                "max_relative_norm2": 4.597137618502771,
+                "time": 0.00002054399996995926,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 232,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

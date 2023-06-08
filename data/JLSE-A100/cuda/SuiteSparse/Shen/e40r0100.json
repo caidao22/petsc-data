@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Shen/e40r0100/e40r0100.mtx",
+        "problem": {
+            "id": 899,
+            "group": "Shen",
+            "name": "e40r0100",
+            "rows": 17281,
+            "cols": 17281,
+            "nonzeros": 553562,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 0.3079877899832364,
+            "nsym": 0.001965387548691824,
+            "kind": "2D/3D problem",
+            "columns": 17281,
+            "row_distribution": {
+                "min": 8,
+                "q1": 18.0,
+                "median": 35.0,
+                "q3": 36.0,
+                "max": 62,
+                "mean": 32.032984202303105,
+                "variance": 241.56039575284532,
+                "skewness": 0.845612625148732,
+                "kurtosis": 2.555259054020298,
+                "hyperskewness": 3.9663450601350823,
+                "hyperflatness": 8.545741044556962
+            },
+            "col_distribution": {
+                "min": 8,
+                "q1": 18.0,
+                "median": 35.0,
+                "q3": 36.0,
+                "max": 62,
+                "mean": 32.032984202303105,
+                "variance": 241.56039575284532,
+                "skewness": 0.845612625148732,
+                "kurtosis": 2.555259054020298,
+                "hyperskewness": 3.9663450601350823,
+                "hyperflatness": 8.545741044556962
+            }
+        },
+        "size": 17281,
+        "spmv": {
+            "csr": {
+                "storage": 6739520,
+                "max_relative_norm2": 4.205621317221304,
+                "time": 0.000004473600070923568,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 6739520,
+                "max_relative_norm2": 1.0099739928635842,
+                "time": 0.000015084800124168398,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 553562,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

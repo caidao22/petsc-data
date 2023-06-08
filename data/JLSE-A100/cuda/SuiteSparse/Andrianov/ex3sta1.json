@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Andrianov/ex3sta1/ex3sta1.mtx",
+        "problem": {
+            "id": 1379,
+            "group": "Andrianov",
+            "name": "ex3sta1",
+            "rows": 16782,
+            "cols": 16782,
+            "nonzeros": 678998,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "optimization problem",
+            "columns": 16782,
+            "row_distribution": {
+                "min": 9,
+                "q1": 24.0,
+                "median": 45.0,
+                "q3": 49.0,
+                "max": 339,
+                "mean": 40.459897509236086,
+                "variance": 585.5945960567453,
+                "skewness": 7.019355990591352,
+                "kurtosis": 77.9302067409487,
+                "hyperskewness": 868.2576565348335,
+                "hyperflatness": 9909.122956887062
+            },
+            "col_distribution": {
+                "min": 9,
+                "q1": 24.0,
+                "median": 45.0,
+                "q3": 49.0,
+                "max": 339,
+                "mean": 40.459897509236086,
+                "variance": 585.5945960567453,
+                "skewness": 7.019355990591352,
+                "kurtosis": 77.9302067409487,
+                "hyperskewness": 868.2576565348335,
+                "hyperflatness": 9909.122956887062
+            }
+        },
+        "size": 16782,
+        "spmv": {
+            "csr": {
+                "storage": 8242756,
+                "max_relative_norm2": 0.17013831672714452,
+                "time": 0.000011225600168108941,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 8242756,
+                "max_relative_norm2": 0.16434699511928458,
+                "time": 0.000013279999792575838,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 678998,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

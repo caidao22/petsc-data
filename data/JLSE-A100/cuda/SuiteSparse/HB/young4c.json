@@ -1,0 +1,22 @@
+[
+    {
+        "filename": "./ssget_archive/MM/HB/young4c/young4c.mtx",
+        "problem": {
+            "id": 281,
+            "group": "HB",
+            "name": "young4c",
+            "rows": 841,
+            "cols": 841,
+            "nonzeros": 4089,
+            "real": false,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0.8004926108374384,
+            "kind": "acoustics problem"
+        },
+        "spmv": {},
+        "error": "/gpfs/jlse-fs0/users/hongzhang/Projects/ginkgo/core/base/mtx_io.cpp:236: read_entry_impl: trying to read a complex matrix into a real storage type"
+    }
+]

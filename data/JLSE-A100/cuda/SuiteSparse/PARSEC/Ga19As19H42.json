@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/PARSEC/Ga19As19H42/Ga19As19H42.mtx",
+        "problem": {
+            "id": 1351,
+            "group": "PARSEC",
+            "name": "Ga19As19H42",
+            "rows": 133123,
+            "cols": 133123,
+            "nonzeros": 8884839,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "theoretical/quantum chemistry problem",
+            "columns": 133123,
+            "row_distribution": {
+                "min": 15,
+                "q1": 33.0,
+                "median": 37.0,
+                "q3": 37.0,
+                "max": 697,
+                "mean": 66.74157733825109,
+                "variance": 10646.623571763252,
+                "skewness": 2.9599918963071232,
+                "kurtosis": 10.686454330538067,
+                "hyperskewness": 42.035300384120745,
+                "hyperflatness": 184.959933783094
+            },
+            "col_distribution": {
+                "min": 15,
+                "q1": 33.0,
+                "median": 37.0,
+                "q3": 37.0,
+                "max": 697,
+                "mean": 66.74157733825109,
+                "variance": 10646.623571763252,
+                "skewness": 2.9599918963071232,
+                "kurtosis": 10.686454330538067,
+                "hyperskewness": 42.035300384120745,
+                "hyperflatness": 184.959933783094
+            }
+        },
+        "size": 133123,
+        "spmv": {
+            "csr": {
+                "storage": 107261156,
+                "max_relative_norm2": 36.70749942098873,
+                "time": 0.000012339199893176555,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 107261156,
+                "max_relative_norm2": 36.71171227767747,
+                "time": 0.00001404160000383854,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 8884839,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

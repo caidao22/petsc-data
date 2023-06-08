@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/UTEP/Dubcova1/Dubcova1.mtx",
+        "problem": {
+            "id": 1847,
+            "group": "UTEP",
+            "name": "Dubcova1",
+            "rows": 16129,
+            "cols": 16129,
+            "nonzeros": 253009,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "2D/3D problem",
+            "columns": 16129,
+            "row_distribution": {
+                "min": 4,
+                "q1": 9.0,
+                "median": 15.0,
+                "q3": 15.0,
+                "max": 25,
+                "mean": 15.686589373178746,
+                "variance": 33.37347072238858,
+                "skewness": 0.5084808665190949,
+                "kurtosis": 2.1349698343420553,
+                "hyperskewness": 1.7909433629897251,
+                "hyperflatness": 5.002373379732284
+            },
+            "col_distribution": {
+                "min": 4,
+                "q1": 9.0,
+                "median": 15.0,
+                "q3": 15.0,
+                "max": 25,
+                "mean": 15.686589373178746,
+                "variance": 33.37347072238858,
+                "skewness": 0.5084808665190949,
+                "kurtosis": 2.1349698343420553,
+                "hyperskewness": 1.7909433629897251,
+                "hyperflatness": 5.002373379732284
+            }
+        },
+        "size": 16129,
+        "spmv": {
+            "csr": {
+                "storage": 3128276,
+                "max_relative_norm2": 0.9999480369654742,
+                "time": 0.000008211199939250945,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 3128276,
+                "max_relative_norm2": 0.5172722753172375,
+                "time": 0.000009638399817049504,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 253009,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

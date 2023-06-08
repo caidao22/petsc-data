@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "./ssget_archive/MM/Pajek/Journals/Journals.mtx",
+        "problem": {
+            "id": 1506,
+            "group": "Pajek",
+            "name": "Journals",
+            "rows": 124,
+            "cols": 124,
+            "nonzeros": 12068,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected weighted graph",
+            "columns": 124,
+            "row_distribution": {
+                "min": 19,
+                "q1": 76.5,
+                "median": 103.5,
+                "q3": 116.5,
+                "max": 124,
+                "mean": 97.3225806451613,
+                "variance": 516.8314255983354,
+                "skewness": -0.6964995253613862,
+                "kurtosis": 2.6933982760907416,
+                "hyperskewness": -5.397701281723108,
+                "hyperflatness": 17.169435544228467
+            },
+            "col_distribution": {
+                "min": 19,
+                "q1": 76.5,
+                "median": 103.5,
+                "q3": 116.5,
+                "max": 124,
+                "mean": 97.3225806451613,
+                "variance": 516.8314255983354,
+                "skewness": -0.6964995253613862,
+                "kurtosis": 2.6933982760907416,
+                "hyperskewness": -5.397701281723108,
+                "hyperflatness": 17.169435544228467
+            }
+        },
+        "size": 124,
+        "spmv": {
+            "csr": {
+                "storage": 146828,
+                "max_relative_norm2": 0.3750226651990524,
+                "time": 0.000006067200005054474,
+                "repetitions": 5,
+                "completed": true
+            },
+            "csri": {
+                "storage": 146828,
+                "max_relative_norm2": 6.134812605986852,
+                "time": 0.000012396799959242343,
+                "repetitions": 5,
+                "completed": true
+            },
+            "sellp": {
+                "completed": false,
+                "error": "after determining tmp storage requirements for exclusive_scan: cudaErrorInvalidDeviceFunction: invalid device function"
+            }
+        },
+        "nnz": 12068,
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]
