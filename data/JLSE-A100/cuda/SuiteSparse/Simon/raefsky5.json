@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Simon/raefsky5/raefsky5.mtx",
+		"problem":	{
+			"id":	818,
+			"group":	"Simon",
+			"name":	"raefsky5",
+			"rows":	6316,
+			"cols":	6316,
+			"nonzeros":	167178,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0,
+			"nsym":	0,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.8815999776124953e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00020039680302143094,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.8227200210094468e-05,
+				"repetitions":	5
+			}
+		}
+	}]

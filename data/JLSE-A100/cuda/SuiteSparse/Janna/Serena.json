@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Janna/Serena/Serena.mtx",
+		"problem":	{
+			"id":	2541,
+			"group":	"Janna",
+			"name":	"Serena",
+			"rows":	1391349,
+			"cols":	1391349,
+			"nonzeros":	64131971,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00092856321334838852,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.033076248931884766,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.000931884801387789,
+				"repetitions":	5
+			}
+		}
+	}]

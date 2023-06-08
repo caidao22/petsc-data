@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/ML_Graph/usps_norm_5NN/usps_norm_5NN.mtx",
+		"problem":	{
+			"id":	2887,
+			"group":	"ML_Graph",
+			"name":	"usps_norm_5NN",
+			"rows":	11000,
+			"cols":	11000,
+			"nonzeros":	81112,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.3881600573658943e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00013732479959726335,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.6358399763703343e-05,
+				"repetitions":	5
+			}
+		}
+	}]

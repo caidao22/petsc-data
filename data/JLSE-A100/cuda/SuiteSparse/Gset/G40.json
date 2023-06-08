@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Gset/G40/G40.mtx",
+		"problem":	{
+			"id":	503,
+			"group":	"Gset",
+			"name":	"G40",
+			"rows":	2000,
+			"cols":	2000,
+			"nonzeros":	23532,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted random graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.8172799944877626e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0001166336014866829,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.3926400244235995e-05,
+				"repetitions":	5
+			}
+		}
+	}]

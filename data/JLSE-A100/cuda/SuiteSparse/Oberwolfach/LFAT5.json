@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Oberwolfach/LFAT5/LFAT5.mtx",
+		"problem":	{
+			"id":	1440,
+			"group":	"Oberwolfach",
+			"name":	"LFAT5",
+			"rows":	14,
+			"cols":	14,
+			"nonzeros":	46,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"model reduction problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.3756800591945651e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	4.8127999901771538e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	9.83039997518062e-06,
+				"repetitions":	5
+			}
+		}
+	}]

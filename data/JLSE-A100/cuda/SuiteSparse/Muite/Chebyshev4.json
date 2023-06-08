@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Muite/Chebyshev4/Chebyshev4.mtx",
+		"problem":	{
+			"id":	1867,
+			"group":	"Muite",
+			"name":	"Chebyshev4",
+			"rows":	68121,
+			"cols":	68121,
+			"nonzeros":	5377761,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.30204081632653063,
+			"nsym":	0.0002369275506437348,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00016171520054340363,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0074836287498474124,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.0003153792023658744,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/DIMACS10/kron_g500-logn21/kron_g500-logn21.mtx",
+		"problem":	{
+			"id":	2494,
+			"group":	"DIMACS10",
+			"name":	"kron_g500-logn21",
+			"rows":	2097152,
+			"cols":	2097152,
+			"nonzeros":	182082942,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected multigraph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.0029475071907043458,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.10605989074707031,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.022087116241455075,
+				"repetitions":	5
+			}
+		}
+	}]

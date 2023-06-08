@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Bai/rdb1250l/rdb1250l.mtx",
+		"problem":	{
+			"id":	1629,
+			"group":	"Bai",
+			"name":	"rdb1250l",
+			"rows":	1250,
+			"cols":	1250,
+			"nonzeros":	7300,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.793388429752066,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.0515199527144435e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	6.000639796257018e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.2492800131440177e-05,
+				"repetitions":	5
+			}
+		}
+	}]

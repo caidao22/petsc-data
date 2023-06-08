@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Schenk_ISEI/barrier2-4/barrier2-4.mtx",
+		"problem":	{
+			"id":	967,
+			"group":	"Schenk_ISEI",
+			"name":	"barrier2-4",
+			"rows":	113076,
+			"cols":	113076,
+			"nonzeros":	2129496,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.189249263546285,
+			"kind":	"subsequent semiconductor device problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00013907839953899382,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0028557375907897952,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.00020660479962825753,
+				"repetitions":	5
+			}
+		}
+	}]

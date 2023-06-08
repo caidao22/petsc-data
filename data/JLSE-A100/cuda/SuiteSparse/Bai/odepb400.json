@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Bai/odepb400/odepb400.mtx",
+		"problem":	{
+			"id":	317,
+			"group":	"Bai",
+			"name":	"odepb400",
+			"rows":	400,
+			"cols":	400,
+			"nonzeros":	399,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.7033600211143492e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	5.0995199382305143e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.0854400135576709e-05,
+				"repetitions":	5
+			}
+		}
+	}]

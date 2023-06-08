@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Gset/G59/G59.mtx",
+		"problem":	{
+			"id":	523,
+			"group":	"Gset",
+			"name":	"G59",
+			"rows":	5000,
+			"cols":	5000,
+			"nonzeros":	59140,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted random graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.0905599892139432e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0001843327969312668,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.4950399845838589e-05,
+				"repetitions":	5
+			}
+		}
+	}]

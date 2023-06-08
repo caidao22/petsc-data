@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Hollinger/g7jac140sc/g7jac140sc.mtx",
+		"problem":	{
+			"id":	561,
+			"group":	"Hollinger",
+			"name":	"g7jac140sc",
+			"rows":	41490,
+			"cols":	41490,
+			"nonzeros":	488633,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.033500741706802728,
+			"nsym":	0,
+			"kind":	"economic problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	5.3676799684762954e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0004302015900611878,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	4.9747200310230279e-05,
+				"repetitions":	5
+			}
+		}
+	}]

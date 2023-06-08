@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/VDOL/spaceShuttleEntry_4/spaceShuttleEntry_4.mtx",
+		"problem":	{
+			"id":	2733,
+			"group":	"VDOL",
+			"name":	"spaceShuttleEntry_4",
+			"rows":	2450,
+			"cols":	2450,
+			"nonzeros":	39669,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"optimal control problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.4579199925065037e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00034671360254287726,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.8432000279426566e-05,
+				"repetitions":	5
+			}
+		}
+	}]

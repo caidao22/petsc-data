@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Gaertner/nopoly/nopoly.mtx",
+		"problem":	{
+			"id":	442,
+			"group":	"Gaertner",
+			"name":	"nopoly",
+			"rows":	10774,
+			"cols":	10774,
+			"nonzeros":	70842,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.2198399677872652e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00012159359753131868,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.2543999776244187e-05,
+				"repetitions":	5
+			}
+		}
+	}]

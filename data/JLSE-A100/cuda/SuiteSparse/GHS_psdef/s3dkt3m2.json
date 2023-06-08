@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/GHS_psdef/s3dkt3m2/s3dkt3m2.mtx",
+		"problem":	{
+			"id":	1276,
+			"group":	"GHS_psdef",
+			"name":	"s3dkt3m2",
+			"rows":	90449,
+			"cols":	90449,
+			"nonzeros":	3686223,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00012992640137672427,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00208660478591919,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	8.76799985766407e-05,
+				"repetitions":	5
+			}
+		}
+	}]

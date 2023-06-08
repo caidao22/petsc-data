@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/VDOL/tumorAntiAngiogenesis_2/tumorAntiAngiogenesis_2.mtx",
+		"problem":	{
+			"id":	2749,
+			"group":	"VDOL",
+			"name":	"tumorAntiAngiogenesis_2",
+			"rows":	305,
+			"cols":	305,
+			"nonzeros":	2699,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"optimal control problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.744320034980774e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	8.5811200737953179e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	2.4371200054883992e-05,
+				"repetitions":	5
+			}
+		}
+	}]

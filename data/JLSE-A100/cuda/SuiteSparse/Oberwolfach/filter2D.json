@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Oberwolfach/filter2D/filter2D.mtx",
+		"problem":	{
+			"id":	1430,
+			"group":	"Oberwolfach",
+			"name":	"filter2D",
+			"rows":	1668,
+			"cols":	1668,
+			"nonzeros":	10750,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"model reduction problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.7174400165677071e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	6.57600000500679e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.2492800131440167e-05,
+				"repetitions":	5
+			}
+		}
+	}]

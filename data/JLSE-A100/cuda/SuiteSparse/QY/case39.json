@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/QY/case39/case39.mtx",
+		"problem":	{
+			"id":	2136,
+			"group":	"QY",
+			"name":	"case39",
+			"rows":	40216,
+			"cols":	40216,
+			"nonzeros":	1042160,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"power network problem sequence"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	5.9545600414276131e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0023171008110046383,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	4.88448008894922e-05,
+				"repetitions":	5
+			}
+		}
+	}]

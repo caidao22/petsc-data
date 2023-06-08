@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Rajat/rajat15/rajat15.mtx",
+		"problem":	{
+			"id":	1316,
+			"group":	"Rajat",
+			"name":	"rajat15",
+			"rows":	37261,
+			"cols":	37261,
+			"nonzeros":	443573,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.943060217954145,
+			"kind":	"circuit simulation problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	4.8812800645828241e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00087692800760269161,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	7.2236800193786575e-05,
+				"repetitions":	5
+			}
+		}
+	}]

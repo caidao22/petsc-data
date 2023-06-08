@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/HB/fs_680_1/fs_680_1.mtx",
+		"problem":	{
+			"id":	149,
+			"group":	"HB",
+			"name":	"fs_680_1",
+			"rows":	680,
+			"cols":	680,
+			"nonzeros":	2184,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.510681586978637,
+			"nsym":	0,
+			"kind":	"2D/3D problem sequence"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.3961599543690684e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	4.99711997807026e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.0035200044512738e-05,
+				"repetitions":	5
+			}
+		}
+	}]

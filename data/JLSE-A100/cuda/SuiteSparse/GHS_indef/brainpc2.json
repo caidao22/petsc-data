@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/GHS_indef/brainpc2/brainpc2.mtx",
+		"problem":	{
+			"id":	1298,
+			"group":	"GHS_indef",
+			"name":	"brainpc2",
+			"rows":	27607,
+			"cols":	27607,
+			"nonzeros":	179395,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"optimization problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.3894400671124457e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0033986367702484128,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	2.4083200097083786e-05,
+				"repetitions":	5
+			}
+		}
+	}]

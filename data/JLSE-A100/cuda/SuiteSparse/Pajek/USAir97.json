@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Pajek/USAir97/USAir97.mtx",
+		"problem":	{
+			"id":	1529,
+			"group":	"Pajek",
+			"name":	"USAir97",
+			"rows":	332,
+			"cols":	332,
+			"nonzeros":	4252,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.6214399933815e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	6.75840012729168e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.2492799758911162e-05,
+				"repetitions":	5
+			}
+		}
+	}]

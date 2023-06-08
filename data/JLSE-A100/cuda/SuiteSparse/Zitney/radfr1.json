@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Zitney/radfr1/radfr1.mtx",
+		"problem":	{
+			"id":	838,
+			"group":	"Zitney",
+			"name":	"radfr1",
+			"rows":	1048,
+			"cols":	1048,
+			"nonzeros":	13299,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.053743092877147833,
+			"nsym":	0,
+			"kind":	"chemical process simulation problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.2620799914002423e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	7.2832001000642775e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.2492800131440177e-05,
+				"repetitions":	5
+			}
+		}
+	}]

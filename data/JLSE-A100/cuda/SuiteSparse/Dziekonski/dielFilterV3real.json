@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Dziekonski/dielFilterV3real/dielFilterV3real.mtx",
+		"problem":	{
+			"id":	2388,
+			"group":	"Dziekonski",
+			"name":	"dielFilterV3real",
+			"rows":	1102824,
+			"cols":	1102824,
+			"nonzeros":	89306020,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"electromagnetics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.0010686975955963133,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.045647711944580081,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.0014764480352401743,
+				"repetitions":	5
+			}
+		}
+	}]

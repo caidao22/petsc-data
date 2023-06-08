@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/ML_Graph/mice_10NN/mice_10NN.mtx",
+		"problem":	{
+			"id":	2876,
+			"group":	"ML_Graph",
+			"name":	"mice_10NN",
+			"rows":	1077,
+			"cols":	1077,
+			"nonzeros":	13484,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.2639999687671664e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	7.05536000430584e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.3516800105571755e-05,
+				"repetitions":	5
+			}
+		}
+	}]

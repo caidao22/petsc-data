@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Rommes/S20PI_n/S20PI_n.mtx",
+		"problem":	{
+			"id":	2370,
+			"group":	"Rommes",
+			"name":	"S20PI_n",
+			"rows":	1182,
+			"cols":	1182,
+			"nonzeros":	2881,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.041736227045075118,
+			"kind":	"eigenvalue/model reduction problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.7238400280475618e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	5.2223998308181772e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.06496002525091e-05,
+				"repetitions":	5
+			}
+		}
+	}]

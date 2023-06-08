@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/TKK/tube2/tube2.mtx",
+		"problem":	{
+			"id":	1915,
+			"group":	"TKK",
+			"name":	"tube2",
+			"rows":	21498,
+			"cols":	21498,
+			"nonzeros":	897056,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	6.1964800208807e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00056282879114151,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	3.6883200705051421e-05,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Boeing/msc00726/msc00726.mtx",
+		"problem":	{
+			"id":	357,
+			"group":	"Boeing",
+			"name":	"msc00726",
+			"rows":	726,
+			"cols":	726,
+			"nonzeros":	34518,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.3983999863266946e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	9.9059200286865233e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.3516800105571755e-05,
+				"repetitions":	5
+			}
+		}
+	}]

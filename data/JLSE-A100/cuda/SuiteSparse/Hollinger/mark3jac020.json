@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Hollinger/mark3jac020/mark3jac020.mtx",
+		"problem":	{
+			"id":	580,
+			"group":	"Hollinger",
+			"name":	"mark3jac020",
+			"rows":	9129,
+			"cols":	9129,
+			"nonzeros":	52883,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.073630064192492448,
+			"nsym":	0.01351166293878669,
+			"kind":	"economic problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.5545599833130837e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00011905919760465622,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.8195199966430649e-05,
+				"repetitions":	5
+			}
+		}
+	}]

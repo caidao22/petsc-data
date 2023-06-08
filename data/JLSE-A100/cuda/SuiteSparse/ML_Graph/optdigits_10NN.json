@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/ML_Graph/optdigits_10NN/optdigits_10NN.mtx",
+		"problem":	{
+			"id":	2880,
+			"group":	"ML_Graph",
+			"name":	"optdigits_10NN",
+			"rows":	5620,
+			"cols":	5620,
+			"nonzeros":	79650,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.47647998481989e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0001328575998544693,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.8636800348758685e-05,
+				"repetitions":	5
+			}
+		}
+	}]

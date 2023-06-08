@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Pajek/SmaGri/SmaGri.mtx",
+		"problem":	{
+			"id":	1522,
+			"group":	"Pajek",
+			"name":	"SmaGri",
+			"rows":	1059,
+			"cols":	1059,
+			"nonzeros":	4919,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.000813338755591704,
+			"nsym":	0.000813338755591704,
+			"kind":	"directed multigraph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.0105599761009219e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0001058815985918045,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.4540799893438786e-05,
+				"repetitions":	5
+			}
+		}
+	}]

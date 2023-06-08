@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/IPSO/OPF_3754/OPF_3754.mtx",
+		"problem":	{
+			"id":	2537,
+			"group":	"IPSO",
+			"name":	"OPF_3754",
+			"rows":	15435,
+			"cols":	15435,
+			"nonzeros":	141478,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"power network problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.6223999783396719e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00023502079546451566,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.7977599799633061e-05,
+				"repetitions":	5
+			}
+		}
+	}]

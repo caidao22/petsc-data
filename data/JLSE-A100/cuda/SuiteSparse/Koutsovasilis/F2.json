@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Koutsovasilis/F2/F2.mtx",
+		"problem":	{
+			"id":	1861,
+			"group":	"Koutsovasilis",
+			"name":	"F2",
+			"rows":	71505,
+			"cols":	71505,
+			"nonzeros":	5294285,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00016460799872875214,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0028999231815338136,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.00011041279882192667,
+				"repetitions":	5
+			}
+		}
+	}]

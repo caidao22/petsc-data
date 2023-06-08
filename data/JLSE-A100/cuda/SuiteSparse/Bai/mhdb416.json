@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Bai/mhdb416/mhdb416.mtx",
+		"problem":	{
+			"id":	315,
+			"group":	"Bai",
+			"name":	"mhdb416",
+			"rows":	416,
+			"cols":	416,
+			"nonzeros":	2312,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"electromagnetics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.5190399587154392e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	5.120000094175338e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.0854400135576709e-05,
+				"repetitions":	5
+			}
+		}
+	}]

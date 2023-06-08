@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Pajek/GD97_c/GD97_c.mtx",
+		"problem":	{
+			"id":	1494,
+			"group":	"Pajek",
+			"name":	"GD97_c",
+			"rows":	452,
+			"cols":	452,
+			"nonzeros":	460,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0,
+			"nsym":	0,
+			"kind":	"directed multigraph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.48160003311932e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	6.9631999731063855e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.4950399845838503e-05,
+				"repetitions":	5
+			}
+		}
+	}]

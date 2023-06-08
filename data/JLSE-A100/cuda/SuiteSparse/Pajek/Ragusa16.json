@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Pajek/Ragusa16/Ragusa16.mtx",
+		"problem":	{
+			"id":	1515,
+			"group":	"Pajek",
+			"name":	"Ragusa16",
+			"rows":	24,
+			"cols":	24,
+			"nonzeros":	81,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.36619718309859162,
+			"nsym":	0.19718309859154931,
+			"kind":	"directed weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.4780799448490145e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	5.0995200872421245e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.1059200204908829e-05,
+				"repetitions":	5
+			}
+		}
+	}]

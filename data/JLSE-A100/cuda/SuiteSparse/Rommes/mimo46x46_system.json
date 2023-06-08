@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Rommes/mimo46x46_system/mimo46x46_system.mtx",
+		"problem":	{
+			"id":	2343,
+			"group":	"Rommes",
+			"name":	"mimo46x46_system",
+			"rows":	13250,
+			"cols":	13250,
+			"nonzeros":	48735,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.70755975541967764,
+			"nsym":	0.58571428571428574,
+			"kind":	"eigenvalue/model reduction problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.34016002714634e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00010963200032711028,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.4457600191235525e-05,
+				"repetitions":	5
+			}
+		}
+	}]

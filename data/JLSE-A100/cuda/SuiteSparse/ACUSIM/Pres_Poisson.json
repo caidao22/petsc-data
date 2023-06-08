@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/ACUSIM/Pres_Poisson/Pres_Poisson.mtx",
+		"problem":	{
+			"id":	1184,
+			"group":	"ACUSIM",
+			"name":	"Pres_Poisson",
+			"rows":	14822,
+			"cols":	14822,
+			"nonzeros":	715804,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	5.2070400863885883e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00045840639472007744,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	3.48864004015923e-05,
+				"repetitions":	5
+			}
+		}
+	}]

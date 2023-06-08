@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/HB/gre_216b/gre_216b.mtx",
+		"problem":	{
+			"id":	164,
+			"group":	"HB",
+			"name":	"gre_216b",
+			"rows":	216,
+			"cols":	216,
+			"nonzeros":	812,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0,
+			"nsym":	0,
+			"kind":	"directed weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.3961599543690684e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	4.8332801461219782e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.0444799996912467e-05,
+				"repetitions":	5
+			}
+		}
+	}]

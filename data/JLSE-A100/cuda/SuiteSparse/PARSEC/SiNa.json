@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/PARSEC/SiNa/SiNa.mtx",
+		"problem":	{
+			"id":	1366,
+			"group":	"PARSEC",
+			"name":	"SiNa",
+			"rows":	5743,
+			"cols":	5743,
+			"nonzeros":	198787,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"theoretical/quantum chemistry problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.6947199702262875e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00022471679747104647,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	2.2937599569559105e-05,
+				"repetitions":	5
+			}
+		}
+	}]

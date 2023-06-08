@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Pajek/Sandi_authors/Sandi_authors.mtx",
+		"problem":	{
+			"id":	1519,
+			"group":	"Pajek",
+			"name":	"Sandi_authors",
+			"rows":	86,
+			"cols":	86,
+			"nonzeros":	248,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.5190399587154385e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	5.1609601080417631e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.2492800131440155e-05,
+				"repetitions":	5
+			}
+		}
+	}]

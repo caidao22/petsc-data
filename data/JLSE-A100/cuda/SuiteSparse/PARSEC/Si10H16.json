@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/PARSEC/Si10H16/Si10H16.mtx",
+		"problem":	{
+			"id":	1359,
+			"group":	"PARSEC",
+			"name":	"Si10H16",
+			"rows":	17077,
+			"cols":	17077,
+			"nonzeros":	875923,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"theoretical/quantum chemistry problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	5.36128006875515e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00054991998672485347,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	4.391039982438085e-05,
+				"repetitions":	5
+			}
+		}
+	}]

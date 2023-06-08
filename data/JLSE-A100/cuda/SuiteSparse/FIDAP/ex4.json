@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/FIDAP/ex4/ex4.mtx",
+		"problem":	{
+			"id":	434,
+			"group":	"FIDAP",
+			"name":	"ex4",
+			"rows":	1601,
+			"cols":	1601,
+			"nonzeros":	31849,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.50016001611948e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	9.6422398090362561e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.4950399845838503e-05,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/ML_Graph/iris_dataset_30NN/iris_dataset_30NN.mtx",
+		"problem":	{
+			"id":	2872,
+			"group":	"ML_Graph",
+			"name":	"iris_dataset_30NN",
+			"rows":	150,
+			"cols":	150,
+			"nonzeros":	5518,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.8672000765800478e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	5.91871976852417e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.3107199966907513e-05,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Gset/G29/G29.mtx",
+		"problem":	{
+			"id":	490,
+			"group":	"Gset",
+			"name":	"G29",
+			"rows":	2000,
+			"cols":	2000,
+			"nonzeros":	39980,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted random graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.4406399354338643e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	9.66527983546257e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.4950399845838503e-05,
+				"repetitions":	5
+			}
+		}
+	}]

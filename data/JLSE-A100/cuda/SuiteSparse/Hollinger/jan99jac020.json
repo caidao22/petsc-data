@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Hollinger/jan99jac020/jan99jac020.mtx",
+		"problem":	{
+			"id":	568,
+			"group":	"Hollinger",
+			"name":	"jan99jac020",
+			"rows":	6774,
+			"cols":	6774,
+			"nonzeros":	33744,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.0037596340622846041,
+			"nsym":	0,
+			"kind":	"economic problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.342719972133637e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00010901760160923005,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	2.0684799924492815e-05,
+				"repetitions":	5
+			}
+		}
+	}]

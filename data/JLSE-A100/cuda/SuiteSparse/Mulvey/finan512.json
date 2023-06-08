@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Mulvey/finan512/finan512.mtx",
+		"problem":	{
+			"id":	752,
+			"group":	"Mulvey",
+			"name":	"finan512",
+			"rows":	74752,
+			"cols":	74752,
+			"nonzeros":	596992,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"economic problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	5.1846399903297425e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00042095360159873969,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	3.8118400424718824e-05,
+				"repetitions":	5
+			}
+		}
+	}]

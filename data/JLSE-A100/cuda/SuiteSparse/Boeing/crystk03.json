@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Boeing/crystk03/crystk03.mtx",
+		"problem":	{
+			"id":	352,
+			"group":	"Boeing",
+			"name":	"crystk03",
+			"rows":	24696,
+			"cols":	24696,
+			"nonzeros":	1751178,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"materials problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	7.86304011940956e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0010504127979278565,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	4.6502399444580016e-05,
+				"repetitions":	5
+			}
+		}
+	}]

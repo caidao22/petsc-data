@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/FIDAP/ex8/ex8.mtx",
+		"problem":	{
+			"id":	439,
+			"group":	"FIDAP",
+			"name":	"ex8",
+			"rows":	3096,
+			"cols":	3096,
+			"nonzeros":	90841,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.43109009060345321,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.4047999978065489e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00015273599922657015,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.4540799707174327e-05,
+				"repetitions":	5
+			}
+		}
+	}]

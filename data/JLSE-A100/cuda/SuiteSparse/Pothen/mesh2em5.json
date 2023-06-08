@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Pothen/mesh2em5/mesh2em5.mtx",
+		"problem":	{
+			"id":	876,
+			"group":	"Pothen",
+			"name":	"mesh2em5",
+			"rows":	306,
+			"cols":	306,
+			"nonzeros":	2018,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.1129600107669835e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	5.734400004148484e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.3312000036239645e-05,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,28 @@
+[{
+		"filename":	"./ssget_archive/MM/GAP/GAP-web/GAP-web.mtx",
+		"problem":	{
+			"id":	2853,
+			"group":	"GAP",
+			"name":	"GAP-web",
+			"rows":	50636151,
+			"cols":	50636151,
+			"nonzeros":	1930292948,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.1245713694644861,
+			"nsym":	0.000489238693524979,
+			"kind":	"directed weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.019140191650390624,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	1.0068560668945312,
+				"repetitions":	5
+			}
+		}
+	}]

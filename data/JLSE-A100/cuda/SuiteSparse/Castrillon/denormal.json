@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Castrillon/denormal/denormal.mtx",
+		"problem":	{
+			"id":	1892,
+			"group":	"Castrillon",
+			"name":	"denormal",
+			"rows":	89400,
+			"cols":	89400,
+			"nonzeros":	1156224,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"counter-example problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	5.88416002690792e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.000733631992340088,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	4.12159994244576e-05,
+				"repetitions":	5
+			}
+		}
+	}]

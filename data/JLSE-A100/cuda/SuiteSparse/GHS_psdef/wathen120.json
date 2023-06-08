@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/GHS_psdef/wathen120/wathen120.mtx",
+		"problem":	{
+			"id":	1289,
+			"group":	"GHS_psdef",
+			"name":	"wathen120",
+			"rows":	36441,
+			"cols":	36441,
+			"nonzeros":	565761,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"random 2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	5.1987200230360032e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00040192639827728278,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	3.36255997419356e-05,
+				"repetitions":	5
+			}
+		}
+	}]

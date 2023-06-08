@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Bai/af23560/af23560.mtx",
+		"problem":	{
+			"id":	291,
+			"group":	"Bai",
+			"name":	"af23560",
+			"rows":	23560,
+			"cols":	23560,
+			"nonzeros":	460598,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.99730842030319344,
+			"nsym":	0,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	4.90047998726368e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00035368959903717037,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	3.061120063066478e-05,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/PARSEC/GaAsH6/GaAsH6.mtx",
+		"problem":	{
+			"id":	1354,
+			"group":	"PARSEC",
+			"name":	"GaAsH6",
+			"rows":	61349,
+			"cols":	61349,
+			"nonzeros":	3381809,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"theoretical/quantum chemistry problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00012611199915409091,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0019984895944595337,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.00012660479694604835,
+				"repetitions":	5
+			}
+		}
+	}]

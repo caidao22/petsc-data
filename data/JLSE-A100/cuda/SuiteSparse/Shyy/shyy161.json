@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Shyy/shyy161/shyy161.mtx",
+		"problem":	{
+			"id":	809,
+			"group":	"Shyy",
+			"name":	"shyy161",
+			"rows":	76480,
+			"cols":	76480,
+			"nonzeros":	329762,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.72633586965096353,
+			"nsym":	0.18244275356602441,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	4.6815999597311017e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00028657919764518735,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	2.90559999644756e-05,
+				"repetitions":	5
+			}
+		}
+	}]

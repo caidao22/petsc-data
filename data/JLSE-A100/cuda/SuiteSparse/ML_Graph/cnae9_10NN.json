@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/ML_Graph/cnae9_10NN/cnae9_10NN.mtx",
+		"problem":	{
+			"id":	2859,
+			"group":	"ML_Graph",
+			"name":	"cnae9_10NN",
+			"rows":	1080,
+			"cols":	1080,
+			"nonzeros":	18278,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.1001599878072736e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	8.88000011444092e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.433600001037119e-05,
+				"repetitions":	5
+			}
+		}
+	}]

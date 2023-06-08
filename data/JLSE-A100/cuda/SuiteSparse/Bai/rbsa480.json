@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Bai/rbsa480/rbsa480.mtx",
+		"problem":	{
+			"id":	329,
+			"group":	"Bai",
+			"name":	"rbsa480",
+			"rows":	480,
+			"cols":	480,
+			"nonzeros":	17088,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.074856271265986152,
+			"nsym":	0.000703977472720873,
+			"kind":	"robotics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.7968000248074531e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	7.10719995200634e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.1673599854111695e-05,
+				"repetitions":	5
+			}
+		}
+	}]

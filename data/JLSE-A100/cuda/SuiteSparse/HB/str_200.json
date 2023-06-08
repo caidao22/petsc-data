@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/HB/str_200/str_200.mtx",
+		"problem":	{
+			"id":	255,
+			"group":	"HB",
+			"name":	"str_200",
+			"rows":	363,
+			"cols":	363,
+			"nonzeros":	3068,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.01108936725375081,
+			"nsym":	0,
+			"kind":	"subsequent optimization problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.5599999725818632e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	5.5910401046276089e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.249279975891113e-05,
+				"repetitions":	5
+			}
+		}
+	}]

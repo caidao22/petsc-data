@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/HB/nnc261/nnc261.mtx",
+		"problem":	{
+			"id":	215,
+			"group":	"HB",
+			"name":	"nnc261",
+			"rows":	261,
+			"cols":	261,
+			"nonzeros":	1500,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.82370370370370372,
+			"nsym":	0.61333333333333329,
+			"kind":	"2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.0719999969005584e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	5.5910402536392218e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.2902399897575392e-05,
+				"repetitions":	5
+			}
+		}
+	}]

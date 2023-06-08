@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/HB/psmigr_3/psmigr_3.mtx",
+		"problem":	{
+			"id":	237,
+			"group":	"HB",
+			"name":	"psmigr_3",
+			"rows":	3140,
+			"cols":	3140,
+			"nonzeros":	543160,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.47865086977937937,
+			"nsym":	0,
+			"kind":	"economic problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	4.53120008111e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.000409087997674942,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	5.85727989673615e-05,
+				"repetitions":	5
+			}
+		}
+	}]

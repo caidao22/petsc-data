@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Oberwolfach/piston/piston.mtx",
+		"problem":	{
+			"id":	1441,
+			"group":	"Oberwolfach",
+			"name":	"piston",
+			"rows":	2025,
+			"cols":	2025,
+			"nonzeros":	100015,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.0327584447392591,
+			"kind":	"model reduction problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.9625599458813665e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00014458879977464676,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.351680047810078e-05,
+				"repetitions":	5
+			}
+		}
+	}]

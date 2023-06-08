@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Cannizzo/sts4098/sts4098.mtx",
+		"problem":	{
+			"id":	1214,
+			"group":	"Cannizzo",
+			"name":	"sts4098",
+			"rows":	4098,
+			"cols":	4098,
+			"nonzeros":	72356,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.3126399666070944e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00018579199612140654,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.8841600418090895e-05,
+				"repetitions":	5
+			}
+		}
+	}]

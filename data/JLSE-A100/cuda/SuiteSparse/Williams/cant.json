@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Williams/cant/cant.mtx",
+		"problem":	{
+			"id":	2375,
+			"group":	"Williams",
+			"name":	"cant",
+			"rows":	62451,
+			"cols":	62451,
+			"nonzeros":	4007383,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00014502400159835814,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0022233856201171872,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	8.5894398391246277e-05,
+				"repetitions":	5
+			}
+		}
+	}]

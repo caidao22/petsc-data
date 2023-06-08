@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Belcastro/human_gene1/human_gene1.mtx",
+		"problem":	{
+			"id":	2280,
+			"group":	"Belcastro",
+			"name":	"human_gene1",
+			"rows":	22283,
+			"cols":	22283,
+			"nonzeros":	24669643,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00044008320569992061,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.012876422500610352,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.00083025280237198078,
+				"repetitions":	5
+			}
+		}
+	}]

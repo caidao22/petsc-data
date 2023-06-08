@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Gset/G61/G61.mtx",
+		"problem":	{
+			"id":	526,
+			"group":	"Gset",
+			"name":	"G61",
+			"rows":	7000,
+			"cols":	7000,
+			"nonzeros":	34296,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted random graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.9043199867010115e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	8.6438399553298963e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.26976002007723e-05,
+				"repetitions":	5
+			}
+		}
+	}]

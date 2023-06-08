@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/GHS_psdef/s3dkq4m2/s3dkq4m2.mtx",
+		"problem":	{
+			"id":	1275,
+			"group":	"GHS_psdef",
+			"name":	"s3dkq4m2",
+			"rows":	90449,
+			"cols":	90449,
+			"nonzeros":	4427725,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.0001563647985458374,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0026647743701934813,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	9.5232000946999029e-05,
+				"repetitions":	5
+			}
+		}
+	}]

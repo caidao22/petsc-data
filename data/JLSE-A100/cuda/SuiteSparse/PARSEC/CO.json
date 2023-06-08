@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/PARSEC/CO/CO.mtx",
+		"problem":	{
+			"id":	1349,
+			"group":	"PARSEC",
+			"name":	"CO",
+			"rows":	221119,
+			"cols":	221119,
+			"nonzeros":	7666057,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"theoretical/quantum chemistry problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00021524479687213895,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0041370560646057132,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.00015911679565906652,
+				"repetitions":	5
+			}
+		}
+	}]

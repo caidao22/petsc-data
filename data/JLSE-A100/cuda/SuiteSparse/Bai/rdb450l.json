@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Bai/rdb450l/rdb450l.mtx",
+		"problem":	{
+			"id":	1635,
+			"group":	"Bai",
+			"name":	"rdb450l",
+			"rows":	450,
+			"cols":	450,
+			"nonzeros":	2580,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.788732394366197,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.7033600211143492e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	5.3657598793506632e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.126400027424096e-05,
+				"repetitions":	5
+			}
+		}
+	}]

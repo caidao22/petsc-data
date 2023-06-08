@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/DIMACS10/ky2010/ky2010.mtx",
+		"problem":	{
+			"id":	2598,
+			"group":	"DIMACS10",
+			"name":	"ky2010",
+			"rows":	161672,
+			"cols":	161672,
+			"nonzeros":	787778,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	5.92448003590107e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00055667201280593863,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	5.5686399340629678e-05,
+				"repetitions":	5
+			}
+		}
+	}]

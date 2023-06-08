@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Williams/consph/consph.mtx",
+		"problem":	{
+			"id":	2374,
+			"group":	"Williams",
+			"name":	"consph",
+			"rows":	83334,
+			"cols":	83334,
+			"nonzeros":	6010480,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.0001732864022254944,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0032785727977752686,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.00010877439826726884,
+				"repetitions":	5
+			}
+		}
+	}]

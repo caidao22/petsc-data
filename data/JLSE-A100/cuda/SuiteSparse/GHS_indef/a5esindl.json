@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/GHS_indef/a5esindl/a5esindl.mtx",
+		"problem":	{
+			"id":	1293,
+			"group":	"GHS_indef",
+			"name":	"a5esindl",
+			"rows":	60008,
+			"cols":	60008,
+			"nonzeros":	255004,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"optimization problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	4.3315199762582779e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.002932467269897461,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	4.1638399660587011e-05,
+				"repetitions":	5
+			}
+		}
+	}]

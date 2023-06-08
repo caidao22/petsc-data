@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Goodwin/rim/rim.mtx",
+		"problem":	{
+			"id":	447,
+			"group":	"Goodwin",
+			"name":	"rim",
+			"rows":	22560,
+			"cols":	22560,
+			"nonzeros":	1014951,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.639064022093899,
+			"nsym":	0,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	6.2515200674533841e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.000640064013004303,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	5.2313600480556438e-05,
+				"repetitions":	5
+			}
+		}
+	}]

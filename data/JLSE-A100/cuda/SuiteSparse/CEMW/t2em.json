@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/CEMW/t2em/t2em.mtx",
+		"problem":	{
+			"id":	1897,
+			"group":	"CEMW",
+			"name":	"t2em",
+			"rows":	921632,
+			"cols":	921632,
+			"nonzeros":	4590832,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.99881827101275478,
+			"nsym":	0.99881827101275478,
+			"kind":	"electromagnetics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00016517119705677035,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0026599552154541015,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.0001140671983361246,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/TOKAMAK/utm300/utm300.mtx",
+		"problem":	{
+			"id":	824,
+			"group":	"TOKAMAK",
+			"name":	"utm300",
+			"rows":	300,
+			"cols":	300,
+			"nonzeros":	3155,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.4651488616462347,
+			"nsym":	0,
+			"kind":	"electromagnetics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.723839953541756e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	5.959680005908014e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.26976002007723e-05,
+				"repetitions":	5
+			}
+		}
+	}]

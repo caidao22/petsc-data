@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Mancktelow/viscorocks/viscorocks.mtx",
+		"problem":	{
+			"id":	1879,
+			"group":	"Mancktelow",
+			"name":	"viscorocks",
+			"rows":	37762,
+			"cols":	37762,
+			"nonzeros":	1133641,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.279507135368047,
+			"kind":	"materials problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	6.87360003590584e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.000752940797805786,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	4.4447999447583955e-05,
+				"repetitions":	5
+			}
+		}
+	}]

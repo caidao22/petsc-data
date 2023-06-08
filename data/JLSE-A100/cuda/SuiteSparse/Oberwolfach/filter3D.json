@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Oberwolfach/filter3D/filter3D.mtx",
+		"problem":	{
+			"id":	1431,
+			"group":	"Oberwolfach",
+			"name":	"filter3D",
+			"rows":	106437,
+			"cols":	106437,
+			"nonzeros":	2707179,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"model reduction problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00011198079884052277,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0015750335931777955,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.00011239680051803661,
+				"repetitions":	5
+			}
+		}
+	}]

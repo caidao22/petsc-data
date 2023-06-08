@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Gset/G7/G7.mtx",
+		"problem":	{
+			"id":	533,
+			"group":	"Gset",
+			"name":	"G7",
+			"rows":	800,
+			"cols":	800,
+			"nonzeros":	38352,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted random graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.1705600023269652e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	9.163519889116287e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.3107199966907513e-05,
+				"repetitions":	5
+			}
+		}
+	}]

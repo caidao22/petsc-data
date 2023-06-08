@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/DIMACS10/ga2010/ga2010.mtx",
+		"problem":	{
+			"id":	2591,
+			"group":	"DIMACS10",
+			"name":	"ga2010",
+			"rows":	291086,
+			"cols":	291086,
+			"nonzeros":	1418056,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	8.47424015402794e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00095181440114974964,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	8.4172798693180067e-05,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/DRIVCAV/cavity09/cavity09.mtx",
+		"problem":	{
+			"id":	388,
+			"group":	"DRIVCAV",
+			"name":	"cavity09",
+			"rows":	1182,
+			"cols":	1182,
+			"nonzeros":	32702,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.904908360532262,
+			"nsym":	0,
+			"kind":	"subsequent computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.0496000498533253e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	8.7046399712562562e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.208319962024691e-05,
+				"repetitions":	5
+			}
+		}
+	}]

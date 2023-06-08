@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/VDOL/kineticBatchReactor_4/kineticBatchReactor_4.mtx",
+		"problem":	{
+			"id":	2699,
+			"group":	"VDOL",
+			"name":	"kineticBatchReactor_4",
+			"rows":	7105,
+			"cols":	7105,
+			"nonzeros":	74869,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"optimal control problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.3830399811267853e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.000575225615501404,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.7612800002098258e-05,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Pajek/SciMet/SciMet.mtx",
+		"problem":	{
+			"id":	1521,
+			"group":	"Pajek",
+			"name":	"SciMet",
+			"rows":	3084,
+			"cols":	3084,
+			"nonzeros":	10413,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.0024971187091817129,
+			"nsym":	0.0024971187091817129,
+			"kind":	"directed multigraph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.20959996432066e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	8.6828799545764939e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.6998399794101723e-05,
+				"repetitions":	5
+			}
+		}
+	}]

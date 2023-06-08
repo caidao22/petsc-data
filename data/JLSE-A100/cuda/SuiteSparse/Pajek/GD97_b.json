@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Pajek/GD97_b/GD97_b.mtx",
+		"problem":	{
+			"id":	1493,
+			"group":	"Pajek",
+			"name":	"GD97_b",
+			"rows":	47,
+			"cols":	47,
+			"nonzeros":	264,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.539519965648651e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	5.3657600283622741e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.1468799971044044e-05,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/HB/saylr4/saylr4.mtx",
+		"problem":	{
+			"id":	241,
+			"group":	"HB",
+			"name":	"saylr4",
+			"rows":	3564,
+			"cols":	3564,
+			"nonzeros":	22316,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.8480000048875812e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	7.6492799818515765e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.1264000087976458e-05,
+				"repetitions":	5
+			}
+		}
+	}]

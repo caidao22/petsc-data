@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/ML_Graph/breasttissue_10NN/breasttissue_10NN.mtx",
+		"problem":	{
+			"id":	2858,
+			"group":	"ML_Graph",
+			"name":	"breasttissue_10NN",
+			"rows":	106,
+			"cols":	106,
+			"nonzeros":	1412,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.6419200003147127e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	5.2838401496410376e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.249279975891113e-05,
+				"repetitions":	5
+			}
+		}
+	}]

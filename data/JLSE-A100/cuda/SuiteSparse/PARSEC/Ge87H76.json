@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/PARSEC/Ge87H76/Ge87H76.mtx",
+		"problem":	{
+			"id":	1355,
+			"group":	"PARSEC",
+			"name":	"Ge87H76",
+			"rows":	112985,
+			"cols":	112985,
+			"nonzeros":	7892195,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"theoretical/quantum chemistry problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00020416640043258665,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.004253958320617676,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.00020529919564723982,
+				"repetitions":	5
+			}
+		}
+	}]

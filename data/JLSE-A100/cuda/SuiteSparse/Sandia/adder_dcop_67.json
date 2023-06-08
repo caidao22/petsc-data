@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Sandia/adder_dcop_67/adder_dcop_67.mtx",
+		"problem":	{
+			"id":	1050,
+			"group":	"Sandia",
+			"name":	"adder_dcop_67",
+			"rows":	1813,
+			"cols":	1813,
+			"nonzeros":	11246,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.64817363684489149,
+			"nsym":	0.00783483324510323,
+			"kind":	"subsequent circuit simulation problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.89087999612093e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00030374399423599245,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.454080007970331e-05,
+				"repetitions":	5
+			}
+		}
+	}]

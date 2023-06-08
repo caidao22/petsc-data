@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/JGD_Trefethen/Trefethen_700/Trefethen_700.mtx",
+		"problem":	{
+			"id":	2210,
+			"group":	"JGD_Trefethen",
+			"name":	"Trefethen_700",
+			"rows":	700,
+			"cols":	700,
+			"nonzeros":	12654,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"combinatorial problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.6758400723338128e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	6.67263984680176e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.1059200204908839e-05,
+				"repetitions":	5
+			}
+		}
+	}]

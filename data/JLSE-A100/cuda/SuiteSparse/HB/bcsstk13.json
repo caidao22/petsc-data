@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/HB/bcsstk13/bcsstk13.mtx",
+		"problem":	{
+			"id":	35,
+			"group":	"HB",
+			"name":	"bcsstk13",
+			"rows":	2003,
+			"cols":	2003,
+			"nonzeros":	83883,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.0848000571131711e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00013178240060806275,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.454080007970331e-05,
+				"repetitions":	5
+			}
+		}
+	}]

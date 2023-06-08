@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Janna/Queen_4147/Queen_4147.mtx",
+		"problem":	{
+			"id":	2660,
+			"group":	"Janna",
+			"name":	"Queen_4147",
+			"rows":	4147110,
+			"cols":	4147110,
+			"nonzeros":	316548962,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.0031937151908874514,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.1673744598388672,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.0032171135902404834,
+				"repetitions":	5
+			}
+		}
+	}]

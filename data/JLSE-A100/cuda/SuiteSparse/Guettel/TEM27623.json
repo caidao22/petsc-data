@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Guettel/TEM27623/TEM27623.mtx",
+		"problem":	{
+			"id":	2811,
+			"group":	"Guettel",
+			"name":	"TEM27623",
+			"rows":	27623,
+			"cols":	27623,
+			"nonzeros":	439469,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"electromagnetics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	4.6611201018095017e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0003279807925224304,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	3.2204800099134385e-05,
+				"repetitions":	5
+			}
+		}
+	}]

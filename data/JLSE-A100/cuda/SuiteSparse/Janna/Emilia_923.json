@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Janna/Emilia_923/Emilia_923.mtx",
+		"problem":	{
+			"id":	2542,
+			"group":	"Janna",
+			"name":	"Emilia_923",
+			"rows":	923136,
+			"cols":	923136,
+			"nonzeros":	40373538,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.000662720000743866,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.021133446121215822,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.00060254080295562835,
+				"repetitions":	5
+			}
+		}
+	}]

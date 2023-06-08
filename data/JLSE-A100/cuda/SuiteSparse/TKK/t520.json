@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/TKK/t520/t520.mtx",
+		"problem":	{
+			"id":	1908,
+			"group":	"TKK",
+			"name":	"t520",
+			"rows":	5563,
+			"cols":	5563,
+			"nonzeros":	286341,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.020160011947155e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00023729279935359957,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.4950399845838589e-05,
+				"repetitions":	5
+			}
+		}
+	}]

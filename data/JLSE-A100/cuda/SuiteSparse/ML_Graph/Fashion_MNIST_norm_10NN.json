@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/ML_Graph/Fashion_MNIST_norm_10NN/Fashion_MNIST_norm_10NN.mtx",
+		"problem":	{
+			"id":	2868,
+			"group":	"ML_Graph",
+			"name":	"Fashion_MNIST_norm_10NN",
+			"rows":	10000,
+			"cols":	10000,
+			"nonzeros":	158304,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.6038399860262871e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0001961280047893524,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	2.2118399664759672e-05,
+				"repetitions":	5
+			}
+		}
+	}]

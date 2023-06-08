@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Boeing/bcsstk39/bcsstk39.mtx",
+		"problem":	{
+			"id":	846,
+			"group":	"Boeing",
+			"name":	"bcsstk39",
+			"rows":	46772,
+			"cols":	46772,
+			"nonzeros":	2060662,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	9.0809600055217745e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0012224191904067995,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	5.4329599440097916e-05,
+				"repetitions":	5
+			}
+		}
+	}]

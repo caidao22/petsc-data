@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Oberwolfach/boneS10/boneS10.mtx",
+		"problem":	{
+			"id":	1455,
+			"group":	"Oberwolfach",
+			"name":	"boneS10",
+			"rows":	914898,
+			"cols":	914898,
+			"nonzeros":	40878708,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"model reduction problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00078584319353103651,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.028604492950439452,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.00074688639640808625,
+				"repetitions":	5
+			}
+		}
+	}]

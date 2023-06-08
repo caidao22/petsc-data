@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Janna/ML_Laplace/ML_Laplace.mtx",
+		"problem":	{
+			"id":	2648,
+			"group":	"Janna",
+			"name":	"ML_Laplace",
+			"rows":	377002,
+			"cols":	377002,
+			"nonzeros":	27582698,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	7.3514017064661755e-08,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.000456140798330307,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.014354335975646972,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.00031777920722961538,
+				"repetitions":	5
+			}
+		}
+	}]

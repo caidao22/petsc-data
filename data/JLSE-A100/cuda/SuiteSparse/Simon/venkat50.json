@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Simon/venkat50/venkat50.mtx",
+		"problem":	{
+			"id":	822,
+			"group":	"Simon",
+			"name":	"venkat50",
+			"rows":	62424,
+			"cols":	62424,
+			"nonzeros":	1717777,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.055396039394618547,
+			"kind":	"subsequent computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	8.0851200222969053e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0010488000035285949,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	5.3267200291156819e-05,
+				"repetitions":	5
+			}
+		}
+	}]

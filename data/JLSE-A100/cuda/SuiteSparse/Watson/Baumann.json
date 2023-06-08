@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Watson/Baumann/Baumann.mtx",
+		"problem":	{
+			"id":	1855,
+			"group":	"Watson",
+			"name":	"Baumann",
+			"rows":	112211,
+			"cols":	112211,
+			"nonzeros":	748331,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0,
+			"kind":	"2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	6.0985600203275684e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.000533920007944107,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	3.65120001137257e-05,
+				"repetitions":	5
+			}
+		}
+	}]

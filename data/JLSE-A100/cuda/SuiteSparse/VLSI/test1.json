@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/VLSI/test1/test1.mtx",
+		"problem":	{
+			"id":	2840,
+			"group":	"VLSI",
+			"name":	"test1",
+			"rows":	392908,
+			"cols":	392908,
+			"nonzeros":	9447535,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.2651539373184561,
+			"kind":	"semiconductor device problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00033924480080604555,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0069244480133056636,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.00034295680522918731,
+				"repetitions":	5
+			}
+		}
+	}]

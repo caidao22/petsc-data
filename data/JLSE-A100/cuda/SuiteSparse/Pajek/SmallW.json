@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Pajek/SmallW/SmallW.mtx",
+		"problem":	{
+			"id":	1523,
+			"group":	"Pajek",
+			"name":	"SmallW",
+			"rows":	396,
+			"cols":	396,
+			"nonzeros":	994,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0,
+			"nsym":	0,
+			"kind":	"directed multigraph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.5020800493657587e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	7.96672001481056e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.8431999906897539e-05,
+				"repetitions":	5
+			}
+		}
+	}]

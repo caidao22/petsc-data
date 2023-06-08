@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/GHS_indef/tuma2/tuma2.mtx",
+		"problem":	{
+			"id":	1250,
+			"group":	"GHS_indef",
+			"name":	"tuma2",
+			"rows":	12992,
+			"cols":	12992,
+			"nonzeros":	49365,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.7715201079845429e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0001078911989927292,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.465600021183489e-05,
+				"repetitions":	5
+			}
+		}
+	}]

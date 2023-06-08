@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/HB/sherman5/sherman5.mtx",
+		"problem":	{
+			"id":	246,
+			"group":	"HB",
+			"name":	"sherman5",
+			"rows":	3312,
+			"cols":	3312,
+			"nonzeros":	20793,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.73863051312853956,
+			"nsym":	0.15342371717865111,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.2377599552273746e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	8.4256000816822048e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.2902400270104418e-05,
+				"repetitions":	5
+			}
+		}
+	}]

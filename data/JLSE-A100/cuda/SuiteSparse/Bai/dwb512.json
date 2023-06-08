@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Bai/dwb512/dwb512.mtx",
+		"problem":	{
+			"id":	1617,
+			"group":	"Bai",
+			"name":	"dwb512",
+			"rows":	512,
+			"cols":	512,
+			"nonzeros":	2500,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.96981891348088534,
+			"nsym":	0.88329979879275655,
+			"kind":	"electromagnetics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.4780799448490145e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	5.0995200872421272e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.0444800183176981e-05,
+				"repetitions":	5
+			}
+		}
+	}]

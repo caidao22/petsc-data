@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/GHS_psdef/wathen100/wathen100.mtx",
+		"problem":	{
+			"id":	1288,
+			"group":	"GHS_psdef",
+			"name":	"wathen100",
+			"rows":	30401,
+			"cols":	30401,
+			"nonzeros":	471601,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"random 2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	4.7776000946760179e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00035100160241127016,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	3.2627199962735089e-05,
+				"repetitions":	5
+			}
+		}
+	}]

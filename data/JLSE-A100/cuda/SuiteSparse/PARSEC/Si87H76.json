@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/PARSEC/Si87H76/Si87H76.mtx",
+		"problem":	{
+			"id":	1364,
+			"group":	"PARSEC",
+			"name":	"Si87H76",
+			"rows":	240369,
+			"cols":	240369,
+			"nonzeros":	10661631,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"theoretical/quantum chemistry problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00023398399949073795,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0057021567344665517,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.00021850239932537165,
+				"repetitions":	5
+			}
+		}
+	}]

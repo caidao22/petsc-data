@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Pajek/EAT_SR/EAT_SR.mtx",
+		"problem":	{
+			"id":	1462,
+			"group":	"Pajek",
+			"name":	"EAT_SR",
+			"rows":	23219,
+			"cols":	23219,
+			"nonzeros":	325589,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.12362741327590181,
+			"nsym":	0.03102530574571187,
+			"kind":	"directed weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	5.3260800801217548e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00028611840009689331,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	4.3244799226522428e-05,
+				"repetitions":	5
+			}
+		}
+	}]

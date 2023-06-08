@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/GHS_indef/darcy003/darcy003.mtx",
+		"problem":	{
+			"id":	1232,
+			"group":	"GHS_indef",
+			"name":	"darcy003",
+			"rows":	389874,
+			"cols":	389874,
+			"nonzeros":	2097566,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00010578559935092926,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0013303424119949342,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	6.1708799749612969e-05,
+				"repetitions":	5
+			}
+		}
+	}]

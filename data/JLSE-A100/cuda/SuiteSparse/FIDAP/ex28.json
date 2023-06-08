@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/FIDAP/ex28/ex28.mtx",
+		"problem":	{
+			"id":	425,
+			"group":	"FIDAP",
+			"name":	"ex28",
+			"rows":	2603,
+			"cols":	2603,
+			"nonzeros":	77031,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.987762377291229,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.432959951460362e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00015552639961242677,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.5564799867570384e-05,
+				"repetitions":	5
+			}
+		}
+	}]

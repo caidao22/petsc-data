@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/HB/nos3/nos3.mtx",
+		"problem":	{
+			"id":	219,
+			"group":	"HB",
+			"name":	"nos3",
+			"rows":	960,
+			"cols":	960,
+			"nonzeros":	15844,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.1769600510597229e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	7.44959980249405e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.3107199966907513e-05,
+				"repetitions":	5
+			}
+		}
+	}]

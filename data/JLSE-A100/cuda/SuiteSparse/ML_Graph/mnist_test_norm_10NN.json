@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/ML_Graph/mnist_test_norm_10NN/mnist_test_norm_10NN.mtx",
+		"problem":	{
+			"id":	2878,
+			"group":	"ML_Graph",
+			"name":	"mnist_test_norm_10NN",
+			"rows":	10000,
+			"cols":	10000,
+			"nonzeros":	145600,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.420160077512265e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00018221439719200136,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.7804799973964673e-05,
+				"repetitions":	5
+			}
+		}
+	}]

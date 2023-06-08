@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Sandia/init_adder1/init_adder1.mtx",
+		"problem":	{
+			"id":	1108,
+			"group":	"Sandia",
+			"name":	"init_adder1",
+			"rows":	1813,
+			"cols":	1813,
+			"nonzeros":	11156,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.65440940673436665,
+			"nsym":	0.015820416889363979,
+			"kind":	"circuit simulation problem sequence"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.1436800584197042e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00033779199719429019,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.5359999984502789e-05,
+				"repetitions":	5
+			}
+		}
+	}]

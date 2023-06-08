@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Schenk_ISEI/para-7/para-7.mtx",
+		"problem":	{
+			"id":	976,
+			"group":	"Schenk_ISEI",
+			"name":	"para-7",
+			"rows":	155924,
+			"cols":	155924,
+			"nonzeros":	2094873,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.36925880979850417,
+			"kind":	"subsequent semiconductor device problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00017937279939651487,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0036818816184997554,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.000285612803697586,
+				"repetitions":	5
+			}
+		}
+	}]

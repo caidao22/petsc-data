@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Cunningham/k3plates/k3plates.mtx",
+		"problem":	{
+			"id":	842,
+			"group":	"Cunningham",
+			"name":	"k3plates",
+			"rows":	11107,
+			"cols":	11107,
+			"nonzeros":	378927,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.999260507857104,
+			"kind":	"acoustics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	4.01471994817257e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00030088960528373718,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	2.7225599810481049e-05,
+				"repetitions":	5
+			}
+		}
+	}]

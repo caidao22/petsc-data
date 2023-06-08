@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/VLSI/dgreen/dgreen.mtx",
+		"problem":	{
+			"id":	2841,
+			"group":	"VLSI",
+			"name":	"dgreen",
+			"rows":	1200611,
+			"cols":	1200611,
+			"nonzeros":	26606169,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.17322083616506281,
+			"kind":	"semiconductor device problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.000933830404281616,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.020170732879638671,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.0010037375926971459,
+				"repetitions":	5
+			}
+		}
+	}]

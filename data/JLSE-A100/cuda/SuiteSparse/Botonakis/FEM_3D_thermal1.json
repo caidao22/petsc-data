@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Botonakis/FEM_3D_thermal1/FEM_3D_thermal1.mtx",
+		"problem":	{
+			"id":	1851,
+			"group":	"Botonakis",
+			"name":	"FEM_3D_thermal1",
+			"rows":	17880,
+			"cols":	17880,
+			"nonzeros":	430740,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.950733904955675,
+			"kind":	"thermal problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	4.5235199481248858e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.000328057599067688,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	3.0822400748729656e-05,
+				"repetitions":	5
+			}
+		}
+	}]

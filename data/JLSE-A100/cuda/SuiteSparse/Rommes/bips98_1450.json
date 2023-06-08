@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Rommes/bips98_1450/bips98_1450.mtx",
+		"problem":	{
+			"id":	2352,
+			"group":	"Rommes",
+			"name":	"bips98_1450",
+			"rows":	11305,
+			"cols":	11305,
+			"nonzeros":	44678,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.759368427289155,
+			"nsym":	0.627780904701247,
+			"kind":	"eigenvalue/model reduction problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.4297600388526913e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00010618239790201188,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.3824000209569946e-05,
+				"repetitions":	5
+			}
+		}
+	}]

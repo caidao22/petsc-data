@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Bai/bfwb62/bfwb62.mtx",
+		"problem":	{
+			"id":	296,
+			"group":	"Bai",
+			"name":	"bfwb62",
+			"rows":	62,
+			"cols":	62,
+			"nonzeros":	342,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"electromagnetics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.8057599812746047e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	5.67296013236046e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.2697600200772309e-05,
+				"repetitions":	5
+			}
+		}
+	}]

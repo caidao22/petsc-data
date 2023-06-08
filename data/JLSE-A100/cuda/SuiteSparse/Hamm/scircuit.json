@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Hamm/scircuit/scircuit.mtx",
+		"problem":	{
+			"id":	544,
+			"group":	"Hamm",
+			"name":	"scircuit",
+			"rows":	170998,
+			"cols":	170998,
+			"nonzeros":	958936,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.99994670199562952,
+			"nsym":	0.8008355096685118,
+			"kind":	"circuit simulation problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	6.6841600835323341e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00076584320068359365,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	7.31584012508394e-05,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Hollinger/g7jac200/g7jac200.mtx",
+		"problem":	{
+			"id":	566,
+			"group":	"Hollinger",
+			"name":	"g7jac200",
+			"rows":	59310,
+			"cols":	59310,
+			"nonzeros":	717620,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.032274802023050858,
+			"nsym":	0,
+			"kind":	"economic problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	6.337920054793357e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00058092800378799453,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	6.1260800063610028e-05,
+				"repetitions":	5
+			}
+		}
+	}]

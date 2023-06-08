@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Rajat/rajat13/rajat13.mtx",
+		"problem":	{
+			"id":	1197,
+			"group":	"Rajat",
+			"name":	"rajat13",
+			"rows":	7598,
+			"cols":	7598,
+			"nonzeros":	48762,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.29652659703667722,
+			"kind":	"circuit simulation problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.85120002925396e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0010357311964035033,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.5359999984502528e-05,
+				"repetitions":	5
+			}
+		}
+	}]

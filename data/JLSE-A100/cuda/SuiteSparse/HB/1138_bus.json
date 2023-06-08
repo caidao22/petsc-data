@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/HB/1138_bus/1138_bus.mtx",
+		"problem":	{
+			"id":	1,
+			"group":	"HB",
+			"name":	"1138_bus",
+			"rows":	1138,
+			"cols":	1138,
+			"nonzeros":	4054,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"power network problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.9081600159406664e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	5.6320001184940332e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.4540799707174316e-05,
+				"repetitions":	5
+			}
+		}
+	}]

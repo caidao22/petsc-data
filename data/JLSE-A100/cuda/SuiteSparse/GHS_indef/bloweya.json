@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/GHS_indef/bloweya/bloweya.mtx",
+		"problem":	{
+			"id":	1295,
+			"group":	"GHS_indef",
+			"name":	"bloweya",
+			"rows":	30004,
+			"cols":	30004,
+			"nonzeros":	150009,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"materials problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.91232006251812e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.002795705652236938,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	2.7974400296806868e-05,
+				"repetitions":	5
+			}
+		}
+	}]

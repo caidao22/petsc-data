@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/IBM_Austin/coupled/coupled.mtx",
+		"problem":	{
+			"id":	1183,
+			"group":	"IBM_Austin",
+			"name":	"coupled",
+			"rows":	11341,
+			"cols":	11341,
+			"nonzeros":	97193,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.78233732358284036,
+			"kind":	"circuit simulation problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.8073600083589556e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00070498560667037961,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	2.2803199663758243e-05,
+				"repetitions":	5
+			}
+		}
+	}]

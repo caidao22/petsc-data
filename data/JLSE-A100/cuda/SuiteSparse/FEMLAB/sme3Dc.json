@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/FEMLAB/sme3Dc/sme3Dc.mtx",
+		"problem":	{
+			"id":	932,
+			"group":	"FEMLAB",
+			"name":	"sme3Dc",
+			"rows":	42930,
+			"cols":	42930,
+			"nonzeros":	3148656,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.999979392902014,
+			"nsym":	0.43911793892957718,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00014181760251522063,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0018542912006378174,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	9.8265601694584248e-05,
+				"repetitions":	5
+			}
+		}
+	}]

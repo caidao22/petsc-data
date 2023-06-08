@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Moqri/MISKnowledgeMap/MISKnowledgeMap.mtx",
+		"problem":	{
+			"id":	2663,
+			"group":	"Moqri",
+			"name":	"MISKnowledgeMap",
+			"rows":	2427,
+			"cols":	2427,
+			"nonzeros":	57022,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.2959999516606337e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00011559679955244065,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.5974399819970124e-05,
+				"repetitions":	5
+			}
+		}
+	}]

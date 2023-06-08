@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Schenk_IBMNA/c-56/c-56.mtx",
+		"problem":	{
+			"id":	1574,
+			"group":	"Schenk_IBMNA",
+			"name":	"c-56",
+			"rows":	35910,
+			"cols":	35910,
+			"nonzeros":	380240,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"optimization problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	4.4223999232053755e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00060536320209503172,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	4.3071999400854169e-05,
+				"repetitions":	5
+			}
+		}
+	}]

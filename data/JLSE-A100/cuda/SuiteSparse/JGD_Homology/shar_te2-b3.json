@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/JGD_Homology/shar_te2-b3/shar_te2-b3.mtx",
+		"problem":	{
+			"id":	2135,
+			"group":	"JGD_Homology",
+			"name":	"shar_te2-b3",
+			"rows":	200200,
+			"cols":	200200,
+			"nonzeros":	800800,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	7.4925168487972643e-05,
+			"nsym":	2.9970067395189059e-05,
+			"kind":	"combinatorial problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	6.41344003379345e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00055724160075187683,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	3.8304001092910685e-05,
+				"repetitions":	5
+			}
+		}
+	}]

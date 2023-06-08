@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Bai/qh768/qh768.mtx",
+		"problem":	{
+			"id":	1627,
+			"group":	"Bai",
+			"name":	"qh768",
+			"rows":	768,
+			"cols":	768,
+			"nonzeros":	2934,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.934730056406124,
+			"nsym":	0,
+			"kind":	"power network problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.6624000072479245e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	5.3657600283622754e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.1264000087976436e-05,
+				"repetitions":	5
+			}
+		}
+	}]

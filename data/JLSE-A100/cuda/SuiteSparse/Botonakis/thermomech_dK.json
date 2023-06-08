@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Botonakis/thermomech_dK/thermomech_dK.mtx",
+		"problem":	{
+			"id":	2260,
+			"group":	"Botonakis",
+			"name":	"thermomech_dK",
+			"rows":	204316,
+			"cols":	204316,
+			"nonzeros":	2846228,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.665272726722162,
+			"kind":	"thermal problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00012442879974842072,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00166878719329834,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	6.7609600722789637e-05,
+				"repetitions":	5
+			}
+		}
+	}]

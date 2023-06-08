@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Newman/netscience/netscience.mtx",
+		"problem":	{
+			"id":	2401,
+			"group":	"Newman",
+			"name":	"netscience",
+			"rows":	1589,
+			"cols":	1589,
+			"nonzeros":	5484,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.682880014181137e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	5.8982399106025679e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.0854400135576709e-05,
+				"repetitions":	5
+			}
+		}
+	}]

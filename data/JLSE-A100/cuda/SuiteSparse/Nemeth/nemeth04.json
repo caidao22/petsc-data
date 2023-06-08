@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Nemeth/nemeth04/nemeth04.mtx",
+		"problem":	{
+			"id":	768,
+			"group":	"Nemeth",
+			"name":	"nemeth04",
+			"rows":	9506,
+			"cols":	9506,
+			"nonzeros":	394808,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"subsequent theoretical/quantum chemistry problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	4.1823999583721163e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00030015359520912168,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	2.6969600096344963e-05,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Graham/graham1/graham1.mtx",
+		"problem":	{
+			"id":	448,
+			"group":	"Graham",
+			"name":	"graham1",
+			"rows":	9035,
+			"cols":	9035,
+			"nonzeros":	335472,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.718197839525901,
+			"nsym":	0.00043225867333116191,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	4.359039962291717e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00030814079642295839,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	3.4566400200128618e-05,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/VLSI/nv1/nv1.mtx",
+		"problem":	{
+			"id":	2834,
+			"group":	"VLSI",
+			"name":	"nv1",
+			"rows":	75468,
+			"cols":	75468,
+			"nonzeros":	1635003,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.21363932197738431,
+			"kind":	"semiconductor device problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00011144960075616837,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0014283967971801758,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	8.40383991599086e-05,
+				"repetitions":	5
+			}
+		}
+	}]

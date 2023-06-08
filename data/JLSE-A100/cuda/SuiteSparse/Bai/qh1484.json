@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Bai/qh1484/qh1484.mtx",
+		"problem":	{
+			"id":	1626,
+			"group":	"Bai",
+			"name":	"qh1484",
+			"rows":	1484,
+			"cols":	1484,
+			"nonzeros":	6110,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.053772070626003213,
+			"kind":	"power network problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.8467199951410291e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	5.8777601271867748e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.1878399923443795e-05,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/VDOL/goddardRocketProblem_1/goddardRocketProblem_1.mtx",
+		"problem":	{
+			"id":	2689,
+			"group":	"VDOL",
+			"name":	"goddardRocketProblem_1",
+			"rows":	831,
+			"cols":	831,
+			"nonzeros":	8498,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"optimal control problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.6969600096344946e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	9.6076802909374247e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	2.1913599595427486e-05,
+				"repetitions":	5
+			}
+		}
+	}]

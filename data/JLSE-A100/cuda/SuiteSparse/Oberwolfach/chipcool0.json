@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Oberwolfach/chipcool0/chipcool0.mtx",
+		"problem":	{
+			"id":	1428,
+			"group":	"Oberwolfach",
+			"name":	"chipcool0",
+			"rows":	20082,
+			"cols":	20082,
+			"nonzeros":	281150,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.8688617524936032,
+			"kind":	"model reduction problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	4.453120008111e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00025070720613002778,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	2.3584000021219286e-05,
+				"repetitions":	5
+			}
+		}
+	}]

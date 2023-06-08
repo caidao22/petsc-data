@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Bindel/ted_A_unscaled/ted_A_unscaled.mtx",
+		"problem":	{
+			"id":	1408,
+			"group":	"Bindel",
+			"name":	"ted_A_unscaled",
+			"rows":	10605,
+			"cols":	10605,
+			"nonzeros":	424587,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.56579227677493571,
+			"nsym":	0.1057079149564699,
+			"kind":	"thermal problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	4.4518399983644482e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00033069440126419063,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	3.4662400186061868e-05,
+				"repetitions":	5
+			}
+		}
+	}]

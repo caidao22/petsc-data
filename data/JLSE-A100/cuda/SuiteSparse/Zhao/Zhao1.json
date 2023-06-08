@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Zhao/Zhao1/Zhao1.mtx",
+		"problem":	{
+			"id":	834,
+			"group":	"Zhao",
+			"name":	"Zhao1",
+			"rows":	33861,
+			"cols":	33861,
+			"nonzeros":	166453,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.92249909496802218,
+			"nsym":	0,
+			"kind":	"electromagnetics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	4.1337599605321883e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00020080639719963076,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.7823999933898458e-05,
+				"repetitions":	5
+			}
+		}
+	}]

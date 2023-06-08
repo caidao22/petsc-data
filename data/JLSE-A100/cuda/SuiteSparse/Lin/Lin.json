@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Lin/Lin/Lin.mtx",
+		"problem":	{
+			"id":	1213,
+			"group":	"Lin",
+			"name":	"Lin",
+			"rows":	256000,
+			"cols":	256000,
+			"nonzeros":	1766400,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	8.5990400612354279e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0011300479888916013,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	4.9849601089954276e-05,
+				"repetitions":	5
+			}
+		}
+	}]

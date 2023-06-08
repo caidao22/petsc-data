@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Wang/swang1/swang1.mtx",
+		"problem":	{
+			"id":	828,
+			"group":	"Wang",
+			"name":	"swang1",
+			"rows":	3169,
+			"cols":	3169,
+			"nonzeros":	20841,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0,
+			"kind":	"semiconductor device problem sequence"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.4259200096130371e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	7.9366402328014368e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.2902399897575392e-05,
+				"repetitions":	5
+			}
+		}
+	}]

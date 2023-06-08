@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/VLSI/stokes/stokes.mtx",
+		"problem":	{
+			"id":	2845,
+			"group":	"VLSI",
+			"name":	"stokes",
+			"rows":	11449533,
+			"cols":	11449533,
+			"nonzeros":	349321980,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.47290706720456549,
+			"nsym":	0.12931674182949879,
+			"kind":	"semiconductor process problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.003847321653366089,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.19644442749023439,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.0076283839225768976,
+				"repetitions":	5
+			}
+		}
+	}]

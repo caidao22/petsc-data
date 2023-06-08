@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Bai/mhd4800b/mhd4800b.mtx",
+		"problem":	{
+			"id":	1625,
+			"group":	"Bai",
+			"name":	"mhd4800b",
+			"rows":	4800,
+			"cols":	4800,
+			"nonzeros":	27520,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"electromagnetics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.18143993616104e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	8.4524799138307576e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.3312000036239634e-05,
+				"repetitions":	5
+			}
+		}
+	}]

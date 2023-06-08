@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Bai/cryg2500/cryg2500.mtx",
+		"problem":	{
+			"id":	1613,
+			"group":	"Bai",
+			"name":	"cryg2500",
+			"rows":	2500,
+			"cols":	2500,
+			"nonzeros":	12349,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.99482180932074327,
+			"nsym":	0,
+			"kind":	"materials problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.1142400205135349e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	6.9939200580120068e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.2083199992775937e-05,
+				"repetitions":	5
+			}
+		}
+	}]

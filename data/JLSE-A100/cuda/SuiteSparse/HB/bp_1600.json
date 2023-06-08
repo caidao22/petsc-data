@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/HB/bp_1600/bp_1600.mtx",
+		"problem":	{
+			"id":	86,
+			"group":	"HB",
+			"name":	"bp_1600",
+			"rows":	822,
+			"cols":	822,
+			"nonzeros":	4841,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.01075491209927611,
+			"nsym":	0.00041365046535677351,
+			"kind":	"subsequent optimization problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.6009599864482879e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	9.78943973779678e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.3312000036239634e-05,
+				"repetitions":	5
+			}
+		}
+	}]

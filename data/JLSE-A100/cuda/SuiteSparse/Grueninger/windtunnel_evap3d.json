@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Grueninger/windtunnel_evap3d/windtunnel_evap3d.mtx",
+		"problem":	{
+			"id":	2815,
+			"group":	"Grueninger",
+			"name":	"windtunnel_evap3d",
+			"rows":	40816,
+			"cols":	40816,
+			"nonzeros":	803978,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00011281280070543291,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0015594815969467164,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	6.1920000612736278e-05,
+				"repetitions":	5
+			}
+		}
+	}]

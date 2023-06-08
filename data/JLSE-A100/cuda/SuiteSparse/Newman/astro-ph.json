@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Newman/astro-ph/astro-ph.mtx",
+		"problem":	{
+			"id":	2391,
+			"group":	"Newman",
+			"name":	"astro-ph",
+			"rows":	16706,
+			"cols":	16706,
+			"nonzeros":	242502,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.0099199712276458e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00024557439982891084,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	2.9561599716544088e-05,
+				"repetitions":	5
+			}
+		}
+	}]

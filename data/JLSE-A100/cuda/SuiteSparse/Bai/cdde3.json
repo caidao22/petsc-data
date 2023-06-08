@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Bai/cdde3/cdde3.mtx",
+		"problem":	{
+			"id":	302,
+			"group":	"Bai",
+			"name":	"cdde3",
+			"rows":	961,
+			"cols":	961,
+			"nonzeros":	4681,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0,
+			"kind":	"subsequent computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.8057600185275081e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	5.4886400699615479e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.1059200391173353e-05,
+				"repetitions":	5
+			}
+		}
+	}]

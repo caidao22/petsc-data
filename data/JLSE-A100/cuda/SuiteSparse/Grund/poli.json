@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Grund/poli/poli.mtx",
+		"problem":	{
+			"id":	467,
+			"group":	"Grund",
+			"name":	"poli",
+			"rows":	4008,
+			"cols":	4008,
+			"nonzeros":	8188,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.0291866028708134,
+			"nsym":	0.002392344497607655,
+			"kind":	"economic problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.2358399778604512e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	7.6185600459575647e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.7817599698901177e-05,
+				"repetitions":	5
+			}
+		}
+	}]

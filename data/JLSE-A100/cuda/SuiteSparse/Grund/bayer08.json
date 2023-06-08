@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Grund/bayer08/bayer08.mtx",
+		"problem":	{
+			"id":	459,
+			"group":	"Grund",
+			"name":	"bayer08",
+			"rows":	3008,
+			"cols":	3008,
+			"nonzeros":	20698,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.0067454848770580984,
+			"nsym":	0.0013529184383455741,
+			"kind":	"chemical process simulation problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.18207997828722e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	9.13471981883049e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.6793599724769581e-05,
+				"repetitions":	5
+			}
+		}
+	}]

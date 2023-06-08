@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/VLSI/nv2/nv2.mtx",
+		"problem":	{
+			"id":	2835,
+			"group":	"VLSI",
+			"name":	"nv2",
+			"rows":	1453908,
+			"cols":	1453908,
+			"nonzeros":	37475646,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.1982255825635065,
+			"kind":	"semiconductor device problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.001158911991119385,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.027552025604248055,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.0012330496072769149,
+				"repetitions":	5
+			}
+		}
+	}]

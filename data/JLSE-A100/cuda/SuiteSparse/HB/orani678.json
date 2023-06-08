@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/HB/orani678/orani678.mtx",
+		"problem":	{
+			"id":	224,
+			"group":	"HB",
+			"name":	"orani678",
+			"rows":	2529,
+			"cols":	2529,
+			"nonzeros":	90158,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.0706860706860707,
+			"nsym":	2.2235316352963411e-05,
+			"kind":	"economic problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.49056001752615e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00023161599934101105,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	2.3347200080752353e-05,
+				"repetitions":	5
+			}
+		}
+	}]

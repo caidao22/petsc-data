@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Freescale/FullChip/FullChip.mtx",
+		"problem":	{
+			"id":	2380,
+			"group":	"Freescale",
+			"name":	"FullChip",
+			"rows":	2987012,
+			"cols":	2987012,
+			"nonzeros":	26621983,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.99999961921081437,
+			"nsym":	0.0056148651341618,
+			"kind":	"circuit simulation problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00058538880348205568,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.51651887207031244,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.0017170048236848424,
+				"repetitions":	5
+			}
+		}
+	}]

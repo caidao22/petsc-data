@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Norris/fv3/fv3.mtx",
+		"problem":	{
+			"id":	889,
+			"group":	"Norris",
+			"name":	"fv3",
+			"rows":	9801,
+			"cols":	9801,
+			"nonzeros":	87025,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.794559985399247e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00014263039976358414,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.53728000819683e-05,
+				"repetitions":	5
+			}
+		}
+	}]

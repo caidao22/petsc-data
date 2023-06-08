@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/VDOL/freeFlyingRobot_1/freeFlyingRobot_1.mtx",
+		"problem":	{
+			"id":	2673,
+			"group":	"VDOL",
+			"name":	"freeFlyingRobot_1",
+			"rows":	798,
+			"cols":	798,
+			"nonzeros":	5246,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"optimal control problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.9286400228738782e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	8.1305597722530347e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.4336000196635713e-05,
+				"repetitions":	5
+			}
+		}
+	}]

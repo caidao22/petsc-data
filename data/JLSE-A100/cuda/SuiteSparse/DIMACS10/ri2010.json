@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/DIMACS10/ri2010/ri2010.mtx",
+		"problem":	{
+			"id":	2620,
+			"group":	"DIMACS10",
+			"name":	"ri2010",
+			"rows":	25181,
+			"cols":	25181,
+			"nonzeros":	125750,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	4.12671998143196e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00019039359986782072,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	2.1836799383163473e-05,
+				"repetitions":	5
+			}
+		}
+	}]

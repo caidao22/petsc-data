@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Wang/wang4/wang4.mtx",
+		"problem":	{
+			"id":	833,
+			"group":	"Wang",
+			"name":	"wang4",
+			"rows":	26068,
+			"cols":	26068,
+			"nonzeros":	177196,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.0464771584352337,
+			"kind":	"semiconductor device problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	4.092160016298294e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00020412160158157343,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.8112000077962886e-05,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Boeing/bcsstm34/bcsstm34.mtx",
+		"problem":	{
+			"id":	344,
+			"group":	"Boeing",
+			"name":	"bcsstm34",
+			"rows":	588,
+			"cols":	588,
+			"nonzeros":	24270,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.1372799724340438e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	8.04671995341778e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.2492800131440177e-05,
+				"repetitions":	5
+			}
+		}
+	}]

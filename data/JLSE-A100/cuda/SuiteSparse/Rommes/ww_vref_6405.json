@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Rommes/ww_vref_6405/ww_vref_6405.mtx",
+		"problem":	{
+			"id":	2339,
+			"group":	"Rommes",
+			"name":	"ww_vref_6405",
+			"rows":	13251,
+			"cols":	13251,
+			"nonzeros":	48737,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.707540090603374,
+			"nsym":	0.5856980072816208,
+			"kind":	"eigenvalue/model reduction problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.7484800070524211e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00011300480216741563,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.5782399848103492e-05,
+				"repetitions":	5
+			}
+		}
+	}]

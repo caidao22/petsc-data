@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Zitney/extr1/extr1.mtx",
+		"problem":	{
+			"id":	836,
+			"group":	"Zitney",
+			"name":	"extr1",
+			"rows":	2837,
+			"cols":	2837,
+			"nonzeros":	10967,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.0042090494563311121,
+			"nsym":	0.000364797081623347,
+			"kind":	"chemical process simulation problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.4092799946665764e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	7.0784001797437652e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.3516800105571755e-05,
+				"repetitions":	5
+			}
+		}
+	}]

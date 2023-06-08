@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Sandia/fpga_trans_01/fpga_trans_01.mtx",
+		"problem":	{
+			"id":	1106,
+			"group":	"Sandia",
+			"name":	"fpga_trans_01",
+			"rows":	1220,
+			"cols":	1220,
+			"nonzeros":	7382,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.214193962748876,
+			"kind":	"circuit simulation problem sequence"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.3587200194597243e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	8.7449601292610154e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.78176000714302e-05,
+				"repetitions":	5
+			}
+		}
+	}]

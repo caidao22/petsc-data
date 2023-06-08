@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Simon/appu/appu.mtx",
+		"problem":	{
+			"id":	811,
+			"group":	"Simon",
+			"name":	"appu",
+			"rows":	14000,
+			"cols":	14000,
+			"nonzeros":	1853104,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.942975492413697,
+			"kind":	"directed weighted random graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00011599999964237215,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00112021119594574,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	7.37216010689736e-05,
+				"repetitions":	5
+			}
+		}
+	}]

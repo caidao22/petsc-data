@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Bai/rw496/rw496.mtx",
+		"problem":	{
+			"id":	335,
+			"group":	"Bai",
+			"name":	"rw496",
+			"rows":	496,
+			"cols":	496,
+			"nonzeros":	1859,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.46906939214631521,
+			"nsym":	0,
+			"kind":	"statistical/mathematical problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.4780799448490138e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	4.9356801435351358e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	9.83040006831287e-06,
+				"repetitions":	5
+			}
+		}
+	}]

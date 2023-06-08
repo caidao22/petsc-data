@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/TOKAMAK/utm5940/utm5940.mtx",
+		"problem":	{
+			"id":	826,
+			"group":	"TOKAMAK",
+			"name":	"utm5940",
+			"rows":	5940,
+			"cols":	5940,
+			"nonzeros":	83842,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.52904931837436775,
+			"nsym":	0,
+			"kind":	"electromagnetics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.271679989993572e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00013374080061912533,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.6179199889302266e-05,
+				"repetitions":	5
+			}
+		}
+	}]

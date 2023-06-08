@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Janna/CoupCons3D/CoupCons3D.mtx",
+		"problem":	{
+			"id":	2647,
+			"group":	"Janna",
+			"name":	"CoupCons3D",
+			"rows":	416800,
+			"cols":	416800,
+			"nonzeros":	17277420,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.0088816425493249956,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00038474879860877988,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.011627500915527344,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.00031191039681434661,
+				"repetitions":	5
+			}
+		}
+	}]

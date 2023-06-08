@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Sandia/oscil_dcop_43/oscil_dcop_43.mtx",
+		"problem":	{
+			"id":	1154,
+			"group":	"Sandia",
+			"name":	"oscil_dcop_43",
+			"rows":	430,
+			"cols":	430,
+			"nonzeros":	1544,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.97623089983022071,
+			"nsym":	0.697792869269949,
+			"kind":	"subsequent circuit simulation problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.7852800488471987e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	5.345279872417449e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.290240027010443e-05,
+				"repetitions":	5
+			}
+		}
+	}]

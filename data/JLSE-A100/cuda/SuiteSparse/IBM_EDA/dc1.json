@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/IBM_EDA/dc1/dc1.mtx",
+		"problem":	{
+			"id":	1320,
+			"group":	"IBM_EDA",
+			"name":	"dc1",
+			"rows":	116835,
+			"cols":	116835,
+			"nonzeros":	766396,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.85424771499520447,
+			"nsym":	0.24262848292923991,
+			"kind":	"circuit simulation problem sequence"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	5.8931200206279745e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.03034718704223633,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	7.05919995904025e-05,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/MathWorks/tomography/tomography.mtx",
+		"problem":	{
+			"id":	1328,
+			"group":	"MathWorks",
+			"name":	"tomography",
+			"rows":	500,
+			"cols":	500,
+			"nonzeros":	28726,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.93311131580812,
+			"kind":	"computer graphics/vision problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.8992000222206117e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	8.99392008781433e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.5359999984502765e-05,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Pajek/geom/geom.mtx",
+		"problem":	{
+			"id":	1500,
+			"group":	"Pajek",
+			"name":	"geom",
+			"rows":	7343,
+			"cols":	7343,
+			"nonzeros":	23796,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.0022399872541429e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	9.4047999382019051e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.8636800348758685e-05,
+				"repetitions":	5
+			}
+		}
+	}]

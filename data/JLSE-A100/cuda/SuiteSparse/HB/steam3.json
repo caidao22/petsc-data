@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/HB/steam3/steam3.mtx",
+		"problem":	{
+			"id":	253,
+			"group":	"HB",
+			"name":	"steam3",
+			"rows":	80,
+			"cols":	80,
+			"nonzeros":	314,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.3247863247863248,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.7852800488471987e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	5.4681599140167235e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.2697599828243262e-05,
+				"repetitions":	5
+			}
+		}
+	}]

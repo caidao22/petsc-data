@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Raju/laminar_duct3D/laminar_duct3D.mtx",
+		"problem":	{
+			"id":	1399,
+			"group":	"Raju",
+			"name":	"laminar_duct3D",
+			"rows":	67173,
+			"cols":	67173,
+			"nonzeros":	3788857,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.90229080195921452,
+			"nsym":	0.55183862265008832,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00014019199907779693,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0021387455940246581,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	8.00256013870241e-05,
+				"repetitions":	5
+			}
+		}
+	}]

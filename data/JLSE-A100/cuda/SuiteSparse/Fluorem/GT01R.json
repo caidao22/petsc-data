@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Fluorem/GT01R/GT01R.mtx",
+		"problem":	{
+			"id":	2335,
+			"group":	"Fluorem",
+			"name":	"GT01R",
+			"rows":	7980,
+			"cols":	7980,
+			"nonzeros":	430909,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.88114553506616955,
+			"nsym":	9.4578522636187168e-06,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.664000034332275e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00032591360807418827,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	3.0720000714063585e-05,
+				"repetitions":	5
+			}
+		}
+	}]

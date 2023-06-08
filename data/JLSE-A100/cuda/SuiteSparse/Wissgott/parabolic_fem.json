@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Wissgott/parabolic_fem/parabolic_fem.mtx",
+		"problem":	{
+			"id":	1853,
+			"group":	"Wissgott",
+			"name":	"parabolic_fem",
+			"rows":	525825,
+			"cols":	525825,
+			"nonzeros":	3674625,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00013907840251922607,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0021359743595123293,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	9.64608013629912e-05,
+				"repetitions":	5
+			}
+		}
+	}]

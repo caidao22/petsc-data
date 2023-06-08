@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Mazaheri/bundle_adj/bundle_adj.mtx",
+		"problem":	{
+			"id":	2664,
+			"group":	"Mazaheri",
+			"name":	"bundle_adj",
+			"rows":	513351,
+			"cols":	513351,
+			"nonzeros":	20207907,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"computer vision problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.0003571007966995239,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.012249926376342774,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.00052313599586486517,
+				"repetitions":	5
+			}
+		}
+	}]

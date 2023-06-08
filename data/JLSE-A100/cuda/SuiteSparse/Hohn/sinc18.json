@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Hohn/sinc18/sinc18.mtx",
+		"problem":	{
+			"id":	922,
+			"group":	"Hohn",
+			"name":	"sinc18",
+			"rows":	16428,
+			"cols":	16428,
+			"nonzeros":	948696,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.011570855573788339,
+			"nsym":	0,
+			"kind":	"materials problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	6.30528002977371e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00064866560697555541,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	3.64736005663873e-05,
+				"repetitions":	5
+			}
+		}
+	}]

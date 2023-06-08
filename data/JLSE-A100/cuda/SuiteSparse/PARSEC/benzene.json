@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/PARSEC/benzene/benzene.mtx",
+		"problem":	{
+			"id":	1348,
+			"group":	"PARSEC",
+			"name":	"benzene",
+			"rows":	8219,
+			"cols":	8219,
+			"nonzeros":	242669,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"theoretical/quantum chemistry problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	4.1286399960517888e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00022986240088939666,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.8752000108361283e-05,
+				"repetitions":	5
+			}
+		}
+	}]

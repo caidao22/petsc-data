@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Okunbor/aft01/aft01.mtx",
+		"problem":	{
+			"id":	791,
+			"group":	"Okunbor",
+			"name":	"aft01",
+			"rows":	8205,
+			"cols":	8205,
+			"nonzeros":	125567,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"acoustics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.343360014259815e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00017121279537677764,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.5904000028967848e-05,
+				"repetitions":	5
+			}
+		}
+	}]

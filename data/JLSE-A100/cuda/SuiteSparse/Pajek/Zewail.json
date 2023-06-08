@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Pajek/Zewail/Zewail.mtx",
+		"problem":	{
+			"id":	1534,
+			"group":	"Pajek",
+			"name":	"Zewail",
+			"rows":	6752,
+			"cols":	6752,
+			"nonzeros":	54233,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.001843929783153858,
+			"nsym":	0.001843929783153858,
+			"kind":	"directed multigraph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.3100799843668936e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00014120959788560869,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.8227200210094444e-05,
+				"repetitions":	5
+			}
+		}
+	}]

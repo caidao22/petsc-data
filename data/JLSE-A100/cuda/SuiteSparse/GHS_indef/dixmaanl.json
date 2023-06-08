@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/GHS_indef/dixmaanl/dixmaanl.mtx",
+		"problem":	{
+			"id":	1302,
+			"group":	"GHS_indef",
+			"name":	"dixmaanl",
+			"rows":	60000,
+			"cols":	60000,
+			"nonzeros":	299998,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"optimization problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	4.463999941945076e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00026609919965267178,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	2.5523200631141644e-05,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/VLSI/ss/ss.mtx",
+		"problem":	{
+			"id":	2847,
+			"group":	"VLSI",
+			"name":	"ss",
+			"rows":	1652680,
+			"cols":	1652680,
+			"nonzeros":	34753577,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.67803721452019861,
+			"nsym":	0.28893017612181332,
+			"kind":	"semiconductor process problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.00060969600677490232,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.018113369369506839,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.00042005119919777124,
+				"repetitions":	5
+			}
+		}
+	}]

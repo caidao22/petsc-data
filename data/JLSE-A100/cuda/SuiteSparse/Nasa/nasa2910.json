@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Nasa/nasa2910/nasa2910.mtx",
+		"problem":	{
+			"id":	759,
+			"group":	"Nasa",
+			"name":	"nasa2910",
+			"rows":	2910,
+			"cols":	2910,
+			"nonzeros":	174296,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.4297599643468852e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00019514879882335663,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.7407999932765984e-05,
+				"repetitions":	5
+			}
+		}
+	}]

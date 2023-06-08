@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/SNAP/soc-sign-bitcoin-otc/soc-sign-bitcoin-otc.mtx",
+		"problem":	{
+			"id":	2791,
+			"group":	"SNAP",
+			"name":	"soc-sign-bitcoin-otc",
+			"rows":	5881,
+			"cols":	5881,
+			"nonzeros":	35592,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.792312879298719,
+			"nsym":	0.56894807821982463,
+			"kind":	"directed weighted temporal graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.55519998818636e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00030525439977645876,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	2.2937599942088153e-05,
+				"repetitions":	5
+			}
+		}
+	}]

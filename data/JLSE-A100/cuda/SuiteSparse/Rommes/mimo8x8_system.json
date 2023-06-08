@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Rommes/mimo8x8_system/mimo8x8_system.mtx",
+		"problem":	{
+			"id":	2341,
+			"group":	"Rommes",
+			"name":	"mimo8x8_system",
+			"rows":	13309,
+			"cols":	13309,
+			"nonzeros":	48872,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.70602917521770481,
+			"nsym":	0.584447279383216,
+			"kind":	"eigenvalue/model reduction problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.15776001662016e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0001063167989253998,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.334400027990343e-05,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/YZhou/circuit204/circuit204.mtx",
+		"problem":	{
+			"id":	1896,
+			"group":	"YZhou",
+			"name":	"circuit204",
+			"rows":	1020,
+			"cols":	1020,
+			"nonzeros":	5883,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.43797916257126013,
+			"nsym":	0.37271476312168272,
+			"kind":	"circuit simulation problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.13343994319439e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	6.615040153265e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.3721600174903875e-05,
+				"repetitions":	5
+			}
+		}
+	}]

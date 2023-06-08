@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Puri/ABACUS_shell_ud/ABACUS_shell_ud.mtx",
+		"problem":	{
+			"id":	2269,
+			"group":	"Puri",
+			"name":	"ABACUS_shell_ud",
+			"rows":	23412,
+			"cols":	23412,
+			"nonzeros":	218484,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.97537319553805779,
+			"kind":	"model reduction problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	4.0377600491046912e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00026859520077705389,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	2.0588800311088566e-05,
+				"repetitions":	5
+			}
+		}
+	}]

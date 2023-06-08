@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Rommes/zeros_nopss_13k/zeros_nopss_13k.mtx",
+		"problem":	{
+			"id":	2346,
+			"group":	"Rommes",
+			"name":	"zeros_nopss_13k",
+			"rows":	13296,
+			"cols":	13296,
+			"nonzeros":	48827,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.70830561100022182,
+			"nsym":	0.584220447992903,
+			"kind":	"eigenvalue/model reduction problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.7491199374198917e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00011551999896764755,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.5180799923837185e-05,
+				"repetitions":	5
+			}
+		}
+	}]

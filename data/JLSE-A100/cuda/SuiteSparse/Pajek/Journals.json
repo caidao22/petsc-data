@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Pajek/Journals/Journals.mtx",
+		"problem":	{
+			"id":	1506,
+			"group":	"Pajek",
+			"name":	"Journals",
+			"rows":	124,
+			"cols":	124,
+			"nonzeros":	12068,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.8172799944877626e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	6.78144007921219e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.2288000062108057e-05,
+				"repetitions":	5
+			}
+		}
+	}]

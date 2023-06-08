@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/HB/lns_131/lns_131.mtx",
+		"problem":	{
+			"id":	188,
+			"group":	"HB",
+			"name":	"lns_131",
+			"rows":	131,
+			"cols":	131,
+			"nonzeros":	536,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.70283018867924529,
+			"nsym":	0.01886792452830189,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.3756800591945644e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	4.7308799624443064e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	9.42080002278089e-06,
+				"repetitions":	5
+			}
+		}
+	}]

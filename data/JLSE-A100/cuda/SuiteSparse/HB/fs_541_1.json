@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/HB/fs_541_1/fs_541_1.mtx",
+		"problem":	{
+			"id":	145,
+			"group":	"HB",
+			"name":	"fs_541_1",
+			"rows":	541,
+			"cols":	541,
+			"nonzeros":	4282,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.68269230769230771,
+			"nsym":	0,
+			"kind":	"2D/3D problem sequence"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.8262399882078169e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	5.4681599140167241e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.1673599854111653e-05,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Cote/vibrobox/vibrobox.mtx",
+		"problem":	{
+			"id":	379,
+			"group":	"Cote",
+			"name":	"vibrobox",
+			"rows":	12328,
+			"cols":	12328,
+			"nonzeros":	301700,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"acoustics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	4.3724799901247022e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.000288288003206253,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	3.0419199913740138e-05,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/DIMACS10/wv2010/wv2010.mtx",
+		"problem":	{
+			"id":	2630,
+			"group":	"DIMACS10",
+			"name":	"wv2010",
+			"rows":	135218,
+			"cols":	135218,
+			"nonzeros":	662922,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	6.2272000312805177e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.000516198408603668,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	5.6281599402427729e-05,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Pajek/Lederberg/Lederberg.mtx",
+		"problem":	{
+			"id":	1508,
+			"group":	"Pajek",
+			"name":	"Lederberg",
+			"rows":	8843,
+			"cols":	8843,
+			"nonzeros":	41601,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.0030292102416155792,
+			"nsym":	0.0030292102416155792,
+			"kind":	"directed multigraph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.44640001654625e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.000332147204875946,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	2.1689599379897144e-05,
+				"repetitions":	5
+			}
+		}
+	}]

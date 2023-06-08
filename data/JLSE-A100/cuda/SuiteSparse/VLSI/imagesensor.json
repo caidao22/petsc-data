@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/VLSI/imagesensor/imagesensor.mtx",
+		"problem":	{
+			"id":	2836,
+			"group":	"VLSI",
+			"name":	"imagesensor",
+			"rows":	118758,
+			"cols":	118758,
+			"nonzeros":	1446396,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.28261770151200849,
+			"kind":	"semiconductor device problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	8.31615999341011e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.001128051209449768,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	5.0272001326084373e-05,
+				"repetitions":	5
+			}
+		}
+	}]

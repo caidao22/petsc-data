@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Bodendiek/CurlCurl_0/CurlCurl_0.mtx",
+		"problem":	{
+			"id":	2569,
+			"group":	"Bodendiek",
+			"name":	"CurlCurl_0",
+			"rows":	11083,
+			"cols":	11083,
+			"nonzeros":	113343,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"model reduction problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.64863995462656e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00016472319960594178,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.6774399764835861e-05,
+				"repetitions":	5
+			}
+		}
+	}]

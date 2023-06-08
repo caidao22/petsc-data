@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Bai/bwm2000/bwm2000.mtx",
+		"problem":	{
+			"id":	299,
+			"group":	"Bai",
+			"name":	"bwm2000",
+			"rows":	2000,
+			"cols":	2000,
+			"nonzeros":	7996,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.666444296197465,
+			"kind":	"chemical process simulation problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.8876800090074542e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	5.8982401341199856e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.06496002525091e-05,
+				"repetitions":	5
+			}
+		}
+	}]

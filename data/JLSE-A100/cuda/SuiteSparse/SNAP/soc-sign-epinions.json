@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/SNAP/soc-sign-epinions/soc-sign-epinions.mtx",
+		"problem":	{
+			"id":	2325,
+			"group":	"SNAP",
+			"name":	"soc-sign-epinions",
+			"rows":	131828,
+			"cols":	131828,
+			"nonzeros":	841372,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.30825203169842019,
+			"nsym":	0.30182243318557711,
+			"kind":	"directed weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	7.16607987880707e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.001337171173095703,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.00016419839560985575,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Newman/polblogs/polblogs.mtx",
+		"problem":	{
+			"id":	2402,
+			"group":	"Newman",
+			"name":	"polblogs",
+			"rows":	1490,
+			"cols":	1490,
+			"nonzeros":	19025,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.242561244874356,
+			"nsym":	0.24140468930711809,
+			"kind":	"directed multigraph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.6655999943614006e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	9.7068801522254939e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.3107199966907513e-05,
+				"repetitions":	5
+			}
+		}
+	}]

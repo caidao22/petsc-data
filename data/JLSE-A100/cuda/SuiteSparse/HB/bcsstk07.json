@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/HB/bcsstk07/bcsstk07.mtx",
+		"problem":	{
+			"id":	29,
+			"group":	"HB",
+			"name":	"bcsstk07",
+			"rows":	420,
+			"cols":	420,
+			"nonzeros":	7860,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"duplicate structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.5599999725818632e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	5.591039955615998e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.1059200018644316e-05,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/HB/fs_183_4/fs_183_4.mtx",
+		"problem":	{
+			"id":	143,
+			"group":	"HB",
+			"name":	"fs_183_4",
+			"rows":	183,
+			"cols":	183,
+			"nonzeros":	1069,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.417607223476298,
+			"nsym":	0,
+			"kind":	"subsequent 2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.5599999725818632e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	6.16448000073433e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.3107199966907513e-05,
+				"repetitions":	5
+			}
+		}
+	}]

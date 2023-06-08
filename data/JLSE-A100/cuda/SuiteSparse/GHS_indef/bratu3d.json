@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/GHS_indef/bratu3d/bratu3d.mtx",
+		"problem":	{
+			"id":	1299,
+			"group":	"GHS_indef",
+			"name":	"bratu3d",
+			"rows":	27792,
+			"cols":	27792,
+			"nonzeros":	173796,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.7868800014257427e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00020035199522972112,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.6678399965166982e-05,
+				"repetitions":	5
+			}
+		}
+	}]

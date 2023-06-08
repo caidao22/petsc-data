@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/ML_Graph/micromass_10NN/micromass_10NN.mtx",
+		"problem":	{
+			"id":	2877,
+			"group":	"ML_Graph",
+			"name":	"micromass_10NN",
+			"rows":	571,
+			"cols":	571,
+			"nonzeros":	9668,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.9427200183272358e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	7.38944001495838e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.2288000062108057e-05,
+				"repetitions":	5
+			}
+		}
+	}]

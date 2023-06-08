@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Bai/olm1000/olm1000.mtx",
+		"problem":	{
+			"id":	319,
+			"group":	"Bai",
+			"name":	"olm1000",
+			"rows":	1000,
+			"cols":	1000,
+			"nonzeros":	3996,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.66688918558077437,
+			"nsym":	0.33311081441922558,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.5804799795150758e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	5.1609598100185379e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.0035200044512738e-05,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Oberwolfach/flowmeter0/flowmeter0.mtx",
+		"problem":	{
+			"id":	1432,
+			"group":	"Oberwolfach",
+			"name":	"flowmeter0",
+			"rows":	9669,
+			"cols":	9669,
+			"nonzeros":	67391,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"model reduction problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.76639999449253e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00012315520048141476,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.5302399918437e-05,
+				"repetitions":	5
+			}
+		}
+	}]

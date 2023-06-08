@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Fluorem/HV15R/HV15R.mtx",
+		"problem":	{
+			"id":	2384,
+			"group":	"Fluorem",
+			"name":	"HV15R",
+			"rows":	2017169,
+			"cols":	2017169,
+			"nonzeros":	283073458,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.84466154749520661,
+			"nsym":	0.00070827804888578746,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.0026228800296783446,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.14562985534667969,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.00330278401374815,
+				"repetitions":	5
+			}
+		}
+	}]

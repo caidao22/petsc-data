@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Oberwolfach/gyro_m/gyro_m.mtx",
+		"problem":	{
+			"id":	1203,
+			"group":	"Oberwolfach",
+			"name":	"gyro_m",
+			"rows":	17361,
+			"cols":	17361,
+			"nonzeros":	340431,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"duplicate model reduction problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.9526400715112683e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.000281478402018547,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	2.9868800193071349e-05,
+				"repetitions":	5
+			}
+		}
+	}]

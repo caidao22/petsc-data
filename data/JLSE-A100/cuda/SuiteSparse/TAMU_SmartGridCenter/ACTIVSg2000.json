@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/TAMU_SmartGridCenter/ACTIVSg2000/ACTIVSg2000.mtx",
+		"problem":	{
+			"id":	2827,
+			"group":	"TAMU_SmartGridCenter",
+			"name":	"ACTIVSg2000",
+			"rows":	4000,
+			"cols":	4000,
+			"nonzeros":	28505,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.0073454397061824116,
+			"kind":	"power network problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.6550398916006084e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	9.0982398390769976e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.5769600123166985e-05,
+				"repetitions":	5
+			}
+		}
+	}]

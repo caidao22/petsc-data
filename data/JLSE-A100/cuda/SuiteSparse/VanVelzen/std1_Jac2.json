@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/VanVelzen/std1_Jac2/std1_Jac2.mtx",
+		"problem":	{
+			"id":	1334,
+			"group":	"VanVelzen",
+			"name":	"std1_Jac2",
+			"rows":	21982,
+			"cols":	21982,
+			"nonzeros":	1248213,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1.441471454060305e-05,
+			"nsym":	0,
+			"kind":	"chemical process simulation problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	6.9843201339244839e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00079237121343612668,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	7.3190401494503153e-05,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Oberwolfach/t2dal/t2dal.mtx",
+		"problem":	{
+			"id":	1449,
+			"group":	"Oberwolfach",
+			"name":	"t2dal",
+			"rows":	4257,
+			"cols":	4257,
+			"nonzeros":	37465,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"model reduction problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.0131199955940243e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	9.00864005088806e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.1673599854111695e-05,
+				"repetitions":	5
+			}
+		}
+	}]

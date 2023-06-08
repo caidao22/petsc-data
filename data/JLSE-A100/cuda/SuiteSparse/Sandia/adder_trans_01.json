@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Sandia/adder_trans_01/adder_trans_01.mtx",
+		"problem":	{
+			"id":	1053,
+			"group":	"Sandia",
+			"name":	"adder_trans_01",
+			"rows":	1814,
+			"cols":	1814,
+			"nonzeros":	14579,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.031157037732894941,
+			"kind":	"circuit simulation problem sequence"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.4182400256395342e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00024258560240268708,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.3516800105571689e-05,
+				"repetitions":	5
+			}
+		}
+	}]

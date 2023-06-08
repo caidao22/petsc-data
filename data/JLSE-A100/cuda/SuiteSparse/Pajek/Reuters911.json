@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Pajek/Reuters911/Reuters911.mtx",
+		"problem":	{
+			"id":	1517,
+			"group":	"Pajek",
+			"name":	"Reuters911",
+			"rows":	13332,
+			"cols":	13332,
+			"nonzeros":	296076,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph sequence"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	4.9177600443363182e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.000520409595966339,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	9.2492799460887947e-05,
+				"repetitions":	5
+			}
+		}
+	}]

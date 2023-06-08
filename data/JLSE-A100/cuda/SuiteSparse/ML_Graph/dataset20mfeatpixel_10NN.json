@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/ML_Graph/dataset20mfeatpixel_10NN/dataset20mfeatpixel_10NN.mtx",
+		"problem":	{
+			"id":	2864,
+			"group":	"ML_Graph",
+			"name":	"dataset20mfeatpixel_10NN",
+			"rows":	2000,
+			"cols":	2000,
+			"nonzeros":	27932,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.09312004595995e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	8.22272002696991e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.3721599988639351e-05,
+				"repetitions":	5
+			}
+		}
+	}]

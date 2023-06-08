@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/HB/bcsstk23/bcsstk23.mtx",
+		"problem":	{
+			"id":	45,
+			"group":	"HB",
+			"name":	"bcsstk23",
+			"rows":	3134,
+			"cols":	3134,
+			"nonzeros":	45178,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.7814400196075438e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	9.55200016498566e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.1468800157308578e-05,
+				"repetitions":	5
+			}
+		}
+	}]

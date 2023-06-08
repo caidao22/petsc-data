@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Norris/lung1/lung1.mtx",
+		"problem":	{
+			"id":	893,
+			"group":	"Norris",
+			"name":	"lung1",
+			"rows":	1650,
+			"cols":	1650,
+			"nonzeros":	7419,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.57132951984746061,
+			"nsym":	0,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.9286400601267813e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	6.0415999591350546e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.1878399923443795e-05,
+				"repetitions":	5
+			}
+		}
+	}]

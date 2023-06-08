@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/GHS_indef/stokes128/stokes128.mtx",
+		"problem":	{
+			"id":	1246,
+			"group":	"GHS_indef",
+			"name":	"stokes128",
+			"rows":	49666,
+			"cols":	49666,
+			"nonzeros":	558594,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"computational fluid dynamics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	5.3369598835706713e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00040777599811553952,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	3.4700799733400342e-05,
+				"repetitions":	5
+			}
+		}
+	}]

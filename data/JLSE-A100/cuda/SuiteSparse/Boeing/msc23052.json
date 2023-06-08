@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Boeing/msc23052/msc23052.mtx",
+		"problem":	{
+			"id":	362,
+			"group":	"Boeing",
+			"name":	"msc23052",
+			"rows":	23052,
+			"cols":	23052,
+			"nonzeros":	1142686,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"structural problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	6.34815998375416e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.0007042176008224488,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	4.0940800309181154e-05,
+				"repetitions":	5
+			}
+		}
+	}]

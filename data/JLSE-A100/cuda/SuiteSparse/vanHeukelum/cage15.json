@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/vanHeukelum/cage15/cage15.mtx",
+		"problem":	{
+			"id":	916,
+			"group":	"vanHeukelum",
+			"name":	"cage15",
+			"rows":	5154859,
+			"cols":	5154859,
+			"nonzeros":	99199551,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	0.21311939646737321,
+			"kind":	"directed weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.001401369619369507,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.051247615051269534,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.0011254975795745858,
+				"repetitions":	5
+			}
+		}
+	}]

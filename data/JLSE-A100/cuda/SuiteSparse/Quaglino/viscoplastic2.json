@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Quaglino/viscoplastic2/viscoplastic2.mtx",
+		"problem":	{
+			"id":	1869,
+			"group":	"Quaglino",
+			"name":	"viscoplastic2",
+			"rows":	32769,
+			"cols":	32769,
+			"nonzeros":	381326,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.56998998729045747,
+			"nsym":	0,
+			"kind":	"materials problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	4.2329600453376766e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00032299520373344425,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	3.0566400289535471e-05,
+				"repetitions":	5
+			}
+		}
+	}]

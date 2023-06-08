@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/HB/young3c/young3c.mtx",
+		"problem":	{
+			"id":	280,
+			"group":	"HB",
+			"name":	"young3c",
+			"rows":	841,
+			"cols":	841,
+			"nonzeros":	3988,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.93803622497616779,
+			"nsym":	0.80711789005401968,
+			"kind":	"acoustics problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.6009599864482879e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	5.4272000491619113e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.0444799996912467e-05,
+				"repetitions":	5
+			}
+		}
+	}]

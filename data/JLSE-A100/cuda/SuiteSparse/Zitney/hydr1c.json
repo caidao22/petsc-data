@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Zitney/hydr1c/hydr1c.mtx",
+		"problem":	{
+			"id":	1536,
+			"group":	"Zitney",
+			"name":	"hydr1c",
+			"rows":	5308,
+			"cols":	5308,
+			"nonzeros":	22592,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.0041263157894736854,
+			"nsym":	0.000619743249225321,
+			"kind":	"chemical process simulation problem sequence"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.8403199836611748e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	7.6953598856925942e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.1264000087976458e-05,
+				"repetitions":	5
+			}
+		}
+	}]

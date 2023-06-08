@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/ML_Graph/har_10NN/har_10NN.mtx",
+		"problem":	{
+			"id":	2870,
+			"group":	"ML_Graph",
+			"name":	"har_10NN",
+			"rows":	10299,
+			"cols":	10299,
+			"nonzeros":	151736,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.916799947619438e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00020151679813861846,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	2.044800035655497e-05,
+				"repetitions":	5
+			}
+		}
+	}]

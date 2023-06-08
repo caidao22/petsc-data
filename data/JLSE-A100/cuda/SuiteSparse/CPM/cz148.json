@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/CPM/cz148/cz148.mtx",
+		"problem":	{
+			"id":	2559,
+			"group":	"CPM",
+			"name":	"cz148",
+			"rows":	148,
+			"cols":	148,
+			"nonzeros":	1527,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	false,
+			"psym":	0.42639593908629442,
+			"nsym":	0.23060188542422039,
+			"kind":	"2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.9900800436735155e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	6.0415999591350566e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.53599999845028e-05,
+				"repetitions":	5
+			}
+		}
+	}]

@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/ML_Graph/plantsmargin_12NN/plantsmargin_12NN.mtx",
+		"problem":	{
+			"id":	2882,
+			"group":	"ML_Graph",
+			"name":	"plantsmargin_12NN",
+			"rows":	1600,
+			"cols":	1600,
+			"nonzeros":	25482,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"undirected weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.82624002546072e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	8.02496001124382e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.3721599988639351e-05,
+				"repetitions":	5
+			}
+		}
+	}]

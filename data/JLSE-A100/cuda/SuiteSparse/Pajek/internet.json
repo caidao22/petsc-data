@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Pajek/internet/internet.mtx",
+		"problem":	{
+			"id":	1505,
+			"group":	"Pajek",
+			"name":	"internet",
+			"rows":	124651,
+			"cols":	124651,
+			"nonzeros":	207214,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.01444913320583093,
+			"nsym":	0.002245819852432203,
+			"kind":	"directed weighted graph"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	3.9385598897933961e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.00024965760111808773,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	4.0531200170517e-05,
+				"repetitions":	5
+			}
+		}
+	}]

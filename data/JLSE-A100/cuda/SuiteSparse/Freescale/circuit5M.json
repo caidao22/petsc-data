@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Freescale/circuit5M/circuit5M.mtx",
+		"problem":	{
+			"id":	2276,
+			"group":	"Freescale",
+			"name":	"circuit5M",
+			"rows":	5558326,
+			"cols":	5558326,
+			"nonzeros":	59524291,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.99999985176358,
+			"nsym":	0.41988655318526341,
+			"kind":	"circuit simulation problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.0010709951877593995,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.31665272216796875,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.0028869695663452434,
+				"repetitions":	5
+			}
+		}
+	}]

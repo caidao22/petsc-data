@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/Janna/Bump_2911/Bump_2911.mtx",
+		"problem":	{
+			"id":	2659,
+			"group":	"Janna",
+			"name":	"Bump_2911",
+			"rows":	2911419,
+			"cols":	2911419,
+			"nonzeros":	127729899,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	true,
+			"posdef":	true,
+			"psym":	1,
+			"nsym":	1,
+			"kind":	"2D/3D problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	0.0014769792556762694,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	0.065317355346679679,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	0.0017074623823165823,
+				"repetitions":	5
+			}
+		}
+	}]

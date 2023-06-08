@@ -1,0 +1,32 @@
+[{
+		"filename":	"./ssget_archive/MM/HB/impcol_c/impcol_c.mtx",
+		"problem":	{
+			"id":	173,
+			"group":	"HB",
+			"name":	"impcol_c",
+			"rows":	137,
+			"cols":	137,
+			"nonzeros":	400,
+			"real":	true,
+			"binary":	false,
+			"2d3d":	false,
+			"posdef":	false,
+			"psym":	0.044444444444444453,
+			"nsym":	0.011461318051575929,
+			"kind":	"chemical process simulation problem"
+		},
+		"spmv":	{
+			"csr":	{
+				"time":	2.6419200003147127e-05,
+				"repetitions":	5
+			},
+			"csrkokkos":	{
+				"time":	5.2838400006294226e-05,
+				"repetitions":	5
+			},
+			"sell":	{
+				"time":	1.1059200204908829e-05,
+				"repetitions":	5
+			}
+		}
+	}]
